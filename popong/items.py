@@ -10,3 +10,9 @@ class PrivateItem(Item):
     id = Field()
     birth = Field()
     military = Field()
+
+class SpecialItem(Item):
+    type = Field()
+    id = Field()
+    election = Field()
+    party = Field()
