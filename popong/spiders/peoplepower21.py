@@ -28,14 +28,14 @@ class Peoplepower21Spider(BaseSpider):
     def parse_private(self, response):
         id = extract_url(response.url, 'member_seq')
         hxs = HtmlXPathSelector(response)
-        birth = extract(hxs, xpaths.private_birth_xpath)
-        military = extract_text(hxs, xpaths.private_military_xpath)
+        birth = extract(hxs, xpaths.private_birth)
+        military = extract_text(hxs, xpaths.private_military)
         yield items.PrivateItem(type='private', id=id, birth=birth, military=military)
 
     def parse_special(self, response):
         id = extract_url(response.url, 'member_seq')
         hxs = HtmlXPathSelector(response)
-        table_xpath = xpaths.special_table_xpath
+        table_xpath = xpaths.special_table
         table_count = len(hxs.select(table_xpath + '/tr[td/table]'))
         if table_count == 1:
             party_xpath = table_xpath + '/tr[td/table][1]/td/table'
@@ -61,7 +61,7 @@ class Peoplepower21Spider(BaseSpider):
     def parse_attend_page(self, response):
         id = extract_url(response.url, 'member_seq')
         hxs = HtmlXPathSelector(response)
-        table_xpath = xpaths.attend_table_xpath
+        table_xpath = xpaths.attend_table
         table_count = len(hxs.select(table_xpath + '/tr[td/table]'))
         assert table_count == 1
         attend_xpath = table_xpath + '/tr[td/table][1]/td/table'
