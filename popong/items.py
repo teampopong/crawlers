@@ -16,3 +16,10 @@ class SpecialItem(Item):
     id = Field()
     election = Field()
     party = Field()
+
+class AttendItem(Item):
+    type = Field()
+    id = Field()
+    date = Field()
+    meeting = Field()
+    status = Field()

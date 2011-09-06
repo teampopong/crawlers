@@ -1,3 +1,5 @@
+# coding: utf-8
+
 from scrapy.selector import HtmlXPathSelector
 from scrapy.spider import BaseSpider
 from scrapy.http import Request
@@ -21,6 +23,7 @@ class Peoplepower21Spider(BaseSpider):
             yield items.MemberItem(type='member', id=id, name=name)
             yield Request(urls.private % id, callback=self.parse_private)
             yield Request(urls.special % id, callback=self.parse_special)
+            yield Request(urls.attend % id, callback=self.parse_attend)
 
     def parse_private(self, response):
         id = extract_url(response.url, 'member_seq')
@@ -46,3 +49,24 @@ class Peoplepower21Spider(BaseSpider):
         else:
             raise Exception("shouldn't happen")
         yield items.SpecialItem(type='special', id=id, election=election, party=party)
+
+    def parse_attend(self, response):
+        id = extract_url(response.url, 'member_seq')
+        hxs = HtmlXPathSelector(response)
+        yield Request(urls.attend_page % (id, 1), callback=self.parse_attend_page)
+        pages = extract_ids(hxs, 'page')
+        for page in pages:
+            yield Request(urls.attend_page % (id, page), callback=self.parse_attend_page)
+
+    def parse_attend_page(self, response):
+        id = extract_url(response.url, 'member_seq')
+        hxs = HtmlXPathSelector(response)
+        table_xpath = xpaths.attend_table_xpath
+        table_count = len(hxs.select(table_xpath + '/tr[td/table]'))
+        assert table_count == 1
+        attend_xpath = table_xpath + '/tr[td/table][1]/td/table'
+        for attend in extract_table(hxs, attend_xpath):
+            date = attend[u'회의날짜']
+            meeting = attend[u'회차']
+            status = attend[u'출석부']
+            yield items.AttendItem(type='attend', id=id, date=date, meeting=meeting, status=status)
