@@ -79,13 +79,19 @@ class DistrictCrawler(BaseCrawler):
             req_url = self.url_cand_list(city_code)
             dist_cand_list = self.parse_cand_page(req_url)
             cand_list.extend(dist_cand_list)
-            print 'crawled %s...' % (city_name,)
+            print 'crawled %s(%d)...' % (city_name, len(dist_cand_list))
 
         if hasattr(self, 'prop_crawler'):
-            prop_cand_list = self.prop_crawler.crawl()
+            prop_cand_list = self.prop_crawler.crawl(target)
             cand_list.extend(prop_cand_list)
-            print 'crawled 비례대표...'
+            print 'crawled 비례대표(%d)...' % (len(prop_cand_list),)
 
+        return cand_list
+
+class ProportionalCrawler(BaseCrawler):
+
+    def crawl(self, target):
+        cand_list = self.parse_cand_page(self.url_cand_list)
         return cand_list
 
 class Crawler17(DistrictCrawler):
@@ -100,9 +106,11 @@ class Crawler17(DistrictCrawler):
             '&electionName=20040415&electionCode=2&sggCityCode=-1&townCode=-1'\
             '&sggTownCode=0&dateCode=0&cityCode='
 
-
     attrs = ['district', 'cand_no', 'party', 'name', 'sex', 'birth',
              'job', 'education', 'experience']
+
+    def __init__(self):
+        self.prop_crawler = Crawler17Proportional()
 
 class Crawler18(DistrictCrawler):
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
@@ -118,6 +126,9 @@ class Crawler18(DistrictCrawler):
 
     attrs = ['district', 'cand_no', 'party', 'name', 'sex', 'birth',
              'job', 'education', 'experience']
+
+    def __init__(self):
+        self.prop_crawler = Crawler18Proportional()
 
 class Crawler19(DistrictCrawler):
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
@@ -143,7 +154,42 @@ class Crawler19(DistrictCrawler):
     def parse_member_pledge(self, member):
         pass # TODO: implement
 
-class Crawler19Proportional(BaseCrawler):
+class Crawler17Proportional(ProportionalCrawler):
+    url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
+            '?electionId=0000000000'\
+            '&requestURI=%2Felectioninfo%2F0000000000%2Fcp%2Fcpri03.jsp'\
+            '&statementId=CPRI03_%2300&oldElectionType=0&electionType=2'\
+            '&electionName=20040415&electionCode=7&cityCode=-1'\
+            '&proportionalRepresentationCode=0&sggCityCode=-1'\
+            '&townCode=-1&sggTownCode=0&dateCode=0'
+
+    attrs = ['cand_no', 'party', 'name', 'sex', 'birth', 'job', 'education',
+             'experience']
+
+    def parse_member(self, member):
+        member = super(Crawler17Proportional, self).parse_member(member)
+        member['district'] = '비례대표'
+
+        return member
+
+class Crawler18Proportional(ProportionalCrawler):
+    url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
+            '?electionId=0000000000'\
+            '&requestURI=%2Felectioninfo%2F0000000000%2Fcp%2Fcpri03.jsp'\
+            '&statementId=CPRI03_%231&oldElectionType=1&electionType=2'\
+            '&electionName=20080409&electionCode=7'\
+            '&proportionalRepresentationCode=0&dateCode=0'
+
+    attrs = ['cand_no', 'party', 'name', 'sex', 'birth', 'job', 'education',
+             'experience']
+
+    def parse_member(self, member):
+        member = super(Crawler18Proportional, self).parse_member(member)
+        member['district'] = '비례대표'
+
+        return member
+
+class Crawler19Proportional(ProportionalCrawler):
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0020120411'\
             '&requestURI=%2Felectioninfo%2F0020120411%2Fcp%2Fcpri03.jsp'\
@@ -162,6 +208,3 @@ class Crawler19Proportional(BaseCrawler):
     def parse_member_party(self, member):
         member['party'] = re.split(self.regex_split, member['party'])[0]
 
-    def crawl(self, target):
-        cand_list = self.parse_cand_page(self.url_cand_list)
-        return cand_list

@@ -8,7 +8,7 @@ from utils import InvalidTargetError
 
 Settings = {
     'START': 17,
-    'END': 18
+    'END': 19
 }
 
 def crawl(target, output):
