@@ -8,6 +8,13 @@ import urllib2
 USER_AGENT = "Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.9.1.5) "\
             "Gecko/20091109 Ubuntu/9.10 (karmic) Firefox/3.5.5"
 
+class InvalidTargetError(Exception):
+    def __init__(self, value):
+        self.value = value
+
+    def __str__(self):
+        return '잘못된 대수: %s' % str(value)
+
 def get_json(url):
     request = urllib2.Request(url)
     request.add_header("User-Agent", USER_AGENT)

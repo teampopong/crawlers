@@ -3,26 +3,29 @@
 
 import json
 
-from crawlers import Crawler19
+from crawlers import *
+from utils import InvalidTargetError
 
 Settings = {
-    'START': 19,
-    'END': 19
+    'START': 17,
+    'END': 18
 }
 
 def crawl(target, output):
     crawler = None
     if 1 <= target <= 16:
         pass # TODO: not implemented yet
-    elif 17 <= target <= 18:
-        pass # TODO: not implemented yet
-    elif 19 <= target <= 19:
+    elif target == 17:
+        crawler = Crawler17()
+    elif target == 18:
+        crawler = Crawler18()
+    elif target == 19:
         crawler = Crawler19()
     else:
-        raise Exception('invalid parameter')
+        raise InvalidTargetError(target)
 
-    print 'crawling %dth...' % (target,)
-    cand_list = crawler.crawl()
+    print 'crawling %d대...' % (target,)
+    cand_list = crawler.crawl(target)
 
     with open(output, 'w') as f:
         json.dump(cand_list, f, indent=2)
