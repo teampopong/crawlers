@@ -7,14 +7,14 @@ from crawlers import *
 from utils import InvalidTargetError
 
 Settings = {
-    'START': 17,
+    'START': 1,
     'END': 19
 }
 
 def crawl(target, output):
     crawler = None
     if 1 <= target <= 16:
-        pass # TODO: not implemented yet
+        crawler = CrawlerUntil16()
     elif target == 17:
         crawler = Crawler17()
     elif target == 18:
