@@ -12,7 +12,13 @@ class BaseCrawler(object):
     attrs = []
     attrs_exclude_stringify = ['name', 'image']
 
-    regex_split = re.compile('[/\(\)\s]')
+    regex_split = re.compile('[/\(\)]')
+    regex_join = re.compile('\s')
+
+    def split(self, txt):
+        splitted = self.regex_split.split(txt)
+        concatenated = [self.regex_join.sub('', s) for s in splitted]
+        return concatenated
 
     def parse_cand_page(self, url):
         elems = get_xpath(url, '//td')
@@ -49,14 +55,14 @@ class BaseCrawler(object):
         if 'name' not in member: return
 
         txt = stringify(member['name']).strip()
-        member['name_kr'], member['name_cn'] = re.split(self.regex_split, txt)[:2]
+        member['name_kr'], member['name_cn'] = self.split(txt)[:2]
         member['name'] = member['name_kr']
 
     def parse_member_birth(self, member):
         if 'birth' not in member: return
 
         member['birthyear'], member['birthmonth'], member['birthday'] =\
-                re.split(self.regex_split, member['birth'])[:3]
+                self.split(member['birth'])[:3]
         del member['birth']
 
     def parse_member_experience(self, member):
@@ -229,5 +235,5 @@ class Crawler19Proportional(SinglePageCrawler):
         return member
 
     def parse_member_party(self, member):
-        member['party'] = re.split(self.regex_split, member['party'])[0]
+        member['party'] = self.split(member['party'])[0]
 
