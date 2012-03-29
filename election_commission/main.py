@@ -39,7 +39,7 @@ def print_csv(filename, data):
 def crawl(target, printer, filename):
     crawler = None
     if 1 <= target <= 16:
-        crawler = CrawlerUntil16()
+        crawler = CrawlerUntil16(target)
     elif target == 17:
         crawler = Crawler17()
     elif target == 18:
@@ -50,7 +50,7 @@ def crawl(target, printer, filename):
         raise InvalidTargetError(target)
 
     print 'crawling %d대...' % (target,)
-    cand_list = crawler.crawl(target)
+    cand_list = crawler.crawl()
 
     printer(filename, cand_list)
 

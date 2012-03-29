@@ -20,7 +20,9 @@ class BaseCrawler(object):
         concatenated = [self.regex_join.sub('', s) for s in splitted]
         return concatenated
 
-    def parse_cand_page(self, url):
+    def parse_cand_page(self, url, city_name=None):
+        if city_name: self.city_name = city_name
+
         elems = get_xpath(url, '//td')
         num_attrs = len(self.attrs)
         members = (dict(zip(self.attrs, elems[i*num_attrs:(i+1)*num_attrs]))\
@@ -42,6 +44,7 @@ class BaseCrawler(object):
         self.parse_member_name(member)
         self.parse_member_birth(member)
         self.parse_member_experience(member)
+        self.parse_member_district(member)
 
         return member
 
@@ -70,6 +73,10 @@ class BaseCrawler(object):
 
         pass # TODO: 이거 구현하면 parse_member도 고쳐야 함
 
+    def parse_member_district(self, member):
+        if hasattr(self, 'city_name') and self.city_name != member['district']:
+            member['district'] = '%s %s' % (self.city_name, member['district'])
+
 class MultiCityCrawler(BaseCrawler):
 
     def city_codes(self):
@@ -79,16 +86,16 @@ class MultiCityCrawler(BaseCrawler):
     def url_cand_list(self, city_code):
         return self.url_cand_list_base + str(city_code)
 
-    def crawl(self, target):
+    def crawl(self):
         cand_list = []
         for city_code, city_name in self.city_codes():
             req_url = self.url_cand_list(city_code)
-            dist_cand_list = self.parse_cand_page(req_url)
+            dist_cand_list = self.parse_cand_page(req_url, city_name)
             cand_list.extend(dist_cand_list)
             print 'crawled %s(%d)...' % (city_name, len(dist_cand_list))
 
         if hasattr(self, 'prop_crawler'):
-            prop_cand_list = self.prop_crawler.crawl(target)
+            prop_cand_list = self.prop_crawler.crawl()
             cand_list.extend(prop_cand_list)
             print 'crawled 비례대표(%d)...' % (len(prop_cand_list),)
 
@@ -96,32 +103,45 @@ class MultiCityCrawler(BaseCrawler):
 
 class SinglePageCrawler(BaseCrawler):
 
-    def crawl(self, target):
+    def crawl(self):
         cand_list = self.parse_cand_page(self.url_cand_list)
         return cand_list
 
-class CrawlerUntil16(BaseCrawler):
-
-    election_names = [None, '19480510', '19500530', '19540520', '19580502',
+class CrawlerUntil16(MultiCityCrawler):
+    _election_names = [None, '19480510', '19500530', '19540520', '19580502',
             '19600729', '19631126', '19670608', '19710525', '19730227',
             '19781212', '19810325', '19850212', '19880426', '19920324',
             '19960411', '20000413']
 
-    url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
+    _url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
+            'selectbox_cityCodeBySgJson_GuOld.json?electionId=0000000000'\
+            '&electionCode='
+
+    _url_cand_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
             '&requestURI=%2Felectioninfo%2F0000000000%2Fcp%2Fcpri03.jsp'\
             '&statementId=CPRI03_%2300&oldElectionType=0&electionType=2'\
-            '&electionCode=2&cityCode=0&proportionalRepresentationCode=-1'\
+            '&electionCode=2&proportionalRepresentationCode=-1'\
             '&sggCityCode=-1&townCode=-1&sggTownCode=0&dateCode=0'\
             '&electionName='
 
     attrs = ['district', 'cand_no', 'party', 'name', 'sex', 'birth',
              'job', 'education', 'experience']
 
-    def crawl(self, target):
-        url = self.url_cand_list + self.election_names[target]
-        cand_list = self.parse_cand_page(url)
-        return cand_list
+    @property
+    def election_name(self):
+        return self._election_names[self.target]
+
+    @property
+    def url_city_codes_json(self):
+        return self._url_city_codes_json + self.election_name
+
+    @property
+    def url_cand_list_base(self):
+        return self._url_cand_list_base + self.election_name + '&cityCode='
+
+    def __init__(self, target):
+        self.target = target
 
 class Crawler17(MultiCityCrawler):
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
