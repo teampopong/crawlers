@@ -17,7 +17,7 @@ def build_re():
     hangul = 'ㄱ-ㅎ가-힣'
     hanja = ''.join('%s-%s' % (chr(f), chr(t)) for (f, t) in HANJA_RANGES)
     special_chars = r'\s'
-    regexp = '[%s%s%s]+' % (hangul, hanja, special_chars)
+    regexp = '[%s%s%s]+$' % (hangul, hanja, special_chars)
     return re.compile(regexp, re.UNICODE)
 
 name_cn_re = build_re()

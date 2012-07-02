@@ -6,21 +6,17 @@ import re
 
 __all__ = ['validate']
 
-name_kr_re = re.compile(r'[\sㄱ-ㅎ가-힣]+', re.UNICODE)
-party_re = re.compile(r'[\s!0-9ㄱ-ㅎ가-힣]+', re.UNICODE)
-
-def exact_match(regexp, txt):
-    m = regexp.match(txt)
-    return m and len(m.group()) == len(txt)
+name_kr_re = re.compile(r'[\sㄱ-ㅎ가-힣]+$', re.UNICODE)
+party_re = re.compile(r'[\s!0-9ㄱ-ㅎ가-힣]+$', re.UNICODE)
 
 def is_name_kr(txt):
-    return 2 <= len(txt) and exact_match(name_kr_re, txt)
+    return 2 <= len(txt) and name_kr_re.match(txt)
 
 def is_name_cn(txt):
-    return exact_match(name_cn_re, txt)
+    return name_cn_re.match(txt)
 
 def is_party(txt):
-    return exact_match(party_re, txt)
+    return party_re.match(txt)
 
 def is_digit(txt):
     return txt.isdigit()
