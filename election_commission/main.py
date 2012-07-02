@@ -15,7 +15,7 @@ Settings = {
 
 def print_json(filename, data):
     with open(filename, 'w') as f:
-        json.dump(cand_list, f, indent=2)
+        json.dump(data, f, encoding="UTF-8", indent=2)
 
 def print_csv(filename, data):
 

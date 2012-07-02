@@ -2,7 +2,7 @@
   {
     "birthday": "03", 
     "name": "\ubbfc\uad00\uc2dd", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ubbfc\uad00\uc2dd", 
     "name_cn": "\u9594\u5bec\u690d", 
@@ -17,7 +17,7 @@
   {
     "birthday": "04", 
     "name": "\uc815\ub300\ucca0", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc815\ub300\ucca0", 
     "name_cn": "\u912d\u5927\u54f2", 
@@ -32,7 +32,7 @@
   {
     "birthday": "07", 
     "name": "\uc720\ud0dd\ud615", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc720\ud0dd\ud615", 
     "name_cn": "\uf9c9\ufa04\u99a8", 
@@ -47,7 +47,7 @@
   {
     "birthday": "12", 
     "name": "\uc624\uc81c\ub3c4", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc624\uc81c\ub3c4", 
     "name_cn": "\u5433\u5236\u9053", 
@@ -62,7 +62,7 @@
   {
     "birthday": "11", 
     "name": "\ucd5c\ubcd1\ud6c8", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ucd5c\ubcd1\ud6c8", 
     "name_cn": "\u5d14\u70b3\u52f3", 
@@ -77,7 +77,7 @@
   {
     "birthday": "19", 
     "name": "\ud64d\uc21c\ucca0", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ud64d\uc21c\ucca0", 
     "name_cn": "\u6d2a\u6df3\u5586", 
@@ -92,7 +92,7 @@
   {
     "birthday": "30", 
     "name": "\uc774\uc778\uadfc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc774\uc778\uadfc", 
     "name_cn": "\uf9e1\u4ec1\u6839", 
@@ -107,7 +107,7 @@
   {
     "birthday": "14", 
     "name": "\uc1a1\uc6d0\uc601", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc1a1\uc6d0\uc601", 
     "name_cn": "\u5b8b\u5143\u82f1", 
@@ -122,7 +122,7 @@
   {
     "birthday": "21", 
     "name": "\uc548\uade0\uc12d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc548\uade0\uc12d", 
     "name_cn": "\u5b89\u5747\u71ee", 
@@ -137,7 +137,7 @@
   {
     "birthday": "28", 
     "name": "\uac15\uc0c1\uc6b1", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uac15\uc0c1\uc6b1", 
     "name_cn": "\u59dc\u5c19\u90c1", 
@@ -152,7 +152,7 @@
   {
     "birthday": "02", 
     "name": "\ubc15\ud6c8", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubc15\ud6c8", 
     "name_cn": "\u6734\u52f3", 
@@ -167,7 +167,7 @@
   {
     "birthday": "31", 
     "name": "\ud55c\uc0c1\ubb34", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ud55c\uc0c1\ubb34", 
     "name_cn": "\u97d3\u76f8\u6b66", 
@@ -182,7 +182,7 @@
   {
     "birthday": "04", 
     "name": "\ubbfc\ubcd1\uae30", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubbfc\ubcd1\uae30", 
     "name_cn": "\u9594\u4e19\u5c90", 
@@ -197,7 +197,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uc81c\ub9cc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uae40\uc81c\ub9cc", 
     "name_cn": "\u91d1\u6fdf\u842c", 
@@ -212,7 +212,7 @@
   {
     "birthday": "30", 
     "name": "\uc591\uc77c\ub3d9", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc591\uc77c\ub3d9", 
     "name_cn": "\uf97a\u4e00\u6771", 
@@ -227,7 +227,7 @@
   {
     "birthday": "25", 
     "name": "\uae40\uae38\uc6c5", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\uae38\uc6c5", 
     "name_cn": "\u91d1\u5409\u96c4", 
@@ -242,7 +242,7 @@
   {
     "birthday": "18", 
     "name": "\uae40\ud765\ub9b0", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uae40\ud765\ub9b0", 
     "name_cn": "\u91d1\u8208\u9e9f", 
@@ -257,7 +257,7 @@
   {
     "birthday": "17", 
     "name": "\uc815\ub798\ud601", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc815\ub798\ud601", 
     "name_cn": "\u4e01\u4f86\u8d6b", 
@@ -272,7 +272,7 @@
   {
     "birthday": "22", 
     "name": "\uc870\uc138\ud615", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc870\uc138\ud615", 
     "name_cn": "\u8d99\u4e16\u8861", 
@@ -287,7 +287,7 @@
   {
     "birthday": "01", 
     "name": "\uc591\ud0dd\uc601", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc591\ud0dd\uc601", 
     "name_cn": "\uf97a\ufa04\u6c38", 
@@ -302,7 +302,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\uc218\ucd98", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc774\uc218\ucd98", 
     "name_cn": "\uf9e1\u5b88\u6625", 
@@ -317,7 +317,7 @@
   {
     "birthday": "09", 
     "name": "\uc784\ud0dc\ubc31", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc784\ud0dc\ubc31", 
     "name_cn": "\uf9f4\u592a\u4f2f", 
@@ -332,7 +332,7 @@
   {
     "birthday": "18", 
     "name": "\ucd5c\ud638\ud6c8", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ucd5c\ud638\ud6c8", 
     "name_cn": "\u5d14\u660a\u718f", 
@@ -347,7 +347,7 @@
   {
     "birthday": "20", 
     "name": "\uc2e0\uc624\ucca0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc2e0\uc624\ucca0", 
     "name_cn": "\u7533\u4e94\u6f88", 
@@ -362,7 +362,7 @@
   {
     "birthday": "05", 
     "name": "\uace0\ud765\ubb38", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uace0\ud765\ubb38", 
     "name_cn": "\u9ad8\u8208\u9580", 
@@ -377,7 +377,7 @@
   {
     "birthday": "10", 
     "name": "\uc870\ud76c\ucca0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc870\ud76c\ucca0", 
     "name_cn": "\u66fa\u559c\u6f88", 
@@ -392,7 +392,7 @@
   {
     "birthday": "01", 
     "name": "\ubb38\ucc3d\uae30", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ubb38\ucc3d\uae30", 
     "name_cn": "\u6587\u660c\u57fa", 
@@ -407,7 +407,7 @@
   {
     "birthday": "05", 
     "name": "\ubc15\uacbd\ud76c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ubc15\uacbd\ud76c", 
     "name_cn": "\u6734\u656c\u7199", 
@@ -422,7 +422,7 @@
   {
     "birthday": "24", 
     "name": "\uc784\ucc3d\uc9c4", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc784\ucc3d\uc9c4", 
     "name_cn": "\uf9f4\u660c\u93ad", 
@@ -437,7 +437,7 @@
   {
     "birthday": "20", 
     "name": "\ud64d\uc131\uc6b0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\ud64d\uc131\uc6b0", 
     "name_cn": "\u6d2a\u6027\u5b87", 
@@ -452,7 +452,7 @@
   {
     "birthday": "18", 
     "name": "\uc624\uc720\ubc29", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc624\uc720\ubc29", 
     "name_cn": "\u5433\u6709\u90a6", 
@@ -467,7 +467,7 @@
   {
     "birthday": "21", 
     "name": "\uae40\uc7ac\uad11", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uae40\uc7ac\uad11", 
     "name_cn": "\u91d1\u5728\u5149", 
@@ -482,7 +482,7 @@
   {
     "birthday": "27", 
     "name": "\uc7a5\uc815\uace4", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc7a5\uc815\uace4", 
     "name_cn": "\u5f35\u8c9e\u5764", 
@@ -497,7 +497,7 @@
   {
     "birthday": "07", 
     "name": "\uacfd\uc6a9\uc2dd", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uacfd\uc6a9\uc2dd", 
     "name_cn": "\u90ed\uf9c4\u690d", 
@@ -512,7 +512,7 @@
   {
     "birthday": "05", 
     "name": "\ubbfc\uc2b9", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ubbfc\uc2b9", 
     "name_cn": "\u9594\u6607", 
@@ -527,7 +527,7 @@
   {
     "birthday": "25", 
     "name": "\uc11c\ub300\ub450", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc11c\ub300\ub450", 
     "name_cn": "\u5f90\u5927\u6597", 
@@ -542,7 +542,7 @@
   {
     "birthday": "03", 
     "name": "\ubc15\uacbd\uc6d0", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubc15\uacbd\uc6d0", 
     "name_cn": "\u6734\u749f\u9060", 
@@ -557,7 +557,7 @@
   {
     "birthday": "11", 
     "name": "\uae40\uc6d0\ub9cc", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\uc6d0\ub9cc", 
     "name_cn": "\u91d1\u5143\u842c", 
@@ -572,7 +572,7 @@
   {
     "birthday": "05", 
     "name": "\ub178\uc2b9\ud658", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ub178\uc2b9\ud658", 
     "name_cn": "\uf933\u627f\u7165", 
@@ -587,7 +587,7 @@
   {
     "birthday": "15", 
     "name": "\uc7a5\uc138\ud658", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc7a5\uc138\ud658", 
     "name_cn": "\u5f35\u4e16\u7165", 
@@ -602,7 +602,7 @@
   {
     "birthday": "19", 
     "name": "\uac15\ubcd1\uaddc", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uac15\ubcd1\uaddc", 
     "name_cn": "\u59dc\u79c9\u594e", 
@@ -617,7 +617,7 @@
   {
     "birthday": "25", 
     "name": "\ubc15\ud55c\uc0c1", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ubc15\ud55c\uc0c1", 
     "name_cn": "\u6734\u6f22\u76f8", 
@@ -632,7 +632,7 @@
   {
     "birthday": "18", 
     "name": "\uae40\uc218\uc77c", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\uc218\uc77c", 
     "name_cn": "\u91d1\u79c0\u4e00", 
@@ -647,7 +647,7 @@
   {
     "birthday": "09", 
     "name": "\uc131\uc9c4\ud658", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc131\uc9c4\ud658", 
     "name_cn": "\u6210\u9032\u7165", 
@@ -662,7 +662,7 @@
   {
     "birthday": "01", 
     "name": "\uc815\ud76c\uc12d", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc815\ud76c\uc12d", 
     "name_cn": "\u912d\u7199\u71ee", 
@@ -677,7 +677,7 @@
   {
     "birthday": "20", 
     "name": "\uae40\uc218\ud55c", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\uc218\ud55c", 
     "name_cn": "\u91d1\u5b88\u6f22", 
@@ -692,7 +692,7 @@
   {
     "birthday": "06", 
     "name": "\uacf5\ucc3d\ub355", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uacf5\ucc3d\ub355", 
     "name_cn": "\u5b54\u660c\u5fb7", 
@@ -707,7 +707,7 @@
   {
     "birthday": "07", 
     "name": "\uae40\ubaa9\ud638", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\ubaa9\ud638", 
     "name_cn": "\u91d1\u6728\u93ac", 
@@ -722,7 +722,7 @@
   {
     "birthday": "05", 
     "name": "\ub178\uae30\ub9cc", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\ub178\uae30\ub9cc", 
     "name_cn": "\uf933\u5df1\u842c", 
@@ -737,7 +737,7 @@
   {
     "birthday": "21", 
     "name": "\uc774\ud0dc\uc12d", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\ud0dc\uc12d", 
     "name_cn": "\uf9e1\u53f0\u71ee", 
@@ -752,7 +752,7 @@
   {
     "birthday": "31", 
     "name": "\uc815\uc6b4\uac11", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc815\uc6b4\uac11", 
     "name_cn": "\u912d\u96f2\u7532", 
@@ -767,7 +767,7 @@
   {
     "birthday": "15", 
     "name": "\uacfd\uc778\uc2dd", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uacfd\uc778\uc2dd", 
     "name_cn": "\u90ed\u5bc5\u690d", 
@@ -782,7 +782,7 @@
   {
     "birthday": "22", 
     "name": "\uc774\uc885\ubbfc", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uc885\ubbfc", 
     "name_cn": "\uf9e1\u937e\u654f", 
@@ -797,7 +797,7 @@
   {
     "birthday": "04", 
     "name": "\uc870\uacbd\ucca0", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc870\uacbd\ucca0", 
     "name_cn": "\u8d99\u6176\u54f2", 
@@ -812,7 +812,7 @@
   {
     "birthday": "18", 
     "name": "\ub0a8\uc7ac\ud76c", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ub0a8\uc7ac\ud76c", 
     "name_cn": "\u5357\u8f09\u7199", 
@@ -827,7 +827,7 @@
   {
     "birthday": "09", 
     "name": "\uace0\ubcd1\ud604", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uace0\ubcd1\ud604", 
     "name_cn": "\u9ad8\u70b3\u9249", 
@@ -842,7 +842,7 @@
   {
     "birthday": "24", 
     "name": "\uae40\uc601\ubc30", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc601\ubc30", 
     "name_cn": "\u91d1\uf9a8\u57f9", 
@@ -857,7 +857,7 @@
   {
     "birthday": "03", 
     "name": "\uc774\ud0dc\uad6c", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc774\ud0dc\uad6c", 
     "name_cn": "\uf9e1\u6cf0\u4e5d", 
@@ -872,7 +872,7 @@
   {
     "birthday": "05", 
     "name": "\uac15\uc778\uc560", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uac15\uc778\uc560", 
     "name_cn": "\u59dc\u4ec1\u5d16", 
@@ -887,7 +887,7 @@
   {
     "birthday": "11", 
     "name": "\uad8c\uc911\ub3c8", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uad8c\uc911\ub3c8", 
     "name_cn": "\u6b0a\u4ef2\u6566", 
@@ -902,7 +902,7 @@
   {
     "birthday": "22", 
     "name": "\ub958\uc628", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ub958\uc628", 
     "name_cn": "\u5289\u6eab", 
@@ -917,7 +917,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\uc885\ud654", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc774\uc885\ud654", 
     "name_cn": "\uf9e1\u937e\u548c", 
@@ -932,7 +932,7 @@
   {
     "birthday": "10", 
     "name": "\ud55c\ub0a8\uc11d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ud55c\ub0a8\uc11d", 
     "name_cn": "\u97d3\u5357\u932b", 
@@ -947,7 +947,7 @@
   {
     "birthday": "06", 
     "name": "\uae40\uc0c1\uc9c4", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc0c1\uc9c4", 
     "name_cn": "\u91d1\u76f8\u93ad", 
@@ -962,7 +962,7 @@
   {
     "birthday": "30", 
     "name": "\uc5ec\uc778\ud0dc", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc5ec\uc778\ud0dc", 
     "name_cn": "\uf980\u5bc5\u6cf0", 
@@ -977,7 +977,7 @@
   {
     "birthday": "08", 
     "name": "\uae40\uc790\uc77c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc790\uc77c", 
     "name_cn": "\u91d1\u5b50\u9038", 
@@ -992,7 +992,7 @@
   {
     "birthday": "28", 
     "name": "\uae40\uc815\uae38", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uae40\uc815\uae38", 
     "name_cn": "\u91d1\u6b63\u5409", 
@@ -1007,7 +1007,7 @@
   {
     "birthday": "26", 
     "name": "\ubb38\ubb34\uc77c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ubb38\ubb34\uc77c", 
     "name_cn": "\u6587\u6b66\u4e00", 
@@ -1022,7 +1022,7 @@
   {
     "birthday": "23", 
     "name": "\ubb38\uc601\ud314", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubb38\uc601\ud314", 
     "name_cn": "\u6587\u69ae\u516b", 
@@ -1037,7 +1037,7 @@
   {
     "birthday": "07", 
     "name": "\uc608\ucd98\ud638", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc608\ucd98\ud638", 
     "name_cn": "\u82ae\u6625\u6d69", 
@@ -1052,7 +1052,7 @@
   {
     "birthday": "25", 
     "name": "\uc774\uac11\uc131", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\uac11\uc131", 
     "name_cn": "\uf9e1\u7532\u6210", 
@@ -1067,7 +1067,7 @@
   {
     "birthday": "15", 
     "name": "\uc774\uc0bc\ud55c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\uc0bc\ud55c", 
     "name_cn": "\uf9e1\u4e09\u6f22", 
@@ -1082,7 +1082,7 @@
   {
     "birthday": "15", 
     "name": "\uc774\uc601\ud76c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\uc601\ud76c", 
     "name_cn": "\uf9e1\u69ae\u7199", 
@@ -1097,7 +1097,7 @@
   {
     "birthday": "19", 
     "name": "\ubc15\ucc2c\uc885", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ubc15\ucc2c\uc885", 
     "name_cn": "\u6734\u71e6\u937e", 
@@ -1112,7 +1112,7 @@
   {
     "birthday": "20", 
     "name": "\uae40\uc601\uc0bc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc601\uc0bc", 
     "name_cn": "\u91d1\u6cf3\u4e09", 
@@ -1127,7 +1127,7 @@
   {
     "birthday": "05", 
     "name": "\uc774\uc0c1\ucca0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc774\uc0c1\ucca0", 
     "name_cn": "\uf9e1\u76f8\u8f4d", 
@@ -1142,7 +1142,7 @@
   {
     "birthday": "20", 
     "name": "\uc815\ucca0\uc624", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc815\ucca0\uc624", 
     "name_cn": "\u912d\u54f2\u543e", 
@@ -1157,7 +1157,7 @@
   {
     "birthday": "18", 
     "name": "\uae40\uc784\uc2dd", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\uc784\uc2dd", 
     "name_cn": "\u91d1\u4efb\u690d", 
@@ -1172,7 +1172,7 @@
   {
     "birthday": "19", 
     "name": "\uc815\ud574\uc601", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc815\ud574\uc601", 
     "name_cn": "\u912d\u6d77\u6c38", 
@@ -1187,7 +1187,7 @@
   {
     "birthday": "26", 
     "name": "\uc774\ubd09\ud559", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\ubd09\ud559", 
     "name_cn": "\uf9e1\u9cf3\u9db4", 
@@ -1202,7 +1202,7 @@
   {
     "birthday": "12", 
     "name": "\uac15\uacbd\uc2dd", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uac15\uacbd\uc2dd", 
     "name_cn": "\u59dc\u6176\u690d", 
@@ -1217,7 +1217,7 @@
   {
     "birthday": "03", 
     "name": "\uae40\uc815\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc815\uc218", 
     "name_cn": "\u91d1\u6b63\u79c0", 
@@ -1232,7 +1232,7 @@
   {
     "birthday": "07", 
     "name": "\ucd5c\uba85\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\ucd5c\uba85\uc218", 
     "name_cn": "\u5d14\u547d\u5b88", 
@@ -1247,7 +1247,7 @@
   {
     "birthday": "25", 
     "name": "\uc591\ucc2c\uc6b0", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc591\ucc2c\uc6b0", 
     "name_cn": "\u694a\u71e6\u5b87", 
@@ -1262,7 +1262,7 @@
   {
     "birthday": "25", 
     "name": "\uc774\uae30\ud0dd", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc774\uae30\ud0dd", 
     "name_cn": "\uf9e1\u57fa\u6fa4", 
@@ -1277,7 +1277,7 @@
   {
     "birthday": "09", 
     "name": "\uc774\uac74\uc77c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc774\uac74\uc77c", 
     "name_cn": "\uf9e1\u5065\u4e00", 
@@ -1292,7 +1292,7 @@
   {
     "birthday": "23", 
     "name": "\uc804\ud55c\ub3c4", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc804\ud55c\ub3c4", 
     "name_cn": "\u5168\u6f22\u9053", 
@@ -1307,7 +1307,7 @@
   {
     "birthday": "11", 
     "name": "\uc8fc\uc131\ud0dc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc8fc\uc131\ud0dc", 
     "name_cn": "\u6731\u8056\u592a", 
@@ -1322,7 +1322,7 @@
   {
     "birthday": "14", 
     "name": "\uae40\uc7ac\ud64d", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc7ac\ud64d", 
     "name_cn": "\u91d1\u5728\u5f18", 
@@ -1337,7 +1337,7 @@
   {
     "birthday": "03", 
     "name": "\uae40\uc2b9\ubaa9", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uae40\uc2b9\ubaa9", 
     "name_cn": "\u91d1\u627f\u7a46", 
@@ -1352,7 +1352,7 @@
   {
     "birthday": "28", 
     "name": "\uc815\uc0c1\uad6c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc815\uc0c1\uad6c", 
     "name_cn": "\u912d\u76f8\u4e5d", 
@@ -1367,7 +1367,7 @@
   {
     "birthday": "04", 
     "name": "\uae40\uc601\ud558", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc601\ud558", 
     "name_cn": "\u91d1\u6c38\u6cb3", 
@@ -1382,7 +1382,7 @@
   {
     "birthday": "18", 
     "name": "\uc774\uc601\uadfc", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uc601\uadfc", 
     "name_cn": "\uf9e1\u82f1\u6839", 
@@ -1397,7 +1397,7 @@
   {
     "birthday": "12", 
     "name": "\ucd5c\ub450\uace0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ubd80\uc0b0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ucd5c\ub450\uace0", 
     "name_cn": "\u5d14\u6597\u9ad8", 
@@ -1412,7 +1412,7 @@
   {
     "birthday": "25", 
     "name": "\uc720\uc2b9\uc6d0", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc720\uc2b9\uc6d0", 
     "name_cn": "\uf9c9\u627f\u6e90", 
@@ -1427,7 +1427,7 @@
   {
     "birthday": "24", 
     "name": "\uae40\uc740\ud558", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uae40\uc740\ud558", 
     "name_cn": "\u91d1\u6bb7\u590f", 
@@ -1442,7 +1442,7 @@
   {
     "birthday": "24", 
     "name": "\ud55c\uc885\uc218", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\ud55c\uc885\uc218", 
     "name_cn": "\u97d3\u5b97\u79c0", 
@@ -1457,7 +1457,7 @@
   {
     "birthday": "14", 
     "name": "\uae40\uc219\ud604", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\uc219\ud604", 
     "name_cn": "\u91d1\u6dd1\u9249", 
@@ -1472,7 +1472,7 @@
   {
     "birthday": "30", 
     "name": "\ucd5c\ub099\uad6c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ucd5c\ub099\uad6c", 
     "name_cn": "\u5d14\uf915\u4e5d", 
@@ -1487,7 +1487,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\ubcd1\ud76c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc774\ubcd1\ud76c", 
     "name_cn": "\uf9e1\u79c9\u79a7", 
@@ -1502,7 +1502,7 @@
   {
     "birthday": "29", 
     "name": "\uc720\uc6a9\uadfc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc720\uc6a9\uadfc", 
     "name_cn": "\uf9c7\u6eb6\u6839", 
@@ -1517,7 +1517,7 @@
   {
     "birthday": "07", 
     "name": "\uc190\ub3c4\uc2ec", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc190\ub3c4\uc2ec", 
     "name_cn": "\u5b6b\u9053\u5fc3", 
@@ -1532,7 +1532,7 @@
   {
     "birthday": "12", 
     "name": "\uacf5\uc0c1\uc9c4", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uacf5\uc0c1\uc9c4", 
     "name_cn": "\u5b54\u76f8\u93ad", 
@@ -1547,7 +1547,7 @@
   {
     "birthday": "15", 
     "name": "\uae40\uc77c\uc218", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc77c\uc218", 
     "name_cn": "\u91d1\u65e5\u79c0", 
@@ -1562,7 +1562,7 @@
   {
     "birthday": "05", 
     "name": "\uae40\uc9c4\uad6c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc9c4\uad6c", 
     "name_cn": "\u91d1\u93ad\u4e5d", 
@@ -1577,7 +1577,7 @@
   {
     "birthday": "09", 
     "name": "\uc11c\ud0dc\uc6d0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc11c\ud0dc\uc6d0", 
     "name_cn": "\u5f90\u6cf0\u6e90", 
@@ -1592,7 +1592,7 @@
   {
     "birthday": "16", 
     "name": "\ucc28\uc9c4\ubaa8", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ucc28\uc9c4\ubaa8", 
     "name_cn": "\u8eca\u93ad\u8b28", 
@@ -1607,7 +1607,7 @@
   {
     "birthday": "16", 
     "name": "\ucd5c\uc601\uc7ac", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ucd5c\uc601\uc7ac", 
     "name_cn": "\u5d14\u69ae\u5bb0", 
@@ -1622,7 +1622,7 @@
   {
     "birthday": "20", 
     "name": "\ud64d\uae30\uc720", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ud64d\uae30\uc720", 
     "name_cn": "\u6d2a\u8d77\u88d5", 
@@ -1637,7 +1637,7 @@
   {
     "birthday": "25", 
     "name": "\ud669\uc120\uc815", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ud669\uc120\uc815", 
     "name_cn": "\u9ec3\u5584\u8c9e", 
@@ -1652,7 +1652,7 @@
   {
     "birthday": "07", 
     "name": "\ubc15\uba85\uadfc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ubc15\uba85\uadfc", 
     "name_cn": "\u6734\u547d\u6839", 
@@ -1667,7 +1667,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\ud615\uad11", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uae40\ud615\uad11", 
     "name_cn": "\u91d1\u70af\u5149", 
@@ -1682,7 +1682,7 @@
   {
     "birthday": "14", 
     "name": "\uc870\uc815\ubb34", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc870\uc815\ubb34", 
     "name_cn": "\u66fa\u6b63\u8302", 
@@ -1697,7 +1697,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\uc9c4\uc6a9", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc774\uc9c4\uc6a9", 
     "name_cn": "\uf9e1\u73cd\u9394", 
@@ -1712,7 +1712,7 @@
   {
     "birthday": "08", 
     "name": "\uc815\ub3d9\uc131", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc815\ub3d9\uc131", 
     "name_cn": "\u912d\u6771\u661f", 
@@ -1727,7 +1727,7 @@
   {
     "birthday": "18", 
     "name": "\uc720\uae30\uc900", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc720\uae30\uc900", 
     "name_cn": "\u516a\u68cb\u6fec", 
@@ -1742,7 +1742,7 @@
   {
     "birthday": "31", 
     "name": "\ubc15\uc885\uc9c4", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ubc15\uc885\uc9c4", 
     "name_cn": "\u6734\u937e\u632f", 
@@ -1757,7 +1757,7 @@
   {
     "birthday": "11", 
     "name": "\ubbfc\ud638\uc601", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubbfc\ud638\uc601", 
     "name_cn": "\u9594\u6d69\u69ae", 
@@ -1772,7 +1772,7 @@
   {
     "birthday": "04", 
     "name": "\uc2e0\ub3d9\uba85", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc2e0\ub3d9\uba85", 
     "name_cn": "\u7533\u6771\u6e9f", 
@@ -1787,7 +1787,7 @@
   {
     "birthday": "18", 
     "name": "\uc624\uc138\uc751", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc624\uc138\uc751", 
     "name_cn": "\u5433\u4e16\u61c9", 
@@ -1802,7 +1802,7 @@
   {
     "birthday": "24", 
     "name": "\ud669\ub450\uc601", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\ud669\ub450\uc601", 
     "name_cn": "\u9ec3\u6597\u82f1", 
@@ -1817,7 +1817,7 @@
   {
     "birthday": "16", 
     "name": "\uc11c\uc0c1\ub9b0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc11c\uc0c1\ub9b0", 
     "name_cn": "\u5f90\u76f8\u6f7e", 
@@ -1832,7 +1832,7 @@
   {
     "birthday": "07", 
     "name": "\uc720\uce58\uc1a1", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc720\uce58\uc1a1", 
     "name_cn": "\uf9c9\u81f4\u677e", 
@@ -1847,7 +1847,7 @@
   {
     "birthday": "22", 
     "name": "\uc815\uc9c4\ud658", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc815\uc9c4\ud658", 
     "name_cn": "\u912d\u93ad\u6853", 
@@ -1862,7 +1862,7 @@
   {
     "birthday": "02", 
     "name": "\uc870\uc885\uc775", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc870\uc885\uc775", 
     "name_cn": "\u8d99\u937e\u76ca", 
@@ -1877,7 +1877,7 @@
   {
     "birthday": "21", 
     "name": "\ud55c\ubbfc\uc218", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\ud55c\ubbfc\uc218", 
     "name_cn": "\u97d3\u654f\u6d19", 
@@ -1892,7 +1892,7 @@
   {
     "birthday": "21", 
     "name": "\ud55c\uc7ac\uc740", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ud55c\uc7ac\uc740", 
     "name_cn": "\u97d3\u8f09\u6bb7", 
@@ -1907,7 +1907,7 @@
   {
     "birthday": "06", 
     "name": "\uc724\uad6d\ub178", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc724\uad6d\ub178", 
     "name_cn": "\u5c39\u570b\uf934", 
@@ -1922,7 +1922,7 @@
   {
     "birthday": "27", 
     "name": "\uc774\ud0dd\ub3c8", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\ud0dd\ub3c8", 
     "name_cn": "\uf9e1\ufa04\u6566", 
@@ -1937,7 +1937,7 @@
   {
     "birthday": "15", 
     "name": "\uc2e0\ud558\ucca0", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc2e0\ud558\ucca0", 
     "name_cn": "\u7533\u6cb3\u6f88", 
@@ -1952,7 +1952,7 @@
   {
     "birthday": "05", 
     "name": "\uc548\ub3d9\uc120", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc548\ub3d9\uc120", 
     "name_cn": "\u5b89\u6771\u5584", 
@@ -1967,7 +1967,7 @@
   {
     "birthday": "19", 
     "name": "\uae40\uc720\ud0c1", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uae40\uc720\ud0c1", 
     "name_cn": "\u91d1\u88d5\u7438", 
@@ -1982,7 +1982,7 @@
   {
     "birthday": "12", 
     "name": "\uc624\ud64d\uc11d", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc624\ud64d\uc11d", 
     "name_cn": "\u5433\u6d2a\u932b", 
@@ -1997,7 +1997,7 @@
   {
     "birthday": "13", 
     "name": "\uae40\ub450\uc12d", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\ub450\uc12d", 
     "name_cn": "\u91d1\u6597\u71ee", 
@@ -2012,7 +2012,7 @@
   {
     "birthday": "15", 
     "name": "\uace0\ucca0\ub8e1", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uace0\ucca0\ub8e1", 
     "name_cn": "\u9ad8\u54f2\u9f8d", 
@@ -2027,7 +2027,7 @@
   {
     "birthday": "04", 
     "name": "\uae40\uc7ac\ucd98", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uae40\uc7ac\ucd98", 
     "name_cn": "\u91d1\u5728\u6625", 
@@ -2042,7 +2042,7 @@
   {
     "birthday": "31", 
     "name": "\ub0a8\uad81\ud0c0", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ub0a8\uad81\ud0c0", 
     "name_cn": "\u5357\u5bae\ud0c0", 
@@ -2056,11 +2056,11 @@
   }, 
   {
     "birthday": "27", 
-    "name": "\uc5b4", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "name": "\uc5b4\ud55c", 
+    "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "06", 
-    "name_kr": "\uc5b4", 
-    "name_cn": "", 
+    "name_kr": "\uc5b4\ud55c", 
+    "name_cn": "\u6f01\u97d3", 
     "experience": "\ub18d\ud611\uace0\uc591\uad70\uc870\ud569\uc7a5", 
     "sex": "\ub0a8", 
     "birthyear": "1923", 
@@ -2072,7 +2072,7 @@
   {
     "birthday": "07", 
     "name": "\uc624\uce58\uc131", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc624\uce58\uc131", 
     "name_cn": "\u5433\u81f4\u6210", 
@@ -2087,7 +2087,7 @@
   {
     "birthday": "05", 
     "name": "\ucc9c\uba85\uae30", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ucc9c\uba85\uae30", 
     "name_cn": "\u5343\u547d\u57fa", 
@@ -2102,7 +2102,7 @@
   {
     "birthday": "19", 
     "name": "\ud3b8\ubcf5\uc6b0", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\uae30 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ud3b8\ubcf5\uc6b0", 
     "name_cn": "\u7247\u798f\u5b87", 
@@ -2117,7 +2117,7 @@
   {
     "birthday": "12", 
     "name": "\uc190\uc2b9\ub355", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc190\uc2b9\ub355", 
     "name_cn": "\u5b6b\u627f\u5fb7", 
@@ -2132,7 +2132,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uc900\uc12d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc900\uc12d", 
     "name_cn": "\u91d1\u4fca\u71ee", 
@@ -2147,7 +2147,7 @@
   {
     "birthday": "12", 
     "name": "\uc591\uac74\uc8fc", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc591\uac74\uc8fc", 
     "name_cn": "\uf97a\u5065\u67f1", 
@@ -2162,7 +2162,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uc7ac\uc21c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc7ac\uc21c", 
     "name_cn": "\u91d1\u5728\u6df3", 
@@ -2177,7 +2177,7 @@
   {
     "birthday": "12", 
     "name": "\uc720\uc5f0\uad6d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc720\uc5f0\uad6d", 
     "name_cn": "\uf9c9\u7136\u570b", 
@@ -2192,7 +2192,7 @@
   {
     "birthday": "12", 
     "name": "\uc774\uc218\ubcf5", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uc218\ubcf5", 
     "name_cn": "\uf9e1\u58fd\u798f", 
@@ -2207,7 +2207,7 @@
   {
     "birthday": "12", 
     "name": "\ud64d\ucc3d\uc12d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud64d\ucc3d\uc12d", 
     "name_cn": "\u6d2a\u6ec4\u71ee", 
@@ -2222,7 +2222,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uc6a9\ud638", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc6a9\ud638", 
     "name_cn": "\u91d1\uf9c4\u93ac", 
@@ -2237,7 +2237,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\uc601\ub85d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ubc15\uc601\ub85d", 
     "name_cn": "\u6734\u6c38\u797f", 
@@ -2252,7 +2252,7 @@
   {
     "birthday": "12", 
     "name": "\uc815\ud604\uc6b0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc815\ud604\uc6b0", 
     "name_cn": "\u912d\u9249\u7950", 
@@ -2267,7 +2267,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\ubcd1\ub82c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\ubcd1\ub82c", 
     "name_cn": "\u91d1\u79c9\u70c8", 
@@ -2282,7 +2282,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\ud559\uaddc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\ud559\uaddc", 
     "name_cn": "\u91d1\u9db4\u594e", 
@@ -2297,7 +2297,7 @@
   {
     "birthday": "12", 
     "name": "\uc774\uc885\uc6d0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uc885\uc6d0", 
     "name_cn": "\uf9e1\u9418\u5143", 
@@ -2312,7 +2312,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\ud6a8\uc601", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\ud6a8\uc601", 
     "name_cn": "\u91d1\u5b5d\u69ae", 
@@ -2327,7 +2327,7 @@
   {
     "birthday": "12", 
     "name": "\ud568\uc601\uc8fc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud568\uc601\uc8fc", 
     "name_cn": "\u54b8\u6cf3\u73e0", 
@@ -2342,7 +2342,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uba85\uc724", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uba85\uc724", 
     "name_cn": "\u91d1\u547d\u6f64", 
@@ -2357,7 +2357,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uc7ac\ucca0", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc7ac\ucca0", 
     "name_cn": "\u91d1\u5728\u5fb9", 
@@ -2372,7 +2372,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uc9c4\ub9cc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc9c4\ub9cc", 
     "name_cn": "\u91d1\u632f\u6669", 
@@ -2387,7 +2387,7 @@
   {
     "birthday": "12", 
     "name": "\uc774\uad00\ud615", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uad00\ud615", 
     "name_cn": "\uf9e1\u5b98\u70af", 
@@ -2402,7 +2402,7 @@
   {
     "birthday": "12", 
     "name": "\uc815\uc778\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc815\uc778\uc218", 
     "name_cn": "\u912d\u4ec1\u58fd", 
@@ -2417,7 +2417,7 @@
   {
     "birthday": "12", 
     "name": "\uc815\uc77c\uad8c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc815\uc77c\uad8c", 
     "name_cn": "\u4e01\u4e00\u6b0a", 
@@ -2432,7 +2432,7 @@
   {
     "birthday": "12", 
     "name": "\ud5c8\uacbd\uad6c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud5c8\uacbd\uad6c", 
     "name_cn": "\u8a31\u666f\u4e5d", 
@@ -2447,7 +2447,7 @@
   {
     "birthday": "12", 
     "name": "\uae40\uae30\ud658", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uae30\ud658", 
     "name_cn": "\u91d1\u7426\u7165", 
@@ -2462,7 +2462,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\uacbd\uc6d0", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ubc15\uacbd\uc6d0", 
     "name_cn": "\u6734\u656c\u9060", 
@@ -2477,7 +2477,7 @@
   {
     "birthday": "12", 
     "name": "\uc774\ucc38\uc218", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\ucc38\uc218", 
     "name_cn": "\uf9e1\ucc38\u6d19", 
@@ -2492,7 +2492,7 @@
   {
     "birthday": "12", 
     "name": "\ud568\uc885\ube48", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud568\uc885\ube48", 
     "name_cn": "\u54b8\u937e\ube48", 
@@ -2507,7 +2507,7 @@
   {
     "birthday": "12", 
     "name": "\uc7a5\uc2b9\ud0dc", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc7a5\uc2b9\ud0dc", 
     "name_cn": "\u5f35\u627f\u53f0", 
@@ -2522,7 +2522,7 @@
   {
     "birthday": "12", 
     "name": "\uc5c4\uc601\ub2ec", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc5c4\uc601\ub2ec", 
     "name_cn": "\u56b4\u6c38\u9054", 
@@ -2537,7 +2537,7 @@
   {
     "birthday": "12", 
     "name": "\uc6d0\uc131\ud76c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc6d0\uc131\ud76c", 
     "name_cn": "\u5143\u8056\u559c", 
@@ -2552,7 +2552,7 @@
   {
     "birthday": "12", 
     "name": "\uc2e0\ubbfc\uc120", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uac15\uc6d0 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc2e0\ubbfc\uc120", 
     "name_cn": "\u8f9b\u654f\u5584", 
@@ -2567,7 +2567,7 @@
   {
     "birthday": "20", 
     "name": "\ubbfc\uae30\uc2dd", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ubbfc\uae30\uc2dd", 
     "name_cn": "\u9594\u802d\u690d", 
@@ -2582,7 +2582,7 @@
   {
     "birthday": "15", 
     "name": "\uc774\ubbfc\uc6b0", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc774\ubbfc\uc6b0", 
     "name_cn": "\uf9e1\u654f\u96e8", 
@@ -2597,7 +2597,7 @@
   {
     "birthday": "07", 
     "name": "\uae40\ud604\uc218", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uae40\ud604\uc218", 
     "name_cn": "\u91d1\u986f\u79c0", 
@@ -2612,7 +2612,7 @@
   {
     "birthday": "11", 
     "name": "\ubc15\ud559\ub798", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ubc15\ud559\ub798", 
     "name_cn": "\u6734\u9db4\u4f86", 
@@ -2627,7 +2627,7 @@
   {
     "birthday": "22", 
     "name": "\uc774\uc885\uadfc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc774\uc885\uadfc", 
     "name_cn": "\uf9e1\u937e\u6839", 
@@ -2642,7 +2642,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\ud0dd\ud76c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\ud0dd\ud76c", 
     "name_cn": "\uf9e1\ufa04\u7199", 
@@ -2657,7 +2657,7 @@
   {
     "birthday": "27", 
     "name": "\ud5c8\ud0c1", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud5c8\ud0c1", 
     "name_cn": "\u8a31", 
@@ -2672,7 +2672,7 @@
   {
     "birthday": "07", 
     "name": "\uc784\uad11\uaddc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc784\uad11\uaddc", 
     "name_cn": "\uf9f4\u709a\u572d", 
@@ -2687,7 +2687,7 @@
   {
     "birthday": "22", 
     "name": "\uc870\uc885\ud638", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc870\uc885\ud638", 
     "name_cn": "\u8d99\u937e\u660a", 
@@ -2702,7 +2702,7 @@
   {
     "birthday": "03", 
     "name": "\uc721\uc778\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc721\uc778\uc218", 
     "name_cn": "\uf9d3\u5bc5\u4fee", 
@@ -2717,7 +2717,7 @@
   {
     "birthday": "10", 
     "name": "\uc774\uc6a9\ud76c", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc774\uc6a9\ud76c", 
     "name_cn": "\uf9e1\uf9c4\u7199", 
@@ -2732,7 +2732,7 @@
   {
     "birthday": "03", 
     "name": "\ucd5c\uadf9", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ucd5c\uadf9", 
     "name_cn": "\u5d14\u6975", 
@@ -2747,7 +2747,7 @@
   {
     "birthday": "27", 
     "name": "\uc774\uc7ac\uc778", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\uc7ac\uc778", 
     "name_cn": "\uf9e1\u5728\u4ec1", 
@@ -2762,7 +2762,7 @@
   {
     "birthday": "30", 
     "name": "\uc548\uc815\uc900", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc548\uc815\uc900", 
     "name_cn": "\u5b89\u8c9e\u6fec", 
@@ -2777,7 +2777,7 @@
   {
     "birthday": "20", 
     "name": "\uc5fc\uc885\ud6c8", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc5fc\uc885\ud6c8", 
     "name_cn": "\uf9a2\u937e\u85b0", 
@@ -2792,7 +2792,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\uad11\ud638", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\uad11\ud638", 
     "name_cn": "\uf9e1\u5149\u6d69", 
@@ -2807,7 +2807,7 @@
   {
     "birthday": "10", 
     "name": "\uc804\uc5f0\uaddc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc804\uc5f0\uaddc", 
     "name_cn": "\u5168\uf98e\u572d", 
@@ -2822,7 +2822,7 @@
   {
     "birthday": "14", 
     "name": "\uc624\uc6a9\uc6b4", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc624\uc6a9\uc6b4", 
     "name_cn": "\u5433\uf9c4\u96f2", 
@@ -2837,7 +2837,7 @@
   {
     "birthday": "13", 
     "name": "\uc774\ucda9\ud658", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc774\ucda9\ud658", 
     "name_cn": "\uf9e1\u5fe0\u7165", 
@@ -2852,7 +2852,7 @@
   {
     "birthday": "28", 
     "name": "\ucc44\uc601\ub9cc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ucc44\uc601\ub9cc", 
     "name_cn": "\u8521\u6c38\u842c", 
@@ -2867,7 +2867,7 @@
   {
     "birthday": "15", 
     "name": "\uc548\ub3d9\uc900", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc548\ub3d9\uc900", 
     "name_cn": "\u5b89\u6771\u6fec", 
@@ -2882,7 +2882,7 @@
   {
     "birthday": "09", 
     "name": "\uae40\uc6a9\ud0dc", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\uc6a9\ud0dc", 
     "name_cn": "\u91d1\uf9c4\u6cf0", 
@@ -2897,7 +2897,7 @@
   {
     "birthday": "10", 
     "name": "\uc2e0\ub3d9\uc900", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc2e0\ub3d9\uc900", 
     "name_cn": "\u7533\u6771\u6e96", 
@@ -2912,7 +2912,7 @@
   {
     "birthday": "17", 
     "name": "\ubc15\ubcd1\ubc30", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubc15\ubcd1\ubc30", 
     "name_cn": "\u6734\u70b3\u57f9", 
@@ -2927,7 +2927,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\uc815\uaddc", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubc15\uc815\uaddc", 
     "name_cn": "\u6734\u8c9e\u572d", 
@@ -2942,7 +2942,7 @@
   {
     "birthday": "27", 
     "name": "\uc2ec\uc815\ubcf4", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc2ec\uc815\ubcf4", 
     "name_cn": "\uf972\u653f\u8f14", 
@@ -2957,7 +2957,7 @@
   {
     "birthday": "27", 
     "name": "\uc784\ud638", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc784\ud638", 
     "name_cn": "\uf9f4\u6e56", 
@@ -2972,7 +2972,7 @@
   {
     "birthday": "07", 
     "name": "\uae40\uc885\ucca0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc885\ucca0", 
     "name_cn": "\u91d1\u937e\u54f2", 
@@ -2987,7 +2987,7 @@
   {
     "birthday": "18", 
     "name": "\uc815\uc7ac\uc6d0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc815\uc7ac\uc6d0", 
     "name_cn": "\u912d\u5728\u539f", 
@@ -3002,7 +3002,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\uc9c4\uad6c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc774\uc9c4\uad6c", 
     "name_cn": "\uf9e1\u73cd\u6c42", 
@@ -3017,7 +3017,7 @@
   {
     "birthday": "26", 
     "name": "\uac15\ud544\uc120", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uac15\ud544\uc120", 
     "name_cn": "\u59dc\u5f3c\u5584", 
@@ -3032,7 +3032,7 @@
   {
     "birthday": "27", 
     "name": "\uae40\uc601\uc11d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\uc601\uc11d", 
     "name_cn": "\u91d1\u6c38\u932b", 
@@ -3047,7 +3047,7 @@
   {
     "birthday": "02", 
     "name": "\uc131\uae30\uc120", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc131\uae30\uc120", 
     "name_cn": "\u6210\u8006\u5584", 
@@ -3062,7 +3062,7 @@
   {
     "birthday": "28", 
     "name": "\uc774\uc6d0\ucc3d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc774\uc6d0\ucc3d", 
     "name_cn": "\uf9e1\u5143\u660c", 
@@ -3077,7 +3077,7 @@
   {
     "birthday": "17", 
     "name": "\uc870\uc77c\ubb35", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc870\uc77c\ubb35", 
     "name_cn": "\u8d99\u4e00\u9ed8", 
@@ -3092,7 +3092,7 @@
   {
     "birthday": "13", 
     "name": "\uc870\uc77c\ud658", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc870\uc77c\ud658", 
     "name_cn": "\u66fa\u4e00\u7165", 
@@ -3107,7 +3107,7 @@
   {
     "birthday": "27", 
     "name": "\ud669\uaddc\uc601", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud669\uaddc\uc601", 
     "name_cn": "\u9ec3\u572d\u82f1", 
@@ -3122,7 +3122,7 @@
   {
     "birthday": "26", 
     "name": "\uc774\uc900\uc12d", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc774\uc900\uc12d", 
     "name_cn": "\uf9e1\u4fca\u71ee", 
@@ -3137,7 +3137,7 @@
   {
     "birthday": "15", 
     "name": "\uc720\ud55c\uc5f4", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc720\ud55c\uc5f4", 
     "name_cn": "\uf9c9\u6f22\uf99f", 
@@ -3152,7 +3152,7 @@
   {
     "birthday": "20", 
     "name": "\uc774\ucc9c\uc601", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc774\ucc9c\uc601", 
     "name_cn": "\uf9e1\u5343\u6cf3", 
@@ -3167,7 +3167,7 @@
   {
     "birthday": "01", 
     "name": "\uc1a1\uc11d\ub9b0", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc1a1\uc11d\ub9b0", 
     "name_cn": "\u5b8b\u932b\u9e9f", 
@@ -3182,7 +3182,7 @@
   {
     "birthday": "29", 
     "name": "\uc1a1\uc900\ube48", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc1a1\uc900\ube48", 
     "name_cn": "\u5b8b\u4fca\u5f6c", 
@@ -3197,7 +3197,7 @@
   {
     "birthday": "21", 
     "name": "\uc7a5\uc7ac\ubcf5", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc7a5\uc7ac\ubcf5", 
     "name_cn": "\u5f35\u5728\u798f", 
@@ -3212,7 +3212,7 @@
   {
     "birthday": "21", 
     "name": "\ucd5c\uacbd\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ucd5c\uacbd\uc218", 
     "name_cn": "\u5d14\u501e\u6d19", 
@@ -3227,7 +3227,7 @@
   {
     "birthday": "03", 
     "name": "\uc815\uc11d\ubaa8", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc815\uc11d\ubaa8", 
     "name_cn": "\u912d\u77f3\u8b28", 
@@ -3242,7 +3242,7 @@
   {
     "birthday": "15", 
     "name": "\uc724\uc644\uc911", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc724\uc644\uc911", 
     "name_cn": "\u5c39\u5b8c\u91cd", 
@@ -3257,7 +3257,7 @@
   {
     "birthday": "18", 
     "name": "\ubc31\uc2b9\ub300", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubc31\uc2b9\ub300", 
     "name_cn": "\u767d\u627f\u5927", 
@@ -3272,7 +3272,7 @@
   {
     "birthday": "11", 
     "name": "\uac15\ubcd1\uc9c4", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uac15\ubcd1\uc9c4", 
     "name_cn": "\u59dc\u79c9\u93ad", 
@@ -3287,7 +3287,7 @@
   {
     "birthday": "01", 
     "name": "\uae40\ud615\ub300", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\ud615\ub300", 
     "name_cn": "\u91d1\u70af\u5927", 
@@ -3302,7 +3302,7 @@
   {
     "birthday": "16", 
     "name": "\ubc15\ucc2c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubc15\ucc2c", 
     "name_cn": "\u6734\u74a8", 
@@ -3317,7 +3317,7 @@
   {
     "birthday": "25", 
     "name": "\uc774\uc885\uae38", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc774\uc885\uae38", 
     "name_cn": "\uf9e1\u937e\u5409", 
@@ -3332,7 +3332,7 @@
   {
     "birthday": "10", 
     "name": "\uc774\ud76c\uc6d0", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\ud76c\uc6d0", 
     "name_cn": "\uf9e1\u7199\u5143", 
@@ -3347,7 +3347,7 @@
   {
     "birthday": "10", 
     "name": "\uc784\uae38\uc218", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc784\uae38\uc218", 
     "name_cn": "\uf9f4\u5409\u6d19", 
@@ -3362,7 +3362,7 @@
   {
     "birthday": "04", 
     "name": "\uc784\ub355\uaddc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc784\ub355\uaddc", 
     "name_cn": "\uf9f4\u5fb7\u572d", 
@@ -3377,7 +3377,7 @@
   {
     "birthday": "07", 
     "name": "\uae40\uc885\ud544", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc885\ud544", 
     "name_cn": "\u91d1\u937e\u6ccc", 
@@ -3392,7 +3392,7 @@
   {
     "birthday": "22", 
     "name": "\uc870\uc911\uc5f0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc870\uc911\uc5f0", 
     "name_cn": "\u8d99\u91cd\u884d", 
@@ -3407,7 +3407,7 @@
   {
     "birthday": "23", 
     "name": "\uc724\uc138\ubbfc", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc724\uc138\ubbfc", 
     "name_cn": "\u5c39\u4e16\u6c11", 
@@ -3422,7 +3422,7 @@
   {
     "birthday": "17", 
     "name": "\uae40\ud615\uc625", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uae40\ud615\uc625", 
     "name_cn": "\u91d1\u70af\u7389", 
@@ -3437,7 +3437,7 @@
   {
     "birthday": "05", 
     "name": "\uae40\ud64d\uc870", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uae40\ud64d\uc870", 
     "name_cn": "\u91d1\u6d2a\u795a", 
@@ -3452,7 +3452,7 @@
   {
     "birthday": "30", 
     "name": "\ub098\ud544\uc5f4", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ub098\ud544\uc5f4", 
     "name_cn": "\uf90f\u5fc5\uf99f", 
@@ -3467,7 +3467,7 @@
   {
     "birthday": "22", 
     "name": "\ubc31\ub0a8\uce58", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubc31\ub0a8\uce58", 
     "name_cn": "\u767d\u5357\u6cbb", 
@@ -3482,7 +3482,7 @@
   {
     "birthday": "04", 
     "name": "\uc2e0\uc900\ud76c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc2e0\uc900\ud76c", 
     "name_cn": "\u7533\u4fca\u7199", 
@@ -3497,7 +3497,7 @@
   {
     "birthday": "11", 
     "name": "\ud55c\uc0c1\ud544", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ud55c\uc0c1\ud544", 
     "name_cn": "\u97d3\u76f8\u5f3c", 
@@ -3512,7 +3512,7 @@
   {
     "birthday": "21", 
     "name": "\uc7a5\uc601\uc21c", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc7a5\uc601\uc21c", 
     "name_cn": "\u5f35\u69ae\u6df3", 
@@ -3527,7 +3527,7 @@
   {
     "birthday": "10", 
     "name": "\ud55c\uac74\uc218", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ud55c\uac74\uc218", 
     "name_cn": "\u97d3\u5efa\u6d19", 
@@ -3542,7 +3542,7 @@
   {
     "birthday": "03", 
     "name": "\uae40\uc131\uc2dd", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc131\uc2dd", 
     "name_cn": "\u91d1\u8056\u690d", 
@@ -3557,7 +3557,7 @@
   {
     "birthday": "14", 
     "name": "\uc724\uaddc\uc0c1", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc724\uaddc\uc0c1", 
     "name_cn": "\u5c39\u572d\u76f8", 
@@ -3572,7 +3572,7 @@
   {
     "birthday": "01", 
     "name": "\uc2ec\ud604\uc9c1", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc2ec\ud604\uc9c1", 
     "name_cn": "\uf972\u9249\u7a37", 
@@ -3587,7 +3587,7 @@
   {
     "birthday": "10", 
     "name": "\uc720\uc81c\uc5f0", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc720\uc81c\uc5f0", 
     "name_cn": "\uf9c9\u6fdf\u7136", 
@@ -3602,7 +3602,7 @@
   {
     "birthday": "02", 
     "name": "\ud55c\uc601\uc218", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud55c\uc601\uc218", 
     "name_cn": "\u97d3\u82f1\u6d19", 
@@ -3617,7 +3617,7 @@
   {
     "birthday": "22", 
     "name": "\uae40\ud604\uc6b1", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\ud604\uc6b1", 
     "name_cn": "\u91d1\u986f\u715c", 
@@ -3632,7 +3632,7 @@
   {
     "birthday": "02", 
     "name": "\ubc15\uc644\uad50", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ubc15\uc644\uad50", 
     "name_cn": "\u6734\u5b8c\u654e", 
@@ -3647,7 +3647,7 @@
   {
     "birthday": "12", 
     "name": "\uc774\uba85\ud718", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uba85\ud718", 
     "name_cn": "\uf9e1\u660e\u5fbd", 
@@ -3662,7 +3662,7 @@
   {
     "birthday": "06", 
     "name": "\uc720\uae30\uc815", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc720\uae30\uc815", 
     "name_cn": "\uf9c9\u7426\u8aea", 
@@ -3677,7 +3677,7 @@
   {
     "birthday": "15", 
     "name": "\uc774\ucca0\uc2b9", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\ucca0\uc2b9", 
     "name_cn": "\uf9e1\u54f2\u627f", 
@@ -3692,7 +3692,7 @@
   {
     "birthday": "04", 
     "name": "\uc720\ucda9\uc131", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc720\ucda9\uc131", 
     "name_cn": "\uf9c9\u5fe0\u6210", 
@@ -3707,7 +3707,7 @@
   {
     "birthday": "19", 
     "name": "\uc591\uc724\ubaa8", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc591\uc724\ubaa8", 
     "name_cn": "\uf97a\u6f64\u6a21", 
@@ -3722,7 +3722,7 @@
   {
     "birthday": "11", 
     "name": "\uc784\uad11\uc21c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc784\uad11\uc21c", 
     "name_cn": "\uf9f4\u5ee3\u6df3", 
@@ -3737,7 +3737,7 @@
   {
     "birthday": "23", 
     "name": "\uc870\ud615\uc775", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc870\ud615\uc775", 
     "name_cn": "\u8d99\u99a8\u7ffc", 
@@ -3752,7 +3752,7 @@
   {
     "birthday": "25", 
     "name": "\ucc44\uc601\ucca0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\ucc44\uc601\ucca0", 
     "name_cn": "\u8521\u69ae\u5586", 
@@ -3767,7 +3767,7 @@
   {
     "birthday": "25", 
     "name": "\uae40\ud604\uae30", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\ud604\uae30", 
     "name_cn": "\u91d1\u986f\u57fa", 
@@ -3782,7 +3782,7 @@
   {
     "birthday": "25", 
     "name": "\uac15\uadfc\ud638", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uac15\uadfc\ud638", 
     "name_cn": "\u59dc\u6839\u93ac", 
@@ -3797,7 +3797,7 @@
   {
     "birthday": "09", 
     "name": "\uae40\uc911\uc11d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uae40\uc911\uc11d", 
     "name_cn": "\u91d1\u4e2d\u77f3", 
@@ -3812,7 +3812,7 @@
   {
     "birthday": "13", 
     "name": "\uc624\uc2b9\uc5fd", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc624\uc2b9\uc5fd", 
     "name_cn": "\u5433\u627f\u71c1", 
@@ -3827,7 +3827,7 @@
   {
     "birthday": "07", 
     "name": "\ucc44\uc601\uc11d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ucc44\uc601\uc11d", 
     "name_cn": "\u8521\u6620\u932b", 
@@ -3842,7 +3842,7 @@
   {
     "birthday": "22", 
     "name": "\ucd5c\uae30\ucc3d", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ucd5c\uae30\ucc3d", 
     "name_cn": "\u5d14\u68cb\u660c", 
@@ -3857,7 +3857,7 @@
   {
     "birthday": "15", 
     "name": "\uae40\uad11\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\uad11\uc218", 
     "name_cn": "\u91d1\u5149\u6d19", 
@@ -3872,7 +3872,7 @@
   {
     "birthday": "27", 
     "name": "\ucd5c\uc131\uc11d", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ucd5c\uc131\uc11d", 
     "name_cn": "\u5d14\u6210\u77f3", 
@@ -3887,7 +3887,7 @@
   {
     "birthday": "10", 
     "name": "\uc774\ubcf5\ub3d9", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\ubcf5\ub3d9", 
     "name_cn": "\uf9e1\u798f\u540c", 
@@ -3902,7 +3902,7 @@
   {
     "birthday": "09", 
     "name": "\uae40\ub355\uaddc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\ub355\uaddc", 
     "name_cn": "\u91d1\u5fb7\u572d", 
@@ -3917,7 +3917,7 @@
   {
     "birthday": "06", 
     "name": "\uae40\ubd09\uad00", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\ubd09\uad00", 
     "name_cn": "\u91d1\u5949\u5b98", 
@@ -3932,7 +3932,7 @@
   {
     "birthday": "11", 
     "name": "\uc624\uc0c1\ud604", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc624\uc0c1\ud604", 
     "name_cn": "\u5433\u4e0a\u9249", 
@@ -3947,7 +3947,7 @@
   {
     "birthday": "21", 
     "name": "\uc774\uc0c1\uc625", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc774\uc0c1\uc625", 
     "name_cn": "\uf9e1\u76f8\u7389", 
@@ -3962,7 +3962,7 @@
   {
     "birthday": "22", 
     "name": "\uc774\uc0c1\uc625", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc774\uc0c1\uc625", 
     "name_cn": "\uf9e1\u76f8\u7389", 
@@ -3977,7 +3977,7 @@
   {
     "birthday": "04", 
     "name": "\ud5c8\uc7ac\uc1a1", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ud5c8\uc7ac\uc1a1", 
     "name_cn": "\u8a31\u5728\u677e", 
@@ -3992,7 +3992,7 @@
   {
     "birthday": "15", 
     "name": "\uc124\uc778\uc218", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc124\uc778\uc218", 
     "name_cn": "\u859b\u4ec1\u6d19", 
@@ -4007,7 +4007,7 @@
   {
     "birthday": "24", 
     "name": "\uc591\ud574\uc900", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc591\ud574\uc900", 
     "name_cn": "\uf97a\u6d77\u710c", 
@@ -4022,7 +4022,7 @@
   {
     "birthday": "13", 
     "name": "\uc624\uc5f0\uadfc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc624\uc5f0\uadfc", 
     "name_cn": "\u5433\u6f14\u6839", 
@@ -4037,7 +4037,7 @@
   {
     "birthday": "24", 
     "name": "\uac15\uc778\uc6d0", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uac15\uc778\uc6d0", 
     "name_cn": "\u59dc\u4ec1\u9060", 
@@ -4052,7 +4052,7 @@
   {
     "birthday": "05", 
     "name": "\uc18c\ubcd1\ub0a8", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc18c\ubcd1\ub0a8", 
     "name_cn": "\u8607\u79c9\u5357", 
@@ -4067,7 +4067,7 @@
   {
     "birthday": "25", 
     "name": "\uc190\uc8fc\ud56d", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc190\uc8fc\ud56d", 
     "name_cn": "\u5b6b\u5468\u6052", 
@@ -4082,7 +4082,7 @@
   {
     "birthday": "27", 
     "name": "\uc2e0\uc21c\uc6d0", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc2e0\uc21c\uc6d0", 
     "name_cn": "\u7533\u6df3\u5143", 
@@ -4097,7 +4097,7 @@
   {
     "birthday": "23", 
     "name": "\uc7a5\uacbd\uc21c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc7a5\uacbd\uc21c", 
     "name_cn": "\u5f35\u5770\u6df3", 
@@ -4112,7 +4112,7 @@
   {
     "birthday": "16", 
     "name": "\uae40\uc6d0\uae30", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\uc6d0\uae30", 
     "name_cn": "\u91d1\u5143\u57fa", 
@@ -4127,7 +4127,7 @@
   {
     "birthday": "02", 
     "name": "\uae40\uae30\uc625", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\uae30\uc625", 
     "name_cn": "\u91d1\u57fa\u7389", 
@@ -4142,7 +4142,7 @@
   {
     "birthday": "01", 
     "name": "\uae40\ud0dd\ud558", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\ud0dd\ud558", 
     "name_cn": "\u91d1\u9438\u6cb3", 
@@ -4157,7 +4157,7 @@
   {
     "birthday": "23", 
     "name": "\uae40\ud615\uc218", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uae40\ud615\uc218", 
     "name_cn": "\u91d1\u70af\u6d19", 
@@ -4172,7 +4172,7 @@
   {
     "birthday": "03", 
     "name": "\uc720\ucc3d\uc5f4", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc720\ucc3d\uc5f4", 
     "name_cn": "\uf9c9\u660c\uf99f", 
@@ -4187,7 +4187,7 @@
   {
     "birthday": "14", 
     "name": "\uc774\uc6d0\ubc30", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\uc6d0\ubc30", 
     "name_cn": "\uf9e1\u5143\u6e43", 
@@ -4202,7 +4202,7 @@
   {
     "birthday": "28", 
     "name": "\uc774\uc758\uad00", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\uc758\uad00", 
     "name_cn": "\uf9e1\u7fa9\u5b98", 
@@ -4217,7 +4217,7 @@
   {
     "birthday": "18", 
     "name": "\uc774\ub099\ub3c4", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\ub099\ub3c4", 
     "name_cn": "\uf9e1\uf915\u9053", 
@@ -4232,7 +4232,7 @@
   {
     "birthday": "03", 
     "name": "\uc774\ud638\uc885", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\ud638\uc885", 
     "name_cn": "\uf9e1\u660a\u937e", 
@@ -4247,7 +4247,7 @@
   {
     "birthday": "13", 
     "name": "\uc9c4\uc758\uc885", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc9c4\uc758\uc885", 
     "name_cn": "\u9673\u61ff\u937e", 
@@ -4262,7 +4262,7 @@
   {
     "birthday": "24", 
     "name": "\uae40\uc77c\ubc94", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\uc77c\ubc94", 
     "name_cn": "\u91d1\u4e00\u51e1", 
@@ -4277,7 +4277,7 @@
   {
     "birthday": "21", 
     "name": "\uae40\uc885\uc218", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\uc885\uc218", 
     "name_cn": "\u91d1\u937e\u6d19", 
@@ -4292,7 +4292,7 @@
   {
     "birthday": "06", 
     "name": "\ubc15\uc6a9\uae30", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\ubc15\uc6a9\uae30", 
     "name_cn": "\u6734\uf9c4\u57fa", 
@@ -4307,7 +4307,7 @@
   {
     "birthday": "23", 
     "name": "\uc815\uade0\ud658", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc815\uade0\ud658", 
     "name_cn": "\u912d\u5747\u6853", 
@@ -4322,7 +4322,7 @@
   {
     "birthday": "26", 
     "name": "\ubc15\ucca0", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubc15\ucca0", 
     "name_cn": "\u6734\u6f88", 
@@ -4337,7 +4337,7 @@
   {
     "birthday": "06", 
     "name": "\uc774\ud544\uc120", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\ud544\uc120", 
     "name_cn": "\uf9e1\u5fc5\u5584", 
@@ -4352,7 +4352,7 @@
   {
     "birthday": "08", 
     "name": "\uae40\ub85d\uc601", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\ub85d\uc601", 
     "name_cn": "\u91d1\u797f\u6c38", 
@@ -4367,7 +4367,7 @@
   {
     "birthday": "20", 
     "name": "\ubc15\uc601\uae30", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\ubc15\uc601\uae30", 
     "name_cn": "\u6734\u6c38\u9324", 
@@ -4382,7 +4382,7 @@
   {
     "birthday": "17", 
     "name": "\uc720\uc8fc\uc601", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc720\uc8fc\uc601", 
     "name_cn": "\uf9c7\u5468\u69ae", 
@@ -4397,7 +4397,7 @@
   {
     "birthday": "10", 
     "name": "\uc7a5\ud734\ub3d9", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc7a5\ud734\ub3d9", 
     "name_cn": "\u5f35\u4f11\u6771", 
@@ -4412,7 +4412,7 @@
   {
     "birthday": "22", 
     "name": "\uc9c0\uadfc\uc218", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc9c0\uadfc\uc218", 
     "name_cn": "\u6c60\u6839\u6d19", 
@@ -4427,7 +4427,7 @@
   {
     "birthday": "19", 
     "name": "\ucd5c\uc601\ucca0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ucd5c\uc601\ucca0", 
     "name_cn": "\u5d14\u6c38\u5586", 
@@ -4442,7 +4442,7 @@
   {
     "birthday": "16", 
     "name": "\uc784\uc885\uae30", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc784\uc885\uae30", 
     "name_cn": "\uf9f4\u937e\u57fa", 
@@ -4457,7 +4457,7 @@
   {
     "birthday": "03", 
     "name": "\uae40\uacbd\uc778", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uae40\uacbd\uc778", 
     "name_cn": "\u91d1\u656c\u4ec1", 
@@ -4472,7 +4472,7 @@
   {
     "birthday": "21", 
     "name": "\uae40\uae30\uc5f4", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uae30\uc5f4", 
     "name_cn": "\u91d1\u5df1\uf99f", 
@@ -4487,7 +4487,7 @@
   {
     "birthday": "04", 
     "name": "\uc720\uc625\uc6b0", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc720\uc625\uc6b0", 
     "name_cn": "\uf9c7\u6c83\u7950", 
@@ -4502,7 +4502,7 @@
   {
     "birthday": "05", 
     "name": "\uc774\ub3c4\uc120", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc774\ub3c4\uc120", 
     "name_cn": "\uf9e1\u9053\u5148", 
@@ -4517,7 +4517,7 @@
   {
     "birthday": "06", 
     "name": "\ubc15\ubcd1\ud6a8", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ubc15\ubcd1\ud6a8", 
     "name_cn": "\u6734\u70b3\u6d8d", 
@@ -4532,7 +4532,7 @@
   {
     "birthday": "02", 
     "name": "\uae40\uc6a9\uc77c", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc6a9\uc77c", 
     "name_cn": "\u91d1\u5bb9\u65e5", 
@@ -4547,7 +4547,7 @@
   {
     "birthday": "03", 
     "name": "\uae40\uad11\uc601", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\uad11\uc601", 
     "name_cn": "\u91d1\u5321\uf9ae", 
@@ -4562,7 +4562,7 @@
   {
     "birthday": "28", 
     "name": "\uc2e0\uc21c\ubc94", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc2e0\uc21c\ubc94", 
     "name_cn": "\u613c\u9806\u7bc4", 
@@ -4577,7 +4577,7 @@
   {
     "birthday": "14", 
     "name": "\ub958\ud604\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\ub958\ud604\uc218", 
     "name_cn": "\u67f3\u8ce2\u79c0", 
@@ -4592,7 +4592,7 @@
   {
     "birthday": "21", 
     "name": "\uc724\ucc3d\uadfc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc724\ucc3d\uadfc", 
     "name_cn": "\u5c39\u660c\u6839", 
@@ -4607,7 +4607,7 @@
   {
     "birthday": "01", 
     "name": "\ud55c\uc6d0\ud76c", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ud55c\uc6d0\ud76c", 
     "name_cn": "\u97d3\u5143\u7199", 
@@ -4622,7 +4622,7 @@
   {
     "birthday": "07", 
     "name": "\uc720\uacbd\ud604", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc720\uacbd\ud604", 
     "name_cn": "\uf9c9\u74ca\u8ce2", 
@@ -4637,7 +4637,7 @@
   {
     "birthday": "04", 
     "name": "\ud5c8\uacbd\ub9cc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ud5c8\uacbd\ub9cc", 
     "name_cn": "\u8a31\u4eac\u842c", 
@@ -4652,7 +4652,7 @@
   {
     "birthday": "06", 
     "name": "\ubc15\uc6a9\uad6c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubc15\uc6a9\uad6c", 
     "name_cn": "\u6734\uf9c4\u9f9c", 
@@ -4667,7 +4667,7 @@
   {
     "birthday": "15", 
     "name": "\uac15\uae38\ub9cc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uac15\uae38\ub9cc", 
     "name_cn": "\u59dc\u4f76\u6eff", 
@@ -4682,7 +4682,7 @@
   {
     "birthday": "02", 
     "name": "\uc704\ucc2c\ud638", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc704\ucc2c\ud638", 
     "name_cn": "\u9b4f\u71e6\u93ac", 
@@ -4697,7 +4697,7 @@
   {
     "birthday": "20", 
     "name": "\uc870\uaddc\uc21c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc870\uaddc\uc21c", 
     "name_cn": "\u8d99\u572d\u8a62", 
@@ -4712,7 +4712,7 @@
   {
     "birthday": "11", 
     "name": "\uc784\uc778\ucc44", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc784\uc778\ucc44", 
     "name_cn": "\uf9f4\u5fcd\u91c7", 
@@ -4727,7 +4727,7 @@
   {
     "birthday": "15", 
     "name": "\uae40\uc724\ub355", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uae40\uc724\ub355", 
     "name_cn": "\u91d1\u80e4\u5fb7", 
@@ -4742,7 +4742,7 @@
   {
     "birthday": "11", 
     "name": "\uae40\uc7a5\uace4", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc7a5\uace4", 
     "name_cn": "\u91d1\u838a\u5764", 
@@ -4757,7 +4757,7 @@
   {
     "birthday": "17", 
     "name": "\uc870\ud64d\uaddc", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc870\ud64d\uaddc", 
     "name_cn": "\u8d99\u6d2a\u594e", 
@@ -4772,7 +4772,7 @@
   {
     "birthday": "27", 
     "name": "\ud55c\uac11\uc218", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\ud55c\uac11\uc218", 
     "name_cn": "\u97d3\u7532\u6d19", 
@@ -4787,7 +4787,7 @@
   {
     "birthday": "03", 
     "name": "\ubb38\ud615\ud0dc", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\ubb38\ud615\ud0dc", 
     "name_cn": "\u6587\u4ea8\u6cf0", 
@@ -4802,7 +4802,7 @@
   {
     "birthday": "15", 
     "name": "\uace0\uc7ac\uccad", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uace0\uc7ac\uccad", 
     "name_cn": "\u9ad8\u5728\u6df8", 
@@ -4817,7 +4817,7 @@
   {
     "birthday": "18", 
     "name": "\uc591\ub3d9\ud76c", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc591\ub3d9\ud76c", 
     "name_cn": "\uf97a\u6771\u5e0c", 
@@ -4832,7 +4832,7 @@
   {
     "birthday": "08", 
     "name": "\uc2ec\uc0c1\uc900", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc2ec\uc0c1\uc900", 
     "name_cn": "\uf972\u76f8\u57c8", 
@@ -4847,7 +4847,7 @@
   {
     "birthday": "18", 
     "name": "\uc870\uc6a9\uae30", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc870\uc6a9\uae30", 
     "name_cn": "\u8d99\uf9c4\u6c82", 
@@ -4862,7 +4862,7 @@
   {
     "birthday": "09", 
     "name": "\uc2e0\ud615\uc2dd", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc2e0\ud615\uc2dd", 
     "name_cn": "\u7533\u6d1e\u690d", 
@@ -4877,7 +4877,7 @@
   {
     "birthday": "20", 
     "name": "\uc774\uc911\uc7ac", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\uc911\uc7ac", 
     "name_cn": "\uf9e1\u91cd\u8f09", 
@@ -4892,7 +4892,7 @@
   {
     "birthday": "15", 
     "name": "\uae40\uc218", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\uc218", 
     "name_cn": "\u91d1\u5b88", 
@@ -4907,7 +4907,7 @@
   {
     "birthday": "27", 
     "name": "\uae38\uc804\uc2dd", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uae38\uc804\uc2dd", 
     "name_cn": "\u5409\u5178\u690d", 
@@ -4922,7 +4922,7 @@
   {
     "birthday": "25", 
     "name": "\ud669\ud638\ub3d9", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud669\ud638\ub3d9", 
     "name_cn": "\u9ec3\u93ac\u6771", 
@@ -4937,7 +4937,7 @@
   {
     "birthday": "19", 
     "name": "\uc624\uc11d\ubcf4", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc624\uc11d\ubcf4", 
     "name_cn": "\u5433\u77f3\u5821", 
@@ -4952,7 +4952,7 @@
   {
     "birthday": "15", 
     "name": "\uc724\uc7ac\uba85", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc724\uc7ac\uba85", 
     "name_cn": "\u5c39\u5728\u660e", 
@@ -4967,7 +4967,7 @@
   {
     "birthday": "27", 
     "name": "\uc774\uc120\ub3d9", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\uc120\ub3d9", 
     "name_cn": "\uf9e1\u5148\u6771]", 
@@ -4982,7 +4982,7 @@
   {
     "birthday": "23", 
     "name": "\uc774\uc815\ucc44", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc774\uc815\ucc44", 
     "name_cn": "\uf9e1\u6b63\u5f69", 
@@ -4997,7 +4997,7 @@
   {
     "birthday": "26", 
     "name": "\ucd5c\uc218\uc601", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ucd5c\uc218\uc601", 
     "name_cn": "\u5d14\u6d19\u6cf3", 
@@ -5012,7 +5012,7 @@
   {
     "birthday": "10", 
     "name": "\uae40\ubd09\ud638", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uae40\ubd09\ud638", 
     "name_cn": "\u91d1\u742b\u93ac", 
@@ -5027,7 +5027,7 @@
   {
     "birthday": "15", 
     "name": "\uc724\ucca0\ud558", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc724\ucca0\ud558", 
     "name_cn": "\u5c39\u54f2\u590f", 
@@ -5042,7 +5042,7 @@
   {
     "birthday": "25", 
     "name": "\ubc15\ubb38\uc218", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ubc15\ubb38\uc218", 
     "name_cn": "\u6734\u6587\u6d19", 
@@ -5057,7 +5057,7 @@
   {
     "birthday": "04", 
     "name": "\uae40\uc131\uc790", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uae40\uc131\uc790", 
     "name_cn": "\u91d1\u59d3\u5b50", 
@@ -5072,7 +5072,7 @@
   {
     "birthday": "10", 
     "name": "\ubc15\uadc0\uc218", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubc15\uadc0\uc218", 
     "name_cn": "\u6734\u8cb4\u6d19", 
@@ -5087,7 +5087,7 @@
   {
     "birthday": "29", 
     "name": "\uc774\uc775\uade0", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\uc775\uade0", 
     "name_cn": "\uf9e1\u76ca\u5747", 
@@ -5102,7 +5102,7 @@
   {
     "birthday": "10", 
     "name": "\uc784\uc601\ub4dd", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc784\uc601\ub4dd", 
     "name_cn": "\u4efb\uc601\u5f97", 
@@ -5117,7 +5117,7 @@
   {
     "birthday": "20", 
     "name": "\uae40\uc7ac\uc2dd", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uae40\uc7ac\uc2dd", 
     "name_cn": "\u91d1\u5728\u690d", 
@@ -5132,7 +5132,7 @@
   {
     "birthday": "28", 
     "name": "\uc774\uc9c4\uc5f0", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc774\uc9c4\uc5f0", 
     "name_cn": "\uf9e1\u9707\u6df5", 
@@ -5147,7 +5147,7 @@
   {
     "birthday": "06", 
     "name": "\uc870\uae30\uc0c1", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc870\uae30\uc0c1", 
     "name_cn": "\u66fa\u6dc7\u76f8", 
@@ -5162,7 +5162,7 @@
   {
     "birthday": "05", 
     "name": "\uae40\uc5f0\uad00", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uc804\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\uc5f0\uad00", 
     "name_cn": "\u91d1\uf99a\u5b98", 
@@ -5177,7 +5177,7 @@
   {
     "birthday": "25", 
     "name": "\uc774\ub9cc\uc12d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc774\ub9cc\uc12d", 
     "name_cn": "\uf9e1\u842c\u71ee", 
@@ -5192,7 +5192,7 @@
   {
     "birthday": "13", 
     "name": "\uc870\uc77c\ud658", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc870\uc77c\ud658", 
     "name_cn": "\u66fa\u9038\u7165", 
@@ -5207,7 +5207,7 @@
   {
     "birthday": "03", 
     "name": "\uc774\uc885\uc12d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc774\uc885\uc12d", 
     "name_cn": "\uf9e1\u937e\u71ee", 
@@ -5222,7 +5222,7 @@
   {
     "birthday": "03", 
     "name": "\ud55c\ubcd1\ucc44", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ud55c\ubcd1\ucc44", 
     "name_cn": "\u97d3\u67c4\u5bc0", 
@@ -5237,7 +5237,7 @@
   {
     "birthday": "14", 
     "name": "\uc774\ud6a8\uc0c1", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc774\ud6a8\uc0c1", 
     "name_cn": "\uf9e1\u5b5d\u7965", 
@@ -5252,7 +5252,7 @@
   {
     "birthday": "25", 
     "name": "\uc2e0\ub3c4\ud658", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc2e0\ub3c4\ud658", 
     "name_cn": "\u8f9b\u9053\u7165", 
@@ -5267,7 +5267,7 @@
   {
     "birthday": "07", 
     "name": "\uc724\uc601\ud55c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc724\uc601\ud55c", 
     "name_cn": "\u5c39\u82f1\u6f22", 
@@ -5281,11 +5281,11 @@
   }, 
   {
     "birthday": "08", 
-    "name": "\ubb38", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "name": "\ubb38\uc591", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
-    "name_kr": "\ubb38", 
-    "name_cn": "", 
+    "name_kr": "\ubb38\uc591", 
+    "name_cn": "\u6587\u6d0b", 
     "experience": "\ubc95\uad00\uc57d15\ub144\ubcc0\ud638\uc0ac15\ub144", 
     "sex": "\ub0a8", 
     "birthyear": "1921", 
@@ -5297,7 +5297,7 @@
   {
     "birthday": "27", 
     "name": "\uc2e0\uc9c4\uc6b1", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc2e0\uc9c4\uc6b1", 
     "name_cn": "\u7533\u93ad\u65ed", 
@@ -5312,7 +5312,7 @@
   {
     "birthday": "25", 
     "name": "\uc774\uce58\ud638", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc774\uce58\ud638", 
     "name_cn": "\uf9e1\u81f4\u6d69", 
@@ -5327,7 +5327,7 @@
   {
     "birthday": "09", 
     "name": "\uc870\ud654\ud615", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc870\ud654\ud615", 
     "name_cn": "\u66fa\u548c\u5144", 
@@ -5342,7 +5342,7 @@
   {
     "birthday": "30", 
     "name": "\uc815\ubb34\uc2dd", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc815\ubb34\uc2dd", 
     "name_cn": "\u912d\u8302\u690d", 
@@ -5357,7 +5357,7 @@
   {
     "birthday": "22", 
     "name": "\uc870\uaddc\ucc3d", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc870\uaddc\ucc3d", 
     "name_cn": "\u66fa\u572d\u660c", 
@@ -5372,7 +5372,7 @@
   {
     "birthday": "01", 
     "name": "\uc548\ubcd1\ub2ec", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc548\ubcd1\ub2ec", 
     "name_cn": "\u5b89\u67c4\u9054", 
@@ -5387,7 +5387,7 @@
   {
     "birthday": "15", 
     "name": "\uad8c\uc624\ud0dc", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uad8c\uc624\ud0dc", 
     "name_cn": "\u6b0a\u4e94\u53f0", 
@@ -5402,7 +5402,7 @@
   {
     "birthday": "05", 
     "name": "\uae40\ubcd1\uc218", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\ubcd1\uc218", 
     "name_cn": "\u91d1\u70b3\u79c0", 
@@ -5417,7 +5417,7 @@
   {
     "birthday": "22", 
     "name": "\uae40\uc0c1\uc21c", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc0c1\uc21c", 
     "name_cn": "\u91d1\u76f8\u6df3", 
@@ -5432,7 +5432,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\uc219\ud604", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ubc15\uc219\ud604", 
     "name_cn": "\u6734\u6dd1\u9249", 
@@ -5447,7 +5447,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\uad8c\ud760", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ubc15\uad8c\ud760", 
     "name_cn": "\u6734\u6b0a\u6b3d", 
@@ -5462,7 +5462,7 @@
   {
     "birthday": "03", 
     "name": "\uae40\ub355\uc218", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\ub355\uc218", 
     "name_cn": "\u91d1\u5fb7\u58fd", 
@@ -5477,7 +5477,7 @@
   {
     "birthday": "11", 
     "name": "\ubc31\uc218\uadfc", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ubc31\uc218\uadfc", 
     "name_cn": "\u767d\u6c34\u6839", 
@@ -5492,7 +5492,7 @@
   {
     "birthday": "14", 
     "name": "\uc774\uc601\ud45c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc774\uc601\ud45c", 
     "name_cn": "\uf9e1\u6c38\u6753", 
@@ -5507,7 +5507,7 @@
   {
     "birthday": "10", 
     "name": "\uc784\uc9c4\ucd9c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc784\uc9c4\ucd9c", 
     "name_cn": "\uf9f4\u93ad\u51fa", 
@@ -5522,7 +5522,7 @@
   {
     "birthday": "21", 
     "name": "\uc8fc\uc9c4\ud3ec", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc8fc\uc9c4\ud3ec", 
     "name_cn": "\u6731\u664b\u5e03", 
@@ -5536,11 +5536,11 @@
   }, 
   {
     "birthday": "19", 
-    "name": "\ucd5c", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "name": "\ucd5c\ud48d", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "10", 
-    "name_kr": "\ucd5c", 
-    "name_cn": "", 
+    "name_kr": "\ucd5c\ud48d", 
+    "name_cn": "\u5d14\u8c4a", 
     "experience": "\uc7a5\ud0dd\uc0c1\uad6d\ud68c\uc758\uc6d0\ube44\uc11c\uc2e4\uc7a5", 
     "sex": "\ub0a8", 
     "birthyear": "1933", 
@@ -5552,7 +5552,7 @@
   {
     "birthday": "19", 
     "name": "\ud669\ud55c\uc218", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ud669\ud55c\uc218", 
     "name_cn": "\u9ec3\u6f22\u6d19", 
@@ -5567,7 +5567,7 @@
   {
     "birthday": "11", 
     "name": "\ubc31\ub0a8\uc5b5", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\ubc31\ub0a8\uc5b5", 
     "name_cn": "\u767d\u5357\u6a8d", 
@@ -5582,7 +5582,7 @@
   {
     "birthday": "25", 
     "name": "\uc774\uae30\ud55c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc774\uae30\ud55c", 
     "name_cn": "\uf9e1\u7482\u6f22", 
@@ -5597,7 +5597,7 @@
   {
     "birthday": "14", 
     "name": "\uc784\uc7ac\uc601", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc784\uc7ac\uc601", 
     "name_cn": "\uf9f4\u5728\uc601", 
@@ -5612,7 +5612,7 @@
   {
     "birthday": "24", 
     "name": "\uae40\uc724\ud558", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc724\ud558", 
     "name_cn": "\u91d1\u6f64\u6cb3", 
@@ -5627,7 +5627,7 @@
   {
     "birthday": "09", 
     "name": "\ubc15\uc815\uc218", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\ubc15\uc815\uc218", 
     "name_cn": "\u6734\u5b9a\u6d19", 
@@ -5642,7 +5642,7 @@
   {
     "birthday": "01", 
     "name": "\uc774\uc7ac\uc625", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc774\uc7ac\uc625", 
     "name_cn": "\uf9e1\u5728\u7389", 
@@ -5657,7 +5657,7 @@
   {
     "birthday": "30", 
     "name": "\uc815\ud718\ub3d9", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc815\ud718\ub3d9", 
     "name_cn": "\u912d\u8f1d\u6771", 
@@ -5672,7 +5672,7 @@
   {
     "birthday": "21", 
     "name": "\uae40\uc0c1\ub144", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc0c1\ub144", 
     "name_cn": "\u91d1\u60f3\u5e74", 
@@ -5687,7 +5687,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\ud574\ucda9", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ubc15\ud574\ucda9", 
     "name_cn": "\u6734\u89e3\u5145", 
@@ -5702,7 +5702,7 @@
   {
     "birthday": "28", 
     "name": "\uad8c\ud0dc\uc778", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uad8c\ud0dc\uc778", 
     "name_cn": "\u6b0a\u6cf0\u4ec1", 
@@ -5717,7 +5717,7 @@
   {
     "birthday": "23", 
     "name": "\uad8c\uc624\ud6c8", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uad8c\uc624\ud6c8", 
     "name_cn": "\u6b0a\u4e94\u52f3", 
@@ -5732,7 +5732,7 @@
   {
     "birthday": "14", 
     "name": "\uc2e0\uc601\ubaa9", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uc2e0\uc601\ubaa9", 
     "name_cn": "\u7533\u69ae\u7766", 
@@ -5747,7 +5747,7 @@
   {
     "birthday": "18", 
     "name": "\uc624\uc0c1\uc9c1", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc624\uc0c1\uc9c1", 
     "name_cn": "\u5433\u76f8\u7a19", 
@@ -5762,7 +5762,7 @@
   {
     "birthday": "29", 
     "name": "\uc2e0\ud604\ud655", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc2e0\ud604\ud655", 
     "name_cn": "\u7533\u9249\u78bb", 
@@ -5777,7 +5777,7 @@
   {
     "birthday": "27", 
     "name": "\uae40\ucc3d\ud658", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\ucc3d\ud658", 
     "name_cn": "\u91d1\u660c\u7165", 
@@ -5792,7 +5792,7 @@
   {
     "birthday": "13", 
     "name": "\uae40\ud0dc\uc2dd", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uae40\ud0dc\uc2dd", 
     "name_cn": "\u91d1\u6cf0\u690d", 
@@ -5807,7 +5807,7 @@
   {
     "birthday": "19", 
     "name": "\uae40\ud604\uaddc", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\ud604\uaddc", 
     "name_cn": "\u91d1\u9249\u572d", 
@@ -5822,7 +5822,7 @@
   {
     "birthday": "20", 
     "name": "\uc720\uc131\ud658", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc720\uc131\ud658", 
     "name_cn": "\u516a\u6210\u7165", 
@@ -5837,7 +5837,7 @@
   {
     "birthday": "02", 
     "name": "\uc7a5\ub355\ud658", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uc7a5\ub355\ud658", 
     "name_cn": "\u5f35\u60b3\u7165", 
@@ -5852,7 +5852,7 @@
   {
     "birthday": "09", 
     "name": "\uc870\uc775\ud658", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc870\uc775\ud658", 
     "name_cn": "\u66fa\u7fca\u7165", 
@@ -5867,7 +5867,7 @@
   {
     "birthday": "12", 
     "name": "\ubc15\uc900\uaddc", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ubc15\uc900\uaddc", 
     "name_cn": "\u6734\u6d5a\u572d", 
@@ -5882,7 +5882,7 @@
   {
     "birthday": "18", 
     "name": "\uae40\uc885\uae30", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc885\uae30", 
     "name_cn": "\u91d1\u937e\u57fa", 
@@ -5897,7 +5897,7 @@
   {
     "birthday": "15", 
     "name": "\ub098\ud559\uc9c4", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ub098\ud559\uc9c4", 
     "name_cn": "\uf90f\u5b78\u93ad", 
@@ -5912,7 +5912,7 @@
   {
     "birthday": "03", 
     "name": "\ubc15\uc8fc\ud604", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\ubc15\uc8fc\ud604", 
     "name_cn": "\u6734\u67f1\u70ab", 
@@ -5927,7 +5927,7 @@
   {
     "birthday": "15", 
     "name": "\uc774\uc7ac\uc5f0", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc774\uc7ac\uc5f0", 
     "name_cn": "\uf9e1\u5728\u6df5", 
@@ -5942,7 +5942,7 @@
   {
     "birthday": "14", 
     "name": "\ubb38\ud0dc\uc900", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubb38\ud0dc\uc900", 
     "name_cn": "\u6587\u592a\u4fca", 
@@ -5957,7 +5957,7 @@
   {
     "birthday": "16", 
     "name": "\ud669\ubcd1\uc6b0", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ud669\ubcd1\uc6b0", 
     "name_cn": "\u9ec3\u661e\u79b9", 
@@ -5972,7 +5972,7 @@
   {
     "birthday": "20", 
     "name": "\uc190\ubcd1\uc6b0", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc190\ubcd1\uc6b0", 
     "name_cn": "\u5b6b\u70b3\u5b87", 
@@ -5987,7 +5987,7 @@
   {
     "birthday": "02", 
     "name": "\uc774\ub3d9\ud654", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\ub3d9\ud654", 
     "name_cn": "\uf9e1\u6771\u548c", 
@@ -6002,7 +6002,7 @@
   {
     "birthday": "01", 
     "name": "\uc7a5\uc18c\ud0dd", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc7a5\uc18c\ud0dd", 
     "name_cn": "\u5f35\u8607\ufa04", 
@@ -6017,7 +6017,7 @@
   {
     "birthday": "19", 
     "name": "\uc8fc\uc0c1\uc0bc", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc8fc\uc0c1\uc0bc", 
     "name_cn": "\u6731\u76f8\u4e09", 
@@ -6032,7 +6032,7 @@
   {
     "birthday": "11", 
     "name": "\ucd5c\uc21c\uc5f4", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ucd5c\uc21c\uc5f4", 
     "name_cn": "\u5d14\u6df3\uf99f", 
@@ -6047,7 +6047,7 @@
   {
     "birthday": "22", 
     "name": "\uae40\ucc3d\uadfc", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uae40\ucc3d\uadfc", 
     "name_cn": "\u91d1\u660c\u6839", 
@@ -6062,7 +6062,7 @@
   {
     "birthday": "15", 
     "name": "\ubc15\uc6a9\ub9cc", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ubc15\uc6a9\ub9cc", 
     "name_cn": "\u6734\u5bb9\u842c", 
@@ -6077,7 +6077,7 @@
   {
     "birthday": "15", 
     "name": "\uc6b0\uc131\uad6c", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uc6b0\uc131\uad6c", 
     "name_cn": "\u79b9\u6210\u4e5d", 
@@ -6092,7 +6092,7 @@
   {
     "birthday": "15", 
     "name": "\uc548\uc6a9\ud658", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc548\uc6a9\ud658", 
     "name_cn": "\u5b89\uf9c4\u7165", 
@@ -6107,7 +6107,7 @@
   {
     "birthday": "15", 
     "name": "\uc815\ud0dc\uc911", 
-    "district": "\uc81c10\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc815\ud0dc\uc911", 
     "name_cn": "\u912d\u6cf0\u91cd", 
@@ -6122,7 +6122,7 @@
   {
     "birthday": "07", 
     "name": "\uad6c\ubc94\ubaa8", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uad6c\ubc94\ubaa8", 
     "name_cn": "\u5177\u7bc4\u8b28", 
@@ -6137,7 +6137,7 @@
   {
     "birthday": "16", 
     "name": "\ucc44\ubb38\uc2dd", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ucc44\ubb38\uc2dd", 
     "name_cn": "\u8521\u6c76\u690d", 
@@ -6152,7 +6152,7 @@
   {
     "birthday": "05", 
     "name": "\ubc18\ud615\uc2dd", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubc18\ud615\uc2dd", 
     "name_cn": "\u6f58\u4ea8\u690d", 
@@ -6167,7 +6167,7 @@
   {
     "birthday": "20", 
     "name": "\ud604\uc11d\uc8fc", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\ud604\uc11d\uc8fc", 
     "name_cn": "\u7384\u932b\u6731", 
@@ -6182,7 +6182,7 @@
   {
     "birthday": "15", 
     "name": "\ud669\ubcd1\ud638", 
-    "district": "\uc81c11\uc120\uac70\uad6c", 
+    "district": "\uacbd\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ud669\ubcd1\ud638", 
     "name_cn": "\u9ec3\u4e19\u93ac", 
@@ -6197,7 +6197,7 @@
   {
     "birthday": "28", 
     "name": "\ubc15\uc885\uaddc", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ubc15\uc885\uaddc", 
     "name_cn": "\u6734\u9418\u572d", 
@@ -6212,7 +6212,7 @@
   {
     "birthday": "22", 
     "name": "\ud669\ub099\uc8fc", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ud669\ub099\uc8fc", 
     "name_cn": "\u9ec3\uf917\u5468", 
@@ -6227,7 +6227,7 @@
   {
     "birthday": "28", 
     "name": "\uae40\uc131\uc11d", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\uc131\uc11d", 
     "name_cn": "\u91d1\u8056\u932b", 
@@ -6242,7 +6242,7 @@
   {
     "birthday": "28", 
     "name": "\uc870\uc815\uc81c", 
-    "district": "\uc81c1\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc870\uc815\uc81c", 
     "name_cn": "\u8d99\u6b63\u6fdf", 
@@ -6257,7 +6257,7 @@
   {
     "birthday": "24", 
     "name": "\uad6c\ud0dc\ud68c", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\uad6c\ud0dc\ud68c", 
     "name_cn": "\u5177\u6cf0\u6703", 
@@ -6272,7 +6272,7 @@
   {
     "birthday": "23", 
     "name": "\uc815\ud5cc\uc8fc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc815\ud5cc\uc8fc", 
     "name_cn": "\u912d\u61b2\u67f1", 
@@ -6287,7 +6287,7 @@
   {
     "birthday": "10", 
     "name": "\ubc15\uc601\uc2dd", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "06", 
     "name_kr": "\ubc15\uc601\uc2dd", 
     "name_cn": "\u6734\u69ae\u690d", 
@@ -6302,7 +6302,7 @@
   {
     "birthday": "30", 
     "name": "\uc548\ubcd1\uaddc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc548\ubcd1\uaddc", 
     "name_cn": "\u5b89\u79c9\u73ea", 
@@ -6317,7 +6317,7 @@
   {
     "birthday": "30", 
     "name": "\uc774\uc0c1\uce58", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uc0c1\uce58", 
     "name_cn": "\uf9e1\u5c19\u81f4", 
@@ -6332,7 +6332,7 @@
   {
     "birthday": "06", 
     "name": "\uc774\uc704\ud0dc", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc774\uc704\ud0dc", 
     "name_cn": "\uf9e1\u6e2d\u53f0", 
@@ -6347,7 +6347,7 @@
   {
     "birthday": "07", 
     "name": "\uc774\ud765\uc218", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc774\ud765\uc218", 
     "name_cn": "\uf9e1\u8208\u58fd", 
@@ -6362,7 +6362,7 @@
   {
     "birthday": "24", 
     "name": "\ucd5c\uc778\uc218", 
-    "district": "\uc81c2\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ucd5c\uc778\uc218", 
     "name_cn": "\u5d14\u5bc5\u6a39", 
@@ -6377,7 +6377,7 @@
   {
     "birthday": "13", 
     "name": "\ucd5c\uc7ac\uad6c", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\ucd5c\uc7ac\uad6c", 
     "name_cn": "\u5d14\u8f09\u4e5d", 
@@ -6392,7 +6392,7 @@
   {
     "birthday": "04", 
     "name": "\uae40\ub3d9\uc6b1", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\ub3d9\uc6b1", 
     "name_cn": "\u91d1\u6771\u65ed", 
@@ -6407,7 +6407,7 @@
   {
     "birthday": "10", 
     "name": "\uacf5\ud558\uc885", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uacf5\ud558\uc885", 
     "name_cn": "\u5b54\u6cb3\u68d5", 
@@ -6422,7 +6422,7 @@
   {
     "birthday": "15", 
     "name": "\uae40\ubd09\uc870", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uae40\ubd09\uc870", 
     "name_cn": "\u91d1\u5949\u795a", 
@@ -6437,7 +6437,7 @@
   {
     "birthday": "27", 
     "name": "\uae40\uc601\ucca0", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\uc601\ucca0", 
     "name_cn": "\u91d1\u6c38\u9435", 
@@ -6452,7 +6452,7 @@
   {
     "birthday": "16", 
     "name": "\uc724\ubcd1\uacc4", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc724\ubcd1\uacc4", 
     "name_cn": "\u5c39\u70b3\u6842", 
@@ -6467,7 +6467,7 @@
   {
     "birthday": "03", 
     "name": "\uc774\uac11\uc601", 
-    "district": "\uc81c3\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc774\uac11\uc601", 
     "name_cn": "\uf9e1\u7532\u82f1", 
@@ -6482,7 +6482,7 @@
   {
     "birthday": "23", 
     "name": "\uc11c\uc601\uc218", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc11c\uc601\uc218", 
     "name_cn": "\u5f90\u82f1\u6d19", 
@@ -6497,7 +6497,7 @@
   {
     "birthday": "15", 
     "name": "\ucd5c\ud615\uc6b0", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ucd5c\ud615\uc6b0", 
     "name_cn": "\u5d14\u70af\u4f51", 
@@ -6512,7 +6512,7 @@
   {
     "birthday": "14", 
     "name": "\uae40\uc7ac\ud604", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uae40\uc7ac\ud604", 
     "name_cn": "\u91d1\u5728\u986f", 
@@ -6527,7 +6527,7 @@
   {
     "birthday": "27", 
     "name": "\uc774\uaddc\uc815", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc774\uaddc\uc815", 
     "name_cn": "\uf9e1\u572d\u6b63", 
@@ -6542,7 +6542,7 @@
   {
     "birthday": "23", 
     "name": "\uc774\ud6c4\ub77d", 
-    "district": "\uc81c4\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc774\ud6c4\ub77d", 
     "name_cn": "\uf9e1\u539a\u6d1b", 
@@ -6557,7 +6557,7 @@
   {
     "birthday": "16", 
     "name": "\uae40\uc0c1\uc11d", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\uc0c1\uc11d", 
     "name_cn": "\u91d1\u76f8\u78a9", 
@@ -6572,7 +6572,7 @@
   {
     "birthday": "05", 
     "name": "\uc774\uc0c1\uc2e0", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uc774\uc0c1\uc2e0", 
     "name_cn": "\uf9e1\u5c19\u4fe1", 
@@ -6587,7 +6587,7 @@
   {
     "birthday": "18", 
     "name": "\uc774\uc911\uad6c", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc774\uc911\uad6c", 
     "name_cn": "\uf9e1\u91cd\u7403", 
@@ -6602,7 +6602,7 @@
   {
     "birthday": "15", 
     "name": "\uad8c\ud574\uc625", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uad8c\ud574\uc625", 
     "name_cn": "\u6b0a\u6d77\u7389", 
@@ -6617,7 +6617,7 @@
   {
     "birthday": "13", 
     "name": "\uae40\uc7ac\ud604", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uae40\uc7ac\ud604", 
     "name_cn": "\u91d1\u5728\u70ab", 
@@ -6632,7 +6632,7 @@
   {
     "birthday": "17", 
     "name": "\uae40\ucc3d\uc6b1", 
-    "district": "\uc81c5\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\uae40\ucc3d\uc6b1", 
     "name_cn": "\u91d1\u660c\u90c1", 
@@ -6647,7 +6647,7 @@
   {
     "birthday": "07", 
     "name": "\ud558\ub300\ub3c8", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ud558\ub300\ub3c8", 
     "name_cn": "\u6cb3\u5927\u6566", 
@@ -6661,11 +6661,11 @@
   }, 
   {
     "birthday": "14", 
-    "name": "\ubc15", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "name": "\ubc15\uc77c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "03", 
-    "name_kr": "\ubc15", 
-    "name_cn": "", 
+    "name_kr": "\ubc15\uc77c", 
+    "name_cn": "\u6734\u4e00", 
     "experience": "\uc81c8,9\ub300 \uad6d\ud68c\uc758\uc6d0\uc2e0\ubbfc\ub2f9\uc815\ucc45\uc2ec\uc758\ud68c\uc758\uc7a5", 
     "sex": "\ub0a8", 
     "birthyear": "1927", 
@@ -6677,7 +6677,7 @@
   {
     "birthday": "03", 
     "name": "\uacf5\uc815\uc2dd", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uacf5\uc815\uc2dd", 
     "name_cn": "\u5b54\u6b63\u690d", 
@@ -6692,7 +6692,7 @@
   {
     "birthday": "04", 
     "name": "\uae40\uc815\uc218", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\uae40\uc815\uc218", 
     "name_cn": "\u91d1\u6b63\u58fd", 
@@ -6707,7 +6707,7 @@
   {
     "birthday": "28", 
     "name": "\uc2e0\uc7ac\uae30", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc2e0\uc7ac\uae30", 
     "name_cn": "\u8f9b\u5728\u57fa", 
@@ -6722,7 +6722,7 @@
   {
     "birthday": "01", 
     "name": "\uc2e0\ud654\uc2dd", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "04", 
     "name_kr": "\uc2e0\ud654\uc2dd", 
     "name_cn": "\u8f9b\u548c\u690d", 
@@ -6737,7 +6737,7 @@
   {
     "birthday": "20", 
     "name": "\uc870\uc6a9\ud559", 
-    "district": "\uc81c6\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc870\uc6a9\ud559", 
     "name_cn": "\u8d99\u93de\u9db4", 
@@ -6752,7 +6752,7 @@
   {
     "birthday": "10", 
     "name": "\uae40\ud0dd\uc218", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uae40\ud0dd\uc218", 
     "name_cn": "\u91d1\u6fa4\u58fd", 
@@ -6767,7 +6767,7 @@
   {
     "birthday": "10", 
     "name": "\uc2e0\uc0c1\uc6b0", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc2e0\uc0c1\uc6b0", 
     "name_cn": "\u8f9b\u76f8\u4f51", 
@@ -6782,7 +6782,7 @@
   {
     "birthday": "22", 
     "name": "\uae40\ucc3d\ubb34", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uae40\ucc3d\ubb34", 
     "name_cn": "\u91d1\u660c\u6b66", 
@@ -6797,7 +6797,7 @@
   {
     "birthday": "20", 
     "name": "\uae40\ub3d9\uc8fc", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uae40\ub3d9\uc8fc", 
     "name_cn": "\u91d1\u6771\u5468", 
@@ -6812,7 +6812,7 @@
   {
     "birthday": "21", 
     "name": "\ubbfc\ubcd1\uc9c4", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\ubbfc\ubcd1\uc9c4", 
     "name_cn": "\u9594\u4e19\u632f", 
@@ -6827,7 +6827,7 @@
   {
     "birthday": "29", 
     "name": "\uc724\ubcf5\uc601", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\uc724\ubcf5\uc601", 
     "name_cn": "\u5c39\u798f\u69ae", 
@@ -6842,7 +6842,7 @@
   {
     "birthday": "20", 
     "name": "\uc774\uae08\uc870", 
-    "district": "\uc81c7\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc774\uae08\uc870", 
     "name_cn": "\uf9e1\uf90a\u9020", 
@@ -6857,7 +6857,7 @@
   {
     "birthday": "28", 
     "name": "\uc2e0\ub3d9\uad00", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\uc2e0\ub3d9\uad00", 
     "name_cn": "\u7533\u6771\u5bec", 
@@ -6872,7 +6872,7 @@
   {
     "birthday": "04", 
     "name": "\ubb38\ubd80\uc2dd", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "01", 
     "name_kr": "\ubb38\ubd80\uc2dd", 
     "name_cn": "\u6587\u5bcc\u690d", 
@@ -6887,7 +6887,7 @@
   {
     "birthday": "19", 
     "name": "\uac15\uc0c1\uc218", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uac15\uc0c1\uc218", 
     "name_cn": "\u59dc\u76f8\u79c0", 
@@ -6902,7 +6902,7 @@
   {
     "birthday": "03", 
     "name": "\uc774\uc218\uc885", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "08", 
     "name_kr": "\uc774\uc218\uc885", 
     "name_cn": "\uf9e1\u6d19\u937e", 
@@ -6917,7 +6917,7 @@
   {
     "birthday": "01", 
     "name": "\ucd5c\uc885\ud0dc", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ucd5c\uc885\ud0dc", 
     "name_cn": "\u5d14\u937e\u6cf0", 
@@ -6932,7 +6932,7 @@
   {
     "birthday": "22", 
     "name": "\ucd5c\uce58\ud658", 
-    "district": "\uc81c8\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\ucd5c\uce58\ud658", 
     "name_cn": "\u5d14\u81f4\u7165", 
@@ -6947,7 +6947,7 @@
   {
     "birthday": "02", 
     "name": "\ub178\uc778\ud658", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ub178\uc778\ud658", 
     "name_cn": "\uf933\u4ec1\u7165", 
@@ -6962,7 +6962,7 @@
   {
     "birthday": "23", 
     "name": "\uae40\ub3d9\uc601", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uae40\ub3d9\uc601", 
     "name_cn": "\u91d1\u6771\u82f1", 
@@ -6977,7 +6977,7 @@
   {
     "birthday": "22", 
     "name": "\uc815\uc601\ubaa8", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "12", 
     "name_kr": "\uc815\uc601\ubaa8", 
     "name_cn": "\u912d\u6c38\u6a21", 
@@ -6992,7 +6992,7 @@
   {
     "birthday": "07", 
     "name": "\uc784\ucc44\ud64d", 
-    "district": "\uc81c9\uc120\uac70\uad6c", 
+    "district": "\uacbd\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "birthmonth": "10", 
     "name_kr": "\uc784\ucc44\ud64d", 
     "name_cn": "\uf9f4\u91c7\u6d2a", 
@@ -7007,7 +7007,7 @@
   {
     "birthday": "26", 
     "name": "\ud604\uc624\ubd09", 
-    "district": "\uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
+    "district": "\uc81c\uc8fc \uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
     "birthmonth": "03", 
     "name_kr": "\ud604\uc624\ubd09", 
     "name_cn": "\u7384\u68a7\u9cf3", 
@@ -7022,7 +7022,7 @@
   {
     "birthday": "21", 
     "name": "\uc624\uc815\ubcf4", 
-    "district": "\uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
+    "district": "\uc81c\uc8fc \uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
     "birthmonth": "07", 
     "name_kr": "\uc624\uc815\ubcf4", 
     "name_cn": "\u5433\u5ef7\u4fdd", 
@@ -7037,7 +7037,7 @@
   {
     "birthday": "21", 
     "name": "\uace0\ud55c\uc900", 
-    "district": "\uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
+    "district": "\uc81c\uc8fc \uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
     "birthmonth": "11", 
     "name_kr": "\uace0\ud55c\uc900", 
     "name_cn": "\u9ad8\u6f22\u4fca", 
@@ -7052,7 +7052,7 @@
   {
     "birthday": "14", 
     "name": "\ubcc0\uc815\uc77c", 
-    "district": "\uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
+    "district": "\uc81c\uc8fc \uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
     "birthmonth": "05", 
     "name_kr": "\ubcc0\uc815\uc77c", 
     "name_cn": "\u908a\u7cbe\u4e00", 
@@ -7067,7 +7067,7 @@
   {
     "birthday": "01", 
     "name": "\ubd80\uccad\ud558", 
-    "district": "\uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
+    "district": "\uc81c\uc8fc \uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
     "birthmonth": "09", 
     "name_kr": "\ubd80\uccad\ud558", 
     "name_cn": "\u592b\u6df8\u6cb3", 
@@ -7082,7 +7082,7 @@
   {
     "birthday": "05", 
     "name": "\uc591\uc815\uaddc", 
-    "district": "\uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
+    "district": "\uc81c\uc8fc \uc81c\uc8fc\ub3c4\uc120\uac70\uad6c", 
     "birthmonth": "02", 
     "name_kr": "\uc591\uc815\uaddc", 
     "name_cn": "\uf97a\u6b63\u572d", 
