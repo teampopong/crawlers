@@ -4,6 +4,8 @@
 import json
 
 from crawlers import *
+import gevent
+from gevent import monkey
 from utils import InvalidTargetError
 from types import UnicodeType
 
@@ -51,17 +53,19 @@ def crawl(target, printer, filename):
     else:
         raise InvalidTargetError(target)
 
-    print 'crawling %d대...' % (target,)
     cand_list = crawler.crawl()
-
     printer(filename, cand_list)
 
 def main():
     printer = print_json if Settings['FILETYPE'] == 'json' else print_csv
 
+    jobs = []
     for n in xrange(Settings['START'], Settings['END']+1):
         filename = 'cand-%d.%s' % (n, Settings['FILETYPE'])
-        crawl(target=n, filename=filename, printer=printer)
+        job = gevent.spawn(crawl, target=n, filename=filename, printer=printer)
+        jobs.append(job)
+    gevent.joinall(jobs)
 
 if __name__ == '__main__':
+    monkey.patch_all()
     main()

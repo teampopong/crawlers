@@ -2,6 +2,8 @@
 # -*- encoding=utf-8 -*-
 
 import html5lib
+import gevent
+from gevent import monkey
 import lxml
 import urllib2
 
@@ -34,10 +36,16 @@ def get_xpath(url, xpath):
 def get_member_names(url):
     return get_xpath(url, Settings['XPATH_MEMBER_NAMES'])
 
+def crawl_nth(num):
+    pagename = get_pagename(num)
+    url = get_wiki_url(pagename)
+    print ' '.join(get_member_names(url))
+
+def main():
+    monkey.patch_all()
+    jobs = [gevent.spawn(crawl_nth, num)\
+            for num in xrange(Settings['START'], Settings['END'] + 1)]
+    gevent.joinall(jobs)
+
 if __name__ == '__main__':
-    for num in xrange(Settings['START'], Settings['END'] + 1):
-        print '%d대' % num
-        pagename = get_pagename(num)
-        url = get_wiki_url(pagename)
-        print ' '.join(get_member_names(url))
-        print
+    main()

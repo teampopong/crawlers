@@ -1,10 +1,15 @@
 #!/usr/bin/python2.7
 # -*- encoding=utf-8 -*-
 
+import gevent
+from gevent import monkey
+import itertools
 from urlparse import urljoin
 import re
 
 from utils import get_json, get_xpath, stringify
+
+monkey.patch_all()
 
 class BaseCrawler(object):
     url_image_base = 'http://info.nec.go.kr'
@@ -21,14 +26,13 @@ class BaseCrawler(object):
         return concatenated
 
     def parse_cand_page(self, url, city_name=None):
-        if city_name: self.city_name = city_name
-
         elems = get_xpath(url, '//td')
         num_attrs = len(self.attrs)
         members = (dict(zip(self.attrs, elems[i*num_attrs:(i+1)*num_attrs]))\
                     for i in xrange(len(elems) / num_attrs))
 
-        members = [self.parse_member(member) for member in members]
+        members = [self.parse_member(member, city_name=city_name) for member in members]
+        print 'crawled #%d - %s(%d)...' % (self.target, city_name or '비례대표', len(members))
         return members
 
     def stringify_member_attrs(self, member):
@@ -36,7 +40,7 @@ class BaseCrawler(object):
             if attr not in self.attrs_exclude_stringify:
                 member[attr] = stringify(member[attr]).strip()
 
-    def parse_member(self, member):
+    def parse_member(self, member, city_name=None):
         self.stringify_member_attrs(member)
 
         # never change the order
@@ -44,7 +48,7 @@ class BaseCrawler(object):
         self.parse_member_name(member)
         self.parse_member_birth(member)
         self.parse_member_experience(member)
-        self.parse_member_district(member)
+        self.parse_member_district(member, city_name)
 
         return member
 
@@ -73,9 +77,9 @@ class BaseCrawler(object):
 
         pass # TODO: 이거 구현하면 parse_member도 고쳐야 함
 
-    def parse_member_district(self, member):
-        if hasattr(self, 'city_name') and self.city_name != member['district']:
-            member['district'] = '%s %s' % (self.city_name, member['district'])
+    def parse_member_district(self, member, city_name):
+        if city_name:
+            member['district'] = '%s %s' % (city_name, member['district'])
 
 class MultiCityCrawler(BaseCrawler):
 
@@ -87,17 +91,19 @@ class MultiCityCrawler(BaseCrawler):
         return self.url_cand_list_base + str(city_code)
 
     def crawl(self):
-        cand_list = []
+        # 지역구 대표
+        jobs = []
         for city_code, city_name in self.city_codes():
             req_url = self.url_cand_list(city_code)
-            dist_cand_list = self.parse_cand_page(req_url, city_name)
-            cand_list.extend(dist_cand_list)
-            print 'crawled %s(%d)...' % (city_name, len(dist_cand_list))
+            job = gevent.spawn(self.parse_cand_page, req_url, city_name)
+            jobs.append(job)
+        gevent.joinall(jobs)
+        cand_list = list(itertools.chain.from_iterable((job.get() for job in jobs)))
 
+        # 비례대표
         if hasattr(self, 'prop_crawler'):
             prop_cand_list = self.prop_crawler.crawl()
             cand_list.extend(prop_cand_list)
-            print 'crawled 비례대표(%d)...' % (len(prop_cand_list),)
 
         return cand_list
 
@@ -152,6 +158,8 @@ class CrawlerUntil6(CrawlerUntil16):
         del member['birth']
 
 class Crawler17(MultiCityCrawler):
+    target = 17
+
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson_GuOld.json?electionId=0000000000'\
             '&electionCode=20040415'
@@ -170,6 +178,8 @@ class Crawler17(MultiCityCrawler):
         self.prop_crawler = Crawler17Proportional()
 
 class Crawler18(MultiCityCrawler):
+    target = 18
+
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson_Old.json?electionId=0000000000'\
             '&subElectionCode=2&electionCode=20080409'
@@ -188,6 +198,8 @@ class Crawler18(MultiCityCrawler):
         self.prop_crawler = Crawler18Proportional()
 
 class Crawler19(MultiCityCrawler):
+    target = 19
+
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson.json?electionId=0020120411&electionCode=2'
     url_cand_list_base = 'http://info.nec.go.kr/electioninfo/'\
@@ -201,8 +213,8 @@ class Crawler19(MultiCityCrawler):
     def __init__(self):
         self.prop_crawler = Crawler19Proportional()
 
-    def parse_member(self, member):
-        member = super(Crawler19, self).parse_member(member)
+    def parse_member(self, member, city_name=None):
+        member = super(Crawler19, self).parse_member(member, city_name)
 
         self.parse_member_pledge(member)
 
@@ -212,6 +224,8 @@ class Crawler19(MultiCityCrawler):
         pass # TODO: implement
 
 class Crawler17Proportional(SinglePageCrawler):
+    target = 17
+
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
             '&requestURI=%2Felectioninfo%2F0000000000%2Fcp%2Fcpri03.jsp'\
@@ -223,13 +237,15 @@ class Crawler17Proportional(SinglePageCrawler):
     attrs = ['cand_no', 'party', 'name', 'sex', 'birth', 'job', 'education',
              'experience']
 
-    def parse_member(self, member):
-        member = super(Crawler17Proportional, self).parse_member(member)
+    def parse_member(self, member, city_name=None):
+        member = super(Crawler17Proportional, self).parse_member(member, city_name)
         member['district'] = '비례대표'
 
         return member
 
 class Crawler18Proportional(SinglePageCrawler):
+    target = 18
+
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
             '&requestURI=%2Felectioninfo%2F0000000000%2Fcp%2Fcpri03.jsp'\
@@ -240,13 +256,15 @@ class Crawler18Proportional(SinglePageCrawler):
     attrs = ['cand_no', 'party', 'name', 'sex', 'birth', 'job', 'education',
              'experience']
 
-    def parse_member(self, member):
-        member = super(Crawler18Proportional, self).parse_member(member)
+    def parse_member(self, member, city_name=None):
+        member = super(Crawler18Proportional, self).parse_member(member, city_name)
         member['district'] = '비례대표'
 
         return member
 
 class Crawler19Proportional(SinglePageCrawler):
+    target = 19
+
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0020120411'\
             '&requestURI=%2Felectioninfo%2F0020120411%2Fcp%2Fcpri03.jsp'\
@@ -255,8 +273,8 @@ class Crawler19Proportional(SinglePageCrawler):
     attrs = ['district', 'image', 'party', 'cand_no', 'name', 'sex',
             'birth', 'address', 'job', 'education', 'experience']
 
-    def parse_member(self, member):
-        member = super(Crawler19Proportional, self).parse_member(member)
+    def parse_member(self, member, city_name=None):
+        member = super(Crawler19Proportional, self).parse_member(member, city_name)
 
         self.parse_member_party(member)
 
