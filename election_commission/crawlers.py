@@ -143,6 +143,14 @@ class CrawlerUntil16(MultiCityCrawler):
     def __init__(self, target):
         self.target = target
 
+class CrawlerUntil6(CrawlerUntil16):
+
+    def parse_member_birth(self, member):
+        if 'birth' not in member: return
+
+        member['birthyear'] = self.split(member['birth'])[0]
+        del member['birth']
+
 class Crawler17(MultiCityCrawler):
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson_GuOld.json?electionId=0000000000'\

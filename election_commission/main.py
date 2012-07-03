@@ -38,7 +38,9 @@ def print_csv(filename, data):
 
 def crawl(target, printer, filename):
     crawler = None
-    if 1 <= target <= 16:
+    if 1 <= target <= 6:
+        crawler = CrawlerUntil6(target)
+    elif target <= 16:
         crawler = CrawlerUntil16(target)
     elif target == 17:
         crawler = Crawler17()
