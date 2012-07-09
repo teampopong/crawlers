@@ -113,7 +113,7 @@ class SinglePageCrawler(BaseCrawler):
         cand_list = self.parse_cand_page(self.url_cand_list)
         return cand_list
 
-class CrawlerUntil16(MultiCityCrawler):
+class CandCrawlerUntil16(MultiCityCrawler):
     _election_names = [None, '19480510', '19500530', '19540520', '19580502',
             '19600729', '19631126', '19670608', '19710525', '19730227',
             '19781212', '19810325', '19850212', '19880426', '19920324',
@@ -149,7 +149,7 @@ class CrawlerUntil16(MultiCityCrawler):
     def __init__(self, target):
         self.target = target
 
-class CrawlerUntil6(CrawlerUntil16):
+class CandCrawlerUntil6(CandCrawlerUntil16):
 
     def parse_member_birth(self, member):
         if 'birth' not in member: return
@@ -157,7 +157,7 @@ class CrawlerUntil6(CrawlerUntil16):
         member['birthyear'] = self.split(member['birth'])[0]
         del member['birth']
 
-class Crawler17(MultiCityCrawler):
+class CandCrawler17(MultiCityCrawler):
     target = 17
 
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
@@ -175,9 +175,9 @@ class Crawler17(MultiCityCrawler):
              'job', 'education', 'experience']
 
     def __init__(self):
-        self.prop_crawler = Crawler17Proportional()
+        self.prop_crawler = CandCrawler17Proportional()
 
-class Crawler18(MultiCityCrawler):
+class CandCrawler18(MultiCityCrawler):
     target = 18
 
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
@@ -195,9 +195,9 @@ class Crawler18(MultiCityCrawler):
              'job', 'education', 'experience']
 
     def __init__(self):
-        self.prop_crawler = Crawler18Proportional()
+        self.prop_crawler = CandCrawler18Proportional()
 
-class Crawler19(MultiCityCrawler):
+class CandCrawler19(MultiCityCrawler):
     target = 19
 
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
@@ -211,10 +211,10 @@ class Crawler19(MultiCityCrawler):
              'birth', 'address', 'job', 'education', 'experience']
 
     def __init__(self):
-        self.prop_crawler = Crawler19Proportional()
+        self.prop_crawler = CandCrawler19Proportional()
 
     def parse_member(self, member, city_name=None):
-        member = super(Crawler19, self).parse_member(member, city_name)
+        member = super(CandCrawler19, self).parse_member(member, city_name)
 
         self.parse_member_pledge(member)
 
@@ -223,7 +223,7 @@ class Crawler19(MultiCityCrawler):
     def parse_member_pledge(self, member):
         pass # TODO: implement
 
-class Crawler17Proportional(SinglePageCrawler):
+class CandCrawler17Proportional(SinglePageCrawler):
     target = 17
 
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
@@ -238,12 +238,12 @@ class Crawler17Proportional(SinglePageCrawler):
              'experience']
 
     def parse_member(self, member, city_name=None):
-        member = super(Crawler17Proportional, self).parse_member(member, city_name)
+        member = super(CandCrawler17Proportional, self).parse_member(member, city_name)
         member['district'] = '비례대표'
 
         return member
 
-class Crawler18Proportional(SinglePageCrawler):
+class CandCrawler18Proportional(SinglePageCrawler):
     target = 18
 
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
@@ -257,12 +257,12 @@ class Crawler18Proportional(SinglePageCrawler):
              'experience']
 
     def parse_member(self, member, city_name=None):
-        member = super(Crawler18Proportional, self).parse_member(member, city_name)
+        member = super(CandCrawler18Proportional, self).parse_member(member, city_name)
         member['district'] = '비례대표'
 
         return member
 
-class Crawler19Proportional(SinglePageCrawler):
+class CandCrawler19Proportional(SinglePageCrawler):
     target = 19
 
     url_cand_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
@@ -274,7 +274,7 @@ class Crawler19Proportional(SinglePageCrawler):
             'birth', 'address', 'job', 'education', 'experience']
 
     def parse_member(self, member, city_name=None):
-        member = super(Crawler19Proportional, self).parse_member(member, city_name)
+        member = super(CandCrawler19Proportional, self).parse_member(member, city_name)
 
         self.parse_member_party(member)
 
