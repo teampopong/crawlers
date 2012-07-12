@@ -1,19 +1,13 @@
 #!/usr/bin/python2.7
 # -*- encoding=utf-8 -*-
 
-import json
-
-from crawlers import *
+from argparse import ArgumentParser
 import gevent
 from gevent import monkey
-from utils import InvalidTargetError
+import json
 from types import UnicodeType
 
-Settings = {
-    'START': 1,
-    'END': 19,
-    'FILETYPE': 'csv'
-}
+from crawlers import Crawler
 
 def print_json(filename, data):
     with open(filename, 'w') as f:
@@ -22,50 +16,53 @@ def print_json(filename, data):
 def print_csv(filename, data):
 
     def transform(txt):
+        if isinstance(txt, list):
+            txt = '||'.join(txt)
         txt = txt.replace(',', '|')
         if isinstance(txt, UnicodeType):
             txt = txt.encode('utf8')
         return txt
 
-    attrs = ['district', 'cand_no', 'party', 'name', 'name_cn', 'sex',
+    attrs = ['district', 'cand_no', 'party', 'name_kr', 'name_cn', 'sex',
              'birthyear', 'birthmonth', 'birthday', 'address', 'job',
-             'education', 'experience']
+             'education', 'experience', 'recommend_priority',
+             'votenum', 'voterate']
 
     with open(filename, 'w') as f:
+        f.write(','.join(attrs))
+        f.write('\n')
         for cand in data:
             values = (cand[attr] if attr in cand else '' for attr in attrs)
             values = (transform(value) for value in values)
             f.write(','.join(values))
             f.write('\n')
 
-def crawl(target, printer, filename):
-    crawler = None
-    if 1 <= target <= 6:
-        crawler = CandCrawlerUntil6(target)
-    elif target <= 16:
-        crawler = CandCrawlerUntil16(target)
-    elif target == 17:
-        crawler = CandCrawler17()
-    elif target == 18:
-        crawler = CandCrawler18()
-    elif target == 19:
-        crawler = CandCrawler19()
-    else:
-        raise InvalidTargetError(target)
-
+def crawl(_type, target, printer, filename):
+    crawler = Crawler(_type, target)
     cand_list = crawler.crawl()
     printer(filename, cand_list)
 
-def main():
-    printer = print_json if Settings['FILETYPE'] == 'json' else print_csv
+def create_parser():
+    parser = ArgumentParser()
+    parser.add_argument('type', choices=['candidates', 'elected'])
+    parser.add_argument('start', type=int)
+    parser.add_argument('end', type=int)
+    parser.add_argument('-t', dest='test', action='store_true')
+    return parser
+
+def main(args):
+    printer = print_csv if args.test else print_json
+    filetype = 'csv' if args.test else 'json'
 
     jobs = []
-    for n in xrange(Settings['START'], Settings['END']+1):
-        filename = 'cand-%d.%s' % (n, Settings['FILETYPE'])
-        job = gevent.spawn(crawl, target=n, filename=filename, printer=printer)
+    for n in xrange(args.start, args.end+1):
+        filename = '%s-%d.%s' % (args.type, n, filetype)
+        job = gevent.spawn(crawl, _type=args.type, target=n, filename=filename, printer=printer)
         jobs.append(job)
     gevent.joinall(jobs)
 
 if __name__ == '__main__':
     monkey.patch_all()
-    main()
+    parser = create_parser()
+    args = parser.parse_args()
+    main(args)

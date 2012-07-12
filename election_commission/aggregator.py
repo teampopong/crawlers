@@ -1,5 +1,7 @@
 # -*- encoding: utf-8 -*-
 
+from collections import defaultdict
+
 class PeopleAggregator(object):
 
     data = {}
@@ -20,15 +22,17 @@ class PeopleAggregator(object):
         entry = self.data.get(key, None)
 
         if not entry:
-            entry = {}
+            entry = defaultdict(set)
             self.data[key] = entry
 
         for attr, val in person.items():
             if val in ['', None]: continue
 
-            if attr not in entry:
-                entry[attr] = set()
-            entry[attr].add(val)
+            if isinstance(val, list):
+                for v in val:
+                    entry[attr].add(v)
+            else:
+                entry[attr].add(val)
 
     def get_all(self):
         for idx, (key, person) in enumerate(self.data.items()):
