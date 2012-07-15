@@ -1,16 +1,20 @@
 # -*- encoding: utf-8 -*-
 
-from collections import defaultdict
-
 class PeopleAggregator(object):
 
     data = {}
-
-    def __init__(self, *keys):
-        self.keys = keys
+    fields_key = ['name_kr', 'sex', 'birthyear', 'birthmonth', 'birthday']
 
     def _key(self, person):
-        return tuple(person.get(key, None) for key in self.keys)
+        return tuple(person.get(field, None) for field in self.fields_key)
+
+    def _copy(self, _from, _to, fields=None):
+        if not fields:
+            fields = _from.keys()
+
+        for field in fields:
+            if field in _from and _from[field] not in ['', None]:
+                _to[field] = _from[field]
 
     def insert(self, person):
         if isinstance(person, list):
@@ -22,30 +26,22 @@ class PeopleAggregator(object):
         entry = self.data.get(key, None)
 
         if not entry:
-            entry = defaultdict(set)
+            entry = {
+                    'assembly': {}
+                    }
             self.data[key] = entry
 
-        for attr, val in person.items():
-            if val in ['', None]: continue
+        # 국회별 정보 업데이트
+        assembly_no = person['assembly_no']
+        entry['assembly'][assembly_no] = {}
+        self._copy(person, entry['assembly'][assembly_no])
 
-            if isinstance(val, list):
-                for v in val:
-                    entry[attr].add(v)
-            else:
-                entry[attr].add(val)
+        # 최신 정보 업데이트
+        if 'assembly_no' not in entry or entry['assembly_no'] < assembly_no:
+            self._copy(person, entry)
 
     def get_all(self):
-        for idx, (key, person) in enumerate(self.data.items()):
-
-            # convert from set to list
-            for attr, val in person.items():
-                val = list(val) if len(val) > 1 else val.pop()
-                person[attr] = val
-
-            # numbering
-            person['id'] = idx
-
-        return list(self.data.values())
+        return self.data.values()
 
 def main(argv):
     if not argv:
@@ -54,7 +50,7 @@ def main(argv):
         print('  file: json file that contains a list of people data')
         return 1
 
-    aggregator = PeopleAggregator('name_kr', 'birthyear', 'birthmonth', 'birthday')
+    aggregator = PeopleAggregator()
 
     import json
     for filename in argv:
