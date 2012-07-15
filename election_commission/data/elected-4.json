@@ -1,6 +1,6 @@
 [
   {
-    "votenum": "22780", 
+    "education": "\uc601\uad6d\uc5d0\ub518\ubc14\ub77c\ub300\ud559\uc878", 
     "district": "\uc11c\uc6b8 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uc724\ubcf4\uc120", 
     "voterate": "63.20", 
@@ -9,11 +9,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1898", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc601\uad6d\uc5d0\ub518\ubc14\ub77c\ub300\ud559\uc878"
+    "votenum": "22780"
   }, 
   {
-    "votenum": "20911", 
+    "education": "\uc77c\ubcf8\uba85\ub300\ubc95\uacfc\uc878", 
     "district": "\uc11c\uc6b8 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\ud55c\uadfc\uc870", 
     "voterate": "55.70", 
@@ -22,11 +23,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1896", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uba85\ub300\ubc95\uacfc\uc878"
+    "votenum": "20911"
   }, 
   {
-    "votenum": "17492", 
+    "education": "\uc911\uad6d\uc0c1\ud574\ub300\uc878", 
     "district": "\uc11c\uc6b8 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\uc8fc\uc694\ud55c", 
     "voterate": "68.50", 
@@ -35,11 +37,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\uc800\uc220\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uad6d\uc0c1\ud574\ub300\uc878"
+    "votenum": "17492"
   }, 
   {
-    "votenum": "18344", 
+    "education": "\ubbf8\uad6d??\ub8e8\ub300\ud559\uc6d0\uc878", 
     "district": "\uc11c\uc6b8 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc77c\ud615", 
     "voterate": "65.90", 
@@ -48,11 +51,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubbf8\uad6d??\ub8e8\ub300\ud559\uc6d0\uc878"
+    "votenum": "18344"
   }, 
   {
-    "votenum": "26297", 
+    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc81c\ub300\uc878", 
     "district": "\uc11c\uc6b8 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\ubbfc\uad00\uc2dd", 
     "voterate": "76.90", 
@@ -61,11 +65,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc81c\ub300\uc878"
+    "votenum": "26297"
   }, 
   {
-    "votenum": "18765", 
+    "education": "\uc138\ubd80\ub780\uc2a4\uc804\uc878", 
     "district": "\uc11c\uc6b8 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc601\uc900", 
     "voterate": "50.30", 
@@ -74,11 +79,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1897", 
     "job": "\ud68c\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc138\ubd80\ub780\uc2a4\uc804\uc878"
+    "votenum": "18765"
   }, 
   {
-    "votenum": "26338", 
+    "education": "\uc804\ubb38\ub3001\ub144\uc218\ub8cc", 
     "district": "\uc11c\uc6b8 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\ub958\uc131\uad8c", 
     "voterate": "62.50", 
@@ -87,11 +93,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc804\ubb38\ub3001\ub144\uc218\ub8cc"
+    "votenum": "26338"
   }, 
   {
-    "votenum": "27428", 
+    "education": "\ubbf8\uad6d\ucf5c\ub7fc\ube44\uc544\ub300\uc878", 
     "district": "\uc11c\uc6b8 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc870\ubcd1\uc625", 
     "voterate": "75.40", 
@@ -100,11 +107,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1895", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubbf8\uad6d\ucf5c\ub7fc\ube44\uc544\ub300\uc878"
+    "votenum": "27428"
   }, 
   {
-    "votenum": "40173", 
+    "education": "\uc911\uad6d\ubd81\uacbd\ub300 2\ub144\uc218\ub8cc", 
     "district": "\uc11c\uc6b8 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\uc11c\ubc94\uc11d", 
     "voterate": "67.70", 
@@ -113,11 +121,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uad6d\ubd81\uacbd\ub300 2\ub144\uc218\ub8cc"
+    "votenum": "40173"
   }, 
   {
-    "votenum": "26638", 
+    "education": "\ubbf8\uad6d\uc6cc\uc2f1\ud1a4\uc544\uba54\ub9ac\uce74\ub300\ud559\ud559\uc704\uc218\uc5ec", 
     "district": "\uc11c\uc6b8 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ub3c4\uc5f0", 
     "voterate": "69.30", 
@@ -126,11 +135,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1895", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubbf8\uad6d\uc6cc\uc2f1\ud1a4\uc544\uba54\ub9ac\uce74\ub300\ud559\ud559\uc704\uc218\uc5ec"
+    "votenum": "26638"
   }, 
   {
-    "votenum": "22951", 
+    "education": "\ubbf8\uad6d \ubbf8\uc2dc\uac04\uc8fc\ub9bd\ub300\ud559\uc6d0\uc878", 
     "district": "\uc11c\uc6b8 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\uaddc\ub0a8", 
     "voterate": "56.60", 
@@ -139,11 +149,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1898", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubbf8\uad6d \ubbf8\uc2dc\uac04\uc8fc\ub9bd\ub300\ud559\uc6d0\uc878"
+    "votenum": "22951"
   }, 
   {
-    "votenum": "44857", 
+    "education": "\uba85\uce58\ud559\uc6d0\uc878", 
     "district": "\uc11c\uc6b8 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc0c1\ub3c8", 
     "voterate": "79.50", 
@@ -152,11 +163,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1902", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uba85\uce58\ud559\uc6d0\uc878"
+    "votenum": "44857"
   }, 
   {
-    "votenum": "26511", 
+    "education": "\uc804\uc8fc\uc0ac\ubc94\uc878", 
     "district": "\uc11c\uc6b8 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\uc5c4\uc0c1\uc12d", 
     "voterate": "69.80", 
@@ -165,11 +177,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc804\uc8fc\uc0ac\ubc94\uc878"
+    "votenum": "26511"
   }, 
   {
-    "votenum": "22401", 
+    "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\uc608\uacfc\uc878 1\ub144 \uc911\ud1f4", 
     "district": "\uc11c\uc6b8 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6d0\ub9cc", 
     "voterate": "65.80", 
@@ -178,11 +191,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\uc608\uacfc\uc878 1\ub144 \uc911\ud1f4"
+    "votenum": "22401"
   }, 
   {
-    "votenum": "21093", 
+    "education": "\uacbd\ucc30\uc804\ubb38\ud559\uad50\uc878\uc5c5", 
     "district": "\uc11c\uc6b8 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\uc724\uba85\uc6b4", 
     "voterate": "51.30", 
@@ -191,11 +205,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\ucc30\uc804\ubb38\ud559\uad50\uc878\uc5c5"
+    "votenum": "21093"
   }, 
   {
-    "votenum": "15915", 
+    "education": "\uacbd\uc131\uacf5\uace03\ub144\uc878", 
     "district": "\uc11c\uc6b8 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\ub958\ud64d", 
     "voterate": "38.90", 
@@ -204,11 +219,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1900", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\uacf5\uace03\ub144\uc878"
+    "votenum": "15915"
   }, 
   {
-    "votenum": "21905", 
+    "education": "\uc9c4\ud574\uace0\ub4f1\ud574\uc6d0\uc591\uc131\uc18c\ud56d\ud574\uacfc\uc878", 
     "district": "\uacbd\uae30 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc7ac\uace4", 
     "voterate": "51.90", 
@@ -217,11 +233,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc9c4\ud574\uace0\ub4f1\ud574\uc6d0\uc591\uc131\uc18c\ud56d\ud574\uacfc\uc878"
+    "votenum": "21905"
   }, 
   {
-    "votenum": "28097", 
+    "education": "\uacbd\uc131\uacf5\uace0\uc911\ud1f4", 
     "district": "\uacbd\uae30 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\uacfd\uc0c1\ud6c8", 
     "voterate": "74.30", 
@@ -230,11 +247,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1891", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\uacf5\uace0\uc911\ud1f4"
+    "votenum": "28097"
   }, 
   {
-    "votenum": "28932", 
+    "education": "\ubd81\uacbd\ub300\uc0ac\ud559\uacfc2\ub144\uc218\ub8cc", 
     "district": "\uacbd\uae30 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ud6c8", 
     "voterate": "64.90", 
@@ -243,11 +261,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ud1b5\uc77c\ub2f9", 
-    "education": "\ubd81\uacbd\ub300\uc0ac\ud559\uacfc2\ub144\uc218\ub8cc"
+    "votenum": "28932"
   }, 
   {
-    "votenum": "17507", 
+    "education": "\ub3d9\uacbd\ub300\uc74c\ub300", 
     "district": "\uacbd\uae30 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\uae38\uc120", 
     "voterate": "55.60", 
@@ -256,11 +275,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1899", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub3d9\uacbd\ub300\uc74c\ub300"
+    "votenum": "17507"
   }, 
   {
-    "votenum": "15905", 
+    "education": "\uccad\uad6c\ub300\ud559\ubc95\ud559\uacfc\uc878", 
     "district": "\uacbd\uae30 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc131\uc8fc", 
     "voterate": "58.40", 
@@ -269,11 +289,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uccad\uad6c\ub300\ud559\ubc95\ud559\uacfc\uc878"
+    "votenum": "15905"
   }, 
   {
-    "votenum": "29055", 
+    "education": "\ub274\uc695\ub300\uc878", 
     "district": "\uacbd\uae30 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\uc778\uaddc", 
     "voterate": "58.60", 
@@ -282,11 +303,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1929", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub274\uc695\ub300\uc878"
+    "votenum": "29055"
   }, 
   {
-    "votenum": "20275", 
+    "education": "\uc721\uad70\ub300", 
     "district": "\uacbd\uae30 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\uac15\uc601\ud6c8", 
     "voterate": "37.00", 
@@ -295,11 +317,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc721\uad70\ub300"
+    "votenum": "20275"
   }, 
   {
-    "votenum": "34537", 
+    "education": "\uc544\uba54\ub9ac\uce78\ub300\ud559\uc6d0", 
     "district": "\uacbd\uae30 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\uc724\uc131\uc21c", 
     "voterate": "42.00", 
@@ -308,11 +331,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1893", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc544\uba54\ub9ac\uce78\ub300\ud559\uc6d0"
+    "votenum": "34537"
   }, 
   {
-    "votenum": "12484", 
+    "education": "\uacbd\uc131\ubc95\ub300", 
     "district": "\uacbd\uae30 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\uc775\ud45c", 
     "voterate": "47.90", 
@@ -321,11 +345,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\ubc95\ub300"
+    "votenum": "12484"
   }, 
   {
-    "votenum": "20367", 
+    "education": "\uc721\uc0ac\uc878", 
     "district": "\uacbd\uae30 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc6a9\uc2dd", 
     "voterate": "46.80", 
@@ -334,11 +359,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc721\uc0ac\uc878"
+    "votenum": "20367"
   }, 
   {
-    "votenum": "27686", 
+    "education": "\uba85\ub300\ubc95\ub300", 
     "district": "\uacbd\uae30 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc758\uc900", 
     "voterate": "64.50", 
@@ -347,11 +373,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uba85\ub300\ubc95\ub300"
+    "votenum": "27686"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\ubbf8\uad6d\ud14c\uc774\ubc84\ub300", 
     "district": "\uacbd\uae30 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uae30\ubd95", 
     "voterate": "\ud22c", 
@@ -360,11 +387,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1897", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubbf8\uad6d\ud14c\uc774\ubc84\ub300"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "22063", 
+    "education": "\uc911\uc559\ub300", 
     "district": "\uacbd\uae30 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uad6c\ucca0\ud68c", 
     "voterate": "53.90", 
@@ -373,11 +401,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uc559\ub300"
+    "votenum": "22063"
   }, 
   {
-    "votenum": "17011", 
+    "education": "\ud55c\ud559\uc218\ud559", 
     "district": "\uacbd\uae30 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\uc624\uc7ac\uc601", 
     "voterate": "35.20", 
@@ -386,11 +415,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ud55c\ud559\uc218\ud559"
+    "votenum": "17011"
   }, 
   {
-    "votenum": "28114", 
+    "education": "", 
     "district": "\uacbd\uae30 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc874\uc218", 
     "voterate": "51.00", 
@@ -399,11 +429,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": ""
+    "votenum": "28114"
   }, 
   {
-    "votenum": "19086", 
+    "education": "\uc11c\uc6b8\ub300\uc815\uc678\uacfc", 
     "district": "\uacbd\uae30 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\uc190\ub3c4\uc2ec", 
     "voterate": "50.70", 
@@ -412,11 +443,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc11c\uc6b8\ub300\uc815\uc678\uacfc"
+    "votenum": "19086"
   }, 
   {
-    "votenum": "14542", 
+    "education": "\uc131\ub300\ubc95\ub300", 
     "district": "\uacbd\uae30 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\ubd09\uc9c4", 
     "voterate": "34.70", 
@@ -425,11 +457,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "\uc800\uc220\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc131\ub300\ubc95\ub300"
+    "votenum": "14542"
   }, 
   {
-    "votenum": "15128", 
+    "education": "\uc77c\ubcf8\ub300\ubc95\uacfc", 
     "district": "\uacbd\uae30 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc7ac\ud615", 
     "voterate": "37.00", 
@@ -438,11 +471,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub300\ubc95\uacfc"
+    "votenum": "15128"
   }, 
   {
-    "votenum": "29393", 
+    "education": "\uacbd\uc131\ub300\ubc95\ub300", 
     "district": "\uacbd\uae30 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\uc7a5\uacbd\uadfc", 
     "voterate": "67.70", 
@@ -451,11 +485,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\ub300\ubc95\ub300"
+    "votenum": "29393"
   }, 
   {
-    "votenum": "17844", 
+    "education": "\ud3c9\uc591\uc2e0\ud559\ub300", 
     "district": "\uacbd\uae30 \uc81c21\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc900", 
     "voterate": "45.00", 
@@ -464,11 +499,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ud3c9\uc591\uc2e0\ud559\ub300"
+    "votenum": "17844"
   }, 
   {
-    "votenum": "20060", 
+    "education": "\ubc30\uc7ac\uace0\ubcf4", 
     "district": "\uacbd\uae30 \uc81c22\uc120\uac70\uad6c", 
     "name_kr": "\uc724\uc7ac\uadfc", 
     "voterate": "47.40", 
@@ -477,11 +513,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ubc30\uc7ac\uace0\ubcf4"
+    "votenum": "20060"
   }, 
   {
-    "votenum": "26752", 
+    "education": "\uad6d\ubbfc\uad50\uc878", 
     "district": "\uacbd\uae30 \uc81c23\uc120\uac70\uad6c", 
     "name_kr": "\uc815\ub300\ucc9c", 
     "voterate": "46.00", 
@@ -490,11 +527,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\uacbd\uc804\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uad6d\ubbfc\uad50\uc878"
+    "votenum": "26752"
   }, 
   {
-    "votenum": "23870", 
+    "education": "\uc77c\ubcf8\uad6c\uc8fc\ub300", 
     "district": "\uacbd\uae30 \uc81c24\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc775\ud765", 
     "voterate": "60.30", 
@@ -503,11 +541,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1899", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uad6c\uc8fc\ub300"
+    "votenum": "23870"
   }, 
   {
-    "votenum": "4671", 
+    "education": "\ubcf4\uc804\uc0c1\uacfc", 
     "district": "\uacbd\uae30 \uc81c25\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc601\uc900", 
     "voterate": "68.10", 
@@ -516,11 +555,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubcf4\uc804\uc0c1\uacfc"
+    "votenum": "4671"
   }, 
   {
-    "votenum": "15950", 
+    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc81c\uad6d\ub300\ud559\uc815\uce58\uacfc\uc878", 
     "district": "\uac15\uc6d0 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uacc4\uad11\uc21c", 
     "voterate": "54.70", 
@@ -529,11 +569,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\uad11\uc0b0\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc81c\uad6d\ub300\ud559\uc815\uce58\uacfc\uc878"
+    "votenum": "15950"
   }, 
   {
-    "votenum": "11703", 
+    "education": "\uacbd\uc131\uc758\uc8044\ub144\uc878", 
     "district": "\uac15\uc6d0 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ucda9\ubaa8", 
     "voterate": "40.50", 
@@ -545,11 +586,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1896", 
     "job": "\uc758\uc0ac", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\uc758\uc8044\ub144\uc878"
+    "votenum": "11703"
   }, 
   {
-    "votenum": "8144", 
+    "education": "\uc77c\ubcf8\uc131\uac15\uace0\ub4f1\ub18d\ub9bc\ud559\uad50\uc784\ud559\uacfc\uc878", 
     "district": "\uac15\uc6d0 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\uc6a9\uadfc", 
     "voterate": "36.50", 
@@ -558,11 +600,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uc131\uac15\uace0\ub4f1\ub18d\ub9bc\ud559\uad50\uc784\ud559\uacfc\uc878"
+    "votenum": "8144"
   }, 
   {
-    "votenum": "9329", 
+    "education": "\uc870\ub3c4\uc804\ub300\ud559\uc815\uce58\uacbd\uc81c\uacfc\ub3c5\ud559\uc218\ub8cc", 
     "district": "\uac15\uc6d0 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uc784\uc6b0\uc601", 
     "voterate": "28.00", 
@@ -571,11 +614,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc870\ub3c4\uc804\ub300\ud559\uc815\uce58\uacbd\uc81c\uacfc\ub3c5\ud559\uc218\ub8cc"
+    "votenum": "9329"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uacbd\uc131\uc81c\uad6d\ub300\ud559\ubc95\ud559\ubd80\uc878", 
     "district": "\uac15\uc6d0 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc7ac\ud559", 
     "voterate": "\ud22c", 
@@ -587,11 +631,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc81c\uad6d\ub300\ud559\ubc95\ud559\ubd80\uc878"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "14526", 
+    "education": "\ud14c\ub124\uc2dc\uc8fc \ubc34\ub4dc\ube4c\ub4dc\ub300\ud559\uc878", 
     "district": "\uac15\uc6d0 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\uc7a5\uc11d\uc724", 
     "voterate": "42.60", 
@@ -600,11 +645,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ud14c\ub124\uc2dc\uc8fc \ubc34\ub4dc\ube4c\ub4dc\ub300\ud559\uc878"
+    "votenum": "14526"
   }, 
   {
-    "votenum": "17685", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\ubc95\ud559\ubd803\ub144\uac15\uc815\uc878", 
     "district": "\uac15\uc6d0 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\ubc94\ud76c", 
     "voterate": "50.10", 
@@ -616,11 +662,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\uad50\uc721\uc0ac\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\ubc95\ud559\ubd803\ub144\uac15\uc815\uc878"
+    "votenum": "17685"
   }, 
   {
-    "votenum": "15342", 
+    "education": "\uc601\uc6d4\uad70\ub0b4\uc131\ud559\uad50\uc878", 
     "district": "\uac15\uc6d0 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uaddc\uc0c1", 
     "voterate": "38.90", 
@@ -629,11 +676,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc601\uc6d4\uad70\ub0b4\uc131\ud559\uad50\uc878"
+    "votenum": "15342"
   }, 
   {
-    "votenum": "14447", 
+    "education": "\ubbf8\uae30\uc7ac", 
     "district": "\uac15\uc6d0 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\ud669\ud638\ud604", 
     "voterate": "45.10", 
@@ -645,11 +693,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ubbf8\uae30\uc7ac"
+    "votenum": "14447"
   }, 
   {
-    "votenum": "9861", 
+    "education": "\ub3d9\uacbd\uc120\ub9b0\uc0c1\uc5c5\ud559\uad502\ub144\uc911\ud1f4", 
     "district": "\uac15\uc6d0 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uae30\uc218", 
     "voterate": "41.10", 
@@ -658,11 +707,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ub3d9\uacbd\uc120\ub9b0\uc0c1\uc5c5\ud559\uad502\ub144\uc911\ud1f4"
+    "votenum": "9861"
   }, 
   {
-    "votenum": "22560", 
+    "education": "\uc131\ub300\uc815\uce58\ud559\uacfc\uc878", 
     "district": "\uac15\uc6d0 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\uc11c\uc784\uc218", 
     "voterate": "52.00", 
@@ -671,11 +721,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc131\ub300\uc815\uce58\ud559\uacfc\uc878"
+    "votenum": "22560"
   }, 
   {
-    "votenum": "10876", 
+    "education": "\ud3c9\uc591\uc22d\uc758\uc5ec\ud559\uad50\uc878", 
     "district": "\uac15\uc6d0 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ud604\uc219", 
     "voterate": "58.30", 
@@ -684,11 +735,12 @@
     "sex": "\uc5ec", 
     "birthyear": "1897", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ud3c9\uc591\uc22d\uc758\uc5ec\ud559\uad50\uc878"
+    "votenum": "10876"
   }, 
   {
-    "votenum": "26570", 
+    "education": "\uacbd\ub3c4\uc0ac\ub9bd\ub3d9\uba85\uc911\ud559\uc878", 
     "district": "\uac15\uc6d0 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ub355\uc601", 
     "voterate": "48.00", 
@@ -697,11 +749,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\ub3c4\uc0ac\ub9bd\ub3d9\uba85\uc911\ud559\uc878"
+    "votenum": "26570"
   }, 
   {
-    "votenum": "16661", 
+    "education": "\uacbd\uc131\uc758\ud559\uc804\uc878", 
     "district": "\uac15\uc6d0 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\uaddc\uc625", 
     "voterate": "51.00", 
@@ -713,11 +766,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\uc758\uc0ac", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc758\ud559\uc804\uc878"
+    "votenum": "16661"
   }, 
   {
-    "votenum": "20727", 
+    "education": "\ubbf8\uae30\uc7ac", 
     "district": "\uac15\uc6d0 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\ub098\uc0c1\uadfc", 
     "voterate": "50.00", 
@@ -726,11 +780,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\uc81c\uc870\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubbf8\uae30\uc7ac"
+    "votenum": "20727"
   }, 
   {
-    "votenum": "5511", 
+    "education": "\uc5f0\uae38\ud604\ub9bd\uc0ac\ubc94\ud559\uad50\uc878", 
     "district": "\uac15\uc6d0 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\uc2b9\uc5c5", 
     "voterate": "46.50", 
@@ -742,11 +797,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc5f0\uae38\ud604\ub9bd\uc0ac\ubc94\ud559\uad50\uc878"
+    "votenum": "5511"
   }, 
   {
-    "votenum": "10366", 
+    "education": "\ub3d9\uacbd\ubc95\uc815\ub300\ud559\uacbd\uc81c\uacfc\uc878", 
     "district": "\uac15\uc6d0 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ub3d9\uadfc", 
     "voterate": "29.70", 
@@ -755,11 +811,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3d9\uacbd\ubc95\uc815\ub300\ud559\uacbd\uc81c\uacfc\uc878"
+    "votenum": "10366"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uc131\ub300\ubc95\ud559\ubd80\uc878", 
     "district": "\uac15\uc6d0 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc6a9\uc775", 
     "voterate": "\ud22c", 
@@ -768,11 +825,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc131\ub300\ubc95\ud559\ubd80\uc878"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "40997", 
+    "education": "\uace0\ub4f1\uc0c1\uc5c5\uc911\ud1f4", 
     "district": "\uac15\uc6d0 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc9c4\ub9cc", 
     "voterate": "63.70", 
@@ -781,11 +839,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\ub4f1\uc0c1\uc5c5\uc911\ud1f4"
+    "votenum": "40997"
   }, 
   {
-    "votenum": "23166", 
+    "education": "\uc6b8\uc9c4\uc81c\ub3d9\ud559\uad50\uc878", 
     "district": "\uac15\uc6d0 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\uc804\ub9cc\uc911", 
     "voterate": "59.90", 
@@ -794,11 +853,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc6b8\uc9c4\uc81c\ub3d9\ud559\uad50\uc878"
+    "votenum": "23166"
   }, 
   {
-    "votenum": "9317", 
+    "education": "\uc11d\uc131\ubcf4\ud1b5\ud559\uad50\uc878", 
     "district": "\ucda9\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ubbfc\uc6b0", 
     "voterate": "35.00", 
@@ -810,11 +870,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ud1a0\uac74\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc11d\uc131\ubcf4\ud1b5\ud559\uad50\uc878"
+    "votenum": "9317"
   }, 
   {
-    "votenum": "8023", 
+    "education": "\ucda9\uc8fc\ub18d\uad50\uc878", 
     "district": "\ucda9\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\ubcd1\uac01", 
     "voterate": "35.10", 
@@ -823,11 +884,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ucda9\uc8fc\ub18d\uad50\uc878"
+    "votenum": "8023"
   }, 
   {
-    "votenum": "19477", 
+    "education": "\uc77c\ubcf8\ub300\uc878", 
     "district": "\ucda9\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\uc624\ubc94\uc218", 
     "voterate": "47.10", 
@@ -836,11 +898,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub300\uc878"
+    "votenum": "19477"
   }, 
   {
-    "votenum": "20636", 
+    "education": "\uacbd\uc131\ubc95\uc804\uc878", 
     "district": "\ucda9\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uacfd\uc758\uc601", 
     "voterate": "51.80", 
@@ -849,11 +912,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\uad6d\ud68c\uc758\uc6d0(\ubbfc\uc758\uc6d0)", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\ubc95\uc804\uc878"
+    "votenum": "20636"
   }, 
   {
-    "votenum": "15841", 
+    "education": "\uad6d\uc878", 
     "district": "\ucda9\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc120\uc6b0", 
     "voterate": "41.50", 
@@ -865,11 +929,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\uad6d\ud68c\uc758\uc6d0(\ubbfc\uc758\uc6d0)", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uad6d\uc878"
+    "votenum": "15841"
   }, 
   {
-    "votenum": "23213", 
+    "education": "\u5ef6\u5c08\uc878", 
     "district": "\ucda9\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\uad8c\ubcf5\uc778", 
     "voterate": "61.60", 
@@ -878,11 +943,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\u5ef6\u5c08\uc878"
+    "votenum": "23213"
   }, 
   {
-    "votenum": "14414", 
+    "education": "\uc911\uc559\ub300\ud559\uc911\ud1f4", 
     "district": "\ucda9\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\ubbfc\uc7a5\uc2dd", 
     "voterate": "34.50", 
@@ -891,11 +957,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ucd9c\ud310\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uc559\ub300\ud559\uc911\ud1f4"
+    "votenum": "14414"
   }, 
   {
-    "votenum": "18282", 
+    "education": "\uacbd\uc131\uc81c\ub300\ubc95\uacfc\uc878", 
     "district": "\ucda9\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc6b4\uac11", 
     "voterate": "61.80", 
@@ -907,11 +974,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc81c\ub300\ubc95\uacfc\uc878"
+    "votenum": "18282"
   }, 
   {
-    "votenum": "33411", 
+    "education": "\uacbd\uc131\uc0ac\ubc94\uc5f0\uc218\uacfc2\ub144\uc878", 
     "district": "\ucda9\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6d0\ud0dc", 
     "voterate": "55.90", 
@@ -923,11 +991,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc0ac\ubc94\uc5f0\uc218\uacfc2\ub144\uc878"
+    "votenum": "33411"
   }, 
   {
-    "votenum": "15482", 
+    "education": "\uc870\ub3c4\uc804\ub300\uc878", 
     "district": "\ucda9\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc8fc\ubb35", 
     "voterate": "35.70", 
@@ -939,11 +1008,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\uae30\uc790", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc870\ub3c4\uc804\ub300\uc878"
+    "votenum": "15482"
   }, 
   {
-    "votenum": "21828", 
+    "education": "\uba85\uce58\ub300\ud559\uc878", 
     "district": "\ucda9\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc0c1\ud76c", 
     "voterate": "47.00", 
@@ -952,11 +1022,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uba85\uce58\ub300\ud559\uc878"
+    "votenum": "21828"
   }, 
   {
-    "votenum": "30976", 
+    "education": "\uacbd\uc131\uc81c\ub300\uc878", 
     "district": "\ucda9\ubd81 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ud0dc\uc6a9", 
     "voterate": "67.40", 
@@ -965,11 +1036,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\uc81c\ub300\uc878"
+    "votenum": "30976"
   }, 
   {
-    "votenum": "10695", 
+    "education": "\uad6d\ubbfc\ub300\ud5593\ub144\uc218\ub8cc", 
     "district": "\ucda9\ubd81 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc885\ud638", 
     "voterate": "44.10", 
@@ -978,11 +1050,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uad6d\ubbfc\ub300\ud5593\ub144\uc218\ub8cc"
+    "votenum": "10695"
   }, 
   {
-    "votenum": "12413", 
+    "education": "\uacf5\uc8fc\ub18d\uc5c5\ud559\uad50\uc878", 
     "district": "\ucda9\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uc815\ub77d\ud6c8", 
     "voterate": "39.60", 
@@ -994,11 +1067,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1895", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacf5\uc8fc\ub18d\uc5c5\ud559\uad50\uc878"
+    "votenum": "12413"
   }, 
   {
-    "votenum": "15722", 
+    "education": "\uc911\uc559\ub300\ud559\uad50\ubc95\uacfc\uc878", 
     "district": "\ucda9\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\uc9c4\uc131\ud558", 
     "voterate": "47.40", 
@@ -1010,11 +1084,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1907", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uc559\ub300\ud559\uad50\ubc95\uacfc\uc878"
+    "votenum": "15722"
   }, 
   {
-    "votenum": "19658", 
+    "education": "\uc131\ub300\ubc95\ubb38\ud655\uacfc\uc878", 
     "district": "\ucda9\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ubcd1\ubc30", 
     "voterate": "43.40", 
@@ -1026,11 +1101,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc131\ub300\ubc95\ubb38\ud655\uacfc\uc878"
+    "votenum": "19658"
   }, 
   {
-    "votenum": "16249", 
+    "education": "\uc77c\ubcf8\uad00\uc11c\ub300\ud559\ubc95\uacfc3\ub144\uc911\ud1f4", 
     "district": "\ucda9\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc9c0\uc6d0", 
     "voterate": "42.00", 
@@ -1042,11 +1118,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uad00\uc11c\ub300\ud559\ubc95\uacfc3\ub144\uc911\ud1f4"
+    "votenum": "16249"
   }, 
   {
-    "votenum": "20429", 
+    "education": "\ubc95\uc815\uc804\ubb383\ub144\uc218\ub8cc", 
     "district": "\ucda9\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ucda9\uc2dd", 
     "voterate": "69.90", 
@@ -1058,11 +1135,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubc95\uc815\uc804\ubb383\ub144\uc218\ub8cc"
+    "votenum": "20429"
   }, 
   {
-    "votenum": "15249", 
+    "education": "\uc11c\uc6b8\ub300\ubb38\ub9ac\uacfc\ub300\uc0ac\ud68c\ud559\uacfc\uc878", 
     "district": "\ucda9\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ud559\uc900", 
     "voterate": "42.60", 
@@ -1071,11 +1149,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc11c\uc6b8\ub300\ubb38\ub9ac\uacfc\ub300\uc0ac\ud68c\ud559\uacfc\uc878"
+    "votenum": "15249"
   }, 
   {
-    "votenum": "14849", 
+    "education": "\uac15\uacbd\ubcf4\ud1b5\ud559\uad50\uc878", 
     "district": "\ucda9\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uacf5\ud3c9", 
     "voterate": "35.90", 
@@ -1087,11 +1166,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\uc0c1\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uac15\uacbd\ubcf4\ud1b5\ud559\uad50\uc878"
+    "votenum": "14849"
   }, 
   {
-    "votenum": "18424", 
+    "education": "\uacf5\uc8fc\uc7a0\uc5c5\uac15\uc2b5\uc18c\uc218\ub8cc", 
     "district": "\ucda9\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc724\ub2f4", 
     "voterate": "39.50", 
@@ -1100,11 +1180,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\uc591\uc870\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacf5\uc8fc\uc7a0\uc5c5\uac15\uc2b5\uc18c\uc218\ub8cc"
+    "votenum": "18424"
   }, 
   {
-    "votenum": "20479", 
+    "education": "\uc721\uad70\ud638\uad6d\uc0ac\uad00\ud559\uad503\uae30\uc878", 
     "district": "\ucda9\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\ud55c\uad11\uc11d", 
     "voterate": "57.70", 
@@ -1116,11 +1197,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc721\uad70\ud638\uad6d\uc0ac\uad00\ud559\uad503\uae30\uc878"
+    "votenum": "20479"
   }, 
   {
-    "votenum": "16759", 
+    "education": "\uba85\ub300\ubc95\uacfc\uc878", 
     "district": "\ucda9\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uc784\ucca0\ud638", 
     "voterate": "53.20", 
@@ -1132,11 +1214,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uba85\ub300\ubc95\uacfc\uc878"
+    "votenum": "16759"
   }, 
   {
-    "votenum": "23282", 
+    "education": "\uace0\ub824\ub300\ud559\ubc95\ud559\ubd80\uc815\uce58\uacfc2\ub144\uc218\ub8cc", 
     "district": "\ucda9\ub0a8 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\uc6b0\ud76c\ucc3d", 
     "voterate": "43.60", 
@@ -1148,11 +1231,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uace0\ub824\ub300\ud559\ubc95\ud559\ubd80\uc815\uce58\uacfc2\ub144\uc218\ub8cc"
+    "votenum": "23282"
   }, 
   {
-    "votenum": "26767", 
+    "education": "\uc721\uad70\ub300\ud559\uc878", 
     "district": "\ucda9\ub0a8 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc6d0\uc7a5", 
     "voterate": "58.30", 
@@ -1164,11 +1248,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1925", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc721\uad70\ub300\ud559\uc878"
+    "votenum": "26767"
   }, 
   {
-    "votenum": "18131", 
+    "education": "\uc608\ub18d3\ub144\uc878\uc5c5", 
     "district": "\ucda9\ub0a8 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ucc3d\ub3d9", 
     "voterate": "50.80", 
@@ -1180,11 +1265,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ub3c4\uc815\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc608\ub18d3\ub144\uc878\uc5c5"
+    "votenum": "18131"
   }, 
   {
-    "votenum": "23544", 
+    "education": "\uc911\uc559\uace0\ubcf4\uc878", 
     "district": "\ucda9\ub0a8 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc2b9\uc900", 
     "voterate": "46.10", 
@@ -1196,11 +1282,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uc559\uace0\ubcf4\uc878"
+    "votenum": "23544"
   }, 
   {
-    "votenum": "34225", 
+    "education": "\uacbd\uc131\uacf5\ud559\uc6d0\uc911\ud1f4", 
     "district": "\ucda9\ub0a8 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\uc724\ubcd1\uad6c", 
     "voterate": "55.50", 
@@ -1209,11 +1296,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uacf5\ud559\uc6d0\uc911\ud1f4"
+    "votenum": "34225"
   }, 
   {
-    "votenum": "18206", 
+    "education": "\ud64d\uc131\ub18d\uc5c51\ub144\uc878", 
     "district": "\ucda9\ub0a8 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\uc804\uc601\uc11d", 
     "voterate": "44.40", 
@@ -1225,11 +1313,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1898", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ud64d\uc131\ub18d\uc5c51\ub144\uc878"
+    "votenum": "18206"
   }, 
   {
-    "votenum": "20775", 
+    "education": "\uc815\uce58\ub300\ubb38\ub9ac\uacfc\uc878", 
     "district": "\ucda9\ub0a8 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc21c\uc2dd", 
     "voterate": "48.10", 
@@ -1238,11 +1327,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc815\uce58\ub300\ubb38\ub9ac\uacfc\uc878"
+    "votenum": "20775"
   }, 
   {
-    "votenum": "17637", 
+    "education": "\ub3d9\ubd81\uc81c\ub300\ubb38\ud559\ubd804\ub144\uc878", 
     "district": "\ucda9\ub0a8 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\uc778\ud0dc\uc2dd", 
     "voterate": "63.60", 
@@ -1254,11 +1344,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3d9\ubd81\uc81c\ub300\ubb38\ud559\ubd804\ub144\uc878"
+    "votenum": "17637"
   }, 
   {
-    "votenum": "18151", 
+    "education": "\uacbd\uc131\uace0\ub4f1\uacf5\uc5c5\uc878", 
     "district": "\ucda9\ub0a8 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\uc6d0\uc6a9\uc11d", 
     "voterate": "52.30", 
@@ -1270,11 +1361,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ub300\ud55c\uace1\ubb3c\ud611\ud68c\uc5f0\ud569\ud68c\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uace0\ub4f1\uacf5\uc5c5\uc878"
+    "votenum": "18151"
   }, 
   {
-    "votenum": "27713", 
+    "education": "\ub300\ud559\uc911\ud1f4", 
     "district": "\ucda9\ub0a8 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ubbfc\uc6b0", 
     "voterate": "50.40", 
@@ -1283,11 +1375,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\ud559\uc911\ud1f4"
+    "votenum": "27713"
   }, 
   {
-    "votenum": "20166", 
+    "education": "\uacf5\uc8fc\uc0ac\ubc94\ub300\uc878", 
     "district": "\ucda9\ub0a8 \uc81c21\uc120\uac70\uad6c", 
     "name_kr": "\ud55c\ud76c\uc11d", 
     "voterate": "62.40", 
@@ -1299,11 +1392,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacf5\uc8fc\uc0ac\ubc94\ub300\uc878"
+    "votenum": "20166"
   }, 
   {
-    "votenum": "18924", 
+    "education": "\uc77c\ubcf8\uba85\ub300\uc0c1\uacfc\uc878", 
     "district": "\ucda9\ub0a8 \uc81c22\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc885\ucca0", 
     "voterate": "56.40", 
@@ -1315,11 +1409,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1921", 
     "job": "\uacf5\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uba85\ub300\uc0c1\uacfc\uc878"
+    "votenum": "18924"
   }, 
   {
-    "votenum": "16322", 
+    "education": "\uace0\uc0c1\uc878", 
     "district": "\uc804\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uc720  \uccad", 
     "voterate": "51.10", 
@@ -1328,11 +1423,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uace0\uc0c1\uc878"
+    "votenum": "16322"
   }, 
   {
-    "votenum": "20028", 
+    "education": "\uace0\ub300\uc815\uce58\ud559\ubd802\ub144\uc218\ub8cc", 
     "district": "\uc804\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ucca0\uc2b9", 
     "voterate": "63.80", 
@@ -1341,11 +1437,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uace0\ub300\uc815\uce58\ud559\ubd802\ub144\uc218\ub8cc"
+    "votenum": "20028"
   }, 
   {
-    "votenum": "14629", 
+    "education": "\uc911\uc878", 
     "district": "\uc804\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6d0\uc804", 
     "voterate": "45.00", 
@@ -1354,11 +1451,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc878"
+    "votenum": "14629"
   }, 
   {
-    "votenum": "7902", 
+    "education": "\uc911\uc878", 
     "district": "\uc804\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6d0\uc911", 
     "voterate": "36.80", 
@@ -1367,11 +1465,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc878"
+    "votenum": "7902"
   }, 
   {
-    "votenum": "15636", 
+    "education": "\ubd09\ucc9c\ud559\uc6d0\uc804\ubb38\ubd80\uc878", 
     "district": "\uc804\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc874\ud654", 
     "voterate": "49.80", 
@@ -1380,11 +1479,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubd09\ucc9c\ud559\uc6d0\uc804\ubb38\ubd80\uc878"
+    "votenum": "15636"
   }, 
   {
-    "votenum": "14190", 
+    "education": "\uad6d\uc878", 
     "district": "\uc804\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\ubc30\uc131\uae30", 
     "voterate": "50.00", 
@@ -1393,11 +1493,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uad6d\uc878"
+    "votenum": "14190"
   }, 
   {
-    "votenum": "17152", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\uc878", 
     "district": "\uc804\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc625\ub3d9", 
     "voterate": "52.40", 
@@ -1406,11 +1507,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\uc878"
+    "votenum": "17152"
   }, 
   {
-    "votenum": "23026", 
+    "education": "\uc870\ub300\uc911\ud1f4", 
     "district": "\uc804\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc9c4\uc0b0", 
     "voterate": "59.00", 
@@ -1419,11 +1521,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc870\ub300\uc911\ud1f4"
+    "votenum": "23026"
   }, 
   {
-    "votenum": "16232", 
+    "education": "\ub300\ud559\uc804\ubb38\ubd80\ubc95\uacfc\uc878", 
     "district": "\uc804\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc9c4\uc6d0", 
     "voterate": "100.00", 
@@ -1432,11 +1535,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\ud559\uc804\ubb38\ubd80\ubc95\uacfc\uc878"
+    "votenum": "16232"
   }, 
   {
-    "votenum": "12007", 
+    "education": "\uacbd\ub3c4\uc81c\ub300\uc758\ud559\ubd80\uc804\uc218\ub8cc\uc878", 
     "district": "\uc804\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc900\ubaa8", 
     "voterate": "45.00", 
@@ -1445,11 +1549,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\ub3c4\uc81c\ub300\uc758\ud559\ubd80\uc804\uc218\ub8cc\uc878"
+    "votenum": "12007"
   }, 
   {
-    "votenum": "21497", 
+    "education": "\uc911\ub3d9\ud559\uad50\uc878", 
     "district": "\uc804\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc138\uacbd", 
     "voterate": "54.20", 
@@ -1458,11 +1563,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\ub3d9\ud559\uad50\uc878"
+    "votenum": "21497"
   }, 
   {
-    "votenum": "15127", 
+    "education": "\uc911\ub3d9\ud559\uad50\uc878", 
     "district": "\uc804\ubd81 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc815\ud6c8", 
     "voterate": "48.80", 
@@ -1471,11 +1577,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\ub3d9\ud559\uad50\uc878"
+    "votenum": "15127"
   }, 
   {
-    "votenum": "13992", 
+    "education": "\uc911\uc878", 
     "district": "\uc804\ubd81 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\uc548\uade0\uc12d", 
     "voterate": "43.40", 
@@ -1484,11 +1591,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc878"
+    "votenum": "13992"
   }, 
   {
-    "votenum": "20654", 
+    "education": "\uad50\uc6d0\uc591\uc131\uc18c\uc218\ub8cc", 
     "district": "\uc804\ubd81 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uc784\ucc28\uc8fc", 
     "voterate": "59.20", 
@@ -1497,11 +1605,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uad50\uc6d0\uc591\uc131\uc18c\uc218\ub8cc"
+    "votenum": "20654"
   }, 
   {
-    "votenum": "26356", 
+    "education": "\uc601\uad6d\ub300\ud559\uc815\uacbd\ud559\uc878", 
     "district": "\uc804\ubd81 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\ub098\uc6a9\uade0", 
     "voterate": "54.20", 
@@ -1510,11 +1619,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1896", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc601\uad6d\ub300\ud559\uc815\uacbd\ud559\uc878"
+    "votenum": "26356"
   }, 
   {
-    "votenum": "15961", 
+    "education": "\ub9cc\uc8fc\ubc95\ub300\uc878", 
     "district": "\uc804\ubd81 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\uc1a1\uc601\uc8fc", 
     "voterate": "36.90", 
@@ -1523,11 +1633,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub9cc\uc8fc\ubc95\ub300\uc878"
+    "votenum": "15961"
   }, 
   {
-    "votenum": "10946", 
+    "education": "\uc77c\ub300\uc878", 
     "district": "\uc804\ubd81 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc138\ud658", 
     "voterate": "32.30", 
@@ -1536,11 +1647,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\ub300\uc878"
+    "votenum": "10946"
   }, 
   {
-    "votenum": "15321", 
+    "education": "\ub300\uc878", 
     "district": "\uc804\ubd81 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\ud64d\uc21c\ud76c", 
     "voterate": "51.30", 
@@ -1549,11 +1661,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "15321"
   }, 
   {
-    "votenum": "26124", 
+    "education": "\uc870\ub300\uc815\uacbd\ud559\ubd80\uc878", 
     "district": "\uc804\ubd81 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\uc2e0\uaddc\uc2dd", 
     "voterate": "49.30", 
@@ -1562,11 +1675,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc870\ub300\uc815\uacbd\ud559\ubd80\uc878"
+    "votenum": "26124"
   }, 
   {
-    "votenum": "23284", 
+    "education": "\ub300\uc878", 
     "district": "\uc804\ubd81 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\uc870\ud55c\ubc31", 
     "voterate": "50.40", 
@@ -1575,11 +1689,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "23284"
   }, 
   {
-    "votenum": "22144", 
+    "education": "\ub3d9\uacbd\uace0\uc0ac\uc878", 
     "district": "\uc804\ubd81 \uc81c21\uc120\uac70\uad6c", 
     "name_kr": "\uc724\uc81c\uc220", 
     "voterate": "56.50", 
@@ -1588,11 +1703,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub3d9\uacbd\uace0\uc0ac\uc878"
+    "votenum": "22144"
   }, 
   {
-    "votenum": "26262", 
+    "education": "\ubd81\uacbd\uace0\uae09\uc911\uc878", 
     "district": "\uc804\ubd81 \uc81c22\uc120\uac70\uad6c", 
     "name_kr": "\uc591\uc77c\ub3d9", 
     "voterate": "52.40", 
@@ -1601,11 +1717,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ubd81\uacbd\uace0\uae09\uc911\uc878"
+    "votenum": "26262"
   }, 
   {
-    "votenum": "22070", 
+    "education": "\uc911\uc878", 
     "district": "\uc804\ubd81 \uc81c23\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ud615\uc12d", 
     "voterate": "53.10", 
@@ -1614,11 +1731,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc878"
+    "votenum": "22070"
   }, 
   {
-    "votenum": "17079", 
+    "education": "\ub300\uc878", 
     "district": "\uc804\ubd81 \uc81c24\uc120\uac70\uad6c", 
     "name_kr": "\uc724\ud0dd\uc911", 
     "voterate": "40.90", 
@@ -1627,11 +1745,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "17079"
   }, 
   {
-    "votenum": "19568", 
+    "education": "\ubcf4\uc131\uc804\ubb383\ub144\uc878", 
     "district": "\uc804\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc131\ud0dc", 
     "voterate": "54.00", 
@@ -1640,11 +1759,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubcf4\uc131\uc804\ubb383\ub144\uc878"
+    "votenum": "19568"
   }, 
   {
-    "votenum": "15264", 
+    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc871\ub9bd\uc0c1\uc5c5\uc2e4\ucc9c\ud559\uad504\ub144\uc878", 
     "district": "\uc804\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ud544\ud638", 
     "voterate": "44.00", 
@@ -1656,11 +1776,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\uacf5\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc871\ub9bd\uc0c1\uc5c5\uc2e4\ucc9c\ud559\uad504\ub144\uc878"
+    "votenum": "15264"
   }, 
   {
-    "votenum": "20784", 
+    "education": "\uacbd\uc131\uacbd\uc2e0\uc911\ud559\uad50\uc878", 
     "district": "\uc804\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ud765\uaddc", 
     "voterate": "66.70", 
@@ -1672,11 +1793,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uacbd\uc2e0\uc911\ud559\uad50\uc878"
+    "votenum": "20784"
   }, 
   {
-    "votenum": "16041", 
+    "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\uc724\ub9ac\ucca0\ud559\uacfc3\ub144\uc878", 
     "district": "\uc804\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc911\uc12d", 
     "voterate": "43.20", 
@@ -1688,11 +1810,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1898", 
     "job": "3\ub300\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\uc724\ub9ac\ucca0\ud559\uacfc3\ub144\uc878"
+    "votenum": "16041"
   }, 
   {
-    "votenum": "16520", 
+    "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\ub3c5\ucca0\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc7ac\uc644", 
     "voterate": "59.30", 
@@ -1704,11 +1827,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1900", 
     "job": "\uc5ec\uc218\uc77c\ubcf4\uc0ac\uc7a5. \ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\ub3c5\ucca0\uacfc\uc878"
+    "votenum": "16520"
   }, 
   {
-    "votenum": "11031", 
+    "education": "\uc77c\ubcf8\ub300\ud559\uc218\ub8cc", 
     "district": "\uc804\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\uc724\ud615\ub0a8", 
     "voterate": "45.20", 
@@ -1720,11 +1844,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub300\ud559\uc218\ub8cc"
+    "votenum": "11031"
   }, 
   {
-    "votenum": "25811", 
+    "education": "\uc77c\ubcf8\ub3d9\uacbd\ubc95\uc815\ub300\ud559\uc804\ubb38\ubd80\ubc95\ub960\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc815\ud734", 
     "voterate": "68.60", 
@@ -1736,11 +1861,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uacbd\ubc95\uc815\ub300\ud559\uc804\ubb38\ubd80\ubc95\ub960\uacfc\uc878"
+    "votenum": "25811"
   }, 
   {
-    "votenum": "25684", 
+    "education": "\uc870\ub3c4\uc804\ub300\ud559\ubc95\ud559\ubd80\uc218\uc5c5", 
     "district": "\uc804\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uad6d\ucf8c\ub0a8", 
     "voterate": "59.20", 
@@ -1752,11 +1878,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ubb34\uc5ed\uc0c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc870\ub3c4\uc804\ub300\ud559\ubc95\ud559\ubd80\uc218\uc5c5"
+    "votenum": "25684"
   }, 
   {
-    "votenum": "20848", 
+    "education": "\uad11\uc8fc\uace0\ubcf4\uc878", 
     "district": "\uc804\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc21c", 
     "voterate": "55.70", 
@@ -1768,11 +1895,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uad11\uc8fc\uace0\ubcf4\uc878"
+    "votenum": "20848"
   }, 
   {
-    "votenum": "15592", 
+    "education": "\uc77c\ubcf8\uc2e0\ud638\uc0c1\uc5c5\ub300\ud559\uc878", 
     "district": "\uc804\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uac11\uc2dd", 
     "voterate": "61.90", 
@@ -1784,11 +1912,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uc2e0\ud638\uc0c1\uc5c5\ub300\ud559\uc878"
+    "votenum": "15592"
   }, 
   {
-    "votenum": "15656", 
+    "education": "\uc218\uc6d0\uace0\ub4f1\ub18d\ub9bc\ud559\uad50\uc878", 
     "district": "\uc804\ub0a8 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\ud669\uc219\ud604", 
     "voterate": "48.10", 
@@ -1800,11 +1929,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc218\uc6d0\uace0\ub4f1\ub18d\ub9bc\ud559\uad50\uc878"
+    "votenum": "15656"
   }, 
   {
-    "votenum": "16153", 
+    "education": "\uba85\uce58\ub300\ud559\ubc95\ud559\ubd80\uc878", 
     "district": "\uc804\ub0a8 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc740\ud0dc", 
     "voterate": "32.60", 
@@ -1816,11 +1946,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\uc2e0\ubb38\uc0ac\ubd80\uc0ac\uc7a5\uacb8 \uc8fc\ud544", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uba85\uce58\ub300\ud559\ubc95\ud559\ubd80\uc878"
+    "votenum": "16153"
   }, 
   {
-    "votenum": "25115", 
+    "education": "\uc911\uc559\ub300\ud559\uc804\ubb38\ubd80\ubc95\uacfc2\ub144\uc911\ud1f4", 
     "district": "\uc804\ub0a8 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ud615\ubaa8", 
     "voterate": "51.20", 
@@ -1832,11 +1963,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc559\ub300\ud559\uc804\ubb38\ubd80\ubc95\uacfc2\ub144\uc911\ud1f4"
+    "votenum": "25115"
   }, 
   {
-    "votenum": "26133", 
+    "education": "\uba85\uce58\ub300\ud559\ubc95\ud559\ubd80\uc878", 
     "district": "\uc804\ub0a8 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uc190\ubb38\uacbd", 
     "voterate": "59.40", 
@@ -1848,11 +1980,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uba85\uce58\ub300\ud559\ubc95\ud559\ubd80\uc878"
+    "votenum": "26133"
   }, 
   {
-    "votenum": "12668", 
+    "education": "\uba85\uce58\ub300\ud559\uc815\uce58\ud559\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ucca0\uc6c5", 
     "voterate": "34.70", 
@@ -1864,11 +1997,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\uc870\ub300\uc774\uc0ac\uc7a5. \uad11\uc8fc\uc2e0\ubcf4\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uba85\uce58\ub300\ud559\uc815\uce58\ud559\uacfc\uc878"
+    "votenum": "12668"
   }, 
   {
-    "votenum": "34990", 
+    "education": "\uacbd\uc131\uc81c\ub300\ubb38\ud559\ubd80\uc878", 
     "district": "\uc804\ub0a8 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\uc548\uc6a9\ubc31", 
     "voterate": "57.00", 
@@ -1880,11 +2014,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc81c\ub300\ubb38\ud559\ubd80\uc878"
+    "votenum": "34990"
   }, 
   {
-    "votenum": "38078", 
+    "education": "\uc870\ub3c4\uc804\ub300\ubb38\ud559\ubd80\uc601\ubb38\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\uad6c\ud765\ub0a8", 
     "voterate": "77.60", 
@@ -1896,11 +2031,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc870\ub3c4\uc804\ub300\ubb38\ud559\ubd80\uc601\ubb38\uacfc\uc878"
+    "votenum": "38078"
   }, 
   {
-    "votenum": "26851", 
+    "education": "\ubcf4\uc131\uc804\ubb38\ud559\uad50\uc878", 
     "district": "\uc804\ub0a8 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\uc190\uc11d\ub450", 
     "voterate": "55.80", 
@@ -1909,11 +2045,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubcf4\uc131\uc804\ubb38\ud559\uad50\uc878"
+    "votenum": "26851"
   }, 
   {
-    "votenum": "19279", 
+    "education": "\uacbd\uc131\uc77c\ucd9c\uc0c1\uc5c5\uc2e4\uc2b5\ud559\uad50\uc218\ud559", 
     "district": "\uc804\ub0a8 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ud5a5\uc218", 
     "voterate": "49.10", 
@@ -1925,11 +2062,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubb34\uc5ed\ud68c\uc0ac\uacbd\uc601", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uacbd\uc131\uc77c\ucd9c\uc0c1\uc5c5\uc2e4\uc2b5\ud559\uad50\uc218\ud559"
+    "votenum": "19279"
   }, 
   {
-    "votenum": "23038", 
+    "education": "\ub3d9\uacbd\ub9c8\ud3ec\uc218\uc758\ucd95\uc0b0\ud559\uad503\ub144\uc878", 
     "district": "\uc804\ub0a8 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ubcd1\uc21c", 
     "voterate": "57.50", 
@@ -1941,11 +2079,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3d9\uacbd\ub9c8\ud3ec\uc218\uc758\ucd95\uc0b0\ud559\uad503\ub144\uc878"
+    "votenum": "23038"
   }, 
   {
-    "votenum": "19854", 
+    "education": "\uc911\ud5592\ub144\uc878", 
     "district": "\uc804\ub0a8 \uc81c21\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc11d\uc9c4", 
     "voterate": "63.80", 
@@ -1954,11 +2093,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\ud5592\ub144\uc878"
+    "votenum": "19854"
   }, 
   {
-    "votenum": "22219", 
+    "education": "\ub3c5\uc77c\ubc31\ub9bc\ub300\ud559\uc878", 
     "district": "\uc804\ub0a8 \uc81c22\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc900\uc5f0", 
     "voterate": "52.00", 
@@ -1970,11 +2110,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1895", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ud1b5\uc77c\ub2f9", 
-    "education": "\ub3c5\uc77c\ubc31\ub9bc\ub300\ud559\uc878"
+    "votenum": "22219"
   }, 
   {
-    "votenum": "8468", 
+    "education": "\ud64d\uc775\ub300\ud559\ubc95\uc815\ud559\ubd80\ubc95\ub960\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c23\uc120\uac70\uad6c", 
     "name_kr": "\ub098\ud310\uc218", 
     "voterate": "27.70", 
@@ -1986,11 +2127,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1922", 
     "job": "\ud68c\uc0ac\uc0ac\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ud64d\uc775\ub300\ud559\ubc95\uc815\ud559\ubd80\ubc95\ub960\uacfc\uc878"
+    "votenum": "8468"
   }, 
   {
-    "votenum": "16311", 
+    "education": "\uad11\uc8fc\uace0\ub4f1\ubcf4\ud1b5\ud559\uad50\uc878", 
     "district": "\uc804\ub0a8 \uc81c24\uc120\uac70\uad6c", 
     "name_kr": "\uc720\uc625\uc6b0", 
     "voterate": "50.30", 
@@ -1999,11 +2141,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uad11\uc8fc\uace0\ub4f1\ubcf4\ud1b5\ud559\uad50\uc878"
+    "votenum": "16311"
   }, 
   {
-    "votenum": "10724", 
+    "education": "\uad11\uc8fc\uace0\ubcf45\ub144\uc878", 
     "district": "\uc804\ub0a8 \uc81c25\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc0ad", 
     "voterate": "35.60", 
@@ -2015,11 +2158,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uad11\uc8fc\uace0\ubcf45\ub144\uc878"
+    "votenum": "10724"
   }, 
   {
-    "votenum": "11996", 
+    "education": "\ubcf5\ub9dd\ud604\ub9bd\uacbd\ub3c4\ub18d\uc5c5\uad50\uc878", 
     "district": "\uc804\ub0a8 \uc81c26\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc0ac\ud615", 
     "voterate": "30.60", 
@@ -2031,11 +2175,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ubcf5\ub9dd\ud604\ub9bd\uacbd\ub3c4\ub18d\uc5c5\uad50\uc878"
+    "votenum": "11996"
   }, 
   {
-    "votenum": "33849", 
+    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc911\uc559\ub300\ud559\ubc95\ud559\ubd80\uc878", 
     "district": "\uc804\ub0a8 \uc81c27\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uba85\uc12d", 
     "voterate": "75.80", 
@@ -2047,11 +2192,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1910", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uacbd\uc911\uc559\ub300\ud559\ubc95\ud559\ubd80\uc878"
+    "votenum": "33849"
   }, 
   {
-    "votenum": "21832", 
+    "education": "\uad11\uc8fc\ub18d\uc5c5\ud559\uad503\ub144\uc218\ub8cc", 
     "district": "\uc804\ub0a8 \uc81c28\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc758\ud0dd", 
     "voterate": "50.30", 
@@ -2063,11 +2209,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uad11\uc8fc\ub18d\uc5c5\ud559\uad503\ub144\uc218\ub8cc"
+    "votenum": "21832"
   }, 
   {
-    "votenum": "15875", 
+    "education": "\ubd81\uacbd\uc911\uad6d\ub300\ud559\uacbd\uc81c\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c29\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc601\uaddc", 
     "voterate": "32.10", 
@@ -2079,11 +2226,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubd81\uacbd\uc911\uad6d\ub300\ud559\uacbd\uc81c\uacfc\uc878"
+    "votenum": "15875"
   }, 
   {
-    "votenum": "17994", 
+    "education": "\uacbd\uc131\ubc95\ud559\uc804\ubb38\ud559\uad50\uc878", 
     "district": "\uc804\ub0a8 \uc81c30\uc120\uac70\uad6c", 
     "name_kr": "\ubcc0\uc9c4\uac11", 
     "voterate": "43.50", 
@@ -2092,11 +2240,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1897", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\ubc95\ud559\uc804\ubb38\ud559\uad50\uc878"
+    "votenum": "17994"
   }, 
   {
-    "votenum": "17181", 
+    "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc878", 
     "district": "\uc804\ub0a8 \uc81c31\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc120\ud0dc", 
     "voterate": "41.00", 
@@ -2108,11 +2257,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc878"
+    "votenum": "17181"
   }, 
   {
-    "votenum": "17993", 
+    "education": "\uc591\uc815\uace0\ubcf4\uc878", 
     "district": "\uc804\ub0a8 \uc81c32\uc120\uac70\uad6c", 
     "name_kr": "\uc190\uc7ac\ud615", 
     "voterate": "57.70", 
@@ -2124,11 +2274,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1902", 
     "job": "\uc608\uc220\uc6d0\ud68c\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc591\uc815\uace0\ubcf4\uc878"
+    "votenum": "17993"
   }, 
   {
-    "votenum": "15623", 
+    "education": "\ub300\ud559\uc6d0 \uc218\ub8cc", 
     "district": "\uacbd\ubd81 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uc2e0\ub3c4\ud658", 
     "voterate": "55.90", 
@@ -2137,11 +2288,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ub300\ud559\uc6d0 \uc218\ub8cc"
+    "votenum": "15623"
   }, 
   {
-    "votenum": "15621", 
+    "education": "\uc77c\ubcf8\uba85\uce58\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ubcd1\ud558", 
     "voterate": "45.30", 
@@ -2150,11 +2302,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubcc0\ud638\uc0ac", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uba85\uce58\ub300\uc878"
+    "votenum": "15621"
   }, 
   {
-    "votenum": "14355", 
+    "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc878", 
     "district": "\uacbd\ubd81 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc6b0\uc904", 
     "voterate": "40.30", 
@@ -2163,11 +2316,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc878"
+    "votenum": "14355"
   }, 
   {
-    "votenum": "30125", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\uc911\ud1f4", 
     "district": "\uacbd\ubd81 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc7ac\ucc9c", 
     "voterate": "70.60", 
@@ -2179,11 +2333,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\uc911\ud1f4"
+    "votenum": "30125"
   }, 
   {
-    "votenum": "16332", 
+    "education": "\uba85\ub300\ubc95\ud559\ubd80\uc878", 
     "district": "\uacbd\ubd81 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc77c\ud658", 
     "voterate": "46.40", 
@@ -2192,11 +2347,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uba85\ub300\ubc95\ud559\ubd80\uc878"
+    "votenum": "16332"
   }, 
   {
-    "votenum": "16113", 
+    "education": "\uc77c\ubcf8\ub3d9\uc9c0\uc0ac\uace0\ub4f1\uad50\uc911\ud1f4", 
     "district": "\uacbd\ubd81 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc21c\ud76c", 
     "voterate": "43.80", 
@@ -2205,11 +2361,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ud68c\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub3d9\uc9c0\uc0ac\uace0\ub4f1\uad50\uc911\ud1f4"
+    "votenum": "16113"
   }, 
   {
-    "votenum": "13079", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\ud558\ud0dc\ud658", 
     "voterate": "61.00", 
@@ -2218,11 +2375,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "13079"
   }, 
   {
-    "votenum": "7612", 
+    "education": "\uc77c\ubcf8\ub300\ubc95\uacfc\uc878", 
     "district": "\uacbd\ubd81 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc548\uc6a9\ub300", 
     "voterate": "29.30", 
@@ -2231,11 +2389,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\ubcf8\ub300\ubc95\uacfc\uc878"
+    "votenum": "7612"
   }, 
   {
-    "votenum": "3027", 
+    "education": "\uc77c\uc911\uc559\ub300\ud559\ubc95\uacfc\uc878", 
     "district": "\uacbd\ubd81 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\ubb38\uc885\ub450", 
     "voterate": "17.30", 
@@ -2244,11 +2403,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\uc911\uc559\ub300\ud559\ubc95\uacfc\uc878"
+    "votenum": "3027"
   }, 
   {
-    "votenum": "23518", 
+    "education": "\uc804\ubb38\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc131\uace4", 
     "voterate": "72.80", 
@@ -2257,11 +2417,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\uc5f0\ud569\uc2e0\ubb38\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc804\ubb38\ub300\uc878"
+    "votenum": "23518"
   }, 
   {
-    "votenum": "21213", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ub9cc\uc6d0", 
     "voterate": "72.80", 
@@ -2270,11 +2431,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "21213"
   }, 
   {
-    "votenum": "14410", 
+    "education": "\uace0\uc878", 
     "district": "\uacbd\ubd81 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uaddc\ub9cc", 
     "voterate": "40.10", 
@@ -2283,11 +2445,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uace0\uc878"
+    "votenum": "14410"
   }, 
   {
-    "votenum": "7509", 
+    "education": "\uace0\uc878", 
     "district": "\uacbd\ubd81 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc601\uad50", 
     "voterate": "22.30", 
@@ -2296,11 +2459,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\uc878"
+    "votenum": "7509"
   }, 
   {
-    "votenum": "17826", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uad8c\uc624\uc885", 
     "voterate": "40.00", 
@@ -2309,11 +2473,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "17826"
   }, 
   {
-    "votenum": "16378", 
+    "education": "\ub3c5\ud559", 
     "district": "\uacbd\ubd81 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc775\uae30", 
     "voterate": "42.40", 
@@ -2322,11 +2487,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3c5\ud559"
+    "votenum": "16378"
   }, 
   {
-    "votenum": "15194", 
+    "education": "\uace0\uc878", 
     "district": "\uacbd\ubd81 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\uc724\uc6a9\uad6c", 
     "voterate": "55.60", 
@@ -2335,11 +2501,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\uc878"
+    "votenum": "15194"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uc804\ubb38\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc885\uae38", 
     "voterate": "\ud22c", 
@@ -2348,11 +2515,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1925", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc804\ubb38\ub300\uc878"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uace0\uc878", 
     "district": "\uacbd\ubd81 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6d0\uaddc", 
     "voterate": "\ud22c", 
@@ -2361,11 +2529,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\uc878"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "27394", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc21c\uc11d", 
     "voterate": "69.30", 
@@ -2374,11 +2543,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "27394"
   }, 
   {
-    "votenum": "32108", 
+    "education": "\uad6d\uc878", 
     "district": "\uacbd\ubd81 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc775\ub178", 
     "voterate": "82.30", 
@@ -2387,11 +2557,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uad6d\uc878"
+    "votenum": "32108"
   }, 
   {
-    "votenum": "13088", 
+    "education": "\uace0\uc878", 
     "district": "\uacbd\ubd81 \uc81c21\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ud611\uc6b0", 
     "voterate": "42.80", 
@@ -2400,11 +2571,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1921", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\uc878"
+    "votenum": "13088"
   }, 
   {
-    "votenum": "8797", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c22\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc885\uc900", 
     "voterate": "23.90", 
@@ -2413,11 +2585,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "8797"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uc804\ubb38\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c23\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc0c1\ub3c4", 
     "voterate": "\ud22c", 
@@ -2426,11 +2599,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc804\ubb38\ub300\uc878"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "14046", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c24\uc120\uac70\uad6c", 
     "name_kr": "\uad8c\uc911\ub3c8", 
     "voterate": "42.50", 
@@ -2439,11 +2613,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "14046"
   }, 
   {
-    "votenum": "22848", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c25\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ud574\uc815", 
     "voterate": "41.20", 
@@ -2452,11 +2627,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub300\uc878"
+    "votenum": "22848"
   }, 
   {
-    "votenum": "16064", 
+    "education": "\ub3c5\ud559", 
     "district": "\uacbd\ubd81 \uc81c26\uc120\uac70\uad6c", 
     "name_kr": "\ubc18\uc7ac\ud604", 
     "voterate": "37.50", 
@@ -2465,11 +2641,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\ucd9c\ud310\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ub3c5\ud559"
+    "votenum": "16064"
   }, 
   {
-    "votenum": "12068", 
+    "education": "\ub300\ud1f4", 
     "district": "\uacbd\ubd81 \uc81c27\uc120\uac70\uad6c", 
     "name_kr": "\uc815\ub0a8\ud0dd", 
     "voterate": "45.10", 
@@ -2478,11 +2655,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub300\ud1f4"
+    "votenum": "12068"
   }, 
   {
-    "votenum": "23496", 
+    "education": "\uacbd\uc131\uc81c\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c28\uc120\uac70\uad6c", 
     "name_kr": "\uc8fc\ubcd1\ud658", 
     "voterate": "55.90", 
@@ -2491,11 +2669,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc81c\ub300\uc878"
+    "votenum": "23496"
   }, 
   {
-    "votenum": "25391", 
+    "education": "\uc601\uc5d0\ub518\ubc84\ub77c\ub300\ud559\uc878", 
     "district": "\uacbd\ubd81 \uc81c29\uc120\uac70\uad6c", 
     "name_kr": "\uc7a5\ud0dd\uc0c1", 
     "voterate": "75.00", 
@@ -2504,11 +2683,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1893", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc601\uc5d0\ub518\ubc84\ub77c\ub300\ud559\uc878"
+    "votenum": "25391"
   }, 
   {
-    "votenum": "21312", 
+    "education": "\uc18c\uc878", 
     "district": "\uacbd\ubd81 \uc81c30\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ucca0\uc548", 
     "voterate": "39.00", 
@@ -2517,11 +2697,12 @@
     "sex": "\uc5ec", 
     "birthyear": "1912", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc18c\uc878"
+    "votenum": "21312"
   }, 
   {
-    "votenum": "17014", 
+    "education": "\ub9c1\ubcf8\ubc95\uc81c\ud559\ud68c\uc878", 
     "district": "\uacbd\ubd81 \uc81c31\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6b0\ub3d9", 
     "voterate": "41.00", 
@@ -2530,11 +2711,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1897", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub9c1\ubcf8\ubc95\uc81c\ud559\ud68c\uc878"
+    "votenum": "17014"
   }, 
   {
-    "votenum": "19658", 
+    "education": "\uc77c\ubcf8\uacbd\ub3c4\uc81c\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c32\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uad11\ud76c", 
     "voterate": "44.40", 
@@ -2543,11 +2725,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uacbd\ub3c4\uc81c\ub300\uc878"
+    "votenum": "19658"
   }, 
   {
-    "votenum": "19672", 
+    "education": "\ub300\uc878", 
     "district": "\uacbd\ubd81 \uc81c33\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc815\uadfc", 
     "voterate": "43.60", 
@@ -2556,11 +2739,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\uad11\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ub300\uc878"
+    "votenum": "19672"
   }, 
   {
-    "votenum": "35163", 
+    "education": "\uc18c\uc878", 
     "district": "\uacbd\ubd81 \uc81c34\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ub3d9\uc601", 
     "voterate": "66.30", 
@@ -2569,11 +2753,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ubb34\uc5ed\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc18c\uc878"
+    "votenum": "35163"
   }, 
   {
-    "votenum": "34904", 
+    "education": "\ubbf8\uae30\uc7ac", 
     "district": "\uacbd\ubd81 \uc81c35\uc120\uac70\uad6c", 
     "name_kr": "\uc815\uc7ac\uc6d0", 
     "voterate": "60.00", 
@@ -2585,11 +2770,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1907", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubbf8\uae30\uc7ac"
+    "votenum": "34904"
   }, 
   {
-    "votenum": "18815", 
+    "education": "\uc911\uc878", 
     "district": "\uacbd\ubd81 \uc81c36\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc815\ud76c", 
     "voterate": "37.30", 
@@ -2598,11 +2784,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc878"
+    "votenum": "18815"
   }, 
   {
-    "votenum": "24285", 
+    "education": "\uc911\uc878", 
     "district": "\uacbd\ubd81 \uc81c37\uc120\uac70\uad6c", 
     "name_kr": "\uc815\ubb38\ud760", 
     "voterate": "61.10", 
@@ -2611,11 +2798,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1894", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc911\uc878"
+    "votenum": "24285"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uace0\uc878", 
     "district": "\uacbd\ubd81 \uc81c38\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\ubcd1\uad8c", 
     "voterate": "\ud22c", 
@@ -2624,11 +2812,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1914", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\uc878"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "28119", 
+    "education": "\uacbd\uc131\ubc95\ud559\uc804\ubb38\ud559\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c1\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc751\uc8fc", 
     "voterate": "72.60", 
@@ -2637,11 +2826,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\ubc95\ud559\uc804\ubb38\ud559\uad50\uc878"
+    "votenum": "28119"
   }, 
   {
-    "votenum": "22131", 
+    "education": "\uacbd\uc131\uace0\ub4f1\uc0c1\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c2\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc0c1\ub8e1", 
     "voterate": "50.40", 
@@ -2653,11 +2843,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uace0\ub4f1\uc0c1\uad50\uc878"
+    "votenum": "22131"
   }, 
   {
-    "votenum": "23030", 
+    "education": "\uc911\uc559\uacbd\ub9ac\uc804\ubb38\ud559\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c3\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ub3d9\uc6b1", 
     "voterate": "64.20", 
@@ -2666,11 +2857,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc911\uc559\uacbd\ub9ac\uc804\ubb38\ud559\uad50\uc878"
+    "votenum": "23030"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\ubd80\uc0b0\uc774\uc0c1\uc878\uc5c5", 
     "district": "\uacbd\ub0a8 \uc81c4\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc601\uc5b8", 
     "voterate": "\ud22c", 
@@ -2682,11 +2874,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1900", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubd80\uc0b0\uc774\uc0c1\uc878\uc5c5"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "9608", 
+    "education": "\uc11c\uc6b8\uc911\ub3d9\uc911\ud559\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c5\uc120\uac70\uad6c", 
     "name_kr": "\uc774\ub9cc\uc6b0", 
     "voterate": "47.50", 
@@ -2695,11 +2888,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc11c\uc6b8\uc911\ub3d9\uc911\ud559\uad50\uc878"
+    "votenum": "9608"
   }, 
   {
-    "votenum": "22907", 
+    "education": "\uc77c\ubcf8\uc5ec\uc790\ub300\ud559\uc878", 
     "district": "\uacbd\ub0a8 \uc81c6\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc21c\ucc9c", 
     "voterate": "60.00", 
@@ -2711,11 +2905,12 @@
     "sex": "\uc5ec", 
     "birthyear": "1898", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc5ec\uc790\ub300\ud559\uc878"
+    "votenum": "22907"
   }, 
   {
-    "votenum": "19468", 
+    "education": "\uc77c\ubcf8\uc2e0\ud638\uace0\uc0c1\uc878", 
     "district": "\uacbd\ub0a8 \uc81c7\uc120\uac70\uad6c", 
     "name_kr": "\uc624\uc704\uc601", 
     "voterate": "59.10", 
@@ -2724,11 +2919,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1903", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc2e0\ud638\uace0\uc0c1\uc878"
+    "votenum": "19468"
   }, 
   {
-    "votenum": "27931", 
+    "education": "\uad11\ucc9c\uace0\ubcf4\uc878", 
     "district": "\uacbd\ub0a8 \uc81c8\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc885\ub0a8", 
     "voterate": "62.20", 
@@ -2737,11 +2933,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uad11\ucc9c\uace0\ubcf4\uc878"
+    "votenum": "27931"
   }, 
   {
-    "votenum": "23311", 
+    "education": "\ubbf8\uad6d\ubbf8\uc870\ub9ac\uc8fc\uad50\uc721\ub300\uc878\uc5c5", 
     "district": "\uacbd\ub0a8 \uc81c9\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ucc2c\ud604", 
     "voterate": "50.40", 
@@ -2753,11 +2950,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\uad50\uc721\uac00", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubbf8\uad6d\ubbf8\uc870\ub9ac\uc8fc\uad50\uc721\ub300\uc878\uc5c5"
+    "votenum": "23311"
   }, 
   {
-    "votenum": "20259", 
+    "education": "\ub3d9\ub798\uace0\ubcf4\uc878", 
     "district": "\uacbd\ub0a8 \uc81c10\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc778\ud638", 
     "voterate": "45.80", 
@@ -2769,11 +2967,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1900", 
     "job": "\uacf5\uc5c5\ud68c\uc0ac", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3d9\ub798\uace0\ubcf4\uc878"
+    "votenum": "20259"
   }, 
   {
-    "votenum": "27411", 
+    "education": "\uc9c4\uc8fc\ub18d\uace0\uc878", 
     "district": "\uacbd\ub0a8 \uc81c11\uc120\uac70\uad6c", 
     "name_kr": "\ud5c8\uc724\uc218", 
     "voterate": "58.00", 
@@ -2785,11 +2984,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc9c4\uc8fc\ub18d\uace0\uc878"
+    "votenum": "27411"
   }, 
   {
-    "votenum": "15417", 
+    "education": "\uc77c\ubcf8\uc870\uc6b0\uc804\ub300\ud559", 
     "district": "\uacbd\ub0a8 \uc81c12\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc6a9\uc9c4", 
     "voterate": "55.50", 
@@ -2798,11 +2998,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1902", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc870\uc6b0\uc804\ub300\ud559"
+    "votenum": "15417"
   }, 
   {
-    "votenum": "7615", 
+    "education": "\ub3c5\ud559", 
     "district": "\uacbd\ub0a8 \uc81c13\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\ucc9c", 
     "voterate": "43.00", 
@@ -2811,11 +3012,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1901", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ub3c5\ud559"
+    "votenum": "7615"
   }, 
   {
-    "votenum": "10315", 
+    "education": "\uc5f0\ud76c\uc804\ubb38\ud559\uad504\ub144\uc878", 
     "district": "\uacbd\ub0a8 \uc81c14\uc120\uac70\uad6c", 
     "name_kr": "\uc8fc\uae08\uc6a9", 
     "voterate": "35.50", 
@@ -2824,11 +3026,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc5f0\ud76c\uc804\ubb38\ud559\uad504\ub144\uc878"
+    "votenum": "10315"
   }, 
   {
-    "votenum": "10867", 
+    "education": "\uc77c\ubcf8\ub300\ud5592\ub144\uc218\ub8cc", 
     "district": "\uacbd\ub0a8 \uc81c15\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc7ac\ud604", 
     "voterate": "62.50", 
@@ -2837,11 +3040,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1918", 
     "job": "\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\ubcf8\ub300\ud5592\ub144\uc218\ub8cc"
+    "votenum": "10867"
   }, 
   {
-    "votenum": "30030", 
+    "education": "\uc11c\uc6b8\ub300\ubb38\ub9ac\ub300\uc815\uce58\ud559\uacfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c16\uc120\uac70\uad6c", 
     "name_kr": "\uad6c\ud0dc\ud68c", 
     "voterate": "57.00", 
@@ -2850,11 +3054,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1924", 
     "job": "\uc911\uc5ed", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc11c\uc6b8\ub300\ubb38\ub9ac\ub300\uc815\uce58\ud559\uacfc\uc878"
+    "votenum": "30030"
   }, 
   {
-    "votenum": "16321", 
+    "education": "\uc758\ub839\uad6d\ubbfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c17\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc601\ud76c", 
     "voterate": "45.00", 
@@ -2863,11 +3068,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1911", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc758\ub839\uad6d\ubbfc\uc878"
+    "votenum": "16321"
   }, 
   {
-    "votenum": "18704", 
+    "education": "\uacbd\uc131\uc138\ube0c\ub780\uc2a4\uc758\uc804\uc878", 
     "district": "\uacbd\ub0a8 \uc81c18\uc120\uac70\uad6c", 
     "name_kr": "\uc870\ud658\uaddc", 
     "voterate": "41.70", 
@@ -2876,11 +3082,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1904", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uacbd\uc131\uc138\ube0c\ub780\uc2a4\uc758\uc804\uc878"
+    "votenum": "18704"
   }, 
   {
-    "votenum": "20883", 
+    "education": "\ub3d9\uc544\ub300\ud559\ubc95\ub960\uacfc2\ub144\uc218\ub8cc", 
     "district": "\uacbd\ub0a8 \uc81c19\uc120\uac70\uad6c", 
     "name_kr": "\uc2e0\uc601\uc8fc", 
     "voterate": "39.40", 
@@ -2892,11 +3099,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\uc911\uc5ed", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ub3d9\uc544\ub300\ud559\ubc95\ub960\uacfc2\ub144\uc218\ub8cc"
+    "votenum": "20883"
   }, 
   {
-    "votenum": "15791", 
+    "education": "\ubc00\uc591\ub18d\uc7a0\uc911\uc878", 
     "district": "\uacbd\ub0a8 \uc81c20\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\ubd80\ud654", 
     "voterate": "43.50", 
@@ -2908,11 +3116,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\ubc00\uc591\ub18d\uc7a0\uc911\uc878"
+    "votenum": "15791"
   }, 
   {
-    "votenum": "9108", 
+    "education": "\uc11c\uc6b8\ud611\uc131\uc911\uace0\ub4f1\uacfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c21\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc815\ud658", 
     "voterate": "23.10", 
@@ -2924,11 +3133,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1905", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc11c\uc6b8\ud611\uc131\uc911\uace0\ub4f1\uacfc\uc878"
+    "votenum": "9108"
   }, 
   {
-    "votenum": "\ubb34", 
+    "education": "\uace0\uc131\uc9112\ub144\uc911\ud1f4", 
     "district": "\uacbd\ub0a8 \uc81c22\uc120\uac70\uad6c", 
     "name_kr": "\uc9c0\uc601\uc9c4", 
     "voterate": "\ud22c", 
@@ -2937,11 +3147,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1899", 
     "job": "\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\uc131\uc9112\ub144\uc911\ud1f4"
+    "votenum": "\ubb34"
   }, 
   {
-    "votenum": "18364", 
+    "education": "\uc591\uc0b0\ud1b5\ub3c4\uc911\uc878", 
     "district": "\uacbd\ub0a8 \uc81c23\uc120\uac70\uad6c", 
     "name_kr": "\uc548\ub355\uae30", 
     "voterate": "49.90", 
@@ -2953,11 +3164,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc591\uc0b0\ud1b5\ub3c4\uc911\uc878"
+    "votenum": "18364"
   }, 
   {
-    "votenum": "17682", 
+    "education": "\uc2e0\ud765\ub300\uc878", 
     "district": "\uacbd\ub0a8 \uc81c24\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc131\ud0c1", 
     "voterate": "48.90", 
@@ -2966,11 +3178,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1922", 
     "job": "\uc0ac\uc7a5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc2e0\ud765\ub300\uc878"
+    "votenum": "17682"
   }, 
   {
-    "votenum": "16114", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c25\uc120\uac70\uad6c", 
     "name_kr": "\uc870\uc77c\uc7ac", 
     "voterate": "52.50", 
@@ -2982,11 +3195,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1920", 
     "job": "\uc5b8\ub860\uc778", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc\uc878"
+    "votenum": "16114"
   }, 
   {
-    "votenum": "15868", 
+    "education": "\ub3d9\uacbd\uc81c\ub300\ub18d\uc5c5\ud1a0\ubaa9\uacfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c26\uc120\uac70\uad6c", 
     "name_kr": "\uac15\uc644\ubb34", 
     "voterate": "41.10", 
@@ -2995,11 +3209,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1907", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3d9\uacbd\uc81c\ub300\ub18d\uc5c5\ud1a0\ubaa9\uacfc\uc878"
+    "votenum": "15868"
   }, 
   {
-    "votenum": "11109", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c27\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc885\uc218", 
     "voterate": "31.60", 
@@ -3008,11 +3223,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1921", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc\uc878"
+    "votenum": "11109"
   }, 
   {
-    "votenum": "17835", 
+    "education": "\ub3d9\uc544\ub300\ubc95\ud559\ubd80\uc878", 
     "district": "\uacbd\ub0a8 \uc81c28\uc120\uac70\uad6c", 
     "name_kr": "\uae40\ud615\ub3c8", 
     "voterate": "57.20", 
@@ -3021,11 +3237,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3d9\uc544\ub300\ubc95\ud559\ubd80\uc878"
+    "votenum": "17835"
   }, 
   {
-    "votenum": "25561", 
+    "education": "\ub3c5\ud559", 
     "district": "\uacbd\ub0a8 \uc81c29\uc120\uac70\uad6c", 
     "name_kr": "\uc774\uc6a9\ubc94", 
     "voterate": "67.90", 
@@ -3037,11 +3254,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1906", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ub3c5\ud559"
+    "votenum": "25561"
   }, 
   {
-    "votenum": "14478", 
+    "education": "\uacbd\uc131\ubc95\uc804\uc878", 
     "district": "\uacbd\ub0a8 \uc81c30\uc120\uac70\uad6c", 
     "name_kr": "\uc11c\uc815\uadc0", 
     "voterate": "51.50", 
@@ -3050,11 +3268,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uacbd\uc131\ubc95\uc804\uc878"
+    "votenum": "14478"
   }, 
   {
-    "votenum": "18585", 
+    "education": "\ubc00\uc591\ub18d\uc7a0\uc878", 
     "district": "\uacbd\ub0a8 \uc81c31\uc120\uac70\uad6c", 
     "name_kr": "\uc9c4\uc11d\uc911", 
     "voterate": "45.00", 
@@ -3063,11 +3282,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\uc218\uc0b0\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\ubc00\uc591\ub18d\uc7a0\uc878"
+    "votenum": "18585"
   }, 
   {
-    "votenum": "16991", 
+    "education": "\uc11c\uc6b8\ubc95\ub300\ud589\uc815\uacfc\uc878", 
     "district": "\uacbd\ub0a8 \uc81c32\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\uc11d\ub9bc", 
     "voterate": "35.30", 
@@ -3076,11 +3296,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc11c\uc6b8\ubc95\ub300\ud589\uc815\uacfc\uc878"
+    "votenum": "16991"
   }, 
   {
-    "votenum": "18387", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\ud559\ubd80\uc878", 
     "district": "\uacbd\ub0a8 \uc81c33\uc120\uac70\uad6c", 
     "name_kr": "\uc815\ud5cc\uc8fc", 
     "voterate": "56.20", 
@@ -3089,11 +3310,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\ud559\ubd80\uc878"
+    "votenum": "18387"
   }, 
   {
-    "votenum": "17518", 
+    "education": "\uace0\ub4f1\ubcf4\ub3c4\ud559\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c34\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc815\uae30", 
     "voterate": "37.50", 
@@ -3102,11 +3324,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1912", 
     "job": "\ud68c\uc0ac\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uace0\ub4f1\ubcf4\ub3c4\ud559\uad50\uc878"
+    "votenum": "17518"
   }, 
   {
-    "votenum": "14190", 
+    "education": "\uc77c\ubcf8\uad6c\uc8fc\ub300\ubc95\ubb38\ud559\ubd801\ub144\uc218\ub8cc", 
     "district": "\uacbd\ub0a8 \uc81c35\uc120\uac70\uad6c", 
     "name_kr": "\uc190\uc601\uc218", 
     "voterate": "29.70", 
@@ -3118,11 +3341,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1899", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\uad6c\uc8fc\ub300\ubc95\ubb38\ud559\ubd801\ub144\uc218\ub8cc"
+    "votenum": "14190"
   }, 
   {
-    "votenum": "17249", 
+    "education": "\uc5f0\ud76c\uc804\ubb38\ud559\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c36\uc120\uac70\uad6c", 
     "name_kr": "\uae40\uc7ac\uc704", 
     "voterate": "44.90", 
@@ -3131,11 +3355,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc5f0\ud76c\uc804\ubb38\ud559\uad50\uc878"
+    "votenum": "17249"
   }, 
   {
-    "votenum": "10462", 
+    "education": "\ubd09\ucc9c\ud559\uc6d0\uc815\uacbd\ud559\ubd803\ub144\uc218\ub8cc", 
     "district": "\uacbd\ub0a8 \uc81c37\uc120\uac70\uad6c", 
     "name_kr": "\ubc15\uc0c1\uae38", 
     "voterate": "25.10", 
@@ -3144,11 +3369,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\ubd09\ucc9c\ud559\uc6d0\uc815\uacbd\ud559\ubd803\ub144\uc218\ub8cc"
+    "votenum": "10462"
   }, 
   {
-    "votenum": "16536", 
+    "education": "\uac70\ucc3d\uacf5\ub9bd\ub18d\uc5c5\ubcf4\uc2b5\ud559\uad50\uc878", 
     "district": "\uacbd\ub0a8 \uc81c38\uc120\uac70\uad6c", 
     "name_kr": "\uc11c\ud55c\ub450", 
     "voterate": "36.70", 
@@ -3157,11 +3383,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1917", 
     "job": "\uc591\uc870\uc5c5", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uac70\ucc3d\uacf5\ub9bd\ub18d\uc5c5\ubcf4\uc2b5\ud559\uad50\uc878"
+    "votenum": "16536"
   }, 
   {
-    "votenum": "23770", 
+    "education": "\uc870\ub3c4\uc804\ub300\ud1b5\uc2e0\uad50\uc678\uc0dd\uc218\ub8cc", 
     "district": "\uacbd\ub0a8 \uc81c39\uc120\uac70\uad6c", 
     "name_kr": "\uc720\ubd09\uc21c", 
     "voterate": "69.50", 
@@ -3170,11 +3397,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1919", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc870\ub3c4\uc804\ub300\ud1b5\uc2e0\uad50\uc678\uc0dd\uc218\ub8cc"
+    "votenum": "23770"
   }, 
   {
-    "votenum": "28416", 
+    "education": "\uc77c\ubcf8\ub300\ud559\uc878", 
     "district": "\uacbd\ub0a8 \uc81c40\uc120\uac70\uad6c", 
     "name_kr": "\ucd5c\ucc3d\uc12d", 
     "voterate": "82.70", 
@@ -3183,11 +3411,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1899", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc77c\ubcf8\ub300\ud559\uc878"
+    "votenum": "28416"
   }, 
   {
-    "votenum": "10252", 
+    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\uc878", 
     "district": "\uc81c\uc8fc \uc81c\uc8fc\uc2dc", 
     "name_kr": "\uace0\ub2f4\uc6a9", 
     "voterate": "42.20", 
@@ -3199,11 +3428,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1916", 
     "job": "\uae30\uc790", 
+    "assembly_no": 4, 
     "party": "\ubbfc\uc8fc\ub2f9", 
-    "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\uc878"
+    "votenum": "10252"
   }, 
   {
-    "votenum": "13989", 
+    "education": "\uc81c\uc8fc\ub18d\uc5c5\ud559\uad50\uc878", 
     "district": "\uc81c\uc8fc \ubd81\uc81c\uc8fc\uad70", 
     "name_kr": "\uae40\ub450\uc9c4", 
     "voterate": "33.50", 
@@ -3212,11 +3442,12 @@
     "sex": "\ub0a8", 
     "birthyear": "1913", 
     "job": "\ubbfc\uc758\uc6d0", 
+    "assembly_no": 4, 
     "party": "\uc790\uc720\ub2f9", 
-    "education": "\uc81c\uc8fc\ub18d\uc5c5\ud559\uad50\uc878"
+    "votenum": "13989"
   }, 
   {
-    "votenum": "12000", 
+    "education": "\uc77c\ubcf8\ud765\uad6d\uc0c1\uc5c5\uc878", 
     "district": "\uc81c\uc8fc \ub0a8\uc81c\uc8fc\uad70", 
     "name_kr": "\ud604\uc624\ubd09", 
     "voterate": "29.60", 
@@ -3228,7 +3459,8 @@
     "sex": "\ub0a8", 
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
+    "assembly_no": 4, 
     "party": "\ubb34\uc18c\uc18d", 
-    "education": "\uc77c\ubcf8\ud765\uad6d\uc0c1\uc5c5\uc878"
+    "votenum": "12000"
   }
 ]

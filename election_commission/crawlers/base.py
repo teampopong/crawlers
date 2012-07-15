@@ -35,6 +35,7 @@ class BaseCrawler(object):
         self.parse_record(member)
 
         # never change the order
+        member['assembly_no'] = self.target
         self.parse_member_image(member)
         self.parse_member_name(member)
         self.parse_member_birth(member)

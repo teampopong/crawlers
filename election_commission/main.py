@@ -23,9 +23,9 @@ def print_csv(filename, data):
             txt = txt.encode('utf8')
         return txt
 
-    attrs = ['district', 'cand_no', 'party', 'name_kr', 'name_cn', 'sex',
-             'birthyear', 'birthmonth', 'birthday', 'address', 'job',
-             'education', 'experience', 'recommend_priority',
+    attrs = ['assembly_no', 'district', 'cand_no', 'party', 'name_kr',
+             'name_cn', 'sex', 'birthyear', 'birthmonth', 'birthday',
+             'address', 'job', 'education', 'experience', 'recommend_priority',
              'votenum', 'voterate']
 
     with open(filename, 'w') as f:

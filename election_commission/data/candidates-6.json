@@ -8,6 +8,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -20,6 +21,7 @@
     "birthyear": "1920", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -32,6 +34,7 @@
     "birthyear": "1916", 
     "job": "\uacf5\uc775\uc0ac\uc5c5", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -44,6 +47,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -56,6 +60,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uc911\ud1f4"
   }, 
@@ -68,6 +73,7 @@
     "birthyear": "1901", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -80,6 +86,7 @@
     "birthyear": "1931", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uace0\uc878"
   }, 
@@ -92,6 +99,7 @@
     "birthyear": "1891", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -104,6 +112,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uad6d\ubc29\ub300\ud559\uc6d0\uc878"
   }, 
@@ -116,6 +125,7 @@
     "birthyear": "1926", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ucc3d\ub155\uacf5\ub9bd\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -128,6 +138,7 @@
     "birthyear": "1918", 
     "job": "\uc0ac\ubc95\uc11c\uc0ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub2e8\ucc9c\ub18d\uc5c5\ud559\uad50\uc878"
   }, 
@@ -140,6 +151,7 @@
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ubbf8\uad6d\ud504\ub808\uc2a4\ud1a0\ub300\ud5591\ub144\uc218\ud559"
   }, 
@@ -152,6 +164,7 @@
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubbf8\uad6d??\ub8e8\ub300\ud559\uc6d0\uc878"
   }, 
@@ -164,6 +177,7 @@
     "birthyear": "1902", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\ubc95\ud559\uacfc\uc878"
   }, 
@@ -176,6 +190,7 @@
     "birthyear": "1912", 
     "job": "\ud68c\uc0ac\ub300\ud45c", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub0a8\ub9cc\uc8fc\uc758\ub300\uc878"
   }, 
@@ -188,6 +203,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": ""
   }, 
@@ -200,6 +216,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uacbd\uc131\ubc95\ud559\uc804\ubb38\ub300\ud559\uc878"
   }, 
@@ -212,6 +229,7 @@
     "birthyear": "1912", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -224,6 +242,7 @@
     "birthyear": "1908", 
     "job": "\uc2e0\uc0dd\ud65c\uacf5\uc0ac\ucd1d\uc7ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": ""
   }, 
@@ -236,6 +255,7 @@
     "birthyear": "1901", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -248,6 +268,7 @@
     "birthyear": "1928", 
     "job": "\uc800\uc220", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -260,6 +281,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubc95\uc804\uc878"
   }, 
@@ -272,6 +294,7 @@
     "birthyear": "1909", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc758\uc804\uc218\uc5c5"
   }, 
@@ -284,6 +307,7 @@
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uc911\uc878"
   }, 
@@ -296,6 +320,7 @@
     "birthyear": "1918", 
     "job": "\uc721\uc601\uc0ac\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -308,6 +333,7 @@
     "birthyear": "1896", 
     "job": "\uc0ac\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": ""
   }, 
@@ -320,6 +346,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -332,6 +359,7 @@
     "birthyear": "1934", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -344,6 +372,7 @@
     "birthyear": "1920", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -356,6 +385,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -368,6 +398,7 @@
     "birthyear": "1896", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -380,6 +411,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\ud1f4"
   }, 
@@ -392,6 +424,7 @@
     "birthyear": "1933", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uace0\uc878"
   }, 
@@ -404,6 +437,7 @@
     "birthyear": "1914", 
     "job": "\ucd9c\ud310\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc0ac\uad00\ud559\uad50\uc878"
   }, 
@@ -416,6 +450,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -428,6 +463,7 @@
     "birthyear": "1922", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -440,6 +476,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -452,6 +489,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubcf4\uc804\uc911\ud1f4"
   }, 
@@ -464,6 +502,7 @@
     "birthyear": "1922", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ud589\uc815\ub300\ud559\uc6d0\uc878"
   }, 
@@ -476,6 +515,7 @@
     "birthyear": "1916", 
     "job": "\uc0ac\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -488,6 +528,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\ud559\uad50\uc878"
   }, 
@@ -500,6 +541,7 @@
     "birthyear": "1911", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": ""
   }, 
@@ -515,6 +557,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc878"
   }, 
@@ -527,6 +570,7 @@
     "birthyear": "1925", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ud559\ub300\ud5592\ub144\uc218\ub8cc"
   }, 
@@ -539,6 +583,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uacbd\uc131\uc0c1\uacf5\uad50 3\ub144\uc218\ub8cc"
   }, 
@@ -551,6 +596,7 @@
     "birthyear": "1923", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uacf5\uad70\ubcf4\ubcd1\ud559\uad50\uc878"
   }, 
@@ -566,6 +612,7 @@
     "birthyear": "1925", 
     "job": "\ubd80\uc0b0\uacf5\ubcf4\uc0ac\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubbf8\uad6d\ucf5c\ub85c\ube44\uc544\ub300\ud559\uc6d0\uc218\ub8cc"
   }, 
@@ -578,6 +625,7 @@
     "birthyear": "1906", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -590,6 +638,7 @@
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -602,6 +651,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud559\uc218\ub8cc"
   }, 
@@ -614,6 +664,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -626,6 +677,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -638,6 +690,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud559\uc218\ud559"
   }, 
@@ -650,6 +703,7 @@
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -662,6 +716,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -674,6 +729,7 @@
     "birthyear": "1900", 
     "job": "\uc7ac\ub2e8\uc774\uc0ac\uc7a5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -686,6 +742,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -698,6 +755,7 @@
     "birthyear": "1937", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -710,6 +768,7 @@
     "birthyear": "1923", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -722,6 +781,7 @@
     "birthyear": "1902", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -734,6 +794,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uc744\uc911\uc218\ub8cc"
   }, 
@@ -746,6 +807,7 @@
     "birthyear": "1907", 
     "job": "\uc0ac\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -758,6 +820,7 @@
     "birthyear": "1911", 
     "job": "\uc758\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -770,6 +833,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\ud559\uc911\ud1f4"
   }, 
@@ -782,6 +846,7 @@
     "birthyear": "1907", 
     "job": "\uc911\uc559\uc815\ucc45\uc5f0\uad6c\uc18c\ubd80\uc18c\uc7a5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc77c\ubcf8\uc804\uc218\ub300\ud559\uc878"
   }, 
@@ -794,6 +859,7 @@
     "birthyear": "1922", 
     "job": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc\uc758\ud68c\uc758\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud64d\uc775\ub300\ubc95\uacfc\uc878"
   }, 
@@ -806,6 +872,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -818,6 +885,7 @@
     "birthyear": "1925", 
     "job": "\ucd9c\ud310\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc2e0\uacbd\ubc95\uc815\ub300\ud559 3\ub144\uc218\ub8cc"
   }, 
@@ -830,6 +898,7 @@
     "birthyear": "1906", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub0a8\uacbd\ub300\ud559\uacbd\uc81c\uacfc\uc878"
   }, 
@@ -842,6 +911,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uac74\uad6d\ub300\uc878"
   }, 
@@ -854,6 +924,7 @@
     "birthyear": "1899", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uc878"
   }, 
@@ -869,6 +940,7 @@
     "birthyear": "1896", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uc878"
   }, 
@@ -881,6 +953,7 @@
     "birthyear": "1926", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -893,6 +966,7 @@
     "birthyear": "1898", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -905,6 +979,7 @@
     "birthyear": "1917", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -917,6 +992,7 @@
     "birthyear": "1911", 
     "job": "\uc800\uc220", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\ud559\uc911\ud1f4"
   }, 
@@ -929,6 +1005,7 @@
     "birthyear": "1918", 
     "job": "\uad50\uc218", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -941,6 +1018,7 @@
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub4f1\uc0ac\ubc94\uc878"
   }, 
@@ -953,6 +1031,7 @@
     "birthyear": "1898", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc878"
   }, 
@@ -965,6 +1044,7 @@
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uace0\ubcf4\uc878"
   }, 
@@ -977,6 +1057,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -989,6 +1070,7 @@
     "birthyear": "1915", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1001,6 +1083,7 @@
     "birthyear": "1898", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1013,6 +1096,7 @@
     "birthyear": "1911", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud5592\ub144\uc218\ub8cc"
   }, 
@@ -1025,6 +1109,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1037,6 +1122,7 @@
     "birthyear": "1903", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1049,6 +1135,7 @@
     "birthyear": "1936", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1061,6 +1148,7 @@
     "birthyear": "1924", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1073,6 +1161,7 @@
     "birthyear": "1908", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc911\ud1f4"
   }, 
@@ -1085,6 +1174,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1097,6 +1187,7 @@
     "birthyear": "1916", 
     "job": "\uc0ac\ud654\uc0ac\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -1109,6 +1200,7 @@
     "birthyear": "1903", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\ud559\uc911\ud1f4"
   }, 
@@ -1121,6 +1213,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ubc29\ub300\ud559\uc6d0\uc878"
   }, 
@@ -1133,6 +1226,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc0bc\uc77c\ud559\uad502\ub144\uc911\ud1f4"
   }, 
@@ -1145,6 +1239,7 @@
     "birthyear": "1914", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ubb38\ub9ac\ub300\uc878"
   }, 
@@ -1157,6 +1252,7 @@
     "birthyear": "1906", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uacbd\uc131\ubc95\uc804\uc878"
   }, 
@@ -1169,6 +1265,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubb38\ub9ac\ub300\uc878"
   }, 
@@ -1181,6 +1278,7 @@
     "birthyear": "1936", 
     "job": "\ucf10\ubd80\ub9bf\uc9c0\ud559\uc6d0\uc6d0\uc7a5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub2e8\uad6d\ub300\uc878"
   }, 
@@ -1193,6 +1291,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\ubb38\ub9ac\ub300\uc878"
   }, 
@@ -1205,6 +1304,7 @@
     "birthyear": "1916", 
     "job": "\ub300\ud559\uad50\uc218", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uba85\uce58\ub300\uc878"
   }, 
@@ -1217,6 +1317,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uae30\uc0c1\uacfc\ub300\uc878"
   }, 
@@ -1229,6 +1330,7 @@
     "birthyear": "1910", 
     "job": "\uc758\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc878"
   }, 
@@ -1241,6 +1343,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc0c1\uc8fc\ub18d\uace0\uc878"
   }, 
@@ -1253,6 +1356,7 @@
     "birthyear": "1911", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uacbd\ucc30\uc804\ubb38\ud559\uad50\uc878"
   }, 
@@ -1265,6 +1369,7 @@
     "birthyear": "1922", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\uc878"
   }, 
@@ -1277,6 +1382,7 @@
     "birthyear": "1914", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc11c\uc6b8\ub300\ud559\uc6d0\uc878"
   }, 
@@ -1289,6 +1395,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\ud559\uc878"
   }, 
@@ -1304,6 +1411,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\uc804\ubb38\ubd80\ubc95\uacfc3\ub144\uc911\ud1f4"
   }, 
@@ -1319,6 +1427,7 @@
     "birthyear": "1935", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uac74\uad6d\ub300\ud559\uc815\uce58\ud559\uacfc \ub144\uc911\ud1f4"
   }, 
@@ -1331,6 +1440,7 @@
     "birthyear": "1900", 
     "job": "\uc5b4\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -1343,6 +1453,7 @@
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uacbd\uc131\ubc95\ud559\uc804\ubb38\ud559\uad503\ub144\uc878"
   }, 
@@ -1358,6 +1469,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uacbd\uc131\uc81c\uad6d\ub300\ubc95\ubb38\ud559\ubd80\ub300\ud559\uc6d02\ub144\uc218"
   }, 
@@ -1373,6 +1485,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uad6d\ubc29\ub300\ud559\uc6d01\ub144\uc878"
   }, 
@@ -1388,6 +1501,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc131\uade0\uad00\ub300\ud559\uad50\uc815\uce58\ud559\uacfc\uc878"
   }, 
@@ -1400,6 +1514,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\uc911\uad6d\ucc9c\uc9c4\ub0a8\uac1c\ub300\ud5592\ub144\uc911\ud1f4"
   }, 
@@ -1415,6 +1530,7 @@
     "birthyear": "1918", 
     "job": "\uad50\uc721\uc0ac\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ud64d\uc775\ub300\ud559\ubc95\uc815\ud559\uacfc\uc878"
   }, 
@@ -1430,6 +1546,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc870\uc120\uacf5\uc5c5\ud559\uad50 3\ub144 \uc878"
   }, 
@@ -1445,6 +1562,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\ub3d9\uc911\ud559\uad50\uc878"
   }, 
@@ -1460,6 +1578,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\uc81c\uc6c5\ubcc0\ub300\ud559 \uc218\ub8cc"
   }, 
@@ -1475,6 +1594,7 @@
     "birthyear": "1912", 
     "job": "\uc758\uc0ac", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ud3c9\ub2f9\uc758\ud559\uc804\ubb38\ud559\uad50\uc878"
   }, 
@@ -1490,6 +1610,7 @@
     "birthyear": "1928", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc11c\uc6b8\ub300\ud559\uc6d0\uacbd\uc81c\ud559\uacfc \uc218\ub8cc"
   }, 
@@ -1505,6 +1626,7 @@
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -1517,6 +1639,7 @@
     "birthyear": "1935", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\ubbf8\uad6d\uc6cc\uc2f1\ud1a4\ub300\ud559\uc815\uce58\uc678\uad50\ud559\ubd80\uc878"
   }, 
@@ -1529,6 +1652,7 @@
     "birthyear": "1925", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub9c8\uc0b0\ub300\ud559\uc815\uce58\ud559\ubd80\uc815\uacbd\ud559\ubd80\uc878"
   }, 
@@ -1544,6 +1668,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uac74\uad6d\ub300\uc815\uacbd\ud559\ubd80\uc815\uc678\uacfc3\ub144\uc218\ub8cc"
   }, 
@@ -1556,6 +1681,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559 \ucca0\ud559\uacfc\uc878"
   }, 
@@ -1568,6 +1694,7 @@
     "birthyear": "1907", 
     "job": "\ub178\ub3d9", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -1583,6 +1710,7 @@
     "birthyear": "1910", 
     "job": "\uacbd\ub0a8\uc870\uac1c\ud45c\uc11d\uc720\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ud574\ucd08\uc911\ud559\uad505\ub144\uc878"
   }, 
@@ -1595,6 +1723,7 @@
     "birthyear": "1911", 
     "job": "\uad6d\uc81c\uacf5\ubcf4\uc774\uc0ac\uc7a5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -1610,6 +1739,7 @@
     "birthyear": "1919", 
     "job": "\uad6d\uc81c\uc2e0\ubcf4\uc0ac\uace0\ubb38", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ubd80\uc0b0\uc81c2\uc0c1\uc5c5\uace0\ub4f1\ud559\uad50\uc878"
   }, 
@@ -1625,6 +1755,7 @@
     "birthyear": "1928", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ubd80\uc0b0\ub300\ud559\ubc95\uacfc\uc878"
   }, 
@@ -1640,6 +1771,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ud64d\uc775\ub300 \ubc95\uc815\ud559\ubd80\uc878"
   }, 
@@ -1652,6 +1784,7 @@
     "birthyear": "1916", 
     "job": "\ud68c\uc0ac\uc7a5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc878"
   }, 
@@ -1667,6 +1800,7 @@
     "birthyear": "1924", 
     "job": "\ud68c\uc0ac\uc7a5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubd80\uc0b0\uc0c1\uace0\uc878"
   }, 
@@ -1682,6 +1816,7 @@
     "birthyear": "1924", 
     "job": "\uc5f0\ud0c4\uacf5\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uc870\uc120\uc2e0\ubb38\ud559\uc6d0\ubcf8\uacfc\uc878"
   }, 
@@ -1697,6 +1832,7 @@
     "birthyear": "1906", 
     "job": "\ubd80\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uad6c\uc8fc\uc81c\uad6d\ub300\ud559\ub18d\ud559\uacfc\uc878"
   }, 
@@ -1712,6 +1848,7 @@
     "birthyear": "1920", 
     "job": "\ud68c\uc0ac\uc911\ucc45", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc870\ub3c4\uc804\ub300\ud559\uc815\uacbd\uacfc 2\ub144 \uc218\ub8cc"
   }, 
@@ -1727,6 +1864,7 @@
     "birthyear": "1903", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud559\uac15\uc758\uc0dd"
   }, 
@@ -1742,6 +1880,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad11\uc8fc\uace0\ub4f1\ud559\uad50\uc878"
   }, 
@@ -1757,6 +1896,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubd80\uc0b0\ub300\ud559\uad50 \uc608\uacfc \uc218\ub8cc"
   }, 
@@ -1769,6 +1909,7 @@
     "birthyear": "1921", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -1784,6 +1925,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc815\uce58\ub300\ud559\uad50\uc815\uce58\ud559\uacfc4\ub144\uc878"
   }, 
@@ -1799,6 +1941,7 @@
     "birthyear": "1919", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uace04\ub144 \uc218\ub8cc"
   }, 
@@ -1814,6 +1957,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud64d\uc775\ub300\ud559\ubb38\ud559\ubd80\uc0ac\ud559\uacfc\uc878"
   }, 
@@ -1829,6 +1973,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ubbf8\uad6d\ub3d9\ubd81\ubbf8\uc870\ub9ac\uc8fc\ub9bd\ub300\ud559\uc6d0\uc878"
   }, 
@@ -1844,6 +1989,7 @@
     "birthyear": "1933", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubd80\uc0b0\uc218\uc0b0\ub300\ud559\uc878"
   }, 
@@ -1856,6 +2002,7 @@
     "birthyear": "1914", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3d9\uc544\ub300\ud559\uc804\ubb38\ubd80 2\ub144\uc218\ub8cc"
   }, 
@@ -1871,6 +2018,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubd80\uc0b0\ub300\ud559\uc6d0\uad6d\ubb38\uacfc \uc218\ub8cc"
   }, 
@@ -1886,6 +2034,7 @@
     "birthyear": "1921", 
     "job": "\uc778\uad8c\uc0c1\ub2f4\uc18c\uc0c1\ub2f4\uc5ed", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\ub798\uc81c1\uacf5\ub9bd\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -1901,6 +2050,7 @@
     "birthyear": "1906", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc870\ub3c4\uc804\uc911\ud559\uad504\ub144\uc878"
   }, 
@@ -1916,6 +2066,7 @@
     "birthyear": "1900", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc870\ub3c4\uc804\ub300\ud559\uc804\ubb38\ubd80\uacbd\uc81c\ud559\uacfc\uc878"
   }, 
@@ -1931,6 +2082,7 @@
     "birthyear": "1926", 
     "job": "\uc6b4\uc218\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ud3c9\uc591\uc815\uce58\ud559\uc6d01\ub144\uc218\ub8cc"
   }, 
@@ -1946,6 +2098,7 @@
     "birthyear": "1936", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub2e8\uad6d\ub300\uc678\uc0dd\ubc95\ud559\uacfc3\ub144\ub3c5\ud559"
   }, 
@@ -1958,6 +2111,7 @@
     "birthyear": "1925", 
     "job": "\ud1a0\uac74\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uc544\ub300\ud559 3\ub144 \uc218\ub8cc"
   }, 
@@ -1970,6 +2124,7 @@
     "birthyear": "1922", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc11c\uc6b8\ub300\uc878"
   }, 
@@ -1982,6 +2137,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\uc778\ucc9c\uc0c1\uc5c5\uc804\ubb38\ub300\uc911\ud1f4"
   }, 
@@ -1994,6 +2150,7 @@
     "birthyear": "1911", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2006,6 +2163,7 @@
     "birthyear": "1916", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2018,6 +2176,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2030,6 +2189,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3d9\uacbd\uc911\uc559\ub300\uc878"
   }, 
@@ -2042,6 +2202,7 @@
     "birthyear": "1921", 
     "job": "\uc9c0\uad6c\ub2f9\uc704\uc6d0\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uad6d\ubc29\ub300\uc878"
   }, 
@@ -2054,6 +2215,7 @@
     "birthyear": "1905", 
     "job": "\uc758\uc0ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc758\uc0ac\uac80\uc815\uc2dc\ud5d8\ud569\uaca9"
   }, 
@@ -2066,6 +2228,7 @@
     "birthyear": "1926", 
     "job": "\uc721\uc601\uc0ac\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uacbd\ud76c\ub300\uc878"
   }, 
@@ -2078,6 +2241,7 @@
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubd81\uacbd\ub300\uc878"
   }, 
@@ -2090,6 +2254,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\uc878"
   }, 
@@ -2102,6 +2267,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub3d9\uad6d\ub300\uc878"
   }, 
@@ -2114,6 +2280,7 @@
     "birthyear": "1917", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2126,6 +2293,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2138,6 +2306,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2150,6 +2319,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -2162,6 +2332,7 @@
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2174,6 +2345,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uace0\ud1f4"
   }, 
@@ -2186,6 +2358,7 @@
     "birthyear": "1926", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uacbd\ud76c\ub300\uc878"
   }, 
@@ -2198,6 +2371,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2210,6 +2384,7 @@
     "birthyear": "1904", 
     "job": "\uc0ac\uc7a5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud559\uc911\ud1f4"
   }, 
@@ -2222,6 +2397,7 @@
     "birthyear": "1925", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\uacf5\ub300\uc878"
   }, 
@@ -2234,6 +2410,7 @@
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2246,6 +2423,7 @@
     "birthyear": "1929", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -2258,6 +2436,7 @@
     "birthyear": "1920", 
     "job": "\ud68c\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -2270,6 +2449,7 @@
     "birthyear": "1922", 
     "job": "\uac1c\ubc1c\uc0ac\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2282,6 +2462,7 @@
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2294,6 +2475,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2306,6 +2488,7 @@
     "birthyear": "1903", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2318,6 +2501,7 @@
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2330,6 +2514,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2342,6 +2527,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2354,6 +2540,7 @@
     "birthyear": "1913", 
     "job": "\uc815\ub2f9\uc778", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2366,6 +2553,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\ud1f4"
   }, 
@@ -2378,6 +2566,7 @@
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2390,6 +2579,7 @@
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -2402,6 +2592,7 @@
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2414,6 +2605,7 @@
     "birthyear": "1921", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\ud1f4"
   }, 
@@ -2426,6 +2618,7 @@
     "birthyear": "1932", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -2438,6 +2631,7 @@
     "birthyear": "1912", 
     "job": "\ud68c\uc0ac\uacbd\uc601", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2450,6 +2644,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc721\uc0ac\uc878"
   }, 
@@ -2462,6 +2657,7 @@
     "birthyear": "1935", 
     "job": "\uc0ac\uc7a5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2474,6 +2670,7 @@
     "birthyear": "1909", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2486,6 +2683,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2498,6 +2696,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -2510,6 +2709,7 @@
     "birthyear": "1921", 
     "job": "\uc9c0\uad6c\ub2f9\uc704\uc6d0\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2522,6 +2722,7 @@
     "birthyear": "1901", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -2534,6 +2735,7 @@
     "birthyear": "1905", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2546,6 +2748,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -2558,6 +2761,7 @@
     "birthyear": "1910", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -2570,6 +2774,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uad6d\ud1f4"
   }, 
@@ -2582,6 +2787,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2594,6 +2800,7 @@
     "birthyear": "1929", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -2606,6 +2813,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -2618,6 +2826,7 @@
     "birthyear": "1936", 
     "job": "\ubbf8\uacf5\uad70\uacf5\ubcf4\uad00", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -2630,6 +2839,7 @@
     "birthyear": "1896", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -2642,6 +2852,7 @@
     "birthyear": "1908", 
     "job": "\ubb34", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2654,6 +2865,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2666,6 +2878,7 @@
     "birthyear": "1924", 
     "job": "\ubb34", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2678,6 +2891,7 @@
     "birthyear": "1908", 
     "job": "\ubb34", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubd81\uac04\ub3c4\uc911\uc878"
   }, 
@@ -2690,6 +2904,7 @@
     "birthyear": "1914", 
     "job": "\uc6b4\uc218\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2702,6 +2917,7 @@
     "birthyear": "1914", 
     "job": "\uc81c\uc5fc\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -2714,6 +2930,7 @@
     "birthyear": "1897", 
     "job": "\ud55c\uc758", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -2726,6 +2943,7 @@
     "birthyear": "1924", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -2738,6 +2956,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2750,6 +2969,7 @@
     "birthyear": "1931", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2762,6 +2982,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2774,6 +2995,7 @@
     "birthyear": "1902", 
     "job": "\ucd9c\ud310\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2786,6 +3008,7 @@
     "birthyear": "1917", 
     "job": "\uac74\uc124\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uacbd\uc131\uc9c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -2798,6 +3021,7 @@
     "birthyear": "1923", 
     "job": "\uc6b4\uc218\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2810,6 +3034,7 @@
     "birthyear": "1935", 
     "job": "\uae30\uc790", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub300\ud1f4"
   }, 
@@ -2822,6 +3047,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2834,6 +3060,7 @@
     "birthyear": "1907", 
     "job": "\uc0ac\uc7a5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2846,6 +3073,7 @@
     "birthyear": "1936", 
     "job": "\ubbf8\uad70\uc885\uc0ac\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ubbf8\uad6d\ub9e4\ub4dc\ub79c\ub4dc \ub300\ud1f4"
   }, 
@@ -2858,6 +3086,7 @@
     "birthyear": "1932", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ud559\ub300\uc878"
   }, 
@@ -2870,6 +3099,7 @@
     "birthyear": "1920", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\uc878"
   }, 
@@ -2882,6 +3112,7 @@
     "birthyear": "1937", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uad6d\ubbfc\ub300\uc878"
   }, 
@@ -2894,6 +3125,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -2906,6 +3138,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2918,6 +3151,7 @@
     "birthyear": "1934", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": ""
   }, 
@@ -2930,6 +3164,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2942,6 +3177,7 @@
     "birthyear": "1931", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc218\ub8cc"
   }, 
@@ -2954,6 +3190,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -2966,6 +3203,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc911\ud1f4"
   }, 
@@ -2978,6 +3216,7 @@
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uace0\uc878"
   }, 
@@ -2990,6 +3229,7 @@
     "birthyear": "1916", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ud55c\uad6d\ub300\uc878"
   }, 
@@ -3002,6 +3242,7 @@
     "birthyear": "1935", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ud55c\uc591\uacf5\uc5c5\uace0\uc878"
   }, 
@@ -3014,6 +3255,7 @@
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc77c\ubcf8\ub300\ubc95\uacfc\uc878"
   }, 
@@ -3026,6 +3268,7 @@
     "birthyear": "1930", 
     "job": "\uc0ac\uc5c5\uc778", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc0c1\ub300\uc878"
   }, 
@@ -3038,6 +3281,7 @@
     "birthyear": "1905", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3050,6 +3294,7 @@
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc7a5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc878"
   }, 
@@ -3062,6 +3307,7 @@
     "birthyear": "1913", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -3074,6 +3320,7 @@
     "birthyear": "1933", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -3086,6 +3333,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -3101,6 +3349,7 @@
     "birthyear": "1918", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3113,6 +3362,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -3125,6 +3375,7 @@
     "birthyear": "1910", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud559\uc6d0\uc878"
   }, 
@@ -3137,6 +3388,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3149,6 +3401,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3161,6 +3414,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3173,6 +3427,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3185,6 +3440,7 @@
     "birthyear": "1938", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -3197,6 +3453,7 @@
     "birthyear": "1923", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -3209,6 +3466,7 @@
     "birthyear": "1908", 
     "job": "\uc5b8\ub860", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\uc911\ud1f4"
   }, 
@@ -3221,6 +3479,7 @@
     "birthyear": "1926", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc804\uc878"
   }, 
@@ -3233,6 +3492,7 @@
     "birthyear": "1904", 
     "job": "\uac74\uc124\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3245,6 +3505,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc804\uc878"
   }, 
@@ -3257,6 +3518,7 @@
     "birthyear": "1933", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc911\ud1f4"
   }, 
@@ -3269,6 +3531,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3281,6 +3544,7 @@
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3293,6 +3557,7 @@
     "birthyear": "1907", 
     "job": "\ubcd1\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\uc878"
   }, 
@@ -3305,6 +3570,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -3317,6 +3583,7 @@
     "birthyear": "1900", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\uc804\uc878"
   }, 
@@ -3329,6 +3596,7 @@
     "birthyear": "1926", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3341,6 +3609,7 @@
     "birthyear": "1931", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3353,6 +3622,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3365,6 +3635,7 @@
     "birthyear": "1904", 
     "job": "\uc218\uc0b0\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -3377,6 +3648,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3389,6 +3661,7 @@
     "birthyear": "1931", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3401,6 +3674,7 @@
     "birthyear": "1924", 
     "job": "\uad50\uc721\uac00", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc0ac\uc878"
   }, 
@@ -3413,6 +3687,7 @@
     "birthyear": "1916", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -3425,6 +3700,7 @@
     "birthyear": "1910", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -3437,6 +3713,7 @@
     "birthyear": "1917", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3449,6 +3726,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -3461,6 +3739,7 @@
     "birthyear": "1922", 
     "job": "\uc5b8\ub860", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc804\uc878"
   }, 
@@ -3473,6 +3752,7 @@
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -3485,6 +3765,7 @@
     "birthyear": "1919", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -3497,6 +3778,7 @@
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3509,6 +3791,7 @@
     "birthyear": "1914", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -3521,6 +3804,7 @@
     "birthyear": "1920", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3533,6 +3817,7 @@
     "birthyear": "1924", 
     "job": "\ud68c\uc0ac", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -3545,6 +3830,7 @@
     "birthyear": "1936", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3557,6 +3843,7 @@
     "birthyear": "1917", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3569,6 +3856,7 @@
     "birthyear": "1928", 
     "job": "\uc0ac\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3581,6 +3869,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3593,6 +3882,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc911\ud1f4"
   }, 
@@ -3605,6 +3895,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3617,6 +3908,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3629,6 +3921,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3641,6 +3934,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3653,6 +3947,7 @@
     "birthyear": "1929", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc878"
   }, 
@@ -3665,6 +3960,7 @@
     "birthyear": "1924", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3677,6 +3973,7 @@
     "birthyear": "1919", 
     "job": "\uc218\ub3c4\uc758\ub300\uc0c1\ubb34\uc774\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc911\ud1f4"
   }, 
@@ -3689,6 +3986,7 @@
     "birthyear": "1921", 
     "job": "\uc5b8\ub860", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3701,6 +3999,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ubcf4\uace0\uc878"
   }, 
@@ -3713,6 +4012,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ud1b5\uc2e0\uc218\ub8cc"
   }, 
@@ -3725,6 +4025,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3737,6 +4038,7 @@
     "birthyear": "1913", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\ud1f4"
   }, 
@@ -3749,6 +4051,7 @@
     "birthyear": "1917", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -3761,6 +4064,7 @@
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uace0\uc878"
   }, 
@@ -3773,6 +4077,7 @@
     "birthyear": "1911", 
     "job": "\uc815\uce58", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -3785,6 +4090,7 @@
     "birthyear": "1910", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -3797,6 +4103,7 @@
     "birthyear": "1904", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -3809,6 +4116,7 @@
     "birthyear": "1911", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3821,6 +4129,7 @@
     "birthyear": "1926", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc758\uc219\uc911\ud1f4"
   }, 
@@ -3833,6 +4142,7 @@
     "birthyear": "1917", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3845,6 +4155,7 @@
     "birthyear": "1920", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uace0\uc878"
   }, 
@@ -3857,6 +4168,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -3872,6 +4184,7 @@
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc721\uad70\uc0ac\uad00\ud559\uad50\uc878"
   }, 
@@ -3884,6 +4197,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uacbd\uc131\ud611\uc131\uc2e4\uc5c5\ud559\uad50\uc878"
   }, 
@@ -3899,6 +4213,7 @@
     "birthyear": "1920", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uacbd\uc131\ubc95\uc804\uc878"
   }, 
@@ -3914,6 +4229,7 @@
     "birthyear": "1922", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uacbd\uae30\uc0c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -3929,6 +4245,7 @@
     "birthyear": "1918", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -3941,6 +4258,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -3956,6 +4274,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc5f0\uc138\ub300\ud559\uad50\uc0c1\uacbd\ub300\ud559\uc878"
   }, 
@@ -3971,6 +4290,7 @@
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\ud1a0\ubaa9\ud559\uacfc\uc878"
   }, 
@@ -3986,6 +4306,7 @@
     "birthyear": "1925", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud64d\uc775\ub300\ud559\ubc95\uc804\ud559\ubd80\uc815\uce58\ud559\uacfc\uc878"
   }, 
@@ -4001,6 +4322,7 @@
     "birthyear": "1915", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc2e0\ud765\ub300\ud559\uad50\ubc95\uacfc3\ub144\uc911\ud1f4"
   }, 
@@ -4016,6 +4338,7 @@
     "birthyear": "1918", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uacbd\uc911\uc559\ub300\ud559\ubc95\ud559\ubd80\uc878"
   }, 
@@ -4031,6 +4354,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubcf4\ud1b5\ud559\uad50\uace0\ub4f1\uacfc2\ub144\uc878"
   }, 
@@ -4046,6 +4370,7 @@
     "birthyear": "1926", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc57d\ub300\uc878"
   }, 
@@ -4058,6 +4383,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uacbd\uc911\uc559\ub300\ubc95\ud559\ubd80\uc878"
   }, 
@@ -4070,6 +4396,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -4085,6 +4412,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub9cc\uc8fc\uad00\uc11c\ub300\ud559\uc911\ud1f4"
   }, 
@@ -4100,6 +4428,7 @@
     "birthyear": "1925", 
     "job": "\uad11\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc804\ubb38\uae30\uc220\uc591\uc131\uc18c\uad11\uc0b0\uacfc\uc218\ub8cc"
   }, 
@@ -4115,6 +4444,7 @@
     "birthyear": "1922", 
     "job": "\ub300\uc11c\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uad6d\uc878"
   }, 
@@ -4130,6 +4460,7 @@
     "birthyear": "1907", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\ubc95\ud559\ubd80\uc878"
   }, 
@@ -4145,6 +4476,7 @@
     "birthyear": "1915", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -4157,6 +4489,7 @@
     "birthyear": "1923", 
     "job": "\uc815\ubbf8\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc870\ub3c4\uc804\uacf5\uc5c5\uace0\uc878,\uacbd\ucc30\uc804\ubb38\uad50\uc878"
   }, 
@@ -4169,6 +4502,7 @@
     "birthyear": "1911", 
     "job": "\uc815\ubbf8\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ud55c\ubb38\uc218\ud559"
   }, 
@@ -4184,6 +4518,7 @@
     "birthyear": "1920", 
     "job": "\uc758\uc0ac", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uccad\uc8fc\ub300\ubc95\ud559\ubd80\uc878,\uc11c\uc6b8\ub300\ubc15\uc0ac\ud559\uc704"
   }, 
@@ -4199,6 +4534,7 @@
     "birthyear": "1931", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc815\uce58\ub300\ud559\uc815\uc678\uacfc\uc878"
   }, 
@@ -4214,6 +4550,7 @@
     "birthyear": "1896", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubd81\uacbd\ub300\ud559\uc911\ud1f4"
   }, 
@@ -4229,6 +4566,7 @@
     "birthyear": "1918", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uacbd\ubb34\uc7a5\uace0\ub4f1\uacf5\uacfc\uc878"
   }, 
@@ -4244,6 +4582,7 @@
     "birthyear": "1919", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ubc95\uacfc1\ub144\uc911\ud1f4"
   }, 
@@ -4259,6 +4598,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ud64d\uc775\ub300\uad6d\ubb38\uacfc\uc878"
   }, 
@@ -4274,6 +4614,7 @@
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc774\ucc9c\uacf5\ub9bd\uc7a0\uc2e4\uc218\ud559\uad502\ub144\uc878"
   }, 
@@ -4289,6 +4630,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc778\ucc9c\uc0c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -4304,6 +4646,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\ud559\uacfc\uc878"
   }, 
@@ -4319,6 +4662,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ubbf8\ucf5c\ub86c\ube44\uc544\ub300\ud559\uc6d0\uacbd\uc81c\uacfc\uc218\ub8cc"
   }, 
@@ -4334,6 +4678,7 @@
     "birthyear": "1921", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uccad\uc8fc\uc0c1\ub300\uc0c1\ud559\ubd80\uc878"
   }, 
@@ -4346,6 +4691,7 @@
     "birthyear": "1910", 
     "job": "\ucd9c\ud310\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uacbd\uc911\uc559\ub300\ubc95\uacfc\uc911\ud1f4"
   }, 
@@ -4358,6 +4704,7 @@
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -4373,6 +4720,7 @@
     "birthyear": "1931", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uacbd\ud76c\ub300\ubc95\uacfc\uc878"
   }, 
@@ -4385,6 +4733,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uac74\uad6d\ub3004\ub144 \uc878"
   }, 
@@ -4397,6 +4746,7 @@
     "birthyear": "1913", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uacbd\uc131\uc81c\ub300\ubc95\uacfc\uc878"
   }, 
@@ -4409,6 +4759,7 @@
     "birthyear": "1935", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ud55c\uc591\uacf5\ub300\ud1a0\ubaa9\uacfc3\ub144\uc911\ud1f4"
   }, 
@@ -4421,6 +4772,7 @@
     "birthyear": "1932", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uccad\uc8fc\ub300\ubc95\uacfc\uc878"
   }, 
@@ -4433,6 +4785,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub9cc\uc8fc\ub300\ub3d9\ud559\uc6d0\uc878"
   }, 
@@ -4445,6 +4798,7 @@
     "birthyear": "1922", 
     "job": "\uc758\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc138\ube0c\ub780\uc2a4\uc758\ub300\uc878"
   }, 
@@ -4457,6 +4811,7 @@
     "birthyear": "1915", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\uc804\ubb38\ubd80\uc815\uce58\uacfc\uc911\ud1f4"
   }, 
@@ -4469,6 +4824,7 @@
     "birthyear": "1917", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\ubc95\uacfc\uc878"
   }, 
@@ -4484,6 +4840,7 @@
     "birthyear": "1921", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\uc815\uce58\ud559\uacfc2\ub144\uc878"
   }, 
@@ -4499,6 +4856,7 @@
     "birthyear": "1918", 
     "job": "\uad50\uc721\uc0ac\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uad6c\uc81c\ud55c\uad6d\uc2e0\ud559\ub300\ud559\uc878"
   }, 
@@ -4511,6 +4869,7 @@
     "birthyear": "1926", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\ub300\ud559\uc6d0\ubc95\uacfc\uc878"
   }, 
@@ -4526,6 +4885,7 @@
     "birthyear": "1920", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\uc815\uce58\uacfc\uc878"
   }, 
@@ -4541,6 +4901,7 @@
     "birthyear": "1920", 
     "job": "\ud1a0\uac74\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub2e8\uad6d\ub300\ubc95\uacfc2\ub144 \uc911\ud1f4"
   }, 
@@ -4556,6 +4917,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -4571,6 +4933,7 @@
     "birthyear": "1909", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud64d\uc775\ub300 \uc815\uce58\ud559\uacfc \uc878"
   }, 
@@ -4586,6 +4949,7 @@
     "birthyear": "1932", 
     "job": "\ubb34", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\uc131\uade0\uad00\ub300 \uacbd\uc81c\uacfc \uc878"
   }, 
@@ -4601,6 +4965,7 @@
     "birthyear": "1900", 
     "job": "\ubb34", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc6b4\ub0a8\uad70\uad00\ud559\uad50 \uc878"
   }, 
@@ -4616,6 +4981,7 @@
     "birthyear": "1930", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ucda9\ub0a8\ub300 \uc0ac\ud559\uacfc \uc878"
   }, 
@@ -4628,6 +4994,7 @@
     "birthyear": "1930", 
     "job": "\ub300\ud559\uac15\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\ub824\ub300\ub300\ud559\uc6d0 \uc878"
   }, 
@@ -4643,6 +5010,7 @@
     "birthyear": "1907", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc559\ub300 \ubc95\ud559\uacfc \uc878"
   }, 
@@ -4658,6 +5026,7 @@
     "birthyear": "1936", 
     "job": "\ubb34", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -4673,6 +5042,7 @@
     "birthyear": "1905", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc608\uc0b0\ub18d\uace0 \uc878"
   }, 
@@ -4688,6 +5058,7 @@
     "birthyear": "1924", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc5f0\ud76c\uc804\ubb38\uc815\uacbd\uacfc 4\ub144 \uc218\ub8cc"
   }, 
@@ -4703,6 +5074,7 @@
     "birthyear": "1915", 
     "job": "\ubb34", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ubd81\uacbd\uc0ac\ubc94\ub300\ud559 \uc878"
   }, 
@@ -4715,6 +5087,7 @@
     "birthyear": "1934", 
     "job": "\ubb34", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud559 \uc815\uce58\ud559\uacfc 3\ub144 \uc218\ub8cc"
   }, 
@@ -4730,6 +5103,7 @@
     "birthyear": "1910", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc77c\ubcf8\uacbd\ub3c4\ub9bd\uad00\ub300\ud559 \uacbd\uc81c\uacfc \uc878"
   }, 
@@ -4742,6 +5116,7 @@
     "birthyear": "1917", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -4757,6 +5132,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uac74\uad6d\ub300\uc815\uc678\uacfc \uc878"
   }, 
@@ -4772,6 +5148,7 @@
     "birthyear": "1900", 
     "job": "\uc2e0\ubb38\uae30\uc790", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uc0ac\ubc94\uac15\uc2b5\uc218\ub8cc"
   }, 
@@ -4784,6 +5161,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ucda9\ub0a8\ub300\ud559 4\ub144 \uc911\ud1f4"
   }, 
@@ -4799,6 +5177,7 @@
     "birthyear": "1926", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc0ac\ubc94\ub300\ud559 \uc608\uacfc \uc218\ub8cc"
   }, 
@@ -4814,6 +5193,7 @@
     "birthyear": "1923", 
     "job": "\ubb34", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ubbfc\ub300 \ubc95\uacfc \uc878"
   }, 
@@ -4829,6 +5209,7 @@
     "birthyear": "1923", 
     "job": "\ubb34", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3d9\uc591\uc6c5\ubcc0\uc804\ubb38\ud559\uc6d0\uc5f0\uad6c\uacfc 1\ub144\uc218\ub8cc"
   }, 
@@ -4844,6 +5225,7 @@
     "birthyear": "1922", 
     "job": "\ubb34", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubb38\ub9ac\uacfc \uc878"
   }, 
@@ -4859,6 +5241,7 @@
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ud638\uc11c\ubbfc\uc911\ub300\ud559 \ubc95\uacfc \uc878"
   }, 
@@ -4871,6 +5254,7 @@
     "birthyear": "1903", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubc95\uc815\uc804\ubb38\ud559\uad50 \uc878"
   }, 
@@ -4886,6 +5270,7 @@
     "birthyear": "1901", 
     "job": "\uc778\uc1c4\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ucda9\ub0a8\uc0ac\ubc94\ud559\uacfc \uc878"
   }, 
@@ -4901,6 +5286,7 @@
     "birthyear": "1905", 
     "job": "\uc815\ub2f9\uc6d0", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uad6d\uc878"
   }, 
@@ -4916,6 +5302,7 @@
     "birthyear": "1922", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -4928,6 +5315,7 @@
     "birthyear": "1925", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc804\uc878"
   }, 
@@ -4940,6 +5328,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -4952,6 +5341,7 @@
     "birthyear": "1909", 
     "job": "\uc591\uc870\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc7a0\uc5c5\uac15\uc2b5\uc18c\uc878"
   }, 
@@ -4964,6 +5354,7 @@
     "birthyear": "1925", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -4979,6 +5370,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ud64d\uc775\ub300\ud559 4\ub144\uc878"
   }, 
@@ -4994,6 +5386,7 @@
     "birthyear": "1929", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud64d\uc775\ub300\ud559\ubc95\uc815\ud559\ubd80 4\ub144 \uc218\ub8cc"
   }, 
@@ -5006,6 +5399,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -5021,6 +5415,7 @@
     "birthyear": "1910", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ud55c\uc218"
   }, 
@@ -5033,6 +5428,7 @@
     "birthyear": "1930", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ud64d\uc775\ub300\ud559 4\ub144 \uc878"
   }, 
@@ -5045,6 +5441,7 @@
     "birthyear": "1907", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc77c\ubcf8\ub300\ud559 \ubc95\uacfc \uc878"
   }, 
@@ -5060,6 +5457,7 @@
     "birthyear": "1926", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc721\uc0ac\uc878"
   }, 
@@ -5075,6 +5473,7 @@
     "birthyear": "1915", 
     "job": "\ub18d\uc5c5\uacb8\ubb38\uc5b8\ud3b8\ucc2c\ud68c\uc774\uc0ac\uc7a5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc0ac\ud559\uc804\uc815"
   }, 
@@ -5090,6 +5489,7 @@
     "birthyear": "1927", 
     "job": "\uc815\ub2f9\uc778", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ud64d\uc775\ub300\ud559\ubc95\uacfc \uc218\ub8cc"
   }, 
@@ -5105,6 +5505,7 @@
     "birthyear": "1926", 
     "job": "\uad11\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559\uc678\ub300\uc815\uacbd\uacfc 4\ub144\uacfc\uc815\uc218\ub8cc"
   }, 
@@ -5120,6 +5521,7 @@
     "birthyear": "1910", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\ub4f1\ubcf4\ud1b5\ud559\uad50 \uc878"
   }, 
@@ -5132,6 +5534,7 @@
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\ub3d9\uc878"
   }, 
@@ -5147,6 +5550,7 @@
     "birthyear": "1934", 
     "job": "\uad50\uc721,\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc559\ub300\ud559\ubc95\uc815\uacfc 4\ub144 \uc878"
   }, 
@@ -5162,6 +5566,7 @@
     "birthyear": "1933", 
     "job": "\ucd9c\ud310\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uacf5\uc8fc\uc0ac\ubc94\uac15\uc2b5\uacfc\uc218\ub8cc"
   }, 
@@ -5177,6 +5582,7 @@
     "birthyear": "1922", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubbf8\uad6d\uc721\uad70\ub300\ud559 \uc878"
   }, 
@@ -5192,6 +5598,7 @@
     "birthyear": "1928", 
     "job": "\ubb34", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\ud559\uad50 \uc878"
   }, 
@@ -5207,6 +5614,7 @@
     "birthyear": "1893", 
     "job": "\ubb34", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559 \uc878"
   }, 
@@ -5222,6 +5630,7 @@
     "birthyear": "1910", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubcf4\uc131\uc804\ubb38\ubc95\uacfc 3\ub144\uc911\ud1f4"
   }, 
@@ -5237,6 +5646,7 @@
     "birthyear": "1909", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uad11\ucc9c\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -5252,6 +5662,7 @@
     "birthyear": "1907", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc608\uc0b0\ub18d\uc5c5\ud559\uad50 \uc878"
   }, 
@@ -5264,6 +5675,7 @@
     "birthyear": "1921", 
     "job": "\ubb34", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc640\uc138\ub2e4\ub300\ud559\ubc95\uacfc 4\ub144\uc878"
   }, 
@@ -5279,6 +5691,7 @@
     "birthyear": "1930", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559\uc6d0 2\ub144 \uc218\ub8cc"
   }, 
@@ -5291,6 +5704,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud559 \uc878"
   }, 
@@ -5306,6 +5720,7 @@
     "birthyear": "1911", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -5321,6 +5736,7 @@
     "birthyear": "1926", 
     "job": "\uc758\uc0ac", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\uc758\uacfc\ub300\ud559 \uc878"
   }, 
@@ -5336,6 +5752,7 @@
     "birthyear": "1911", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uacbd\uc131\uacf5\ud559\uc6d0\uad11\uc0b0\uacfc \uc911\ud1f4"
   }, 
@@ -5351,6 +5768,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc11c\uc6b8\ubb38\ub9ac\ub300 4\ub144\uc878"
   }, 
@@ -5366,6 +5784,7 @@
     "birthyear": "1925", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc721\uc0ac3\uae30 \uc878"
   }, 
@@ -5378,6 +5797,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uacbd\uc81c\ub300\ub18d\ud559\ubd80\uc124\ub18d\uc0ac\uc5f0\uad6c\uc6d0"
   }, 
@@ -5393,6 +5813,7 @@
     "birthyear": "1926", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -5408,6 +5829,7 @@
     "birthyear": "1933", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\uc0ac\ubc94\ub300\ud559 3\ub144 \uc218\ub8cc"
   }, 
@@ -5423,6 +5845,7 @@
     "birthyear": "1926", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559 \uc878"
   }, 
@@ -5435,6 +5858,7 @@
     "birthyear": "1935", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub824\ub300\uc815\uacbd\ub300 \uc878"
   }, 
@@ -5447,6 +5871,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uacbd\uc131\ub300\ud559 \uc878"
   }, 
@@ -5459,6 +5884,7 @@
     "birthyear": "1935", 
     "job": "\uc721\uc601\uc0ac\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ud559\ub300\ud559\uc601\ubb38\uacfc \uc878"
   }, 
@@ -5474,6 +5900,7 @@
     "birthyear": "1926", 
     "job": "\ubb34", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559\uc815\uce58\ud559\ubd80\ubc95\uacfc \uc878"
   }, 
@@ -5489,6 +5916,7 @@
     "birthyear": "1928", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc721\uad70\uc885\ud569\ud559\uad50 \uc878"
   }, 
@@ -5504,6 +5932,7 @@
     "birthyear": "1923", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -5519,6 +5948,7 @@
     "birthyear": "1903", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uacbd\uc81c\uad6d\ub300\ud559 \uc878"
   }, 
@@ -5534,6 +5964,7 @@
     "birthyear": "1912", 
     "job": "\ubb34", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uac74\ud76c\uc804\ubb38\ub300\ud559\uad50 \uc878"
   }, 
@@ -5546,6 +5977,7 @@
     "birthyear": "1932", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\uc131\uade0\uad00\ub300\ud559\uc6d0 \uc878"
   }, 
@@ -5558,6 +5990,7 @@
     "birthyear": "1905", 
     "job": "\ubb34", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\uc911\ud1f4"
   }, 
@@ -5570,6 +6003,7 @@
     "birthyear": "1910", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc11c\uc6b8\uc911\ub3d9\ud559\uad50\uc218\ub8cc"
   }, 
@@ -5582,6 +6016,7 @@
     "birthyear": "1919", 
     "job": "\ubb34", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -5597,6 +6032,7 @@
     "birthyear": "1918", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc81c\uc8fc\uad6d\uace0\ub4f1\uc0ac\uc2dc\ud589\uc815\uacfc\ud569\uaca9"
   }, 
@@ -5612,6 +6048,7 @@
     "birthyear": "1933", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub2e8\uad6d\ub300\ud559 \uc878"
   }, 
@@ -5627,6 +6064,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ubd81\ud574\ub3c4\uc81c\uad6d\ub300\ud559\ub18d\ud559\ubd80\uc218\ub8cc"
   }, 
@@ -5639,6 +6077,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\uc608\uc220\uacfc \uc878"
   }, 
@@ -5651,6 +6090,7 @@
     "birthyear": "1920", 
     "job": "\ubb34", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uc0c1\uacfc \uc878"
   }, 
@@ -5663,6 +6103,7 @@
     "birthyear": "1912", 
     "job": "\uc800\uc11c\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\uc640\uc138\ub2e4\ub300\ud559\uc878"
   }, 
@@ -5675,6 +6116,7 @@
     "birthyear": "1921", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc6cc\uc2f1\ud1a4\uc8fc\ub9bd\ub300\ud559\ub300\ud559\uc6d0\ud589\uc815\ud559\uacfc2"
   }, 
@@ -5687,6 +6129,7 @@
     "birthyear": "1921", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uad6d\ubbfc\ub300\ud559\ubc95\uacfc \uc878"
   }, 
@@ -5702,6 +6145,7 @@
     "birthyear": "1929", 
     "job": "\uc815\ub2f9\uc778", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559\uc815\uce58\ud559\uacfc 4\ub144\uc911\ud1f4"
   }, 
@@ -5717,6 +6161,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uba85\ub95c\uc804\ubb38\ud559\uc6d0 \uc878"
   }, 
@@ -5732,6 +6177,7 @@
     "birthyear": "1932", 
     "job": "\ubb34", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\ud559\uad50\ubc95\uc815\ub300\ud559 \uc878"
   }, 
@@ -5744,6 +6190,7 @@
     "birthyear": "1923", 
     "job": "\ubb34", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud559\ubc95\uacfc \uc878"
   }, 
@@ -5759,6 +6206,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uacbd\uc131\uacbd\uc81c\uc804\ubb38\ud559\uad50\uad50\uc6d0\uacfc\uc218\ub8cc"
   }, 
@@ -5771,6 +6219,7 @@
     "birthyear": "1908", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc815\uce58\ub3c5\ud55918\ub144\uac04"
   }, 
@@ -5783,6 +6232,7 @@
     "birthyear": "1930", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\uad6d\uc81c\uc6c5\ubcc0\ub300\ud559\uc5f0\uad6c\uacfc\uc218\ub8cc"
   }, 
@@ -5795,6 +6245,7 @@
     "birthyear": "1924", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uac74\uad6d\ub300\ud559\uad50\uc815\uce58\uc678\uad50\ud559\ubd80\uc878"
   }, 
@@ -5807,6 +6258,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3d9\uacbd\ubc95\uc815\ub300\ud559\uacbd\uc81c\ud559\ubd80\uacbd\uc81c\ud559\uacfc\uc878"
   }, 
@@ -5819,6 +6271,7 @@
     "birthyear": "1929", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\ub300\ubc95\uc815\ub300\ud559\uc815\uce58\ud559\uacfc\uc878"
   }, 
@@ -5831,6 +6284,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uacbd\uc131\uace0\ub4f1\uc0c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -5843,6 +6297,7 @@
     "birthyear": "1897", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ud55c\ubb38\uc218\ud559"
   }, 
@@ -5855,6 +6310,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\uc8fc\uace0\ub4f1\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -5867,6 +6323,7 @@
     "birthyear": "1935", 
     "job": "\uccad\ub144\uc6b4\ub3d9", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559\ubc95\uacfc\uc878"
   }, 
@@ -5879,6 +6336,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubc95\uc815\ub300\ud559\uc878"
   }, 
@@ -5891,6 +6349,7 @@
     "birthyear": "1912", 
     "job": "\uc804\ubd81\ub3c4\uc758\uc7a5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc2e0\ud638\uc678\uad6d\uc5b4\ud559\uad50\ubd80\uc18d\uc0c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -5906,6 +6365,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uacbd\ub3c4\uc81c\uad6d\ub300\ud559\uc878"
   }, 
@@ -5918,6 +6378,7 @@
     "birthyear": "1906", 
     "job": "\uc804\ubd81\ub300\ud559\uad50\ucd1d\uc7a5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uacbd\uc131\uc81c\uad6d\ub300\ud559\uc878"
   }, 
@@ -5930,6 +6391,7 @@
     "birthyear": "1907", 
     "job": "\uad6d\ud559\ub300\ud559\uc774\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uacbd\uc81c\ud559\uc878"
   }, 
@@ -5945,6 +6407,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\uc911\ud1f4"
   }, 
@@ -5960,6 +6423,7 @@
     "birthyear": "1906", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ubbfc\ud559\uad50\uc878"
   }, 
@@ -5975,6 +6439,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uad50\uc878"
   }, 
@@ -5990,6 +6455,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\uc8fc\uace0\ubcf4\uc911\ud1f4"
   }, 
@@ -6002,6 +6468,7 @@
     "birthyear": "1937", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\ud559\uad50\uc878"
   }, 
@@ -6017,6 +6484,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc911\uc559\ub300\ud559\uad502\ub144\uc911\ud1f4"
   }, 
@@ -6029,6 +6497,7 @@
     "birthyear": "1923", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ub300\ud559\uc6d0\uc878"
   }, 
@@ -6041,6 +6510,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uad6d\ud559\ub300\ud559\uc804\ubb38\ubd80\uc878"
   }, 
@@ -6056,6 +6526,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": ""
   }, 
@@ -6071,6 +6542,7 @@
     "birthyear": "1920", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\uc8fc\uace0\ubcf4\uc878"
   }, 
@@ -6083,6 +6555,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ub300\ud559\uc6d0\uc878"
   }, 
@@ -6095,6 +6568,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uad50\ubc95\uacfc\uc878"
   }, 
@@ -6107,6 +6581,7 @@
     "birthyear": "1906", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uad50\ubc95\ud559\ubd80\uc878"
   }, 
@@ -6122,6 +6597,7 @@
     "birthyear": "1932", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ud559\ub300\ud559\uad50\uc815\uacbd\ud559\ubd80\uc878"
   }, 
@@ -6137,6 +6613,7 @@
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uacbd\uc131\uc804\uae30\ud559\uad50\uc804\uae30\uacfc\uc878"
   }, 
@@ -6152,6 +6629,7 @@
     "birthyear": "1922", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uc77c\ubcf8\ub3d9\uacbd\uc911\uc559\ub300\ud559\uad50\ubc95\ud559\ubd80\uc878"
   }, 
@@ -6167,6 +6645,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559\uad50\uc815\uce58\ud559\uacfc\uc878"
   }, 
@@ -6182,6 +6661,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ubbfc\ud559\uad50\uc878"
   }, 
@@ -6194,6 +6674,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc815\uce58\ub300\ud559\uc911\ud1f4"
   }, 
@@ -6209,6 +6690,7 @@
     "birthyear": "1919", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\ubd81\uc81c\uad6d\ub300\ud559\ubc95\ud559\ubd80\uc878"
   }, 
@@ -6224,6 +6706,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\uc8fc\uace0\ubcf44\ub144\uc218\ub8cc"
   }, 
@@ -6239,6 +6722,7 @@
     "birthyear": "1935", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\ud559\uad50\uc911\ud1f4"
   }, 
@@ -6251,6 +6735,7 @@
     "birthyear": "1934", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc804\uc8fc\uacf5\uace0\uc878"
   }, 
@@ -6263,6 +6748,7 @@
     "birthyear": "1921", 
     "job": "\uc6b4\uc218\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\uc8fc\uace0\ubcf4\uc878"
   }, 
@@ -6275,6 +6761,7 @@
     "birthyear": "1936", 
     "job": "\ud68c\uc7a5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubc95\uacfc\ub300\ud559\uc878"
   }, 
@@ -6287,6 +6774,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uccad\uc8fc\ubc95\ub300\uc878"
   }, 
@@ -6299,6 +6787,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc804\ubd81\ub300\ud559\uad50\ubc95\uacfc\ub300\ud5593\ub144\uc911\ud1f4"
   }, 
@@ -6311,6 +6800,7 @@
     "birthyear": "1932", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubc95\uacfc\ub300\ud559\ud589\uc815\ud559\uacfc4\ub144"
   }, 
@@ -6326,6 +6816,7 @@
     "birthyear": "1926", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559\uacbd\uc0c1\ub300\ud559\uc81c1\uc804\ubb38\ubd80\uc218\ub8cc"
   }, 
@@ -6341,6 +6832,7 @@
     "birthyear": "1920", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559\uad50\uc878"
   }, 
@@ -6353,6 +6845,7 @@
     "birthyear": "1933", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc804\uc8fc\uacf5\uc5c5\uace0\ub4f1\ud559\uad50\uc878"
   }, 
@@ -6365,6 +6858,7 @@
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\uad50\uc0ac\ubc94\ub300\ud559\uc0dd\ubb3c\uacfc\uc911\ud1f4"
   }, 
@@ -6377,6 +6871,7 @@
     "birthyear": "1935", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uad50\uc878"
   }, 
@@ -6389,6 +6884,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -6404,6 +6900,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc815\uc74d\ub18d\uace05\ub144\uc878"
   }, 
@@ -6419,6 +6916,7 @@
     "birthyear": "1895", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub860\ub3c8\ub300\ud559\uad50\uc878"
   }, 
@@ -6431,6 +6929,7 @@
     "birthyear": "1915", 
     "job": "\uc758\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\ud559\uad50\uc878"
   }, 
@@ -6443,6 +6942,7 @@
     "birthyear": "1896", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uad50\uc878"
   }, 
@@ -6455,6 +6955,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\uc815\uc74d\ub18d\uc5c5\ud559\uad50\uc878"
   }, 
@@ -6467,6 +6968,7 @@
     "birthyear": "1934", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uacbd\ub300\ud559\uad50\ub300\ud559\uc6d0\ubc95\ud559\uc815\uce58\ud559"
   }, 
@@ -6479,6 +6981,7 @@
     "birthyear": "1907", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\ucc3d\uace0\ubcf4\uad505\ub144\uc878"
   }, 
@@ -6491,6 +6994,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uad50\uc878"
   }, 
@@ -6503,6 +7007,7 @@
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc5f0\uc804\uc878"
   }, 
@@ -6515,6 +7020,7 @@
     "birthyear": "1903", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -6527,6 +7033,7 @@
     "birthyear": "1928", 
     "job": "\uc0ac\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -6542,6 +7049,7 @@
     "birthyear": "1919", 
     "job": "", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub0a8\uc6d0\uacf5\ub9bd\ub18d\uc5c5\ud559\uad50\uc878"
   }, 
@@ -6554,6 +7062,7 @@
     "birthyear": "1919", 
     "job": "\uc2e4\uc5c5\uc778", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ub3d9\uacf5\uc5c5\uc804\ubb38\ub300\ud559\uad50\uc878"
   }, 
@@ -6566,6 +7075,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud5593\ub144\uc218\ub8cc"
   }, 
@@ -6578,6 +7088,7 @@
     "birthyear": "1937", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ubd80\uc548\ub18d\uace0\uc878"
   }, 
@@ -6593,6 +7104,7 @@
     "birthyear": "1900", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc911\uc878"
   }, 
@@ -6605,6 +7117,7 @@
     "birthyear": "1927", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559\ubc95\ub960\ud559\uacfc\uc878"
   }, 
@@ -6617,6 +7130,7 @@
     "birthyear": "1896", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ubcf4\uc131\uc804\ubb38\ud559\uad50\ubc95\uacfc\uc878"
   }, 
@@ -6632,6 +7146,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud559\uc815\uce58\ud559\ubd80\uc878"
   }, 
@@ -6644,6 +7159,7 @@
     "birthyear": "1926", 
     "job": "\uad50\uc721\uc0ac\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\uace0\ub824\ub300\ud559\uad50\ucca0\ud559\uacfc\uc878"
   }, 
@@ -6656,6 +7172,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uc591\ub300\ud559\uc804\ubb38\ubd80\uc11d\uc2dd\uacfc3\ub144\uc878"
   }, 
@@ -6668,6 +7185,7 @@
     "birthyear": "1926", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uc77c\ubcf8\uace0\ub4f1\uc74c\uc545\ud559\uad50\uc878"
   }, 
@@ -6680,6 +7198,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\ud654\ubbfc\uad6d\ucc9c\uc9c4\uc2dc\uc911\uad6d\uc5b4\ud559\uc6d0\uc878"
   }, 
@@ -6692,6 +7211,7 @@
     "birthyear": "1904", 
     "job": "\uc758\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc804\uc878"
   }, 
@@ -6704,6 +7224,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -6719,6 +7240,7 @@
     "birthyear": "1930", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc721\uad70\ub300\ud559\uc878"
   }, 
@@ -6734,6 +7256,7 @@
     "birthyear": "1913", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uacbd\uc871\ub9bd\uc0c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -6746,6 +7269,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc5f0\ud76c\ub300\ud559\uad50\ub300\ud559\uc6d0\uc878"
   }, 
@@ -6758,6 +7282,7 @@
     "birthyear": "1924", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uc591\uc0c1\uc5c5\ud559\uad50\uc218\ub8cc"
   }, 
@@ -6770,6 +7295,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uc878"
   }, 
@@ -6785,6 +7311,7 @@
     "birthyear": "1925", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -6797,6 +7324,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc721\uad70\ub300\ud559\uc878"
   }, 
@@ -6812,6 +7340,7 @@
     "birthyear": "1917", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc911\uad6d\ubd81\ud3c9\uc5f0\uacbd\ub300\ud559\uc911\ud1f4"
   }, 
@@ -6827,6 +7356,7 @@
     "birthyear": "1909", 
     "job": "\uc0ac\uc7a5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uacbd\uc911\uc559\ub300\ubc95\ud559\ubd80\uc878"
   }, 
@@ -6839,6 +7369,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
     "education": "\ubbf8\uad6d\ud37c\ud0a8\uc2a4\ub300"
   }, 
@@ -6851,6 +7382,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\ubc95\uc815\ub3003\ub144\uc911\ud1f4"
   }, 
@@ -6866,6 +7398,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uac74\uad6d\ub300\ud559\uc815\uacbd\uacfc\uc218\ub8cc"
   }, 
@@ -6881,6 +7414,7 @@
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ud55c\uad6d\uc2e0\ud559\ub300\ud559\uc878"
   }, 
@@ -6893,6 +7427,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\ud55c\uc815\uce58\ud559\uc0ac\uc6d0\uc878"
   }, 
@@ -6905,6 +7440,7 @@
     "birthyear": "1922", 
     "job": "\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ubc95\ub300\uc878"
   }, 
@@ -6920,6 +7456,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uba85\uce58\ub300\ubc95\ud559\ubd80\uc878"
   }, 
@@ -6935,6 +7472,7 @@
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uc870\ub3c4\uc804\ub300\uc878"
   }, 
@@ -6950,6 +7488,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5b4\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc5ec\uc218\uacf5\ub9bd\uc218\uc0b0\ud559\uad50\uc878"
   }, 
@@ -6965,6 +7504,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad11\uc8fc\uc11c\uc911\ud559\uad50\uc878"
   }, 
@@ -6980,6 +7520,7 @@
     "birthyear": "1909", 
     "job": "\uc218\uc0b0\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\uc815\uac15\uc0c1\uace02\ub144\uc218\ub8cc"
   }, 
@@ -6995,6 +7536,7 @@
     "birthyear": "1902", 
     "job": "\uc815\ubbf8\uc5c5 \ubc0f \uc81c\uc870\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc5ec\uc218\uac04\uc774\uc218\uc0b0\ud559\uad50\uc911\ud1f4"
   }, 
@@ -7007,6 +7549,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\uc804\ubb38\ubd801\ub144\uc911\ud1f4"
   }, 
@@ -7019,6 +7562,7 @@
     "birthyear": "1915", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc21c\ucc9c\uc2e4\uc218\ud559\uad503\ub144\uc878"
   }, 
@@ -7034,6 +7578,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uba85\uce58\ub300\uc878"
   }, 
@@ -7049,6 +7594,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub18d\ub3004\ub144\uc911\ud1f4"
   }, 
@@ -7061,6 +7607,7 @@
     "birthyear": "1907", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc21c\ucc9c\ub9e4\uc0b0\uace0\uc911\ud1f4"
   }, 
@@ -7076,6 +7623,7 @@
     "birthyear": "1900", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubd81\uacbd\uc18c\uba85\ud559\uc6d03\ub144\uc218\ub8cc"
   }, 
@@ -7091,6 +7639,7 @@
     "birthyear": "1906", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\ud559\uc911\ud1f4"
   }, 
@@ -7106,6 +7655,7 @@
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ubc95\ud559\uc804\ubb38\ud559\uad50\uc878"
   }, 
@@ -7121,6 +7671,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\ud5593\ub144\uc911\ud1f4"
   }, 
@@ -7136,6 +7687,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc21c\ucc9c\uacf5\uace0\uc878"
   }, 
@@ -7151,6 +7703,7 @@
     "birthyear": "1912", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc11c\uc6b8\uc911\ub3d9\ud559\uad50 \uc911\ud1f4"
   }, 
@@ -7166,6 +7719,7 @@
     "birthyear": "1921", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc721\ub300\uc218\ub8cc"
   }, 
@@ -7181,6 +7735,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": ""
   }, 
@@ -7193,6 +7748,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -7205,6 +7761,7 @@
     "birthyear": "1913", 
     "job": "\uc591\uc870\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uacbd\uc131\uc911\ub3d9\uad50\uc878"
   }, 
@@ -7220,6 +7777,7 @@
     "birthyear": "1926", 
     "job": "\uc5b8\ub860\uc800\uc220\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3d9\uc591\uc6c5\ubcc0\uc5f0\uad6c\uacfc2\ub144\uc218\ub8cc"
   }, 
@@ -7235,6 +7793,7 @@
     "birthyear": "1911", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -7250,6 +7809,7 @@
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -7262,6 +7822,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uc870\ub3c4\uc804\ub300\uc878"
   }, 
@@ -7277,6 +7838,7 @@
     "birthyear": "1928", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\ub824\ub300\uc815\uce58\ud559\ubd804\ub144\uc911\ud1f4"
   }, 
@@ -7292,6 +7854,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uc2e0\ud638\ub300\uc878"
   }, 
@@ -7307,6 +7870,7 @@
     "birthyear": "1905", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ud55c\ud559\uc218\ub8cc(10\ub144)"
   }, 
@@ -7322,6 +7886,7 @@
     "birthyear": "1920", 
     "job": "\ud574\uc6b4\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -7337,6 +7902,7 @@
     "birthyear": "1902", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc18c\ud559\uad50\uace0\ub4f1\uacfc\uc878"
   }, 
@@ -7349,6 +7915,7 @@
     "birthyear": "1938", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\ud55c\uc608\uc218\uad50\uc7a5\ub85c\ud68c\uc2e0\ud559\uad501\ub144\uc911\ud1f4"
   }, 
@@ -7364,6 +7931,7 @@
     "birthyear": "1909", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ud559\ubc95\ud559\ubd80\uc878"
   }, 
@@ -7376,6 +7944,7 @@
     "birthyear": "1915", 
     "job": "\uac74\uc124\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3c4\uc591\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -7388,6 +7957,7 @@
     "birthyear": "1905", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ud55c\ubb38\uc218\ud559"
   }, 
@@ -7403,6 +7973,7 @@
     "birthyear": "1926", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc721\uad70\uad70\uc758\ud559\uad50\uc878"
   }, 
@@ -7418,6 +7989,7 @@
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\uc878"
   }, 
@@ -7430,6 +8002,7 @@
     "birthyear": "1921", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -7445,6 +8018,7 @@
     "birthyear": "1926", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc878"
   }, 
@@ -7457,6 +8031,7 @@
     "birthyear": "1902", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\ub3002\ub144\uc911\ud1f4"
   }, 
@@ -7472,6 +8047,7 @@
     "birthyear": "1907", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3d9\uacbd\uc18c\ucc9c\uc0c1\uc5c5\ud559\uad504\ub144\uc911\ud1f4"
   }, 
@@ -7487,6 +8063,7 @@
     "birthyear": "1899", 
     "job": "\uad11\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\uacbd\ub3c4\uc81c\uad6d\ub300\uc878"
   }, 
@@ -7502,6 +8079,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc218\ub8cc"
   }, 
@@ -7514,6 +8092,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ub300\ud559\uc6d0\uc878"
   }, 
@@ -7529,6 +8108,7 @@
     "birthyear": "1911", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\uc878"
   }, 
@@ -7541,6 +8121,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub300\uc878"
   }, 
@@ -7556,6 +8137,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubbf8\uad6d\uc721\uad70\ubcf4\ubcd1\ud559\uad50\uc878"
   }, 
@@ -7571,6 +8153,7 @@
     "birthyear": "1894", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uacbd\uc81c\uad6d\ub300\ud559 \ubc95\ud559\ubd80\ub3c5\ubc95\uacfc \uc878"
   }, 
@@ -7586,6 +8169,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\uc785\uad50\ub300\ud559 \uacbd\uc81c\ud559\ubd80 \uc878"
   }, 
@@ -7601,6 +8185,7 @@
     "birthyear": "1932", 
     "job": "\ud68c\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uace0\ub824\ub300\ubb38\ub9ac\uacfc\ub300\ud559 \ubb38\ud559\ubd80 \uc878"
   }, 
@@ -7613,6 +8198,7 @@
     "birthyear": "1921", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": ""
   }, 
@@ -7628,6 +8214,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc5ec\uc218\uc218\uc0b0\ud559\uad50\uc878"
   }, 
@@ -7643,6 +8230,7 @@
     "birthyear": "1933", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559 \ub18d\uacfc\ub300\ud559 \uc878"
   }, 
@@ -7655,6 +8243,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ud55c\uc591\ub300\ud559\uc804\uc2e0\ub3d9\uc544\uacf5\uc5c5\ud1a0\ubaa9\ud559\uacfc\uc878"
   }, 
@@ -7670,6 +8259,7 @@
     "birthyear": "1933", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559\uad50 \ubc95\uacfc\ub300\ud559 \uc878"
   }, 
@@ -7682,6 +8272,7 @@
     "birthyear": "1915", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub3d9\uacbd\uc77c\ubcf8\ub300 \ubc95\ubb38\ud559\ubd80\ubc95\ubb38\uacfc3\ub144\uc878"
   }, 
@@ -7697,6 +8288,7 @@
     "birthyear": "1906", 
     "job": "\uc218\uc0b0\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ub3d9\uacbd\ub18d\ub9bc\uc131\uc218\uc0b0\uac15\uc2b5\uc18c4\ub144\uc878"
   }, 
@@ -7712,6 +8304,7 @@
     "birthyear": "1907", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uacbd\ub3c4\uc81c\uad6d\ub300\uc878"
   }, 
@@ -7724,6 +8317,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3d9\uad6d\ub300\uc878"
   }, 
@@ -7739,6 +8333,7 @@
     "birthyear": "1924", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc81c\uc8fc\ub18d\uc5c5\ud559\uad50\uc878"
   }, 
@@ -7754,6 +8349,7 @@
     "birthyear": "1912", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": ""
   }, 
@@ -7769,6 +8365,7 @@
     "birthyear": "1917", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubaa9\ud3ec\ub18d\uc5c5\uc804\uc218\ud559\uc6d02\ub144\uc911\ud1f4"
   }, 
@@ -7784,6 +8381,7 @@
     "birthyear": "1902", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ubaa9\ub85c\uacf5\ub9bd\uc0c1\uc5c5\ud559\uad50\uc878"
   }, 
@@ -7799,6 +8397,7 @@
     "birthyear": "1923", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\uc878"
   }, 
@@ -7814,6 +8413,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc11c\uc6b8\uacbd\ubcf5\uc9113\ub144\uc218\ub8cc"
   }, 
@@ -7829,6 +8429,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad11\uc8fc\uace0\ub4f1\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -7844,6 +8445,7 @@
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc870\ub300\uc878"
   }, 
@@ -7859,6 +8461,7 @@
     "birthyear": "1910", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uacbd\uc911\uc559\ub300\uc878"
   }, 
@@ -7874,6 +8477,7 @@
     "birthyear": "1932", 
     "job": "\uc885\ucd95", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\ub300\uc878"
   }, 
@@ -7889,6 +8493,7 @@
     "birthyear": "1907", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc77c\ubcf8\ucc9c\uc5fd\uace0\uc878"
   }, 
@@ -7904,6 +8509,7 @@
     "birthyear": "1905", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc804\uc8fc\ub18d\uace01\ub144\uc911\ud1f4"
   }, 
@@ -7919,6 +8525,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\ud1b5\uc2e0\ub300\ud559\ubc95\uc81c\ud559\ud68c\ubcf4\ubb38\uacfc\uc218\ub8cc"
   }, 
@@ -7934,6 +8541,7 @@
     "birthyear": "1933", 
     "job": "\ud68c\uc0ac\uc0ac\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uc870\ub3004\ub144\uc911\ud1f4"
   }, 
@@ -7949,6 +8557,7 @@
     "birthyear": "1921", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc870\ub300\uc878"
   }, 
@@ -7961,6 +8570,7 @@
     "birthyear": "1918", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\ud559\uc911\ud1f4"
   }, 
@@ -7976,6 +8586,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad11\uc8fc\uace0\ubcf4\uc878"
   }, 
@@ -7991,6 +8602,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc878"
   }, 
@@ -8003,6 +8615,7 @@
     "birthyear": "1937", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\ub824\ub300\uc878"
   }, 
@@ -8015,6 +8628,7 @@
     "birthyear": "1920", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uba85\ub300\uc878"
   }, 
@@ -8030,6 +8644,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad11\uc8fc\uace0\ubcf4\uc911\ud1f4"
   }, 
@@ -8045,6 +8660,7 @@
     "birthyear": "1920", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uacbd\uc81c\ub300\uc878"
   }, 
@@ -8057,6 +8673,7 @@
     "birthyear": "1937", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ubb38\ub9ac\ub300\uc878"
   }, 
@@ -8072,6 +8689,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -8084,6 +8702,7 @@
     "birthyear": "1911", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc0c1\ud574\ubc95\uc815\ub300\uc878"
   }, 
@@ -8099,6 +8718,7 @@
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub18d\uc5c5\ud559\uad50\uc911\ud1f4"
   }, 
@@ -8111,6 +8731,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc601\uad11\uc911\uc878"
   }, 
@@ -8123,6 +8744,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc721\uad70\ub300\ud559\uc878"
   }, 
@@ -8135,6 +8757,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud559\uc878"
   }, 
@@ -8147,6 +8770,7 @@
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\uc878"
   }, 
@@ -8159,6 +8783,7 @@
     "birthyear": "1925", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -8174,6 +8799,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ud310\uc784\uad00\uc720\uc790\uaca9\uace0\uc2dc\ud569\uaca9"
   }, 
@@ -8186,6 +8812,7 @@
     "birthyear": "1913", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\ub300\ubc95\ud559\ubd80\uc878"
   }, 
@@ -8198,6 +8825,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\ub300\uc815\uce58\uacfc\uc878"
   }, 
@@ -8213,6 +8841,7 @@
     "birthyear": "1912", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uc2e0\ud638\uc0c1\uc2e4\uc218\ud559\uc6d0\uc218\ub8cc"
   }, 
@@ -8225,6 +8854,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubbf8\uae30\uc7ac"
   }, 
@@ -8240,6 +8870,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uad6c\uc0c1\uc5c5\uc878"
   }, 
@@ -8252,6 +8883,7 @@
     "birthyear": "1932", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc77c\ubcf8\uba85\ub300\uc815\uce58\uacbd\uc81c\ud559\ubd80\uc878"
   }, 
@@ -8264,6 +8896,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ubbf8\uae30\uc7ac"
   }, 
@@ -8279,6 +8912,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uad6c\ub300\ud559\ubc95\uacfc4\ub144\uc878\uc5c5"
   }, 
@@ -8294,6 +8928,7 @@
     "birthyear": "1904", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uacbd\uc131\uc81c\uad6d\ub300\ud559\ubc95\ubb38\ud559\ubd80\uc878"
   }, 
@@ -8306,6 +8941,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub300\uc815\uce58\uacfc\uc878"
   }, 
@@ -8321,6 +8957,7 @@
     "birthyear": "1904", 
     "job": "\uacbd\uc81c\uc778", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\uc815\uacbd\uacfc2\ub144\uc911\ud1f4"
   }, 
@@ -8333,6 +8970,7 @@
     "birthyear": "1929", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uad6c\ub300\ud559\ubc95\ubb38\ud559\ubd80\uc878"
   }, 
@@ -8345,6 +8983,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uac74\uad6d\ub300\ud559\ubc95\ub300\ud589\uc815\uacfc\uc878"
   }, 
@@ -8357,6 +8996,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uad6c\uc0c1\uc5c5\uc878"
   }, 
@@ -8369,6 +9009,7 @@
     "birthyear": "1910", 
     "job": "\ud68c\uc0ac\uc7a5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uad6c\uc0ac\ubc94\uc878"
   }, 
@@ -8384,6 +9025,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uad6c\ub300\ud559\uc6d0\uc815\uce58\uacfc\uc878"
   }, 
@@ -8396,6 +9038,7 @@
     "birthyear": "1906", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uacbd\uc81c\ub300\ub3c5\ubb38\ud559\uacfc\uc878"
   }, 
@@ -8408,6 +9051,7 @@
     "birthyear": "1930", 
     "job": "\uc5b8\ub860\uc778", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -8420,6 +9064,7 @@
     "birthyear": "1926", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8432,6 +9077,7 @@
     "birthyear": "1932", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8444,6 +9090,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8456,6 +9103,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubbf8\uae30\uc7ac"
   }, 
@@ -8468,6 +9116,7 @@
     "birthyear": "1906", 
     "job": "\uc7ac\ub2e8\ubc95\uc778\uacbd\ubd81\ud6c4\uc0dd\ud68c\ub300\ud45c", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uad6c\uace0\ubcf4\uc878"
   }, 
@@ -8480,6 +9129,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8492,6 +9142,7 @@
     "birthyear": "1907", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8504,6 +9155,7 @@
     "birthyear": "1914", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -8516,6 +9168,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubbf8\uae30\uc7ac"
   }, 
@@ -8528,6 +9181,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -8540,6 +9194,7 @@
     "birthyear": "1910", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8552,6 +9207,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8564,6 +9220,7 @@
     "birthyear": "1911", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8576,6 +9233,7 @@
     "birthyear": "1920", 
     "job": "\uad11\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -8588,6 +9246,7 @@
     "birthyear": "1931", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8600,6 +9259,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8612,6 +9272,7 @@
     "birthyear": "1914", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uad6c\uc8fc\uc81c\ub300\uc878"
   }, 
@@ -8624,6 +9285,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc721\uc0ac\uc878"
   }, 
@@ -8636,6 +9298,7 @@
     "birthyear": "1896", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\ud559\uacfc2\ub144\uc218\ub8cc"
   }, 
@@ -8648,6 +9311,7 @@
     "birthyear": "1921", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -8660,6 +9324,7 @@
     "birthyear": "1922", 
     "job": "\uc758\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8672,6 +9337,7 @@
     "birthyear": "1901", 
     "job": "\uc57d\uc0ac", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8684,6 +9350,7 @@
     "birthyear": "1920", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8696,6 +9363,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub9cc\uc8fc\uc601\uc548\uc911\ud559\uad505\ub144\uc878"
   }, 
@@ -8708,6 +9376,7 @@
     "birthyear": "1938", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8720,6 +9389,7 @@
     "birthyear": "1913", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ucd08\uc878"
   }, 
@@ -8732,6 +9402,7 @@
     "birthyear": "1919", 
     "job": "\uc6b4\uc218\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8744,6 +9415,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -8756,6 +9428,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -8768,6 +9441,7 @@
     "birthyear": "1913", 
     "job": "\uc0ac\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -8780,6 +9454,7 @@
     "birthyear": "1937", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8792,6 +9467,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8804,6 +9480,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ubbf8\uae30\uc7ac"
   }, 
@@ -8816,6 +9493,7 @@
     "birthyear": "1917", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8828,6 +9506,7 @@
     "birthyear": "1923", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8840,6 +9519,7 @@
     "birthyear": "1921", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8852,6 +9532,7 @@
     "birthyear": "1905", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -8864,6 +9545,7 @@
     "birthyear": "1928", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8876,6 +9558,7 @@
     "birthyear": "1909", 
     "job": "\ubaa9\uc0ac", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8888,6 +9571,7 @@
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8900,6 +9584,7 @@
     "birthyear": "1917", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8912,6 +9597,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8924,6 +9610,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ubbf8\uae30\uc7ac"
   }, 
@@ -8936,6 +9623,7 @@
     "birthyear": "1925", 
     "job": "\uae30\uc790", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -8948,6 +9636,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8960,6 +9649,7 @@
     "birthyear": "1933", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -8972,6 +9662,7 @@
     "birthyear": "1910", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8984,6 +9675,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -8996,6 +9688,7 @@
     "birthyear": "1929", 
     "job": "\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -9008,6 +9701,7 @@
     "birthyear": "1915", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc18c\uc878"
   }, 
@@ -9020,6 +9714,7 @@
     "birthyear": "1916", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -9032,6 +9727,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -9044,6 +9740,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9056,6 +9753,7 @@
     "birthyear": "1913", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ubcf4\ud1b5\ub300\ud559\uad50\uc878"
   }, 
@@ -9068,6 +9766,7 @@
     "birthyear": "1931", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -9080,6 +9779,7 @@
     "birthyear": "1907", 
     "job": "\uc758\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -9092,6 +9792,7 @@
     "birthyear": "1907", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ube44\ud589\ub300\ud559\uad50\uc878"
   }, 
@@ -9104,6 +9805,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9116,6 +9818,7 @@
     "birthyear": "1929", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc878"
   }, 
@@ -9128,6 +9831,7 @@
     "birthyear": "1929", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9140,6 +9844,7 @@
     "birthyear": "1901", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubb34"
   }, 
@@ -9152,6 +9857,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9164,6 +9870,7 @@
     "birthyear": "1930", 
     "job": "\ucd9c\ud310\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9176,6 +9883,7 @@
     "birthyear": "1915", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -9188,6 +9896,7 @@
     "birthyear": "1914", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ubb34"
   }, 
@@ -9200,6 +9909,7 @@
     "birthyear": "1924", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub300\ud1f4"
   }, 
@@ -9212,6 +9922,7 @@
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -9227,6 +9938,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -9239,6 +9951,7 @@
     "birthyear": "1899", 
     "job": "", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9251,6 +9964,7 @@
     "birthyear": "1925", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -9263,6 +9977,7 @@
     "birthyear": "1925", 
     "job": "\uc815\ub2f9\uc778", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9275,6 +9990,7 @@
     "birthyear": "1919", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uace0\uc878"
   }, 
@@ -9287,6 +10003,7 @@
     "birthyear": "1912", 
     "job": "\uc758\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9299,6 +10016,7 @@
     "birthyear": "1918", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -9311,6 +10029,7 @@
     "birthyear": "1915", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\ub3d9\ud559\uc6d0\uc878"
   }, 
@@ -9326,6 +10045,7 @@
     "birthyear": "1893", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9338,6 +10058,7 @@
     "birthyear": "1917", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -9350,6 +10071,7 @@
     "birthyear": "1931", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9362,6 +10084,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9374,6 +10097,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uc878"
   }, 
@@ -9386,6 +10110,7 @@
     "birthyear": "1929", 
     "job": "\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9398,6 +10123,7 @@
     "birthyear": "1916", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uace0\ud1f4"
   }, 
@@ -9410,6 +10136,7 @@
     "birthyear": "1912", 
     "job": "\uc57d\uc0ac", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -9422,6 +10149,7 @@
     "birthyear": "1916", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9434,6 +10162,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9446,6 +10175,7 @@
     "birthyear": "1916", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9458,6 +10188,7 @@
     "birthyear": "1916", 
     "job": "\uc81c\uc7ac\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9470,6 +10201,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9482,6 +10214,7 @@
     "birthyear": "1925", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9494,6 +10227,7 @@
     "birthyear": "1938", 
     "job": "\uccad\ub144\uc6b4\ub3d9", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub300\ud1f4"
   }, 
@@ -9506,6 +10240,7 @@
     "birthyear": "1905", 
     "job": "\uad11\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubb38\uacbd\ubcf4\ud1b5\ud559\uad50\uc878"
   }, 
@@ -9518,6 +10253,7 @@
     "birthyear": "1924", 
     "job": "\ubaa9\uc0ac", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub300\ud559\uc6d0\uc878"
   }, 
@@ -9530,6 +10266,7 @@
     "birthyear": "1935", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc608\ucc9c\ub18d\uace0\uc878"
   }, 
@@ -9542,6 +10279,7 @@
     "birthyear": "1932", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -9557,6 +10295,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9569,6 +10308,7 @@
     "birthyear": "1909", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc804\ubb38\ub300\uc878"
   }, 
@@ -9581,6 +10321,7 @@
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9593,6 +10334,7 @@
     "birthyear": "1894", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uc0ac\ub9bd\ud611\ud765\ud559\uad50\uc878"
   }, 
@@ -9605,6 +10347,7 @@
     "birthyear": "1910", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ucd08\uc878"
   }, 
@@ -9617,6 +10360,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\ud1f4"
   }, 
@@ -9629,6 +10373,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9641,6 +10386,7 @@
     "birthyear": "1906", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -9653,6 +10399,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\ud559\uc6d0 2\ub144\uc218\ub8cc"
   }, 
@@ -9665,6 +10412,7 @@
     "birthyear": "1903", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc2dc\uac15\uc911\ud559\uc6d0\uc878"
   }, 
@@ -9680,6 +10428,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ud55c\ubb38\uc218\ud559"
   }, 
@@ -9695,6 +10444,7 @@
     "birthyear": "1898", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubcf4\uc131\uc804\ubb38\ubc95\uacfc 2\ub144\uc911\ud1f4"
   }, 
@@ -9707,6 +10457,7 @@
     "birthyear": "1925", 
     "job": "\ucd95\uc0b0\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uace0\ub824\ub300\ud559\ubc95\ud559\ubd80 3\ub144\uc218\ub8cc"
   }, 
@@ -9722,6 +10473,7 @@
     "birthyear": "1910", 
     "job": "\uc2e4\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc5f0\ud76c\uc804\ubb38\uc0c1\uacfc\uc878"
   }, 
@@ -9734,6 +10486,7 @@
     "birthyear": "1902", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9749,6 +10502,7 @@
     "birthyear": "1902", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -9764,6 +10518,7 @@
     "birthyear": "1906", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -9779,6 +10534,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ubb38\ub9ac\ub300\uc815\uce58\ud559\uacfc\uc878"
   }, 
@@ -9794,6 +10550,7 @@
     "birthyear": "1916", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -9806,6 +10563,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uacbd\ub3c4\uc591\uc7a0\uc911\ud559\uc218\ud559"
   }, 
@@ -9818,6 +10576,7 @@
     "birthyear": "1925", 
     "job": "\uc11c\ubbfc\uae08\uace0\uc9c0\uc810\uc7a5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ub18d\uacfc\ub300\ud559\uc878"
   }, 
@@ -9833,6 +10592,7 @@
     "birthyear": "1906", 
     "job": "\uc778\uc1c4\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubd80\uc0b0\uc0c1\uace04\ub144\uc218\ub8cc"
   }, 
@@ -9848,6 +10608,7 @@
     "birthyear": "1919", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uacbd\uc131\ubc95\uc804\uc878"
   }, 
@@ -9863,6 +10624,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ubc95\ub300\ud589\uc815\uacfc\uc878"
   }, 
@@ -9875,6 +10637,7 @@
     "birthyear": "1912", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc218\uc0b0\ud559\uad50\uc878"
   }, 
@@ -9887,6 +10650,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\ud55c\ub300\ud559\uacbd\uc0c1\ud559\ubd80\uacbd\uc81c\uacfc\uc878"
   }, 
@@ -9902,6 +10666,7 @@
     "birthyear": "1916", 
     "job": "\uc218\uc0b0\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\uacbd\ub3c4\uace0\ub4f1\uc7a0\uc0ac\ud559\uad50\uc878"
   }, 
@@ -9914,6 +10679,7 @@
     "birthyear": "1915", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uacbd\uc911\uc559\ub300\ubc95\ud559\uacfc\uc878\uc5c5"
   }, 
@@ -9926,6 +10692,7 @@
     "birthyear": "1910", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub18d\uc5c5\uc2e4\uc2b5\ud559\uad50\uc878"
   }, 
@@ -9941,6 +10708,7 @@
     "birthyear": "1908", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc5f0\ud76c\uc804\ubb38\uc0c1\uacfc\uc878"
   }, 
@@ -9953,6 +10721,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uccad\uc0b0\ud559\uc6d0\ub300\ud559\ubb38\ud559\ubd80\uc601\ubb38\uacfc\uc878"
   }, 
@@ -9965,6 +10734,7 @@
     "birthyear": "1920", 
     "job": "\uc815\ubbf8\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\ud310\uc218\uc131\uacf5\uc5c5\uae30\uacc4\uacfc2\ub144\uc878"
   }, 
@@ -9977,6 +10747,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubbf8\uad6d\uc870\uc9c0\uc544\ub300\ud5592\ub144\uc218\ub8cc"
   }, 
@@ -9992,6 +10763,7 @@
     "birthyear": "1921", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\ud310\uc804\ubb38\uad50\uc0c1\uacfc\uc878"
   }, 
@@ -10007,6 +10779,7 @@
     "birthyear": "1928", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uc544\ub300\ubc95\uc815\ub300\ud5593\ub144\uc911\ud1f4"
   }, 
@@ -10019,6 +10792,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\uc911\ud5593\ub144\uc911\ud1f4"
   }, 
@@ -10034,6 +10808,7 @@
     "birthyear": "1917", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\ubc95\uacfc\uc911\ud1f4"
   }, 
@@ -10049,6 +10824,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc\uc878"
   }, 
@@ -10061,6 +10837,7 @@
     "birthyear": "1929", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3d9\uc544\ub300\uc815\uacbd\uacfc\uc878"
   }, 
@@ -10076,6 +10853,7 @@
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "21", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\ud559\ubc95\ud559\ubd804\ub144\uc878"
   }, 
@@ -10091,6 +10869,7 @@
     "birthyear": "1904", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\uacbd\uc131\uc138\ube0c\ub780\uc2a4\uc758\uc804\uc878"
   }, 
@@ -10106,6 +10885,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc131\uade0\uad00\ub300\uc878"
   }, 
@@ -10121,6 +10901,7 @@
     "birthyear": "1910", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "5", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -10133,6 +10914,7 @@
     "birthyear": "1936", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uc5f0\ud76c\ub300\ubb38\uacfc4\ub144\uc878"
   }, 
@@ -10145,6 +10927,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uae40\ud574\ub18d\uace03\ub144\uc878"
   }, 
@@ -10157,6 +10940,7 @@
     "birthyear": "1925", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uac74\uad6d\ub300\ubc95\uacfc4\ub144\uc878"
   }, 
@@ -10172,6 +10956,7 @@
     "birthyear": "1916", 
     "job": "\uc721\uc601\uc0ac\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub3d9\uc544\ub300\ud589\uc815\uacfc4\ub144\uc878"
   }, 
@@ -10184,6 +10969,7 @@
     "birthyear": "1934", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uad6d\uc878"
   }, 
@@ -10199,6 +10985,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub2e8\uad6d\ub300\uc0c1\uacfc\uc878"
   }, 
@@ -10211,6 +10998,7 @@
     "birthyear": "1936", 
     "job": "\uc815\ub2f9\uc778", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\uacbd\ud76c\ub300\uc815\uce58\ud559\uacfc\uc815\uce58\ubd80\uc11d\uc0ac"
   }, 
@@ -10226,6 +11014,7 @@
     "birthyear": "1903", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uad6d\uc878"
   }, 
@@ -10241,6 +11030,7 @@
     "birthyear": "1931", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uace0\ub300\ubb38\ub9ac\uacfc3\ub144\uc878"
   }, 
@@ -10256,6 +11046,7 @@
     "birthyear": "1909", 
     "job": "\ud1a0\uac74\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3d9\uacbd\uacf5\uc625\uc0ac\uacf5\ud559\uad50\ud1a0\ubaa9\uacfc\uc878"
   }, 
@@ -10268,6 +11059,7 @@
     "birthyear": "1936", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10280,6 +11072,7 @@
     "birthyear": "1909", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub300\uad6c\uc0ac\ubc94\uc878"
   }, 
@@ -10295,6 +11088,7 @@
     "birthyear": "1916", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub3d9\uc544\ub300\ubc95\ub960\uacfc2\ub144\uc218\ub8cc"
   }, 
@@ -10307,6 +11101,7 @@
     "birthyear": "1928", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10319,6 +11114,7 @@
     "birthyear": "1924", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10331,6 +11127,7 @@
     "birthyear": "1937", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uac74\uace0\uad50\uc878"
   }, 
@@ -10346,6 +11143,7 @@
     "birthyear": "1917", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -10361,6 +11159,7 @@
     "birthyear": "1923", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc911\uc878"
   }, 
@@ -10376,6 +11175,7 @@
     "birthyear": "1919", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\ud6a1\ube48\uc804\ubb38\uacbd\uc81c\uacfc\uc878"
   }, 
@@ -10391,6 +11191,7 @@
     "birthyear": "1912", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "1", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ub2f9", 
     "education": "\ub18d\uc5c5\ubcf4\uc2b5\uad50\uc878"
   }, 
@@ -10403,6 +11204,7 @@
     "birthyear": "1903", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": ""
   }, 
@@ -10415,6 +11217,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uba85\uce58\ub300\ud559\uc804\ubb38\ubd80\uc0c1\uacfc\uc878"
   }, 
@@ -10427,6 +11230,7 @@
     "birthyear": "1924", 
     "job": "\uc0ac\ud68c\uad50\uc721\uc0ac\uc5c5", 
     "cand_no": "4", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ud765\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\uc815\uce58\ud559\ubd80\uc815\uce58\ud559\uacfc\uc878"
   }, 
@@ -10442,6 +11246,7 @@
     "birthyear": "1931", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\uad6d\ub3001\ub300\uc218\ub8cc"
   }, 
@@ -10454,6 +11259,7 @@
     "birthyear": "1923", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ubd80\uc0b0\uc785\uc815\uc0c1\uc878"
   }, 
@@ -10466,6 +11272,7 @@
     "birthyear": "1927", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc5f0\ud76c\ub300\ubb38\ud559\uc804\ubb38\ubd80\uc218\ub8cc"
   }, 
@@ -10478,6 +11285,7 @@
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\uacbd\ubd81\uc0ac\ub300\uc878"
   }, 
@@ -10490,6 +11298,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ud574\uc778\ub300\ud559\uc815\uacbd\ud559\ubd80\uc878"
   }, 
@@ -10502,6 +11311,7 @@
     "birthyear": "1908", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uad6c\ub18d\ub9bc2\ub144\uc911\ud1f4"
   }, 
@@ -10514,6 +11324,7 @@
     "birthyear": "1929", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc131\ub300\ub300\ud559\uc6d0\uacbd\uc81c\uc815\ucc45\uacfc1\ub144 \uc911\ud1f4"
   }, 
@@ -10529,6 +11340,7 @@
     "birthyear": "1920", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc3\ub144 \uc911\ud1f4"
   }, 
@@ -10541,6 +11353,7 @@
     "birthyear": "1917", 
     "job": "\uc591\uc870\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uad6d\ubbfc\ub300\ud559\uc878"
   }, 
@@ -10553,6 +11366,7 @@
     "birthyear": "1916", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uad6c\uc8fc\uc81c\ub300\ubc95\uacfc4\ub144\uc878"
   }, 
@@ -10565,6 +11379,7 @@
     "birthyear": "1917", 
     "job": "\uacf5\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uc77c\ubcf8\uad6c\uc720\ubbf8\uc0c1\uace0\uc878\uc5c5"
   }, 
@@ -10580,6 +11395,7 @@
     "birthyear": "1931", 
     "job": "\uc800\uc220\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub3d9\uacbd\ubc95\uc815\ub300\ud5593\ub144\uc911\ud1f4"
   }, 
@@ -10595,6 +11411,7 @@
     "birthyear": "1922", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ubc95\ub3004\ub144\uc911\ud1f4"
   }, 
@@ -10610,6 +11427,7 @@
     "birthyear": "1920", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc815\uce58\ub300\ud559\uc815\uacbd\uacfc3\ub144\uc911\ud1f4"
   }, 
@@ -10625,6 +11443,7 @@
     "birthyear": "1922", 
     "job": "\ud68c\uc0ac\uc7a5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uacbd\ud76c\ub300\ubc95\ub300\uc878\uc5c5"
   }, 
@@ -10640,6 +11459,7 @@
     "birthyear": "1930", 
     "job": "\uc815\ub2f9\uc778", 
     "cand_no": "2", 
+    "assembly_no": 6, 
     "party": "\uc2e0\ubbfc\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -10652,6 +11472,7 @@
     "birthyear": "1921", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uccad\uad6c\ub300\ud559\ubc95\uacfc\uc878"
   }, 
@@ -10664,6 +11485,7 @@
     "birthyear": "1911", 
     "job": "\ud68c\uc0ac\uc0ac\uc7a5", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc815\uce58\ub300\uc815\uce58\ud559\uacfc\uc878\uc5c5"
   }, 
@@ -10679,6 +11501,7 @@
     "birthyear": "1931", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub3c5\ud559"
   }, 
@@ -10691,6 +11514,7 @@
     "birthyear": "1931", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\uc815\uce58\ub300\uc878\uc5c5"
   }, 
@@ -10706,6 +11530,7 @@
     "birthyear": "1926", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc11c\uc6b8\ub300\ud559\ubc95\uacfc\ub3004\ub144\uc878\uc5c5"
   }, 
@@ -10718,6 +11543,7 @@
     "birthyear": "1921", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\uc77c\ubcf8\uc911\uc559\ub300\ubc95\uacfc\uc878\uc5c5"
   }, 
@@ -10733,6 +11559,7 @@
     "birthyear": "1930", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\uacbd\uc131\ub18d\uace0\uc878\uc5c5"
   }, 
@@ -10745,6 +11572,7 @@
     "birthyear": "1927", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub3d9\uc544\ub300\uc878\uc5c5"
   }, 
@@ -10760,6 +11588,7 @@
     "birthyear": "1923", 
     "job": "\uc0ac\uc6d0", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubbf8\uad6d\ubbf8\uc2dc\uac04\uc8fc\ub9bd\ub300\ud559\ud589\uc815\uacfc\uc218\ub8cc"
   }, 
@@ -10772,6 +11601,7 @@
     "birthyear": "1930", 
     "job": "\uc0c1\uc5c5", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\ub9c8\uc0b0\ub300\ud559\ubc95\uc815\ud559\ubd80\uc878\uc5c5"
   }, 
@@ -10784,6 +11614,7 @@
     "birthyear": "1923", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub3d9\uc544\ub300\ubc95\ud559\ubd80\uc878\uc5c5"
   }, 
@@ -10799,6 +11630,7 @@
     "birthyear": "1918", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ud64d\uc775\ub300\ubc95\ud559\ubd80\uc878\uc5c5"
   }, 
@@ -10811,6 +11643,7 @@
     "birthyear": "1905", 
     "job": "\ud68c\uc0ac\uc6d0", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\uc77c\ubcf8\ub300\ud559\ubb38\uacfc\uc878\uc5c5"
   }, 
@@ -10823,6 +11656,7 @@
     "birthyear": "1932", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "11", 
+    "assembly_no": 6, 
     "party": "\ucd94\ud48d\ud68c", 
     "education": "\ub3c5\ud559"
   }, 
@@ -10838,6 +11672,7 @@
     "birthyear": "1918", 
     "job": "\ud68c\uc0ac\uc911\uc5ed", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ubbf8\uad6d\ucc38\ubaa8\ub300\ud559\uc878\uc5c5"
   }, 
@@ -10850,6 +11685,7 @@
     "birthyear": "1917", 
     "job": "\uc911\uc5ed", 
     "cand_no": "3", 
+    "assembly_no": 6, 
     "party": "\uc790\uc720\ubbfc\uc8fc\ub2f9", 
     "education": "\uacf5\uace0\uc878"
   }, 
@@ -10862,6 +11698,7 @@
     "birthyear": "1929", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10874,6 +11711,7 @@
     "birthyear": "1915", 
     "job": "\uc815\uce58\uc778", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10886,6 +11724,7 @@
     "birthyear": "1918", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10898,6 +11737,7 @@
     "birthyear": "1935", 
     "job": "\uc0ac\ud68c\uc0ac\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10913,6 +11753,7 @@
     "birthyear": "1922", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "10", 
+    "assembly_no": 6, 
     "party": "\uc815\ubbfc\ud68c", 
     "education": "\ub18d\uc0c1\uc878"
   }, 
@@ -10925,6 +11766,7 @@
     "birthyear": "1918", 
     "job": "\ubcc0\ud638\uc0ac", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10940,6 +11782,7 @@
     "birthyear": "1915", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "6", 
+    "assembly_no": 6, 
     "party": "\uad6d\ubbfc\uc758\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10955,6 +11798,7 @@
     "birthyear": "1917", 
     "job": "\uc591\uc870\uc5c5", 
     "cand_no": "7", 
+    "assembly_no": 6, 
     "party": "\ubcf4\uc218\ub2f9", 
     "education": "\ud55c\ub300\ubc95\ubb38\ud559\ubd803\ub144\uc218\ub8cc"
   }, 
@@ -10967,6 +11811,7 @@
     "birthyear": "1932", 
     "job": "\ubb34\uc9c1", 
     "cand_no": "8", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10982,6 +11827,7 @@
     "birthyear": "1930", 
     "job": "\ub18d\uc5c5", 
     "cand_no": "9", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc815\ub2f9", 
     "education": "\ub300\uc878"
   }, 
@@ -10994,6 +11840,7 @@
     "birthyear": "1923", 
     "job": "\uad11\uc5c5", 
     "cand_no": "12", 
+    "assembly_no": 6, 
     "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
     "education": "\uc77c\ubcf8\uc0c1\uc5c5\ud559\uad50\uc878"
   }
