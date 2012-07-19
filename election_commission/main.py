@@ -2,6 +2,7 @@
 # -*- encoding=utf-8 -*-
 
 from argparse import ArgumentParser
+import codecs
 import gevent
 from gevent import monkey
 import json
@@ -31,6 +32,7 @@ def print_csv(filename, data):
              'votenum', 'voterate']
 
     with open(filename, 'w') as f:
+        f.write(codecs.BOM_UTF8)
         f.write(','.join(attrs))
         f.write('\n')
         for cand in data:
