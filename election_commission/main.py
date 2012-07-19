@@ -16,6 +16,8 @@ def print_json(filename, data):
 def print_csv(filename, data):
 
     def transform(txt):
+        if isinstance(txt, int):
+            txt = str(txt)
         if isinstance(txt, list):
             txt = '||'.join(txt)
         txt = txt.replace(',', '|')
