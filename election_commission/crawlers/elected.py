@@ -89,8 +89,7 @@ class ElectedCrawler18(MultiCityCrawler):
             'electionInfo_report.xhtml?electionId=0000000000'\
             '&requestURI=%2Felectioninfo%2F0000000000%2Fep%2Fepei01.jsp'\
             '&statementId=EPEI01_%232&oldElectionType=1&electionType=2'\
-            '&electionName=20080409&electionCode=2&cityCode=1100'\
-            '&cityCode='
+            '&electionName=20080409&electionCode=2&cityCode='
 
     attrs = ['district', 'party', 'name', 'sex', 'birth', 'job', 'education',
              'experience', 'vote']
