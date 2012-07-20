@@ -27,7 +27,7 @@ def connect_db(host, port, database, collection):
 def create_parser():
     parser = argparse.ArgumentParser()
     parser.add_argument('type', choices=['insert', 'update'])
-    parser.add_argument('file', type=argparse.FileType('r'))
+    parser.add_argument('files', nargs='+', type=argparse.FileType('r'))
     return parser
 
 
@@ -90,18 +90,20 @@ def main(args):
     conn, db, col = connect_db(**DB_SETTINGS)
     counters = db['counters']
 
-    data = json.load(args.file, encoding='utf-8')
-
     if args.type == 'insert':
         col.drop()
-        for record in data:
-            insert(counters, col, record)
-        col.ensure_index('id')
 
-    elif args.type == 'update':
-        for record in data:
-            update(counters, col, record)
+    for file in args.files:
+        print 'processing %s' % file.name
+        data = json.load(file, encoding='utf-8')
 
+        for record in data:
+            if args.type == 'insert':
+                insert(counters, col, record)
+            elif args.type == 'update':
+                update(counters, col, record)
+
+    col.ensure_index('id')
     conn.close()
 
 
