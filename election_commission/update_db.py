@@ -54,12 +54,15 @@ def merge_person(old, new):
               'assembly': {}
               }
 
-    # 국회별 정보 업데이트
+    ### 국회 대수별 정보 업데이트 ###
     assembly_no = str(new['assembly_no'])
-    old['assembly'][assembly_no] = {}
-    copy(new, old['assembly'][assembly_no])
 
-    # 최신 정보 업데이트
+    # 없었던 정보면 초기화
+    if assembly_no not in old['assembly']\
+            or old['assembly'][assembly_no]['elected'] < new['elected']:
+        old['assembly'][assembly_no] = new
+
+    ### 최신 정보 ###
     if 'assembly_no' not in old or old['assembly_no'] < assembly_no:
         copy(new, old)
 
