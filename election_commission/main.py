@@ -29,7 +29,7 @@ def print_csv(filename, data):
     attrs = ['assembly_no', 'district', 'cand_no', 'party', 'name_kr',
              'name_cn', 'sex', 'birthyear', 'birthmonth', 'birthday',
              'address', 'job', 'education', 'experience', 'recommend_priority',
-             'votenum', 'voterate']
+             'votenum', 'voterate', 'elected']
 
     with open(filename, 'w') as f:
         f.write(codecs.BOM_UTF8)
