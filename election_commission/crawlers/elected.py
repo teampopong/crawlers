@@ -12,6 +12,8 @@ def Crawler(target):
         crawler = ElectedCrawler17()
     elif target == 18:
         crawler = ElectedCrawler18()
+    elif target == 19:
+        crawler = ElectedCrawler19()
     else:
         raise InvalidCrawlerError('elected', target)
     return crawler
@@ -97,6 +99,32 @@ class ElectedCrawler18(MultiCityCrawler):
     def __init__(self):
         self.prop_crawler = ElectedCrawler18Proportional()
 
+class ElectedCrawler19(MultiCityCrawler):
+    target = 19
+
+    url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
+            'selectbox_cityCodeBySgJson.json?electionId=0020120411&electionCode=2'
+    url_list_base = 'http://info.nec.go.kr/electioninfo/'\
+            'electionInfo_report.xhtml?electionId=0020120411'\
+            '&requestURI=%2Felectioninfo%2F0020120411%2Fep%2Fepei01.jsp'\
+            '&statementId=EPEI01_%232&electionCode=2&cityCode='
+
+    attrs = ['district', 'party', 'image', 'name', 'sex', 'birth',
+            'address', 'job', 'education', 'experience', 'vote']
+
+    def __init__(self):
+        self.prop_crawler = ElectedCrawler19Proportional()
+
+    def parse_member(self, member, city_name=None):
+        member = super(ElectedCrawler19, self).parse_member(member, city_name)
+
+        self.parse_member_pledge(member)
+
+        return member
+
+    def parse_member_pledge(self, member):
+        pass # TODO: implement
+
 class ElectedCrawler17Proportional(SinglePageCrawler):
     target = 17
 
@@ -120,3 +148,13 @@ class ElectedCrawler18Proportional(SinglePageCrawler):
 
     attrs = ['party', 'recommend_priority', 'name', 'sex', 'birth', 'job',
             'education', 'experience']
+
+class ElectedCrawler19Proportional(SinglePageCrawler):
+    target = 19
+
+    url_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
+            '?electionId=0020120411'\
+            '&requestURI=%2Felectioninfo%2F0020120411%2Fep%2Fepei01.jsp'\
+            '&statementId=EPEI01_%237&electionCode=7'
+
+    attrs = ['party', 'image', 'name', 'sex', 'birth', 'address', 'job', 'education', 'experience']
