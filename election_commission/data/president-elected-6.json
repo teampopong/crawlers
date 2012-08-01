@@ -1,0 +1,22 @@
+[
+  {
+    "birthyear": "1918", 
+    "birthmonth": "05", 
+    "votenum": "5688666", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\ubc15\uc815\ud76c", 
+    "gov_no": 6, 
+    "voterate": "51.40", 
+    "name_cn": "\u6734\u6b63\u7199", 
+    "experience": [
+      "\uad6d\uac00\uc7ac\uac74\ucd5c\uace0\ud68c\uc758\uc758\uc7a5", 
+      "\uc81c5\ub300 \ub300\ud1b5\ub839"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ub300\ud1b5\ub839", 
+    "birthday": "03", 
+    "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
+    "education": "\uc721\uad70\ub300\uc878"
+  }
+]

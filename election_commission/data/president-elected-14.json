@@ -1,0 +1,22 @@
+[
+  {
+    "birthyear": "1927", 
+    "birthmonth": "12", 
+    "votenum": "9977332", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uc601\uc0bc", 
+    "gov_no": 14, 
+    "voterate": "42.00", 
+    "name_cn": "\u91d1\u6cf3\u4e09", 
+    "experience": [
+      "\uad6d\ud68c\uc758\uc6d09\uc120,\ubbfc\uc8fc\uc790\uc720\ub2f9\ucd1d\uc7ac", 
+      "\uc2e0\ubbfc\ub2f9.\ud1b5\uc77c\ubbfc\uc8fc\ub2f9 \ucd1d\uc7ac \uac012\uc120"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ubbfc\uc8fc\uc790\uc720\ub2f9\ucd1d\uc7ac", 
+    "birthday": "20", 
+    "party": "\ubbfc\uc8fc\uc790\uc720\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubb38\ub9ac\ub300\ucca0\ud559\uacfc\uc878\uc5c5"
+  }
+]

@@ -4,7 +4,7 @@
 from base import *
 from utils import sanitize
 
-class Crawler(SinglePageCrawler):
+class CandCrawler(SinglePageCrawler):
     _url_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
             '&requestURI=%2Felectioninfo%2F0000000000%2Fcp%2Fcpri03.jsp'\
@@ -43,3 +43,5 @@ class Crawler(SinglePageCrawler):
 
     def __init__(self, nth):
         self.nth = nth
+
+Crawler = CandCrawler

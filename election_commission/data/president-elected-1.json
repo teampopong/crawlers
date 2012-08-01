@@ -1,0 +1,19 @@
+[
+  {
+    "birthyear": "1874", 
+    "birthmonth": "07", 
+    "votenum": "180", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\uc2b9\ub9cc", 
+    "gov_no": 1, 
+    "voterate": "92.30", 
+    "name_cn": "\uf9e1\u627f\u6669", 
+    "experience": "\ub3c5\ub9bd\uc6b4\ub3d9", 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ub300\ud55c\ub3c5\ub9bd\ucd09\uc131\uad6d\ubbfc\ud68c \ucd1d\uc7ac", 
+    "birthday": "20", 
+    "party": "\ub300\ud55c\ub3c5\ub9bd\ucd09\uc131\uad6d\ubbfc\ud68c", 
+    "education": "\ubbf8\uad6d \uc6cc\uc2f1\ud134\ub300 \ud558\ubc84\ub4dc\ub300\uc878"
+  }
+]
