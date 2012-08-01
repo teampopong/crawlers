@@ -1,22 +1,22 @@
 #!/usr/bin/python2.7
 # -*- encoding=utf-8 -*-
 
-from crawlers.base import *
+from base import *
 from utils import sanitize
 
-def Crawler(target):
-    if 1 <= target <= 6:
-        crawler = CandCrawlerUntil6(target)
-    elif target <= 16:
-        crawler = CandCrawlerUntil16(target)
-    elif target == 17:
+def Crawler(nth):
+    if 1 <= nth <= 6:
+        crawler = CandCrawlerUntil6(nth)
+    elif nth <= 16:
+        crawler = CandCrawlerUntil16(nth)
+    elif nth == 17:
         crawler = CandCrawler17()
-    elif target == 18:
+    elif nth == 18:
         crawler = CandCrawler18()
-    elif target == 19:
+    elif nth == 19:
         crawler = CandCrawler19()
     else:
-        raise InvalidCrawlerError('candidates', target)
+        raise InvalidCrawlerError('assembly', 'candidates', nth)
     return crawler
 
 class CandCrawlerUntil16(MultiCityCrawler):
@@ -42,7 +42,7 @@ class CandCrawlerUntil16(MultiCityCrawler):
 
     @property
     def election_name(self):
-        return self._election_names[self.target]
+        return self._election_names[self.nth]
 
     @property
     def url_city_codes_json(self):
@@ -52,8 +52,8 @@ class CandCrawlerUntil16(MultiCityCrawler):
     def url_list_base(self):
         return self._url_list_base + self.election_name + '&cityCode='
 
-    def __init__(self, target):
-        self.target = target
+    def __init__(self, nth):
+        self.nth = nth
 
 class CandCrawlerUntil6(CandCrawlerUntil16):
 
@@ -64,7 +64,7 @@ class CandCrawlerUntil6(CandCrawlerUntil16):
         del member['birthday']
 
 class CandCrawler17(MultiCityCrawler):
-    target = 17
+    nth = 17
 
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson_GuOld.json?electionId=0000000000'\
@@ -84,7 +84,7 @@ class CandCrawler17(MultiCityCrawler):
         self.prop_crawler = CandCrawler17Proportional()
 
 class CandCrawler18(MultiCityCrawler):
-    target = 18
+    nth = 18
 
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson_Old.json?electionId=0000000000'\
@@ -104,7 +104,7 @@ class CandCrawler18(MultiCityCrawler):
         self.prop_crawler = CandCrawler18Proportional()
 
 class CandCrawler19(MultiCityCrawler):
-    target = 19
+    nth = 19
 
     url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
             'selectbox_cityCodeBySgJson.json?electionId=0020120411&electionCode=2'
@@ -130,7 +130,7 @@ class CandCrawler19(MultiCityCrawler):
         pass # TODO: implement
 
 class CandCrawler17Proportional(SinglePageCrawler):
-    target = 17
+    nth = 17
 
     url_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
@@ -144,7 +144,7 @@ class CandCrawler17Proportional(SinglePageCrawler):
              'experience']
 
 class CandCrawler18Proportional(SinglePageCrawler):
-    target = 18
+    nth = 18
 
     url_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
@@ -157,7 +157,7 @@ class CandCrawler18Proportional(SinglePageCrawler):
              'experience']
 
 class CandCrawler19Proportional(SinglePageCrawler):
-    target = 19
+    nth = 19
 
     url_list = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0020120411'\

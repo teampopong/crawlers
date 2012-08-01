@@ -41,13 +41,14 @@ def print_csv(filename, data):
             f.write(','.join(values))
             f.write('\n')
 
-def crawl(_type, target, printer, filename):
-    crawler = Crawler(_type, target)
+def crawl(target, _type, nth, printer, filename):
+    crawler = Crawler(target, _type, nth)
     cand_list = crawler.crawl()
     printer(filename, cand_list)
 
 def create_parser():
     parser = ArgumentParser()
+    parser.add_argument('target', choices=['assembly'])
     parser.add_argument('type', choices=['candidates', 'elected'])
     parser.add_argument('start', type=int)
     parser.add_argument('end', type=int)
@@ -60,8 +61,9 @@ def main(args):
 
     jobs = []
     for n in xrange(args.start, args.end+1):
-        filename = '%s-%d.%s' % (args.type, n, filetype)
-        job = gevent.spawn(crawl, _type=args.type, target=n, filename=filename, printer=printer)
+        filename = '%s-%s-%d.%s' % (args.target, args.type, n, filetype)
+        job = gevent.spawn(crawl, target=args.target, _type=args.type, nth=n,\
+                filename=filename, printer=printer)
         jobs.append(job)
     gevent.joinall(jobs)
 

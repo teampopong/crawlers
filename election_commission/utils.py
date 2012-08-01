@@ -14,12 +14,11 @@ schars_re = re.compile('[/\(\)]')
 ws_re = re.compile('\s')
 
 class InvalidCrawlerError(Exception):
-    def __init__(self, _type, target):
-        self._type = _type
-        self.target = target
+    def __init__(self, *args):
+        self.args = args
 
     def __str__(self):
-        return '%s %s' % (self._type, self.target)
+        return ' '.join(self.args)
 
 def flatten(rarray):
     return list(itertools.chain.from_iterable(rarray))

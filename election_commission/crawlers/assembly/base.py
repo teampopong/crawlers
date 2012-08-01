@@ -23,7 +23,7 @@ class BaseCrawler(object):
                     for i in xrange(len(elems) / num_attrs))
 
         members = [self.parse_member(member, city_name=city_name) for member in members]
-        print 'crawled #%d - %s(%d)...' % (self.target, city_name or '비례대표', len(members))
+        print 'crawled #%d - %s(%d)...' % (self.nth, city_name or '비례대표', len(members))
         return members
 
     def parse_record(self, record):
@@ -35,7 +35,7 @@ class BaseCrawler(object):
         self.parse_record(member)
 
         # never change the order
-        member['assembly_no'] = self.target
+        member['assembly_no'] = self.nth
         member['elected'] = self.__class__.__name__.startswith('Elected')
         self.parse_member_image(member)
         self.parse_member_name(member)

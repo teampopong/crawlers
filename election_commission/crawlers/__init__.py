@@ -1,14 +1,11 @@
 #!/usr/bin/python2.7
 # -*- encoding=utf-8 -*-
 
-import crawlers.candidates as candidates
-import crawlers.elected as elected
+import assembly
 from utils import InvalidCrawlerError
 
-def Crawler(_type, target):
-    if _type == 'candidates':
-        return candidates.Crawler(target)
-    elif _type == 'elected':
-        return elected.Crawler(target)
+def Crawler(target, _type, nth):
+    if target == 'assembly':
+        return assembly.Crawler(_type, nth)
     else:
-        raise InvalidCrawlerError(_type, target)
+        raise InvalidCrawlerError(target, _type, nth)
