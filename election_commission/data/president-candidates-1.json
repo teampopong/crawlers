@@ -1,0 +1,50 @@
+[
+  {
+    "birthyear": "1874", 
+    "birthmonth": "07", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\uc2b9\ub9cc", 
+    "gov_no": 1, 
+    "name_cn": "\uf9e1\u627f\u6669", 
+    "experience": "\ub3c5\ub9bd\uc6b4\ub3d9", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ub300\ud55c\ub3c5\ub9bd\ucd09\uc131\uad6d\ubbfc\ud68c \ucd1d\uc7ac", 
+    "birthday": "20", 
+    "party": "\ub300\ud55c\ub3c5\ub9bd\ucd09\uc131\uad6d\ubbfc\ud68c", 
+    "education": "\ubbf8\uad6d \uc6cc\uc2f1\ud134\ub300 \ud558\ubc84\ub4dc\ub300\uc878", 
+    "candno": "1"
+  }, 
+  {
+    "birthyear": "1880", 
+    "birthmonth": "07", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uad6c", 
+    "gov_no": 1, 
+    "name_cn": "\u91d1\u4e5d", 
+    "experience": "", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "20", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\ubbf8\uae30\uc7ac", 
+    "candno": "2"
+  }, 
+  {
+    "birthyear": "1882", 
+    "birthmonth": "07", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc548\uc7ac\ud64d", 
+    "gov_no": 1, 
+    "name_cn": "\u5b89\u5728\u9d3b", 
+    "experience": "", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uae30\ud0c0", 
+    "birthday": "20", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\ubbf8\uae30\uc7ac", 
+    "candno": "3"
+  }
+]

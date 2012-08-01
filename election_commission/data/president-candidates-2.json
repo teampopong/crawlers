@@ -1,0 +1,69 @@
+[
+  {
+    "birthyear": "1898", 
+    "birthmonth": "08", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc870\ubd09\uc554", 
+    "gov_no": 2, 
+    "name_cn": "\u66fa\u5949\u5ca9", 
+    "experience": "\ub18d\ub9bc\ubd80\uc7a5\uad00", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc800\uc220\uc5c5", 
+    "birthday": "05", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\ubaa8\uc2a4\ucf54\ubc14\uacf5\uc0b0\ub300\ud5592\ub144\uc218\ub8cc", 
+    "candno": "1"
+  }, 
+  {
+    "birthyear": "1874", 
+    "birthmonth": "08", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\uc2b9\ub9cc", 
+    "gov_no": 2, 
+    "name_cn": "\uf9e1\u627f\u6669", 
+    "experience": "\ucd08\ub300\ub300\ud1b5\ub839", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ud604 \ub300\ud1b5\ub839", 
+    "birthday": "05", 
+    "party": "\uc790\uc720\ub2f9", 
+    "education": "\ubbf8\uad6d \uc640\uc2f1\ud1a4\ub300\uc878 \ud558\ubc14\ub4dc\ub300\uc878", 
+    "candno": "2"
+  }, 
+  {
+    "birthyear": "1868", 
+    "birthmonth": "08", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\uc2dc\uc601", 
+    "gov_no": 2, 
+    "name_cn": "\uf9e1\u59cb\u69ae", 
+    "experience": "\ub300\ud55c\ub3c5\ub9bd\ucd09\uc131\ud68c\uc704\uc6d0\uc7a5", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "05", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\uad6c\ud55c\uad6d\uacfc\uac70\uae09\uc81c", 
+    "candno": "3"
+  }, 
+  {
+    "birthyear": "1884", 
+    "birthmonth": "08", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc2e0\ud765\uc6b0", 
+    "gov_no": 2, 
+    "name_cn": "\u7533\u8208\u96e8", 
+    "experience": [
+      "\ubc30\uc7ac\ud559\ub2f9\ud559\ub2f9\uc7a5 YMCA \ucd1d\ubb34", 
+      "\ubc30\uc7ac\uace0\ub4f1\ubcf4\ud1b5\ud559\uad50\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "05", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\ubbf8\uad6d\ub0a8\uac00\uc8fc\ub300\uace0\ub4f1\uacfc\uc758\uacfc\uc218\ub8cc", 
+    "candno": "4"
+  }
+]

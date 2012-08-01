@@ -1,0 +1,135 @@
+[
+  {
+    "birthyear": "1935", 
+    "birthmonth": "06", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\ud68c\ucc3d", 
+    "gov_no": 16, 
+    "name_cn": "\uf9e1\u6703\u660c", 
+    "experience": [
+      "\uc81c15\ub300\u00b716\ub300 \uad6d\ud68c\uc758\uc6d0", 
+      "\ud55c\ub098\ub77c\ub2f9 \ucd1d\uc7ac"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "02", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300 \ubc95\uacfc\ub300\ud559 4\ub144 \uc878\uc5c5", 
+    "candno": "1"
+  }, 
+  {
+    "birthyear": "1946", 
+    "birthmonth": "08", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\ub178\ubb34\ud604", 
+    "gov_no": 16, 
+    "name_cn": "\uf933\u6b66\u9249", 
+    "experience": [
+      "\ub300\uc804\uc9c0\ubc29\ubc95\uc6d0 \ud310\uc0ac", 
+      "\ud574\uc591\uc218\uc0b0\ubd80 \uc7a5\uad00"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "06", 
+    "party": "\uc0c8\ucc9c\ub144\ubbfc\uc8fc\ub2f9", 
+    "education": "\ubd80\uc0b0\uc0c1\uc5c5\uace0\ub4f1\ud559\uad50 \uc878\uc5c5", 
+    "candno": "2"
+  }, 
+  {
+    "birthyear": "1934", 
+    "birthmonth": "12", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\ud55c\ub3d9", 
+    "gov_no": 16, 
+    "name_cn": "\uf9e1\u6f22\u6771", 
+    "experience": [
+      "\ud558\ub098\ub85c\uad6d\ubbfc\uc5f0\ud569 \ub300\ud45c", 
+      "\uc81c16\ub300 \uad6d\ud68c\uc758\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "05", 
+    "party": "\ud558\ub098\ub85c\uad6d\ubbfc\uc5f0\ud569", 
+    "education": "\uc11c\uc6b8\ub300 \ubc95\uacfc\ub300\ud559 4\ub144 \uc878\uc5c5", 
+    "candno": "3"
+  }, 
+  {
+    "birthyear": "1941", 
+    "birthmonth": "11", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uad8c\uc601\uae38", 
+    "gov_no": 16, 
+    "name_cn": "\u6b0a\u6c38\u5409", 
+    "experience": [
+      "\ubbfc\uc8fc\ub178\ucd1d \ucd08\ub300\uc704\uc6d0\uc7a5", 
+      "\ubbfc\uc8fc\ub178\ub3d9\ub2f9 \ub300\ud45c"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "05", 
+    "party": "\ubbfc\uc8fc\ub178\ub3d9\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300 \uc7a0\uc0ac\ud559\uacfc 4\ub144 \uc878\uc5c5", 
+    "candno": "4"
+  }, 
+  {
+    "birthyear": "1946", 
+    "birthmonth": "09", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uc601\uaddc", 
+    "gov_no": 16, 
+    "name_cn": "\u91d1\u69ae\u572d", 
+    "experience": [
+      "\uc0ac\ud68c\ub2f9 \ub300\ud45c", 
+      "2002\ub144 \uc0ac\ud68c\ub2f9 \uc778\ucc9c\uad11\uc5ed\uc2dc\uc7a5 \ud6c4\ubcf4"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "03", 
+    "party": "\uc0ac\ud68c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300 \ubc95\ub300 4\ub144 \uc878\uc5c5", 
+    "candno": "5"
+  }, 
+  {
+    "birthyear": "1948", 
+    "birthmonth": "08", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uae38\uc218", 
+    "gov_no": 16, 
+    "name_cn": "\u91d1\u5409\u6d19", 
+    "experience": [
+      "\uad6d\ud0dc\ubbfc\uc548\ud638\uad6d\ub2f9 \ucd1d\uc7ac", 
+      "\ud544\ub9ac\ud540\ucf58\ud2f0\ub128\ud0c8\ub300\ud559\uad50 \ubd80\ucd1d\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc885\uad50\uc778", 
+    "birthday": "08", 
+    "party": "\ud638\uad6d\ub2f9", 
+    "education": "\ud544\ub9ac\ud540\ucf58\ud2f0\ub128\ud0c8\ub300\uacbd\uc601\ud559\uacfc4\ub144\uc878\uc5c5(`84-`88)", 
+    "candno": "6"
+  }, 
+  {
+    "birthyear": "1936", 
+    "birthmonth": "09", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc7a5\uc138\ub3d9", 
+    "gov_no": 16, 
+    "name_cn": "\u5f35\u4e16\u6771", 
+    "experience": [
+      "\ub300\ud1b5\ub839 \uacbd\ud638\uc2e4\uc7a5", 
+      "\uad6d\uac00\uc548\uc804\uae30\ud68d\ubd80\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "27", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\uc721\uad70\uc0ac\uad00\ud559\uad50 4\ub144 \uc878\uc5c5", 
+    "candno": "7"
+  }
+]

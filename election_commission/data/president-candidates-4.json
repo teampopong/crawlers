@@ -1,0 +1,34 @@
+[
+  {
+    "birthyear": "1874", 
+    "birthmonth": "03", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\uc2b9\ub9cc", 
+    "gov_no": 4, 
+    "name_cn": "\uf9e1\u627f\u6669", 
+    "experience": "\uc81c1,2,3\ub300 \ub300\ud1b5\ub839", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ud604 \ub300\ud1b5\ub839", 
+    "birthday": "15", 
+    "party": "\uc790\uc720\ub2f9", 
+    "education": "\ubbf8\uad6d \uc640\uc2f1\ud134\ub300\uc878 \ud558\ubc14\ub4dc\ub300\uc878", 
+    "candno": "1"
+  }, 
+  {
+    "birthyear": "1895", 
+    "birthmonth": "03", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc870\ubcd1\uc625", 
+    "gov_no": 4, 
+    "name_cn": "\u8d99\u67c4\u7389", 
+    "experience": "\uad70\uc815\uccad\uacbd\ubd80\ubd80\uc7a5", 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubbfc\uc758\uc6d0\uc758\uc6d0", 
+    "birthday": "15", 
+    "party": "\ubbfc\uc8fc\ub2f9", 
+    "education": "\ucf5c\ub86c\ube44\uc544\ub300\uc878", 
+    "candno": "2"
+  }
+]

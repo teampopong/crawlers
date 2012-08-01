@@ -1,0 +1,135 @@
+[
+  {
+    "birthyear": "1896", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc774\uc138\uc9c4", 
+    "gov_no": 6, 
+    "name_cn": "\uf9e1\u4e16\u93ad", 
+    "experience": [
+      "\uc77c\uc81536\ub144\uac04\ud56d\uc77c\ud22c\uc7c1 \ud574\ubc29\ud6c4", 
+      "\uc774\ub3c5\uc7ac\uc5d0 \ud56d\uac70\ud22c\uc7c1"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "03", 
+    "party": "\uc815\uc758\ub2f9", 
+    "education": "\ud55c\ud559", 
+    "candno": "1"
+  }, 
+  {
+    "birthyear": "1902", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc804\uc9c4\ud55c", 
+    "gov_no": 6, 
+    "name_cn": "\u9322\u93ad\u6f22", 
+    "experience": [
+      "\ucd08\ub300\uc0ac\ud68c\ubd80\uc7a5\uad00 \ub300\ud55c\ub178\ub3d9\ucd1d\uc5f0\ub9f9", 
+      "\uc704\uc6d0\uc7a5 \uc81c2,3,5,6\ub300\uad6d\ud68c\uc758\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "03", 
+    "party": "\ud55c\uad6d\ub3c5\ub9bd\ub2f9", 
+    "education": "\uc77c\ubcf8\uc870\ub3c4\uc804\ub300\ud559\uc815\uacbd\ud559\ubd80\uc878", 
+    "candno": "2"
+  }, 
+  {
+    "birthyear": "1899", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc724\ubcf4\uc120", 
+    "gov_no": 6, 
+    "name_cn": "\u5c39\u6f7d\u5584", 
+    "experience": [
+      "\uc0c1\uacf5\ubd80\uc7a5\uad00 \uc81c3,4,5,6\ub300 \uad6d\ud68c", 
+      "\uc758\uc6d0 \uc81c4\ub300 \ub300\ud1b5\ub839"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "03", 
+    "party": "\uc2e0\ubbfc\ub2f9", 
+    "education": "\uc601\uad6d\uc5d0\ub518\ubc14\ub77c\ub300\uc878", 
+    "candno": "3"
+  }, 
+  {
+    "birthyear": "1903", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc11c\ubbfc\ud638", 
+    "gov_no": 6, 
+    "name_cn": "\u5f90\u73c9\u6ef8", 
+    "experience": [
+      "\uc81c5\ub300\ubbfc\uc758\uc6d0\ubd80\uc758\uc7a5", 
+      "\ub300\uc911\ub2f9\ub300\ud45c\ucd5c\uace0\uc704\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "03", 
+    "party": "\ub300\uc911\ub2f9", 
+    "education": "\ubbf8\uad6d\ucf5c\ub7fc\ube44\uc544\ub300\ud559\uc6d0\uc815\uce58\uc0ac\ud68c\ud559\uc878", 
+    "candno": "4"
+  }, 
+  {
+    "birthyear": "1896", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uc900\uc5f0", 
+    "gov_no": 6, 
+    "name_cn": "\u91d1\u4fca\u6df5", 
+    "experience": [
+      "\ubc95\ubb34\ubd80\uc7a5\uad00", 
+      "\uc81c1,3,4,5,6\ub300\uad6d\ud68c\uc758\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "03", 
+    "party": "\ubbfc\uc911\ub2f9", 
+    "education": "\ub3d9\uacbd\uc81c\uad6d\ub300\ubc95\ud559\ubd80\ub3c5\ubc95\uacfc\uc878", 
+    "candno": "5"
+  }, 
+  {
+    "birthyear": "1918", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\ubc15\uc815\ud76c", 
+    "gov_no": 6, 
+    "name_cn": "\u6734\u6b63\u7199", 
+    "experience": [
+      "\uad6d\uac00\uc7ac\uac74\ucd5c\uace0\ud68c\uc758\uc758\uc7a5", 
+      "\uc81c5\ub300 \ub300\ud1b5\ub839"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ub300\ud1b5\ub839", 
+    "birthday": "03", 
+    "party": "\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
+    "education": "\uc721\uad70\ub300\uc878", 
+    "candno": "6"
+  }, 
+  {
+    "birthyear": "1920", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc624\uc7ac\uc601", 
+    "gov_no": 6, 
+    "name_cn": "\u5433\u5728\u6cf3", 
+    "experience": [
+      "\uc81c5\ub300\ub300\ud1b5\ub839\uc785\ud6c4\ubcf4", 
+      "\ud1b5\ud55c\ub2f9\ub300\ud45c\ucd5c\uace0\uc704\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\ubb34\uc9c1", 
+    "birthday": "03", 
+    "party": "\ud1b5\ud55c\ub2f9", 
+    "education": "\uacf5\ub9bd\ubcf4\ud1b5\ud559\uad504\ub144\uc911\ud1f4", 
+    "candno": "7"
+  }
+]

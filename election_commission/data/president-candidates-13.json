@@ -1,0 +1,154 @@
+[
+  {
+    "birthyear": "1932", 
+    "birthmonth": "12", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\ub178\ud0dc\uc6b0", 
+    "gov_no": 13, 
+    "name_cn": "\uf933\u6cf0\u611a", 
+    "experience": [
+      "1982\ub144\ub0b4\ubb34\ubd80\uc7a5\uad00,1983\ub144\uc11c\uc6b8\uc62c\ub9bc\ud53d\ub300\ud68c\ubc0f\uc544\uc2dc\uc548\uac8c\uc784\uc870\uc9c1\uc704\uc6d0\ud68c\uc704\uc6d0\uc7a5", 
+      "1987\ub144\ubbfc\uc8fc\uc815\uc758\ub2f9\ucd1d\uc7ac"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "04", 
+    "party": "\ubbfc\uc8fc\uc815\uc758\ub2f9", 
+    "education": "\uc721\uad70\uc0ac\uad00\ud559\uad50\uc878\uc5c5", 
+    "candno": "1"
+  }, 
+  {
+    "birthyear": "1927", 
+    "birthmonth": "12", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uc601\uc0bc", 
+    "gov_no": 13, 
+    "name_cn": "\u91d1\u6cf3\u4e09", 
+    "experience": [
+      "\uad6d\ud68c\uc758\uc6d07\uc120(3,5,6,7,8,9,10\ub300),\ud604\ud1b5\uc77c\ubbfc\uc8fc\ub2f9\ucd1d\uc7ac", 
+      "\uc6d0\ub0b4\ucd1d\ubb345\uc120\ubc0f\uc57c\ub2f9\ucd1d\uc7ac3\uc120"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "20", 
+    "party": "\ud1b5\uc77c\ubbfc\uc8fc\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50\ubb38\ub9ac\ub300\ucca0\ud559\uacfc\uc878\uc5c5", 
+    "candno": "2"
+  }, 
+  {
+    "birthyear": "1925", 
+    "birthmonth": "12", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\ub300\uc911", 
+    "gov_no": 13, 
+    "name_cn": "\u91d1\u5927\u4e2d", 
+    "experience": [
+      "1971\ub144\ub300\ud1b5\ub839\ud6c4\ubcf4540\ub9cc\ud45c(\uc720\ud6a8\ud22c\ud45c\uc75845%)\ub4dd\ud45c", 
+      "\ubbf8\uad6d\uc5d0\ubaa8\ub9ac\ub300\ud559\uba85\uc608\ubc95\ud559\ubc15\uc0ac,1987,1988\ub144\ub178\ubca8\ud3c9\ud654\uc0c1\ud6c4\ubcf4\ubc0f1987\ub144\uc870\uc9c0\ubbf8\ub2c8\uc778\uad8c\uc0c1\uc218\uc0c1"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "03", 
+    "party": "\ud3c9\ud654\ubbfc\uc8fc\ub2f9", 
+    "education": "\uacbd\ud76c\ub300\ud559\uad50\uc0b0\uc5c5\uacbd\uc601\ub300\ud559\uc6d0\uc218\ub8cc", 
+    "candno": "3"
+  }, 
+  {
+    "birthyear": "1926", 
+    "birthmonth": "01", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uc885\ud544", 
+    "gov_no": 13, 
+    "name_cn": "\u91d1\u937e\u6ccc", 
+    "experience": [
+      "6,7,8,9,10\ub300 \uad6d\ud68c\uc758\uc6d0\ubc0f\ubbfc\uc8fc\uacf5\ud654\ub2f9\ucd1d\uc7ac", 
+      "\uad6d\ubb34\ucd1d\ub9ac,\uc678\uad50\ud2b9\uc0ac\ub85c\ubbf8\uad6d,\uc77c\ubcf8,\uc774\ud0c8\ub9ac\uc544,\ud504\ub791\uc2a4,\ub3c5\uc77c,\ube0c\ub77c\uc9c8,\uc544\ub974\ud5e8\ud2f0\ub098\ub4f1\ubc29\ubb38"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "07", 
+    "party": "\uc2e0\ubbfc\uc8fc\uacf5\ud654\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50\uad50\uc721\ud559\ubd80\uc218\ub8cc", 
+    "candno": "4"
+  }, 
+  {
+    "birthyear": "1933", 
+    "birthmonth": "07", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\ud64d\uc219\uc790", 
+    "gov_no": 13, 
+    "name_cn": "\u6d2a\u6dd1\u5b50", 
+    "experience": [
+      "1970\ub144\ub274\uc695\ucd1d\uc601\uc0ac\uad00\ubd80\uc601\uc0ac\ub4f1 \uc5ec\uc131\uc678\uad50\uad001\ud638", 
+      "1979\ub144\ub3d9\uad6d\ub300\ud559\uad50\uad50\uc218,1987\ub144\uc138\uacc4\uc5ec\uc131\ub2e8\uccb4\ud611\uc758\ud68c\ud68c\uc7a5"
+    ], 
+    "sex": "\uc5ec", 
+    "elected": false, 
+    "job": "\uae30\ud0c0", 
+    "birthday": "15", 
+    "party": "\uc0ac\ud68c\ubbfc\uc8fc\ub2f9", 
+    "education": "\ub3d9\uad6d\ub300\ud559\uad50\ub300\ud559\uc6d0\uc815\uc678\uacfc\uc878\uc5c5", 
+    "candno": "5"
+  }, 
+  {
+    "birthyear": "1926", 
+    "birthmonth": "04", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uae40\uc120\uc801", 
+    "gov_no": 13, 
+    "name_cn": "\u91d1\u5584\u7a4d", 
+    "experience": [
+      "1943\ub144\ub300\ud55c\ubbfc\uad6d\uc784\uc2dc\uc815\ubd80\ud56d\uc77c\ud65c\ub3d9,1970\ub144\uc0bc\uc77c\uad6d\ubbfc\ud68c\uc758\ucc3d\ub9bd", 
+      "1987\ub144\uc77c\uccb4\ubbfc\uc8fc\ub2f9\ucd1d\uc7ac"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uae30\ud0c0", 
+    "birthday": "11", 
+    "party": "\uc77c\uccb4\ubbfc\uc8fc\ub2f9", 
+    "education": "\uc5f0\uc138\ub300\ud559\uad50\ubb38\uacfc\ub300\ud559\uc878\uc5c5", 
+    "candno": "6"
+  }, 
+  {
+    "birthyear": "1938", 
+    "birthmonth": "05", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\uc2e0\uc815\uc77c", 
+    "gov_no": 13, 
+    "name_cn": "\u7533\u6b63\u4e00", 
+    "experience": [
+      "1967\ub144\uc0ac\ub2e8\ubc95\uc778\ud55c\uc5bc\uad50\uc911\uc559\ud68c\uc774\uc0ac\uc7a5,1981\ub144\ubbfc\uc871\uc815\uc2e0\uc131\uc591\ub2e8\uccb4\ud611\uc758\ud68c\uc758\uc7a5", 
+      "1987\ub144\ud55c\uc8fc\uc758\ud1b5\uc77c\ud55c\uad6d\ub2f9\ucd1d\uc7ac"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uae30\ud0c0", 
+    "birthday": "03", 
+    "party": "\ud55c\uc8fc\uc758\ud1b5\uc77c\ud55c\uad6d\ub2f9", 
+    "education": "\uacbd\ubd81\ub300\ud559\uad50\ub300\ud559\uc6d0\uc878\uc5c5", 
+    "candno": "7"
+  }, 
+  {
+    "birthyear": "1932", 
+    "birthmonth": "01", 
+    "district": "\ub300\ud55c\ubbfc\uad6d", 
+    "name_kr": "\ubc31\uae30\uc644", 
+    "gov_no": 13, 
+    "name_cn": "\u767d\u57fa\u73a9", 
+    "experience": [
+      "\ud1b5\uc77c\ubb38\uc81c\uc5f0\uad6c\uc18c\uc7a5,1979\ub144\uba85\ub3d9YMCA\uc0ac\uac74\uc73c\ub85c\uad6c\uc18d", 
+      "1973\ub144\uc720\uc2e0\uc2dc\uc808\ucd5c\ucd08\uac1c\ud5cc\uc6b4\ub3d9\uc744 \uc8fc\ub3c4\ud558\uc5ec\uae34\uae09\uc870\uce581\ud638\uad6c\uc18d"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": false, 
+    "job": "\uae30\ud0c0", 
+    "birthday": "24", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\ud669\ud574\ub3c4\uc740\uc728\uc774\ub3c4\uad6d\ubbfc\ud559\uad50\uc878\uc5c5", 
+    "candno": "8"
+  }
+]
