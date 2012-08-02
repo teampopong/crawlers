@@ -48,7 +48,7 @@ def crawl(target, _type, nth, printer, filename):
 
 def create_parser():
     parser = ArgumentParser()
-    parser.add_argument('target', choices=['assembly', 'president'])
+    parser.add_argument('target', choices=['assembly', 'mayor', 'president'])
     parser.add_argument('type', choices=['candidates', 'elected'])
     parser.add_argument('start', type=int)
     parser.add_argument('end', type=int)

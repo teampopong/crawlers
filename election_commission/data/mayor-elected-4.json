@@ -1,0 +1,316 @@
+[
+  {
+    "birthyear": "1961", 
+    "birthmonth": "01", 
+    "votenum": "2409760", 
+    "district": "\uc11c\uc6b8\ud2b9\ubcc4\uc2dc", 
+    "name_kr": "\uc624\uc138\ud6c8", 
+    "gov_no": 4, 
+    "voterate": "61.10", 
+    "name_cn": "\u5433\u4e16\u52f3", 
+    "experience": [
+      "\uc81c16\ub300 \uad6d\ud68c\uc758\uc6d0 \uc5ed\uc784", 
+      "\ud55c\ub098\ub77c\ub2f9 \uc0c1\uc784\uc6b4\uc601\uc704\uc6d0(\ucd5c\uace0\uc704\uc6d0) \uc5ed\uc784"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ubcc0\ud638\uc0ac", 
+    "birthday": "04", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uace0\ub824\ub300\ud559\uad50 \ub300\ud559\uc6d0 \uc878\uc5c5 (\ubc95\ud559\ubc15\uc0ac)"
+  }, 
+  {
+    "birthyear": "1949", 
+    "birthmonth": "03", 
+    "votenum": "895214", 
+    "district": "\ubd80\uc0b0\uad11\uc5ed\uc2dc", 
+    "name_kr": "\ud5c8\ub0a8\uc2dd", 
+    "gov_no": 4, 
+    "voterate": "65.55", 
+    "name_cn": "\u8a31\u5357\u690d", 
+    "experience": [
+      "\ubd80\uc0b0\uad11\uc5ed\uc2dc \uc815\ubb34\ubd80\uc2dc\uc7a5", 
+      "(\u73fe)\ubd80\uc0b0\uad11\uc5ed\uc2dc\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ubd80\uc0b0\uad11\uc5ed\uc2dc\uc7a5", 
+    "birthday": "14", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50 \ud589\uc815\ub300\ud559\uc6d0 \uc878\uc5c5"
+  }, 
+  {
+    "birthyear": "1950", 
+    "birthmonth": "10", 
+    "votenum": "636057", 
+    "district": "\ub300\uad6c\uad11\uc5ed\uc2dc", 
+    "name_kr": "\uae40\ubc94\uc77c", 
+    "gov_no": 4, 
+    "voterate": "70.15", 
+    "name_cn": "\u91d1\u7bc4\u93b0", 
+    "experience": [
+      "\uc0b0\ub9bc\uccad\uc7a5", 
+      "\ub300\uad6c\uad11\uc5ed\uc2dc \uc815\ubb34\ubd80\uc2dc\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "21", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50 \uc0c1\uacfc\ub300\ud559(\uacbd\uc601\ud559\uc0ac) \uc878\uc5c5"
+  }, 
+  {
+    "birthyear": "1946", 
+    "birthmonth": "05", 
+    "votenum": "526932", 
+    "district": "\uc778\ucc9c\uad11\uc5ed\uc2dc", 
+    "name_kr": "\uc548\uc0c1\uc218", 
+    "gov_no": 4, 
+    "voterate": "61.93", 
+    "name_cn": "\u5b89\u76f8\u6d19", 
+    "experience": [
+      "\uc81c15\ub300 \uad6d\ud68c\uc758\uc6d0", 
+      "\ub3d9\uc591\uadf8\ub8f9 \uc885\ud569\uc870\uc815\uc2e4 \uc0ac\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc778\ucc9c\uad11\uc5ed\uc2dc\uc7a5", 
+    "birthday": "28", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50 \ub300\ud559\uc6d0 \uacbd\uc601\ud559\uacfc \uc878\uc5c5 (\uacbd\uc601\ud559 \uc11d\uc0ac)"
+  }, 
+  {
+    "birthyear": "1943", 
+    "birthmonth": "06", 
+    "votenum": "239884", 
+    "district": "\uad11\uc8fc\uad11\uc5ed\uc2dc", 
+    "name_kr": "\ubc15\uad11\ud0dc", 
+    "gov_no": 4, 
+    "voterate": "51.62", 
+    "name_cn": "\u6734\u5149\u6cf0", 
+    "experience": [
+      "\uad11\uc8fc\uad11\uc5ed\uc2dc\uc7a5", 
+      "\uc81c14,15,16\ub300 \uad6d\ud68c\uc758\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uad11\uc8fc\uad11\uc5ed\uc2dc\uc7a5", 
+    "birthday": "02", 
+    "party": "\ubbfc\uc8fc\ub2f9", 
+    "education": "\uc870\uc120\ub300\ud559\uad50 \ubc95\uc815\ub300\ud559 \uc878\uc5c5"
+  }, 
+  {
+    "birthyear": "1955", 
+    "birthmonth": "02", 
+    "votenum": "231489", 
+    "district": "\ub300\uc804\uad11\uc5ed\uc2dc", 
+    "name_kr": "\ubc15\uc131\ud6a8", 
+    "gov_no": 4, 
+    "voterate": "43.84", 
+    "name_cn": "\u6734\u57ce\u5b5d", 
+    "experience": [
+      "\ub300\uc804\uad11\uc5ed\uc2dc \uc815\ubb34\ubd80\uc2dc\uc7a5", 
+      "\ub300\uc804\uad11\uc5ed\uc2dc \uae30\ud68d\uad00\ub9ac\uc2e4\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ucda9\ub0a8\ub300\ud559\uad50 \uacb8\uc784\uad50\uc218", 
+    "birthday": "20", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\ub300\uc804\ub300\ud559\uad50 \ub300\ud559\uc6d0 \uc0ac\ud68c\ubcf5\uc9c0\ud559\uacfc \uc878\uc5c5(\uc0ac\ud68c\ubcf5\uc9c0\ud559 \uc11d\uc0ac)"
+  }, 
+  {
+    "birthyear": "1950", 
+    "birthmonth": "11", 
+    "votenum": "261361", 
+    "district": "\uc6b8\uc0b0\uad11\uc5ed\uc2dc", 
+    "name_kr": "\ubc15\ub9f9\uc6b0", 
+    "gov_no": 4, 
+    "voterate": "63.23", 
+    "name_cn": "\u6734\u5b5f\u96e8", 
+    "experience": [
+      "\uc81c25\ud68c \ud589\uc815\uace0\uc2dc \ud569\uaca9", 
+      "\uacbd\uc0c1\ub0a8\ub3c4 \ud568\uc548\uad70\uc218"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc6b8\uc0b0\uad11\uc5ed\uc2dc\uc7a5", 
+    "birthday": "08", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\ub3d9\uc758\ub300 \ub300\ud559\uc6d0 \uc878\uc5c5(\ud589\uc815\ud559 \ubc15\uc0ac)"
+  }, 
+  {
+    "birthyear": "1951", 
+    "birthmonth": "08", 
+    "votenum": "2181677", 
+    "district": "\uacbd\uae30\ub3c4", 
+    "name_kr": "\uae40\ubb38\uc218", 
+    "gov_no": 4, 
+    "voterate": "59.68", 
+    "name_cn": "\u91d1\u6587\u6d19", 
+    "experience": "\uc81c15\u00b716\u00b717\ub300 \uad6d\ud68c\uc758\uc6d0(\ud55c\ub098\ub77c\ub2f9 \uacbd\uae30 \ubd80\ucc9c \uc18c\uc0ac\uad6c)", 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "27", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50 \uacbd\uc601\ud559\uacfc \uc878\uc5c5"
+  }, 
+  {
+    "birthyear": "1946", 
+    "birthmonth": "11", 
+    "votenum": "471613", 
+    "district": "\uac15\uc6d0\ub3c4", 
+    "name_kr": "\uae40\uc9c4\uc120", 
+    "gov_no": 4, 
+    "voterate": "70.57", 
+    "name_cn": "\u91d1\u632f\uc120", 
+    "experience": "\uac15\uc6d0\ub3c4\uc9c0\uc0ac", 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uacf5\ubb34\uc6d0", 
+    "birthday": "10", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\ub3d9\uad6d\ub300\ud559\uad50 \ud589\uc815\ud559\uacfc \uc878\uc5c5"
+  }, 
+  {
+    "birthyear": "1953", 
+    "birthmonth": "02", 
+    "votenum": "361157", 
+    "district": "\ucda9\uccad\ubd81\ub3c4", 
+    "name_kr": "\uc815\uc6b0\ud0dd", 
+    "gov_no": 4, 
+    "voterate": "59.66", 
+    "name_cn": "\u912d\u5b87\u6fa4", 
+    "experience": [
+      "15\u00b716\ub300 \uad6d\ud68c\uc758\uc6d0", 
+      "\ud574\uc591\uc218\uc0b0\ubd80\uc7a5\uad00"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\ud64d\uace1\uacfc\ud559\ubb38\ud654\uc7ac\ub2e8 \uc774\uc0ac\uc7a5", 
+    "birthday": "18", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\ubbf8\uad6d \ud558\uc640\uc774\ub300 \ub300\ud559\uc6d0 \uacbd\uc81c\ud5593\ub144 \uc878\uc5c5(\uacbd\uc81c\ud559\ubc15\uc0ac)"
+  }, 
+  {
+    "birthyear": "1950", 
+    "birthmonth": "06", 
+    "votenum": "379420", 
+    "district": "\ucda9\uccad\ub0a8\ub3c4", 
+    "name_kr": "\uc774\uc644\uad6c", 
+    "gov_no": 4, 
+    "voterate": "46.31", 
+    "name_cn": "\uf9e1\u5b8c\u4e5d", 
+    "experience": [
+      "\ucda9\ub0a8\ubd81\uacbd\ucc30\uccad\uc7a5", 
+      "\uc81c15, 16\ub300 \uad6d\ud68c\uc758\uc6d0"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "02", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\ubbf8\uc2dc\uac74 \uc8fc\ub9bd\ub300\ud559\uad50 \ub300\ud559\uc6d0 \ud615\uc0ac\uc815\ucc45\ud559\uacfc 2\ub144\uc878\uc5c5(\uc774\ud559\uc11d\uc0ac)"
+  }, 
+  {
+    "birthyear": "1946", 
+    "birthmonth": "05", 
+    "votenum": "389436", 
+    "district": "\uc804\ub77c\ubd81\ub3c4", 
+    "name_kr": "\uae40\uc644\uc8fc", 
+    "gov_no": 4, 
+    "voterate": "48.08", 
+    "name_cn": "\u91d1\u5b8c\u67f1", 
+    "experience": [
+      "\uc804\uad6d\uc2dc\uc7a5.\uad70\uc218.\uad6c\uccad\uc7a5\ud611\uc758\ud68c \ub300\ud45c\ud68c\uc7a5", 
+      "\uc804\uc8fc\uc2dc\uc7a5(\uc7ac\uc120)"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "25", 
+    "party": "\uc5f4\ub9b0\uc6b0\ub9ac\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50 \ud589\uc815\ub300\ud559\uc6d0 \ud589\uc815\ud559\uacfc \uc878\uc5c5"
+  }, 
+  {
+    "birthyear": "1946", 
+    "birthmonth": "10", 
+    "votenum": "640894", 
+    "district": "\uc804\ub77c\ub0a8\ub3c4", 
+    "name_kr": "\ubc15\uc900\uc601", 
+    "gov_no": 4, 
+    "voterate": "67.69", 
+    "name_cn": "\u6734\u5cfb\uf9ae", 
+    "experience": [
+      "\uc911\uc559\uc77c\ubcf4 \ub274\uc695\ud2b9\ud30c\uc6d0", 
+      "\uae40\ub300\uc911\ub300\ud1b5\ub839 \uacf5\ubcf4\uc218\uc11d\ube44\uc11c\uad00 \uacb8 \uccad\uc640\ub300 \ub300\ubcc0\uc778"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc804\ub77c\ub0a8\ub3c4\uc9c0\uc0ac", 
+    "birthday": "21", 
+    "party": "\ubbfc\uc8fc\ub2f9", 
+    "education": "\uc131\uade0\uad00\ub300\ud559\uad50 \ub300\ud559\uc6d0 \uc878\uc5c5(\uc815\uce58\ud559 \ubc15\uc0ac)"
+  }, 
+  {
+    "birthyear": "1942", 
+    "birthmonth": "11", 
+    "votenum": "961363", 
+    "district": "\uacbd\uc0c1\ubd81\ub3c4", 
+    "name_kr": "\uae40\uad00\uc6a9", 
+    "gov_no": 4, 
+    "voterate": "76.80", 
+    "name_cn": "\u91d1\u5bec\u5bb9", 
+    "experience": [
+      "\ub300\ud1b5\ub839 \ubbfc\uc815\ube44\uc11c\uc2e4 \ud589\uc815\uad00", 
+      "\ubbfc\uc1201,2,3\uae30 \uad6c\ubbf8\uc2dc\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\ub2f9\uc778", 
+    "birthday": "29", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc601\ub0a8\ub300\ud559\uad50\ud589\uc815\ub300\ud559\uc6d0 \uc878\uc5c5(\ud589\uc815\ud559 \uc11d\uc0ac)"
+  }, 
+  {
+    "birthyear": "1962", 
+    "birthmonth": "08", 
+    "votenum": "852377", 
+    "district": "\uacbd\uc0c1\ub0a8\ub3c4", 
+    "name_kr": "\uae40\ud0dc\ud638", 
+    "gov_no": 4, 
+    "voterate": "63.13", 
+    "name_cn": "\u91d1\u53f0\u93ac", 
+    "experience": [
+      "\uac70\ucc3d\uad70\uc218", 
+      "\uacbd\uc0c1\ub0a8\ub3c4\uc9c0\uc0ac"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\ubb34\uc9c1 \uacf5\ubb34\uc6d0", 
+    "birthday": "21", 
+    "party": "\ud55c\ub098\ub77c\ub2f9", 
+    "education": "\uc11c\uc6b8\ub300\ud559\uad50 \ub300\ud559\uc6d0\uc878\uc5c5 (\uad50\uc721\ud559\ubc15\uc0ac)"
+  }, 
+  {
+    "birthyear": "1942", 
+    "birthmonth": "05", 
+    "votenum": "117244", 
+    "district": "\uc81c\uc8fc\ub3c4", 
+    "name_kr": "\uae40\ud0dc\ud658", 
+    "gov_no": 4, 
+    "voterate": "42.73", 
+    "name_cn": "\uf90a\u6cf0\u7165", 
+    "experience": [
+      "\uc81c\uc8fc\ub3c4\uc9c0\uc0ac", 
+      "\uc81c\uc8fc\uc2dc\uc7a5"
+    ], 
+    "sex": "\ub0a8", 
+    "elected": true, 
+    "job": "\uc815\uce58\uc778", 
+    "birthday": "21", 
+    "party": "\ubb34\uc18c\uc18d", 
+    "education": "\uc5f0\uc138\ub300\ud559\uad50 \ud589\uc815\ub300\ud559\uc6d0 \uc878\uc5c5(\ud589\uc815\ud559\uc11d\uc0ac)"
+  }
+]
