@@ -1,26 +1,19 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
+import urllib2
 
-from spynner import Browser
-from pyquery import PyQuery
+directory = 'html/'
+base = 'http://nas.na.go.kr/site?siteId=site-20111206-000001000&pageId=page-20111207-000001129&dic_mode=default&dic_pageNumber='
+num = 126
+ext = '.html'
 
-browser = Browser()
-browser.set_html_parser(PyQuery)
+for n in range(1, num+1):
 
-browser.load("http://en.wikipedia.org/wiki/List_of_U.S._states")
+    outp = directory + str(n) + ext
 
-# get the table of states
-table = browser.soup("table.wikitable")
-# skip the first row, which contains only column names
-rows = table("tr")[1:]
-
-pop_dict = {}
-for row in rows:
-    columns = row.findall("td")
-    state_name = columns[0].find('a').text
-    population = int(columns[6].text.replace(',', ''))
-    pop_dict[state_name] = population
-
-print pop_dict
-
+    url = base + str(n)
+    r = urllib2.urlopen(url)
+    with open(outp, 'w') as f:
+        f.write(r.read())
+    print '%s to %s' % (n, outp)
