@@ -19,4 +19,10 @@ Get Google search counts.
 Get Korean lastnames from Wikipedia
 
 ### glossary
-Get data for [POPONG Glossary](http://popong.com/glossary) from [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/) and [National Assembly Secretaritat (국회사무처)](http://http://nas.na.go.kr/).
+Get data for [POPONG Glossary](http://popong.com/glossary).
+
+- [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/) 
+- [National Assembly Secretaritat (국회사무처)](http://http://nas.na.go.kr/)
+
+        python crawler.py
+        python parser.py
