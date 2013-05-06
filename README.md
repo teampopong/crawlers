@@ -26,3 +26,8 @@ Get data for [POPONG Glossary](http://popong.com/glossary).
 
         python crawler.py
         python parser.py
+
+### pledges
+Get data from [NEC (선거관리위원회)](http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml?electionId=0020120411&requestURI=%2Felectioninfo%2F0020120411%2Fep%2Fepei01.jsp&topMenuId=EP&secondMenuId=EPEI01&menuId=&statementId=EPEI01_%232&electionCode=2&cityCode=0&proportionalRepresentationCode=0&x=17&y=11) for 19th National Assembly electorates' pledges.
+
+    python crawler.py
