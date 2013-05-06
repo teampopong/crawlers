@@ -29,8 +29,7 @@ def find_people(filename, x_table, x_links):
     ids = [re.search(r'[0-9]+', s).group(0) for s in page.xpath(x_links)]
     return names, parties, ids
 
-def write_people(names, parties, ids):
-    people = zip(['name']+names[1:], ['party']+parties[1:], ['ids']+ids )
+def write_people(people):
     with open(LIST_PAGE.replace('.html', '.csv'), 'w') as f:
         for p in people:
             f.write(','.join(p).encode('utf-8'))
@@ -49,19 +48,33 @@ def get_pledges(basepath, baseurl, ids):
 
 def find_pledges(filename, x_pledge, x_content):
     page = utils.read_webpage(filename)
-    pledges = [list(row.itertext()) for row in page.xpath(x_pledge)]
-    contents = [list(row.itertext()) for row in page.xpath(x_content)]
+    pledges = [list(row.itertext())[0].strip().replace('"', '\'')\
+            for row in page.xpath(x_pledge)]
+    contents = [' '.join(row.itertext()).strip().replace('"', '\'')\
+            for row in page.xpath(x_content)]
     return pledges, contents
+
+def write_pledges(ids):
+    tot = len(ids)
+    with open('pledges.csv', 'w') as f:
+        for idx, i in enumerate(ids, start=1):
+            filename = 'html/%s.html' % i
+            pledges, contents =\
+                    find_pledges(filename, X['pledges'], X['contents'])
+            for n, z in enumerate(zip(pledges, contents), start=1):
+                s = '"%s","%s",%d,"%s","%s"\n'\
+                        % (cb[i]['name'], cb[i]['party'], n, z[0], z[1])
+                f.write(s.encode('utf-8'))
+            print '%s/%s' % (idx, tot)
 
 if __name__=='__main__':
     get_people(LIST_URL, LIST_PAGE)
     names, parties, ids = find_people(LIST_PAGE, X['table'], X['links'])
-    write_people(names, parties, ids)
+    people = zip(['id']+ids, ['name']+names[1:], ['party']+parties[1:])
+    cb = {}
+    for i, n, p in people:
+        cb[i] = {'name': n, 'party': p}
+    write_people(people)
 
     get_pledges(PLEDGE_DIR, PLEDGE_BASEURL, ids)
-
-    # FIXME: Encoding problem
-    filename = 'html/404154183.html'
-    pledges, contents = find_pledges(filename, X['pledges'], X['contents'])
-    print pledges, contents
-    print len(pledges), len(contents)
+    write_pledges(ids)

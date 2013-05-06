@@ -17,7 +17,7 @@ def read_webpage(filename):
         page = html5lib.HTMLParser(\
             tree=html5lib.treebuilders.getTreeBuilder("lxml"),\
             namespaceHTMLElements=False)
-        p = page.parse(f)
+        p = page.parse(f, encoding='utf-8')
     return p
 
 def find_pledge(filename, x):
