@@ -50,7 +50,7 @@ def find_pledges(filename, x_pledge, x_content):
     page = utils.read_webpage(filename)
     pledges = [list(row.itertext())[0].strip().replace('"', '\'')\
             for row in page.xpath(x_pledge)]
-    contents = [' '.join(row.itertext()).strip().replace('"', '\'')\
+    contents = ['\n'.join(row.itertext()).strip().replace('"', '\'')\
             for row in page.xpath(x_content)]
     return pledges, contents
 
