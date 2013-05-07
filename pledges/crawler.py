@@ -25,9 +25,11 @@ def find_people(filename, x_table, x_links):
     page = utils.read_webpage(filename)
     table = page.xpath(x_table)
     names = [list(row.itertext())[9].strip() for row in table]
-    parties = [list(row.itertext())[5] for row in table]
+    parties = [list(row.itertext())[5].strip() for row in table]
+    birthdays = [list(row.itertext())[19].strip().replace('/', '') for row in table]
     ids = [re.search(r'[0-9]+', s).group(0) for s in page.xpath(x_links)]
-    return names, parties, ids
+    #for i, p in enumerate(list(table[1].itertext())): print i, p
+    return names, parties, ids, birthdays
 
 def write_people(people):
     with open(LIST_PAGE.replace('.html', '.csv'), 'w') as f:
@@ -61,20 +63,23 @@ def write_pledges(ids):
             filename = 'html/%s.html' % i
             pledges, contents =\
                     find_pledges(filename, X['pledges'], X['contents'])
-            for n, z in enumerate(zip(pledges, contents), start=1):
-                s = '"%s","%s",%d,"%s","%s"\n'\
-                        % (cb[i]['name'], cb[i]['party'], n, z[0], z[1])
+            for z in zip(pledges, contents):
+                s = '"%s","%s","%s","%s","%s"\n'\
+                        % (cb[i]['name'], cb[i]['party'], cb[i]['birthday'],\
+                        z[0], z[1])
                 f.write(s.encode('utf-8'))
             print '%s/%s' % (idx, tot)
 
 if __name__=='__main__':
-    get_people(LIST_URL, LIST_PAGE)
-    names, parties, ids = find_people(LIST_PAGE, X['table'], X['links'])
-    people = zip(['id']+ids, ['name']+names[1:], ['party']+parties[1:])
+    #get_people(LIST_URL, LIST_PAGE)
+    names, parties, ids, birthdays =\
+            find_people(LIST_PAGE, X['table'], X['links'])
+    people = zip(['id']+ids, ['name']+names[1:], ['party']+parties[1:],\
+            ['birthday']+birthdays[1:])
     cb = {}
-    for i, n, p in people:
-        cb[i] = {'name': n, 'party': p}
+    for i, n, p, b in people:
+        cb[i] = {'name': n, 'party': p, 'birthday': b}
     write_people(people)
 
-    get_pledges(PLEDGE_DIR, PLEDGE_BASEURL, ids)
+    #get_pledges(PLEDGE_DIR, PLEDGE_BASEURL, ids)
     write_pledges(ids)
