@@ -12,7 +12,7 @@ def get_files(directory, base, url_ext, file_ext):
         os.makedirs(directory)
     empty = []
     jobs = [gevent.spawn(_get_file, directory, base, url_ext, file_ext, num)\
-            for num in range(859, NUM+1)]
+            for num in range(1, NUM+1)]
     gevent.joinall(jobs)
 
 def _get_file(directory, base, url_ext, file_ext, num):
@@ -23,10 +23,13 @@ def _get_file(directory, base, url_ext, file_ext, num):
     is_empty = False
 
     try:
-        r = urllib2.urlopen(url)
-        with open(outp, 'w') as f:
-            f.write(r.read())
-        print '%s to %s' % (num, outp)
+        try:
+            with open(outp): pass
+        except IOError, e:
+            r = urllib2.urlopen(url)
+            with open(outp, 'w') as f:
+                f.write(r.read())
+            print '%s to %s' % (num, outp)
     except urllib2.HTTPError, e:
         is_empty = True
         print '%s is empty' % num
@@ -38,4 +41,3 @@ if __name__=='__main__':
     base_url = 'http://www.rokps.or.kr'
     get_files('html/', '%s/profile_result_ok.asp?num=' % base_url, '', '.html')
     get_files('images/', '%s/images/user/' % base_url, '.jpg', '.jpg')
-
