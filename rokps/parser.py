@@ -29,7 +29,7 @@ def write_data(data, f):
 
 if __name__=='__main__':
 
-    directory = '/home/e9t/data/popong/people/rokps/html'
+    directory = 'html'
     npage = 2810
     outf = 'data.json'
     elem_x = '//table[@width="95%"]//td[@align="left"]/node()[normalize-space()]'
