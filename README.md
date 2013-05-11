@@ -39,6 +39,7 @@ Get Korean politicians' data from [ROKPS(헌정회)](http://www.rokps.or.kr).
 
     cd rokps
     python crawler.py
+    python parser.py
 
 ## wikipedia
 Get Korean lastnames from Wikipedia.
