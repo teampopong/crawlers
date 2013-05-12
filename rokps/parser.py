@@ -45,6 +45,7 @@ if __name__=='__main__':
                 page = get_webpage('%s/%s.html' % (directory, i))
                 elems = page.xpath(elem_x)
                 data = extract_data(elems)
+                data['id'] = str(i)
                 write_data(data, f)
                 if i < npage:
                     f.write(',\n')
