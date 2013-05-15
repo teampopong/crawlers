@@ -2,13 +2,84 @@
 
 Just some minor web crawlers.
 
+## bills
+
+    cd bills
+    python getlist.py
+    python parselist.py
+    python getpages.py
+    python parsepages.py
+
+### Attributes
+<table>
+<tr>
+    <th>name</th>
+    <th>description</th>
+    <th>values</th>
+</tr>
+<tr>
+    <td>`bill_id`</td>
+    <td>의안 번호</td>
+    <td>int</td>
+</tr>
+<tr>
+    <td>`status`</td>
+    <td>의안 상태</td>
+    <td>
+        1: 계류의안<br>
+        2: 처리의안
+    </td>
+</tr>
+<tr>
+    <td>`title`</td>
+    <td>의안명</td>
+    <td>str</td>
+</tr>
+<tr>
+    <td>`link_id`</td>
+    <td>링크</td>
+    <td>http://likms.assembly.go.kr/bill/jsp/BillDetail.jsp?bill_id=[link_id]</td>
+</tr>
+<tr>
+    <td>`proposer_type`</td>
+    <td>제안자 구분</td>
+    <td>위원장, 의원, 의장, 정부, 기타</td>
+</tr>
+<tr>
+    <td>`proposed_date`</td>
+    <td>제안 일자</td>
+    <td>str</td>
+</tr>
+<tr>
+    <td>`decision_date`</td>
+    <td>의결 일자</td>
+    <td>str</td>
+</tr>
+<tr>
+    <td>`decision_result`</td>
+    <td>의결 결과</td>
+    <td>대안반영폐기, 부결, 수정가결, 원안가결, 철회, 폐기</td>
+</tr>
+<tr>
+    <td>`has_summaries`</td>
+    <td>요약본 유무</td>
+    <td>1, 0</td>
+</tr>
+<tr>
+    <td>`status_detail`</td>
+    <td>심사진행상태</td>
+    <td>공포, 대안반영폐기, 본회의불부의, 본회의의결, 부의가능안건, 소관위심사, 소관위심사보고, 소관위접수, 의안정리, 접수, 정부이송, 철회, 체계자구심사, 체계자구의뢰</td>
+</tr>
+
+
+</table>
 ## election_commission
 Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).
 
 ## glossary
 Get data for [POPONG Glossary](http://popong.com/glossary).
 
-- [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/) 
+- [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/)
 
         cd glossary/likms.assembly.go.kr
         python crawler.py
@@ -22,7 +93,7 @@ Get data for [POPONG Glossary](http://popong.com/glossary).
 ## google
 Get Google search counts.
 
-## peoplepower 
+## peoplepower
 Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages.
 
     cd peoplepower

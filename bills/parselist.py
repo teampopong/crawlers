@@ -6,13 +6,14 @@ import re
 
 import lxml
 import utils
-from settings import NUM_PAGES, MAX_PAGE, LIST_DATA, BASEURL, X
+from settings import NUM_PAGES, MAX_PAGE, DIR, LIST_DATA, BASEURL, X, DIR
 
 def extract(columns):
     data = []
     for j, c in enumerate(columns):
         if j==1:
-            data.append(re.findall(r'[0-9]+', c.xpath('img/@src')[0])[0])
+            data.append(str(int(\
+                    re.findall(r'[0-9]+', c.xpath('img/@src')[0])[0])))
             data.append(c.xpath('a/text()')[0])
             data.append(re.findall(r'\w+', c.xpath('a/@href')[0])[2])
         elif j==6:
@@ -27,7 +28,7 @@ def extract(columns):
     return data
 
 def get_data(i, f):
-    fn = '%s/%s.html' % (LIST_DIR, i)
+    fn = '%s/%s.html' % (DIR['list'], i)
     page = utils.read_webpage(fn)
     rows = utils.get_elems(page, X['table'])
 
@@ -41,5 +42,6 @@ def get_data(i, f):
 
 if __name__=='__main__':
     with open(LIST_DATA, 'wa') as f:
-        for i in range(MAX_PAGE/NUM_PAGES+1):
+        f.write('"bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"\n')
+        for i in range(MAX_PAGE/NUM_PAGES+2):
             get_data(i+1, f)
