@@ -4,7 +4,7 @@
 likms = 'http://likms.assembly.go.kr/bill/jsp'
 
 NUM_PAGES = 50
-START_PAGE = 10
+START_PAGE = 1
 END_BILL = 4985
 ITEMS_PER_FILE = 100
 ASSEMBLY_ID = 19

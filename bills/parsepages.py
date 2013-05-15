@@ -118,13 +118,15 @@ if __name__=='__main__':
     utils.check_dir(directory)
     #TODO: ZZ로 시작하는 의안들을 위해 glob 사용
 
-    for i in range(START_PAGE, END_BILL/ITEMS_PER_FILE):
+    for i in range(START_PAGE, END_BILL/ITEMS_PER_FILE + 1):
         print '\npage %d' % i
         tmp = []
         for j in range(ITEMS_PER_FILE):
-            num = (ASSEMBLY_ID * ID_MULTIPLIER) + (i * ITEMS_PER_FILE) + j + 1
-            tmp.append(extract_all(num, meta))
-            print num
+            idx = (i * ITEMS_PER_FILE) + j + 1
+            if idx <= END_BILL:
+                num = (ASSEMBLY_ID * ID_MULTIPLIER) + idx
+                tmp.append(extract_all(num, meta))
+                print num
         utils.write_json(tmp, '%s/%d.json' % (directory, i))
 
     d = extract_all(1900332, meta)
