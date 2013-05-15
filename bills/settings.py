@@ -4,10 +4,15 @@
 likms = 'http://likms.assembly.go.kr/bill/jsp'
 
 NUM_PAGES = 50
-MAX_PAGE = 4961
+START_PAGE = 10
+END_BILL = 4985
+ITEMS_PER_FILE = 100
+ASSEMBLY_ID = 19
+ID_MULTIPLIER = 100000
 LIST_DATA = 'na-bills-19.csv'
 
 DIR = {
+    'data'         : 'data',
     'list'         : 'html/list',
     'summaries'    : 'html/summaries',
     'specifics'    : 'html/specifics',
@@ -30,5 +35,6 @@ X = {
     'spec_title'   : '//td[@height="33" and @class="title_large"]/text()',
     'summary'      : '//span[@class="text6_1"]/text()',
     'proposers'    : '//td[@width="10%" and @height="20"]/text()',
-    'table'        : '//table[@width="970"]//table[@width="100%"]//table[@width="100%"]//tr[not(@bgcolor="#DBDBDB")][position()>1]'
+    'table'        : '//table[@width="970"]//table[@width="100%"]//table[@width="100%"]//tr[not(@bgcolor="#DBDBDB")][position()>1]',
+    'withdrawers'  : '//td[@width="10%" and @height="20"]/text()'
 }

@@ -6,7 +6,7 @@ import re
 
 import lxml
 import utils
-from settings import NUM_PAGES, MAX_PAGE, DIR, LIST_DATA, BASEURL, X, DIR
+from settings import NUM_PAGES, END_BILL, DIR, LIST_DATA, BASEURL, X, DIR
 
 def extract(columns):
     data = []
@@ -43,5 +43,5 @@ def get_data(i, f):
 if __name__=='__main__':
     with open(LIST_DATA, 'wa') as f:
         f.write('"bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"\n')
-        for i in range(MAX_PAGE/NUM_PAGES+2):
+        for i in range(END_BILL/NUM_PAGES+3):
             get_data(i+1, f)

@@ -33,7 +33,7 @@ Just some minor web crawlers.
 <tr>
     <td>`bill_id`</td>
     <td>의안 번호</td>
-    <td>int</td>
+    <td>str</td>
     <td></td>
 </tr>
 <tr>
@@ -118,6 +118,12 @@ Just some minor web crawlers.
     <td>`title`</td>
     <td>의안명</td>
     <td>str</td>
+    <td></td>
+</tr>
+<tr>
+    <td>`withdrawers`</td>
+    <td>철회요구의원 명단</td>
+    <td>list(str)</td>
     <td></td>
 </tr>
 
