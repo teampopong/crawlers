@@ -132,20 +132,6 @@ Just some minor web crawlers.
 ## election_commission
 Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).
 
-## glossary
-Get data for [POPONG Glossary](http://popong.com/glossary).
-
-- [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/)
-
-        cd glossary/likms.assembly.go.kr
-        python crawler.py
-
-- [National Assembly Secretaritat (국회사무처)](http://http://nas.na.go.kr/)
-
-        cd glossary/nas.na.go.kr
-        python crawler.py
-        python parser.py
-
 ## google
 Get Google search counts.
 
