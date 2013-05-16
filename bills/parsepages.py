@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import lxml
 import pandas as pd
 from settings import ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, ITEMS_PER_FILE, LIST_DATA, START_PAGE, X
 import utils
@@ -17,9 +18,17 @@ def extract_specifics(id, meta):
     status_detail = ' '.join(page.xpath(X['spec_status'])).strip()
     specifics = [title, status_detail]
 
-    #TODO: status_timeline
-    #timeline = page.xpath(X['spec_timeline'])[0]
-    #print timeline
+    # status_timeline
+    tl = page.xpath(X['spec_timeline'])[0]
+    stages = (s.strip() for s in\
+                ' '.join(\
+                s for s in tl.xpath(X['spec_timeline_stages'])\
+                if not type(s)==lxml.etree._Element)\
+                .split('\n'))
+    info = (filter(None, i.split('*'))\
+            for i in tl.xpath(X['spec_timeline_info']))
+    specifics.append(map(None, stages, info))
+
     columns = table.xpath(X['spec_entry'])
     for i, c in enumerate(columns):
         proposer_type =\
@@ -98,7 +107,7 @@ def extract_all(id, meta):
     proposers = extract_proposers(id)
     withdrawers = extract_withdrawers(id)
 
-    headers = ['title', 'status_detail', 'bill_id', 'proposed_date', 'proposer_representative', 'original_bill_links', 'assembly_id', 'assembly_meeting_id']
+    headers = ['title', 'status_detail', 'status_timeline', 'bill_id', 'proposed_date', 'proposer_representative', 'original_bill_links', 'assembly_id', 'assembly_meeting_id']
     d = dict(zip(headers, specifics))
     d['summaries']      = summaries
     d['proposers']      = proposers
@@ -122,7 +131,7 @@ if __name__=='__main__':
         print '\npage %d' % i
         tmp = []
         for j in range(ITEMS_PER_FILE):
-            idx = (i * ITEMS_PER_FILE) + j + 1
+            idx = ((i - 1) * ITEMS_PER_FILE) + j + 1
             if idx <= END_BILL:
                 num = (ASSEMBLY_ID * ID_MULTIPLIER) + idx
                 tmp.append(extract_all(num, meta))

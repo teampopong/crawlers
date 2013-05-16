@@ -32,6 +32,8 @@ X = {
     'spec_entry'   : 'descendant::tr[@bgcolor="#EAF2ED"]/following-sibling::tr/td/div',
     'spec_status'  : '//td[@background="/bill/WebContents/BillDetail/circle_11.gif"]/text()',
     'spec_timeline': '//td[@bgcolor="#FEFFEF" and not(@id="SUMMARY_CONTENTS")]/table//tr',
+    'spec_timeline_stages': 'descendant::td[@width="59"]/node()',
+    'spec_timeline_info': 'descendant::td[@style="display:none"]/textarea/text()',
     'spec_title'   : '//td[@height="33" and @class="title_large"]/text()',
     'summary'      : '//span[@class="text6_1"]/text()',
     'proposers'    : '//td[@width="10%" and @height="20"]/text()',
