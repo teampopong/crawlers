@@ -3,3 +3,6 @@
 .RData
 .Rhistory
 .scrapy
+bills/html/
+bills/data/
+bills/na-bills-*.csv
