@@ -1,14 +1,19 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
-basedir = '/home/e9t/data/popong/bills/'
+'''
+Instructions:
+    - Input `basedir`; If empty, HTML files are stored in the current directory.
+'''
+
+basedir = ''                    # directory for html files
 likms   = 'http://likms.assembly.go.kr/bill/jsp'
 
-NUM_PAGES       = 50          # number of bills in list page (for crawling)
+NUM_PAGES       = 50            # number of bills in list page (for crawling)
 START_BILL      = 1
-END_BILL        = 4985         # current max number: 4985
+END_BILL        = 4985          # current max number: 4985
 ASSEMBLY_ID     = 19
-ID_MULTIPLIER   = 100000  # bill_id's multiplier for assembly_ids
+ID_MULTIPLIER   = 100000        # bill_id's multiplier for assembly_ids
 LIST_DATA       = 'na-bills-19.csv'
 TERMS           = 'terms.csv'
 

@@ -5,6 +5,7 @@ Just some minor web crawlers.
 ## bills
 
     cd bills
+    cp settings.py.sample settings.py
     python getlist.py
     python parselist.py
     python getpages.py

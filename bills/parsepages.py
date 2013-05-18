@@ -7,7 +7,7 @@ import re
 import lxml
 import pandas as pd
 
-from settings import ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, ITEMS_PER_FILE, LIST_DATA, START_PAGE, X
+from settings import ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, LIST_DATA, START_BILL, X
 import utils
 
 TERMS = utils.read_terms()
@@ -175,16 +175,7 @@ if __name__=='__main__':
     utils.check_dir(directory)
 
     #TODO: ZZ로 시작하는 의안들을 위해 glob 사용
-    for i in range(START_PAGE, END_BILL/ITEMS_PER_FILE + 1):
-        print '\npage %d' % i
-        tmp = []
-        for j in range(ITEMS_PER_FILE):
-            idx = ((i - 1) * ITEMS_PER_FILE) + j + 1
-            if idx <= END_BILL:
-                num = (ASSEMBLY_ID * ID_MULTIPLIER) + idx
-                tmp.append(extract_all(num, meta))
-                print num
-        utils.write_json(tmp, '%s/%d.json' % (directory, i))
-
-    d = extract_all(1900333, meta)
-    utils.write_json(d, 'sample.json')
+    for i in range(START_BILL, END_BILL+1):
+        num = (ASSEMBLY_ID * ID_MULTIPLIER) + i
+        d = extract_all(num, meta)
+        utils.write_json(d, '%s/%d.json' % (directory, num))
