@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
-
 import re
+
+import gevent
+from gevent import monkey; monkey.patch_all()
 import lxml
 import pandas as pd
 
@@ -165,7 +167,13 @@ def extract_all(id, meta):
     d['link_id']        = include(meta, id, 'link_id')
     d['proposer_type']  = include(meta, id, 'proposer_type')
     d['status']         = "계류" if include(meta, id, 'status')==1 else "처리"
+
     return d
+
+def parse_page(i):
+    num = (ASSEMBLY_ID * ID_MULTIPLIER) + i
+    d = extract_all(num, meta)
+    utils.write_json(d, '%s/%d.json' % (directory, num))
 
 if __name__=='__main__':
 
@@ -174,8 +182,6 @@ if __name__=='__main__':
     directory = '%s/%d' % (DIR['data'], ASSEMBLY_ID)
     utils.check_dir(directory)
 
-    #TODO: ZZ로 시작하는 의안들을 위해 glob 사용
-    for i in range(START_BILL, END_BILL+1):
-        num = (ASSEMBLY_ID * ID_MULTIPLIER) + i
-        d = extract_all(num, meta)
-        utils.write_json(d, '%s/%d.json' % (directory, num))
+    jobs = [gevent.spawn(parse_page, i) for i in range(START_BILL, END_BILL+1)]
+    gevent.joinall(jobs)
+    #TODO: ZZ로 시작하는 의안도 처리
