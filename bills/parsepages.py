@@ -39,10 +39,16 @@ def extract_specifics(id, meta):
         columns[2] = extract_proposer_representative(elem_columns[2])
         #TODO: 파일 종류 구분하기 (의안원문, 기타문서, ...)
         columns[3] = extract_original_bill_links(elem_columns[3])
-        try:
-            columns[4] = extract_summaries(id)
-            columns[5] = extract_meeting_num(elem_columns[5])
-        except IOError, e:
+        if len(headers)==6:
+            try:
+                columns[4] = extract_summaries(id)
+            except IOError as e:
+                pass
+            try:
+                columns[5] = extract_meeting_num(elem_columns[5])
+            except (AttributeError, IndexError) as e:
+                columns[5] = extract_meeting_num(elem_columns[4])
+        else:
             columns[4] = extract_meeting_num(elem_columns[4])
 
         return dict(zip(headers, columns))
