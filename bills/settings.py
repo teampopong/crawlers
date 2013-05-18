@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 
 likms = 'http://likms.assembly.go.kr/bill/jsp'
+basedir = ''
+
 NUM_PAGES = 50
-START_PAGE = 1
+START_PAGE = 11
 END_BILL = 4985
 ITEMS_PER_FILE = 100
 ASSEMBLY_ID = 19
@@ -13,11 +15,11 @@ TERMS = 'terms.csv'
 
 DIR = {
     'data'         : 'data',
-    'list'         : 'html/list',
-    'summaries'    : 'html/summaries',
-    'specifics'    : 'html/specifics',
-    'proposers'    : 'html/proposers',
-    'withdrawers'  : 'html/withdrawers'
+    'list'         : basedir + 'html/list',
+    'summaries'    : basedir + 'html/summaries',
+    'specifics'    : basedir + 'html/specifics',
+    'proposers'    : basedir + 'html/proposers',
+    'withdrawers'  : basedir + 'html/withdrawers'
 }
 BASEURL = {
     'list'         : likms + '/BillSearchResult.jsp?AGE_FROM=19&AGE_TO=19&',
