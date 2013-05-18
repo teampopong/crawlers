@@ -15,22 +15,27 @@ def get_urlmap():
 def get_pages(bill_id, link_id, has_summaries):
     #TODO: 파일들이 다 있는지 확인하고, if not, 재다운로드 시도
     #TODO: ZZ 파일들은 한 번 더 시도
-    # 상세내역
-    outp = '%s/%s.html' % (DIR['specifics'], bill_id)
-    utils.get_webpage(BASEURL['specific'] + link_id, outp)
+    def get_specifics():
+        outp = '%s/%s.html' % (DIR['specifics'], bill_id)
+        utils.get_webpage(BASEURL['specific'] + link_id, outp)
 
-    # 요약
-    if has_summaries==1:
-        outp = '%s/%s.html' % (DIR['summaries'], id)
-        utils.get_webpage(BASEURL['summary'] + link_id, outp)
+    def get_summaries():
+        if has_summaries==1:
+            outp = '%s/%s.html' % (DIR['summaries'], bill_id)
+            utils.get_webpage(BASEURL['summary'] + link_id, outp)
 
-    # 제안자명단
-    outp = '%s/%s.html' % (DIR['proposers'], bill_id)
-    utils.get_webpage(BASEURL['proposer_list'] + link_id, outp)
+    def get_proposers():
+        outp = '%s/%s.html' % (DIR['proposers'], bill_id)
+        utils.get_webpage(BASEURL['proposer_list'] + link_id, outp)
 
-    # 철회요구자명단
-    outp = '%s/%s.html' % (DIR['withdrawers'], bill_id)
-    utils.get_webpage(BASEURL['withdrawers'] + link_id, outp)
+    def get_withdrawers():
+        outp = '%s/%s.html' % (DIR['withdrawers'], bill_id)
+        utils.get_webpage(BASEURL['withdrawers'] + link_id, outp)
+
+    get_specifics()
+    get_summaries()
+    get_proposers()
+    get_withdrawers()
 
 def check_missing(typename, nbills):
     a = ASSEMBLY_ID * ID_MULTIPLIER
@@ -47,7 +52,7 @@ if __name__=='__main__':
 
     urlmap = get_urlmap()
 
-    for bill_id, link_id, has_summaries in urlmap[3970:]:
+    for bill_id, link_id, has_summaries in urlmap:
         get_pages(bill_id, link_id, has_summaries)
         print bill_id
 
