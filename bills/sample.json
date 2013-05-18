@@ -1,38 +1,55 @@
 {
-  "status": 1, 
+  "status": "\ucc98\ub9ac", 
   "proposer_type": "\uc758\uc6d0", 
-  "title": "\ubbf8\uad6d\uc0b0 \uc1e0\uace0\uae30 \ubc0f \uc1e0\uace0\uae30 \uc81c\ud488\uc5d0 \ub300\ud55c \uc218\uc785\uc911\ub2e8 \ubc0f \ud55c\u00b7\ubbf8 \uc1e0\uace0\uae30 \uc218\uc785\uc704\uc0dd\uc870\uac74 \uc7ac\ud611\uc0c1 \ucd09\uad6c \uacb0\uc758\uc548", 
-  "link_id": "PRC_Y1K2K0Y6K2F7W1W0B3G1H5G6G3V6K8", 
-  "status_detail": "\uc704\uc6d0\ud68c \uc2ec\uc0ac", 
+  "title": "\uad6d\uc81c\uc785\uc591\uc5d0 \uad00\ud55c \uc544\ub3d9\uc758 \ubcf4\ud638 \ubc0f \ud611\ub825\uc5d0 \uad00\ud55c \ud611\uc57d \ube44\uc900\ub3d9\uc758\uc548 \uc81c\ucd9c \ucd09\uad6c \uacb0\uc758\uc548", 
+  "status_infos": [
+    [
+      " \uc758 \uc548 \ubc88 \ud638 : 1900333\n", 
+      " \uc81c   \uc548   \uc790 : \ubbfc\ud604\uc8fc\uc758\uc6d0 \ub4f1 23\uc778\n", 
+      " \uc81c \uc548 \uc77c \uc790 : 2012-06-27"
+    ], 
+    [
+      " \uc18c\uad00\uc704\uc6d0\ud68c : \uc678\uad50\ud1b5\uc0c1\ud1b5\uc77c\uc704\uc6d0\ud68c\n", 
+      " \ud68c   \ubd80   \uc77c : 2012-07-09\n", 
+      " \uc758   \uacb0   \uc77c : 2012-09-26\n", 
+      " \uacb0         \uacfc : \uc218\uc815\uac00\uacb0\n\n", 
+      " \ud68c   \uc758   \ub0b4  \uc5ed\n  - \uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c2\ucc28 \uc804\uccb4\ud68c\uc758\n    [\uc0c1\uc815/\uc81c\uc548\uc124\uba85/\uac80\ud1a0\ubcf4\uace0/\ub300\uccb4\ud1a0\ub860/\uc18c\uc704\ud68c\ubd80]\n  - \uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c1\ucc28 \ubc95\uc548\uc2ec\uc0ac \uc18c\uc704\n    [\uc0c1\uc815/\uc758\uacb0(\uc218\uc815\uac00\uacb0)]\n  - \uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c4\ucc28 \uc804\uccb4\ud68c\uc758\n    [\uc0c1\uc815/\uc18c\uc704\uc2ec\uc0ac\ubcf4\uace0/\uc758\uacb0(\uc218\uc815\uac00\uacb0)]"
+    ], 
+    [
+      " \uc0c1   \uc815   \uc77c : 2012-09-27\n", 
+      " \uc758   \uacb0   \uc77c : 2012-09-27\n", 
+      " \uacb0         \uacfc : \uc218\uc815\uac00\uacb0"
+    ], 
+    [
+      " \uc758   \uacb0   \uc77c : 2012-09-27\n", 
+      " \uacb0         \uacfc : \uc218\uc815\uac00\uacb0"
+    ]
+  ], 
+  "status_detail": "\uc758\uacb0", 
   "proposers": [
-    "\uac15\ub3d9\uc6d0", 
+    "\uac15\uc740\ud76c", 
     "\uae40\uad00\uc601", 
-    "\uae40\uad11\uc9c4", 
-    "\uae40\ubbf8\ud76c", 
-    "\uae40\uc120\ub3d9", 
-    "\uae40\uc6a9\uc775", 
-    "\uae40\uc81c\ub0a8", 
-    "\ub178\ud68c\ucc2c", 
-    "\ubc15\ubbfc\uc218", 
-    "\ubc15\uc6d0\uc11d", 
-    "\ubc15\ud64d\uadfc", 
-    "\ubc30\uae30\uc6b4", 
-    "\uc2ec\uc0c1\uc815", 
-    "\uc624\ubcd1\uc724", 
-    "\uc6b0\uc0c1\ud638", 
-    "\uc6d0\ud61c\uc601", 
-    "\uc720\uae30\ud64d", 
-    "\uc724\uad00\uc11d", 
-    "\uc740\uc218\ubbf8", 
-    "\uc774\ub099\uc5f0", 
-    "\uc774\uc0c1\uaddc", 
-    "\uc7a5\ud558\ub098", 
-    "\uc804\ud574\ucca0", 
+    "\uae40\uc131\ucc2c", 
+    "\uae40\uc138\uc5f0", 
+    "\uae40\uc7ac\uc6d0", 
+    "\uae40\ucd98\uc9c4", 
+    "\uae40\ud604\uc219", 
+    "\ub958\uc9c0\uc601", 
+    "\ubbfc\ud604\uc8fc", 
+    "\ubbfc\ud64d\ucca0", 
+    "\ubc15\uc778\uc219", 
+    "\ubc15\ucc3d\uc2dd", 
+    "\ubc30\uc7ac\uc815", 
+    "\uc11c\uc6a9\uad50", 
+    "\uc1a1\uc601\uadfc", 
+    "\uc2ec\uc7ac\uad8c", 
+    "\uc720\uae30\uc900", 
+    "\uc774\uc790\uc2a4\ubbfc", 
+    "\uc774\uc7ac\uc601", 
+    "\uc7a5\uc724\uc11d", 
     "\uc815\uc131\ud638", 
-    "\uc815\uc9c4\ud6c4", 
     "\ucd5c\ubbfc\ud76c", 
-    "\ucd5c\uc7ac\ucc9c", 
-    "\ud64d\uc885\ud559"
+    "\ud55c\uc120\uad50"
   ], 
   "withdrawers": [], 
   "status_dict": {
@@ -43,85 +60,82 @@
           19, 
           308
         ], 
-        "\uc758\uc548\ubc88\ud638": "1900334", 
+        "\uc758\uc548\ubc88\ud638": "1900333", 
         "\ubb38\uc11c": [
-          "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=22C8ACBD-79B0-6E09-67E1-9B773EA6AF4D&type=0", 
-          "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=22C8ACBD-79B0-6E09-67E1-9B773EA6AF4D&type=1"
+          "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=E8E90765-5D74-B057-AF51-A323C8CAB8F8&type=0", 
+          "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=E8E90765-5D74-B057-AF51-A323C8CAB8F8&type=1"
         ], 
-        "\uc81c\uc548\uc790": "\ubc15\uc6d0\uc11d"
+        "\uc81c\uc548\uc790": "\ubbfc\ud604\uc8fc"
       }
     }, 
-    "\uc758\uacb0": null, 
-    "\ubcf8\ud68c\uc758 \uc2ec\uc758": null, 
+    "\uc758\uacb0": [
+      " \uc758   \uacb0   \uc77c : 2012-09-27\n", 
+      " \uacb0         \uacfc : \uc218\uc815\uac00\uacb0"
+    ], 
+    "\ubcf8\ud68c\uc758 \uc2ec\uc758": {
+      "\ubcf8\ud68c\uc758 \uc2ec\uc758\uc815\ubcf4": [
+        {
+          "\uc81c\uc548\uc77c\uc790": "2012-09-27", 
+          "\uc81c\uc548\ud68c\uae30": "http://likms.assembly.go.kr/kms_data/record/data2/311/pdf/311za0009b.PDF", 
+          "\uc758\uc548\ubc88\ud638": "2012-09-27", 
+          "\ubb38\uc11c": "\uc218\uc815\uac00\uacb0", 
+          "\uc81c\uc548\uc790": "\uc81c311\ud68c \uc81c9\ucc28"
+        }
+      ]
+    }, 
     "\uc704\uc6d0\ud68c \uc2ec\uc0ac": {
       "\uc18c\uad00\uc704 \uc2ec\uc0ac\uc815\ubcf4": [
         {
-          "\ucc98\ub9ac\uacb0\uacfc": "", 
-          "\uc18c\uad00\uc704\uc6d0\ud68c": "\ub18d\ub9bc\ucd95\uc0b0\uc2dd\ud488\ud574\uc591\uc218\uc0b0\uc704\uc6d0\ud68c", 
-          "\ucc98\ub9ac\uc77c": "", 
+          "\ucc98\ub9ac\uacb0\uacfc": "\uc218\uc815\uac00\uacb0", 
+          "\uc18c\uad00\uc704\uc6d0\ud68c": "\uc678\uad50\ud1b5\uc0c1\ud1b5\uc77c\uc704\uc6d0\ud68c", 
+          "\ucc98\ub9ac\uc77c": "2012-09-26", 
           "\ubb38\uc11c": [
-            "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=648BCDAF-84E0-88EB-13F2-7A7EE1456842&type=0", 
-            "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=648BCDAF-84E0-88EB-13F2-7A7EE1456842&type=1"
+            "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=2CDE0A0A-3537-263F-0CCE-260352689168&type=0", 
+            "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=2CDE0A0A-3537-263F-0CCE-260352689168&type=1", 
+            "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=694D0372-D5B8-593D-963F-56DDFC893300&type=0", 
+            "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=694D0372-D5B8-593D-963F-56DDFC893300&type=1"
           ], 
           "\ud68c\ubd80\uc77c": "2012-07-09", 
-          "\uc0c1\uc815\uc77c": "2012-07-27"
+          "\uc0c1\uc815\uc77c": "2012-09-19"
+        }
+      ], 
+      "\uad00\ub828\uc704 \uc2ec\uc0ac\uc815\ubcf4": [
+        {
+          "\uc758\uacac\uc11c\uc81c\uc2dc\uc77c": "", 
+          "\ud68c\ubd80\uc77c": "2012-07-09", 
+          "\uad00\ub828\uc704\uc6d0\ud68c": "\ubcf4\uac74\ubcf5\uc9c0\uc704\uc6d0\ud68c", 
+          "\ubb38\uc11c": "", 
+          "\uc0c1\uc815\uc77c": ""
         }
       ], 
       "\uc18c\uad00\uc704 \ud68c\uc758\uc815\ubcf4": [
         {
-          "\ud68c\uc758\uba85": "\uc81c309\ud68c \uad6d\ud68c(\uc784\uc2dc\ud68c) \uc81c5\ucc28 \uc804\uccb4\ud68c\uc758", 
-          "\ud68c\uc758\uc77c": "2012-07-27", 
+          "\ud68c\uc758\uba85": "\uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c2\ucc28 \uc804\uccb4\ud68c\uc758", 
+          "\ud68c\uc758\uc77c": "2012-09-19", 
           "\ud68c\uc758\uacb0\uacfc": "\uc0c1\uc815/\uc81c\uc548\uc124\uba85/\uac80\ud1a0\ubcf4\uace0/\ub300\uccb4\ud1a0\ub860/\uc18c\uc704\ud68c\ubd80", 
+          "\ud68c\uc758\ub85d": "http://likms.assembly.go.kr/kms_data/record/data2/311/pdf/311cg0002b.PDF"
+        }, 
+        {
+          "\ud68c\uc758\uba85": "\uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c1\ucc28 \ubc95\uc548\uc2ec\uc0ac \uc18c\uc704", 
+          "\ud68c\uc758\uc77c": "2012-09-20", 
+          "\ud68c\uc758\uacb0\uacfc": "\uc0c1\uc815/\uc758\uacb0(\uc218\uc815\uac00\uacb0)", 
           "\ud68c\uc758\ub85d": ""
         }, 
         {
-          "\ud68c\uc758\uba85": "\uc81c309\ud68c \uad6d\ud68c(\uc784\uc2dc\ud68c) \uc81c1\ucc28 \ubc95\ub960\uc548\uc2ec\uc0ac\uc18c\uc704", 
-          "\ud68c\uc758\uc77c": "2012-07-31", 
-          "\ud68c\uc758\uacb0\uacfc": "\uc0c1\uc815/\ucd95\uc870\uc2ec\uc0ac", 
-          "\ud68c\uc758\ub85d": ""
-        }, 
-        {
-          "\ud68c\uc758\uba85": "\uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c1\ucc28 \ubc95\ub960\uc548\uc2ec\uc0ac\uc18c\uc704", 
-          "\ud68c\uc758\uc77c": "2012-09-24", 
-          "\ud68c\uc758\uacb0\uacfc": "\uc0c1\uc815", 
-          "\ud68c\uc758\ub85d": ""
-        }, 
-        {
-          "\ud68c\uc758\uba85": "\uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c2\ucc28 \ubc95\ub960\uc548\uc2ec\uc0ac\uc18c\uc704", 
-          "\ud68c\uc758\uc77c": "2012-11-09", 
-          "\ud68c\uc758\uacb0\uacfc": "\uc0c1\uc815/\ucd95\uc870\uc2ec\uc0ac", 
-          "\ud68c\uc758\ub85d": ""
+          "\ud68c\uc758\uba85": "\uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c4\ucc28 \uc804\uccb4\ud68c\uc758", 
+          "\ud68c\uc758\uc77c": "2012-09-26", 
+          "\ud68c\uc758\uacb0\uacfc": "\uc0c1\uc815/\uc18c\uc704\uc2ec\uc0ac\ubcf4\uace0/\uc758\uacb0(\uc218\uc815\uac00\uacb0)", 
+          "\ud68c\uc758\ub85d": "http://likms.assembly.go.kr/kms_data/record/data2/311/pdf/311cg0004b.PDF"
         }
       ]
     }
   }, 
-  "decision_date": null, 
-  "status_timeline": [
-    [
-      "\uc811\uc218", 
-      [
-        " \uc758 \uc548 \ubc88 \ud638 : 1900334\n", 
-        " \uc81c   \uc548   \uc790 : \ubc15\uc6d0\uc11d\uc758\uc6d0 \ub4f1 28\uc778\n", 
-        " \uc81c \uc548 \uc77c \uc790 : 2012-06-27"
-      ]
-    ], 
-    [
-      "\uc704\uc6d0\ud68c \uc2ec\uc0ac", 
-      [
-        " \uc18c\uad00\uc704\uc6d0\ud68c : \ub18d\ub9bc\ucd95\uc0b0\uc2dd\ud488\ud574\uc591\uc218\uc0b0\uc704\uc6d0\ud68c\n", 
-        " \ud68c   \ubd80   \uc77c : 2012-07-09\n", 
-        " \uc758   \uacb0   \uc77c : \n", 
-        " \uacb0         \uacfc : \n\n", 
-        " \ud68c   \uc758   \ub0b4  \uc5ed\n  - \uc81c309\ud68c \uad6d\ud68c(\uc784\uc2dc\ud68c) \uc81c5\ucc28 \uc804\uccb4\ud68c\uc758\n    [\uc0c1\uc815/\uc81c\uc548\uc124\uba85/\uac80\ud1a0\ubcf4\uace0/\ub300\uccb4\ud1a0\ub860/\uc18c\uc704\ud68c\ubd80]\n  - \uc81c309\ud68c \uad6d\ud68c(\uc784\uc2dc\ud68c) \uc81c1\ucc28 \ubc95\ub960\uc548\uc2ec\uc0ac\uc18c\uc704\n    [\uc0c1\uc815/\ucd95\uc870\uc2ec\uc0ac]\n  - \uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c1\ucc28 \ubc95\ub960\uc548\uc2ec\uc0ac\uc18c\uc704\n    [\uc0c1\uc815]\n  - \uc81c311\ud68c \uad6d\ud68c(\uc815\uae30\ud68c) \uc81c2\ucc28 \ubc95\ub960\uc548\uc2ec\uc0ac\uc18c\uc704\n    [\uc0c1\uc815/\ucd95\uc870\uc2ec\uc0ac]"
-      ]
-    ], 
-    [
-      "\ubcf8\ud68c\uc758 \uc2ec\uc758", 
-      null
-    ], 
-    [
-      "\uc758\uacb0", 
-      null
-    ]
+  "decision_date": "2012-09-27", 
+  "link_id": "PRC_J1M2L0J6Y2D7R1O0I2F4O1D4R7D1V7", 
+  "statuses": [
+    "\uc811\uc218", 
+    "\uc704\uc6d0\ud68c \uc2ec\uc0ac", 
+    "\ubcf8\ud68c\uc758 \uc2ec\uc758", 
+    "\uc758\uacb0"
   ]
 }

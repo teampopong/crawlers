@@ -97,7 +97,7 @@ def extract_specifics(id, meta):
     title = page.xpath(X['spec_title'])[0].strip()
     status_detail = ' '.join(page.xpath(X['spec_status'])).strip()
 
-    # status_timeline
+    # statuses, status_infos, status_timeline
     tl = page.xpath(X['spec_timeline'])[0]
     statuses = filter(None,\
             (s.strip() for s in\
@@ -107,16 +107,19 @@ def extract_specifics(id, meta):
                 .split('\n')))
     status_infos = [filter(None, i.split('*'))\
             for i in tl.xpath(X['spec_timeline_status_infos'])]
+    #status_timeline= map(None, statuses, status_infos)
 
-    status_timeline= map(None, statuses, status_infos)
-
+    # status_dict
     status_dict = dict(map(None, statuses, status_infos))
-    append_status(status_dict, '접수', registration_info)
-    append_status(status_dict, '위원회 심사', fn=status_info)
-    append_status(status_dict, '본회의 심의', fn=status_info)
+    for status in statuses:
+        fn = registration_info if status=='접수' else status_info
+        try:
+            append_status(status_dict, status, fn)
+        except KeyError, e:
+            pass
 
-    headers = ['title', 'status_detail', 'status_timeline', 'status_dict']
-    specifics = [title, status_detail, status_timeline, status_dict]
+    headers = ['title', 'status_detail', 'statuses', 'status_infos', 'status_dict']
+    specifics = [title, status_detail, statuses, status_infos, status_dict]
 
     return zip(headers, specifics)
 
@@ -155,7 +158,7 @@ def extract_all(id, meta):
     d['decision_date']  = include(meta, id, 'decision_date')
     d['link_id']        = include(meta, id, 'link_id')
     d['proposer_type']  = include(meta, id, 'proposer_type')
-    d['status']         = include(meta, id, 'status')
+    d['status']         = "계류" if include(meta, id, 'status')==1 else "처리"
     return d
 
 if __name__=='__main__':
@@ -165,7 +168,6 @@ if __name__=='__main__':
     directory = '%s/%d' % (DIR['data'], ASSEMBLY_ID)
     utils.check_dir(directory)
 
-    '''
     #TODO: ZZ로 시작하는 의안들을 위해 glob 사용
     for i in range(START_PAGE, END_BILL/ITEMS_PER_FILE + 1):
         print '\npage %d' % i
@@ -177,7 +179,6 @@ if __name__=='__main__':
                 tmp.append(extract_all(num, meta))
                 print num
         utils.write_json(tmp, '%s/%d.json' % (directory, i))
-    '''
 
-    d = extract_all(1900334, meta)
+    d = extract_all(1900333, meta)
     utils.write_json(d, 'sample.json')
