@@ -9,6 +9,7 @@ ITEMS_PER_FILE = 100
 ASSEMBLY_ID = 19
 ID_MULTIPLIER = 100000
 LIST_DATA = 'na-bills-19.csv'
+TERMS = 'terms.csv'
 
 DIR = {
     'data'         : 'data',
@@ -31,14 +32,17 @@ X = {
     'spec_entry'   : 'descendant::tr[@bgcolor="#EAF2ED"]/following-sibling::tr/td/div',
     'spec_status'  : '//td[@background="/bill/WebContents/BillDetail/circle_11.gif"]/text()',
     'spec_timeline': '//td[@bgcolor="#FEFFEF" and not(@id="SUMMARY_CONTENTS")]/table//tr',
-    'spec_timeline_stages' : 'descendant::td[@width="59"]/node()',
-    'spec_timeline_info'   : 'descendant::td[@style="display:none"]/textarea/text()',
+    'spec_timeline_statuses' : 'descendant::td[@width="59"]/node()',
+    'spec_timeline_status_infos'   : 'descendant::td[@style="display:none"]/textarea/text()',
     'timeline'     : {
         'registration_subjects' : 'descendant::span[@class="text8"][1]',
         'registration_headers'    : 'descendant::table[@bgcolor="#D1D1D1"]//tr[@bgcolor="#EAF2ED"]',
         'commission_subjects' : 'descendant::span[@class="text11"]',
         'commission_headers'    : 'descendant::table[@bgcolor="#D1D1D1"]//tr[@bgcolor="#F7EAE2"]',
-        'commission_contents' : 'following-sibling::table[@bgcolor="#D1D1D1"][1]//tr[@bgcolor="#FFFFFF"]'
+        'commission_contents' : 'following-sibling::table[@bgcolor="#D1D1D1"][1]//tr[@bgcolor="#FFFFFF"]',
+        'plenary_subjects' : 'descendant::span[@class="text8"][2]',
+        'plenary_headers'    : 'descendant::table[@bgcolor="#D1D1D1"]//tr[@bgcolor="#EAF2ED"]',
+        'plenary_contents' : 'following-sibling::table[@bgcolor="#D1D1D1"][1]//tr[@bgcolor="#FFFFFF"]'
     },
     'spec_title'   : '//td[@height="33" and @class="title_large"]/text()',
     'summary'      : '//span[@class="text6_1"]/text()',
