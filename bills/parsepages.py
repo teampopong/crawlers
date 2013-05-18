@@ -25,8 +25,29 @@ def extract_specifics(id, meta):
         def extract_proposer_representative(c):
             return re.sub(ur'의원 등 [0-9]+인', '',\
                     c.xpath('descendant::text()')[0].strip())
-        def extract_original_bill_links(c):
-            return c.xpath('descendant::a/@href')
+        def extract_file_links(c):
+            url = c.xpath('descendant::a/@href')
+            i, node = 0, []
+            elem_node = c.xpath('descendant::node()')
+            for j, n in enumerate(elem_node):
+                if type(n)==lxml.etree._Element:
+                    if n.tag=='br':
+                        node.append(elem_node[i:j])
+                        i = j
+            links = dict()
+            for n in node:
+                tmp = []
+                for m in n:
+                    if type(m)==lxml.etree._ElementUnicodeResult:
+                        desc = m.strip()
+                        links[desc] = tmp
+                        tmp = []
+
+                    elif type(m)==lxml.etree._Element and m.tag not in ['img', 'br']:
+                        tmp.append(m.xpath('@href')[0])
+                    else:
+                        pass
+            return links
         def extract_meeting_num(c):
             s = c.xpath('descendant::text()')[0]
             m = re.search(ur'제(.*)대.*제(.*)회', s)
@@ -39,8 +60,7 @@ def extract_specifics(id, meta):
         columns[0] = extract_bill_id(elem_columns[0])
         columns[1] = extract_proposed_date(elem_columns[1])
         columns[2] = extract_proposer_representative(elem_columns[2])
-        #TODO: 파일 종류 구분하기 (의안원문, 기타문서, ...)
-        columns[3] = extract_original_bill_links(elem_columns[3])
+        columns[3] = extract_file_links(elem_columns[3])
         if len(headers)==6:
             try:
                 columns[4] = extract_summaries(id)
@@ -184,4 +204,6 @@ if __name__=='__main__':
 
     jobs = [gevent.spawn(parse_page, i) for i in range(START_BILL, END_BILL+1)]
     gevent.joinall(jobs)
+
     #TODO: ZZ로 시작하는 의안도 처리
+    parse_page(55)
