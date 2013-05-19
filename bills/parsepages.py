@@ -220,6 +220,7 @@ def parse_page(i):
     d = extract_specifics(bill_id, meta)
     d['proposers']      = extract_proposers(bill_id)
     d['withdrawers']    = extract_withdrawers(bill_id)
+    d['proposed_date']  = include(meta, bill_id, 'proposed_date')
     d['decision_date']  = include(meta, bill_id, 'decision_date')
     d['link_id']        = include(meta, bill_id, 'link_id')
     d['proposer_type']  = include(meta, bill_id, 'proposer_type')
