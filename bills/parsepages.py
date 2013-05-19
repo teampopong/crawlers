@@ -35,6 +35,9 @@ def extract_row_contents(row):
                         url = '%sdata2/%s/pdf/%s' % (parts[0], parts[1], parts[2])
                     else:
                         url = '%sdata1/%s/%s' % (parts[0], parts[1], parts[2])
+                elif matched.group(1)=='javascript:ShowProposer':
+                    parts = re.sub('[ \']', '', matched.group(2))
+                    url = '%s/CoactorListPopup.jsp?bill_id=%s' % (LIKMS, parts)
             return url
 
         texts = filter(None, (t.strip()\
@@ -236,4 +239,4 @@ if __name__=='__main__':
     gevent.joinall(jobs)
 
     #TODO: ZZ로 시작하는 의안도 처리
-    parse_page(55)
+    parse_page(333)

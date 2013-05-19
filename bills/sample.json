@@ -1,0 +1,59 @@
+{
+  "status": "\ucc98\ub9ac", 
+  "proposer_type": "\uc704\uc6d0\uc7a5", 
+  "title": "\uc2dd\ud488\uc704\uc0dd\ubc95 \uc77c\ubd80\uac1c\uc815\ubc95\ub960\uc548(\ub300\uc548)", 
+  "status_infos": [
+    [
+      " \uc758 \uc548 \ubc88 \ud638 : 1904670\n", 
+      " \uc81c   \uc548   \uc790 : \ubcf4\uac74\ubcf5\uc9c0\uc704\uc6d0\uc7a5\n", 
+      " \uc81c \uc548 \uc77c \uc790 : 2013-04-26"
+    ], 
+    [
+      " \uc0c1   \uc815   \uc77c : 2013-04-29\n", 
+      " \uc758   \uacb0   \uc77c : 2013-04-29\n", 
+      " \uacb0         \uacfc : \uc6d0\uc548\uac00\uacb0"
+    ]
+  ], 
+  "status_detail": "\ubcf8\ud68c\uc758 \uc2ec\uc758", 
+  "proposers": [], 
+  "withdrawers": [], 
+  "status_dict": {
+    "\uc811\uc218": {
+      "\uc758\uc548\uc811\uc218\uc815\ubcf4": {
+        "\uc758\uc548\ubc88\ud638": "1904670", 
+        "\uc81c\uc548\uc790": "\ubcf4\uac74\ubcf5\uc9c0\uc704\uc6d0\uc7a5", 
+        "\uc81c\uc548\uc77c\uc790": "2013-04-26", 
+        "\uc81c\uc548\uc774\uc720 \ubc0f \uc8fc\uc694\ub0b4\uc6a9": null, 
+        "\ubb38\uc11c": [
+          "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=6720541A-9135-4945-7609-EC0B84409E17&type=0", 
+          "http://likms.assembly.go.kr/filegate/servlet/FileGate?bookId=6720541A-9135-4945-7609-EC0B84409E17&type=1"
+        ], 
+        "\uc81c\uc548\ud68c\uae30": [
+          19, 
+          315
+        ]
+      }
+    }, 
+    "\uc815\ubd80 \uc774\uc1a1": null, 
+    "\ubcf8\ud68c\uc758 \uc2ec\uc758": {
+      "\ubcf8\ud68c\uc758 \uc2ec\uc758\uc815\ubcf4": [
+        {
+          "\uc81c\uc548\uc77c\uc790": "2013-04-29", 
+          "\uc81c\uc548\uc774\uc720 \ubc0f \uc8fc\uc694\ub0b4\uc6a9": "http://likms.assembly.go.kr/kms_data/record/data2/315/pdf/315za0004b.PDF", 
+          "\uc758\uc548\ubc88\ud638": "2013-04-29", 
+          "\ubb38\uc11c": "\uc6d0\uc548\uac00\uacb0", 
+          "\uc81c\uc548\uc790": "\uc81c315\ud68c \uc81c4\ucc28"
+        }
+      ]
+    }, 
+    "\uacf5\ud3ec": null
+  }, 
+  "decision_date": "2013-04-29", 
+  "link_id": "PRC_O1B2Z1L1X2H1T1D9C0B2I3B9C1U8X8", 
+  "statuses": [
+    "\uc811\uc218", 
+    "\ubcf8\ud68c\uc758 \uc2ec\uc758", 
+    "\uc815\ubd80 \uc774\uc1a1", 
+    "\uacf5\ud3ec"
+  ]
+}
