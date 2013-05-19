@@ -3,10 +3,11 @@
 
 import os
 import re
+import sys
 
 import lxml
 import utils
-from settings import DIR, BASEURL, END_BILL, LIST_NPAGES, META_DATA, X
+from settings import DIR, BASEURL, END_BILL, META_DATA, X
 
 def extract(columns):
     data = []
@@ -38,12 +39,12 @@ def get_data(i, f):
             f.write('"')
             f.write('","'.join(extract(columns)).encode('utf-8'))
             f.write('"\n')
-    print fn
+    print 'Parsed %s.html' % i
 
-if __name__=='__main__':
+def parselist(npages):
     utils.check_dir(DIR['meta'])
     with open(META_DATA, 'wa') as f:
         f.write('"bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"\n')
-        for i in range(1, LIST_NPAGES+1):
+        for i in range(1, npages+1):
             get_data(i, f)
         print 'Meta data written to ' + META_DATA

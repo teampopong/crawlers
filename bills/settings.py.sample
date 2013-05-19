@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # CHANGE ME
-basedir         = ''
+basedir         = '.'
 LIST_NPAGES     = 102           # total number of list pages
 ASSEMBLY_ID     = 19
 START_BILL      = 1
