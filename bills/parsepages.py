@@ -9,71 +9,102 @@ from gevent import monkey; monkey.patch_all()
 import lxml
 import pandas as pd
 
-from settings import ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, LIST_DATA, START_BILL, X
+from settings import likms, ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, LIST_DATA, START_BILL, X
 import utils
 
-TERMS = utils.read_terms()
+LIKMS = likms
+
+def extract_row_contents(row):
+
+    def extract_subcolumn(elem):
+
+        def make_urls_from_image(image):
+            has_url = image.xpath('@onclick')
+            if has_url:
+                matched = re.search(r'(.*)\((.*)\)', has_url[0])
+                if matched.group(1)=='javascript:openConfInfo':
+                    parts = re.sub('[ \']', '', matched.group(2)).split(',')
+                    url = '%s/ConfInfoPopup.jsp?bill_id=%s&proc_id=%s' % (LIKMS, parts[0], parts[1])
+                elif matched.group(1)=='javascript:OpenConfFile':
+                    parts = re.sub(r'.*\((.*)\)', r'\g<1>',\
+                            has_url[0])\
+                            .replace(' ', '').replace('\'','')\
+                            .split(',')
+                    if parts[1] > 208:
+                        url = '%sdata2/%s/pdf/%s' % (parts[0], parts[1], parts[2])
+                    else:
+                        url = '%sdata1/%s/%s' % (parts[0], parts[1], parts[2])
+                else:
+                    url = None
+            else:
+                url = None
+            return url
+
+        texts = filter(None,\
+                (t.strip() for t in elem.xpath('descendant::text()')))
+        links = [link.xpath('@href')[0]\
+                for link in elem.xpath('descendant::a')]
+
+        if not links:
+            links = [make_urls_from_image(image)\
+                for image in elem.xpath('descendant::img')]
+
+        if texts:
+            urls = zip(texts, links) if links else texts[0]
+        else:
+            urls = None
+
+        return urls
+
+    def extract_subrows(elem_subrows):
+        subrows = [[extract_subcolumn(elem_subcolumn)\
+                for elem_subcolumn in elem_subrow]
+                    for elem_subrow in elem_subrows]
+        return subrows
+
+    titles = row.xpath('descendant::span[@class="text8" or @class="text11"]/text()')
+    tables = row.xpath('descendant::table[@bgcolor="#D1D1D1"]')
+    table_infos = []
+    for table in tables:
+        rows = table.xpath('tbody/tr')
+        headers = rows[0].xpath('descendant::div/text()')
+        elem_subrows = [row.xpath('descendant::td/div')  for row in rows[1:]]
+        subrows = extract_subrows(elem_subrows)
+        table_infos.append([dict(zip(headers, subrow)) for subrow in subrows])
+
+    return dict(zip(titles, table_infos))
+
 
 def extract_specifics(id, meta):
 
-    def registration_info(es, et, status_en):
+    def extract_file_links(c):
+        url = c.xpath('descendant::a/@href')
+        i, node = 0, []
+        elem_node = c.xpath('descendant::node()')
+        for j, n in enumerate(elem_node):
+            if type(n)==lxml.etree._Element:
+                if n.tag=='br':
+                    node.append(elem_node[i:j])
+                    i = j
+        links = dict()
+        for n in node:
+            tmp = []
+            for m in n:
+                if type(m)==lxml.etree._ElementUnicodeResult:
+                    desc = m.strip()
+                    links[desc] = tmp
+                    tmp = []
 
-        def extract_bill_id(c):
-            return c.xpath('descendant::text()')[0].strip()
-        def extract_proposed_date(c):
-            return c.xpath('descendant::text()')[0].strip()
-        def extract_proposer_representative(c):
-            return re.sub(ur'의원 등 [0-9]+인', '',\
-                    c.xpath('descendant::text()')[0].strip())
-        def extract_file_links(c):
-            url = c.xpath('descendant::a/@href')
-            i, node = 0, []
-            elem_node = c.xpath('descendant::node()')
-            for j, n in enumerate(elem_node):
-                if type(n)==lxml.etree._Element:
-                    if n.tag=='br':
-                        node.append(elem_node[i:j])
-                        i = j
-            links = dict()
-            for n in node:
-                tmp = []
-                for m in n:
-                    if type(m)==lxml.etree._ElementUnicodeResult:
-                        desc = m.strip()
-                        links[desc] = tmp
-                        tmp = []
+                elif type(m)==lxml.etree._Element and m.tag not in ['img', 'br']:
+                    tmp.append(m.xpath('@href')[0])
+                else:
+                    pass
+        return links
 
-                    elif type(m)==lxml.etree._Element and m.tag not in ['img', 'br']:
-                        tmp.append(m.xpath('@href')[0])
-                    else:
-                        pass
-            return links
-        def extract_meeting_num(c):
-            s = c.xpath('descendant::text()')[0]
-            m = re.search(ur'제(.*)대.*제(.*)회', s)
-            return [int(e) for e in m.groups()]
-
-        headers = [t[1] for t in utils.get_elem_texts(et, 'td')]
-        columns = [None] * len(headers)
-
-        elem_columns = table.xpath(X['spec_entry'])
-        columns[0] = extract_bill_id(elem_columns[0])
-        columns[1] = extract_proposed_date(elem_columns[1])
-        columns[2] = extract_proposer_representative(elem_columns[2])
-        columns[3] = extract_file_links(elem_columns[3])
-        if len(headers)==6:
-            try:
-                columns[4] = extract_summaries(id)
-            except IOError as e:
-                pass
-            try:
-                columns[5] = extract_meeting_num(elem_columns[5])
-            except (AttributeError, IndexError) as e:
-                columns[5] = extract_meeting_num(elem_columns[4])
-        else:
-            columns[4] = extract_meeting_num(elem_columns[4])
-
-        return dict(zip(headers, columns))
+    def extract_meeting_num(c):
+        s = c.xpath('descendant::text()')[0]
+        m = re.search(ur'제(.*)대.*제(.*)회', s)
+        return [int(e) for e in m.groups()]
 
     def status_info(es, et, status_en):
         subjects = es.xpath('text()')[0]
@@ -105,51 +136,39 @@ def extract_specifics(id, meta):
             rows.append(dict(zip(headers, columns)))
         return rows
 
-    def append_status(status_dict, status, fn):
-        status_en = TERMS[status]
-        elem_subjects = table.xpath(X['timeline']['%s_subjects' % status_en])
-        elem_headers = table.xpath(X['timeline']['%s_headers' % status_en])
-        descs = []
-        for i, ez in enumerate(zip(elem_subjects, elem_headers)):
-            descs.append(fn(ez[0], ez[1], status_en))
-        subjects = [e.xpath('text()')[0] for e in elem_subjects]
-        if status_dict[status]:
-            status_dict[status] = dict(zip(subjects, descs))
+    fn          = '%s/%d.html' % (DIR['specifics'], id)
+    page        = utils.read_webpage(fn)
+    table       = utils.get_elems(page, X['spec_table'])[1]
+    timeline    = page.xpath(X['spec_timeline'])[0]
 
-
-    fn = '%s/%d.html' % (DIR['specifics'], id)
-    page = utils.read_webpage(fn)
-    table = utils.get_elems(page, X['spec_table'])[1]
-
-    # title, status_detail
-    title = page.xpath(X['spec_title'])[0].strip()
+    title         = page.xpath(X['spec_title'])[0].strip()
     status_detail = ' '.join(page.xpath(X['spec_status'])).strip()
+    statuses      = filter(None,\
+                    (s.strip() for s in\
+                    ' '.join(\
+                    s for s in timeline.xpath(X['spec_timeline_statuses'])\
+                    if not type(s)==lxml.etree._Element)\
+                    .split('\n')))
+    status_infos  = [filter(None, i.split('*'))\
+                    for i in timeline.xpath(X['spec_timeline_status_infos'])]
+    row_titles = [' '.join(e.xpath('td/text()')).strip()\
+            for i, e in enumerate(table.xpath('tbody/tr')) if i%4==0]
+    elem_row_contents = [e.xpath('td[@class="text6"]')[0]\
+            for i, e in enumerate(table.xpath('tbody/tr')) if i%4==1]
+    status_dict   = {}
 
-    # statuses, status_infos, status_timeline
-    tl = page.xpath(X['spec_timeline'])[0]
-    statuses = filter(None,\
-            (s.strip() for s in\
-                ' '.join(\
-                s for s in tl.xpath(X['spec_timeline_statuses'])\
-                if not type(s)==lxml.etree._Element)\
-                .split('\n')))
-    status_infos = [filter(None, i.split('*'))\
-            for i in tl.xpath(X['spec_timeline_status_infos'])]
-    #status_timeline= map(None, statuses, status_infos)
-
-    # status_dict
-    status_dict = dict(map(None, statuses, status_infos))
-    for status in statuses:
-        fn = registration_info if status=='접수' else status_info
-        try:
-            append_status(status_dict, status, fn)
-        except KeyError, e:
-            pass
+    for i, r in enumerate(elem_row_contents):
+        if row_titles[i]!='부가정보':
+            status_dict[row_titles[i]] = extract_row_contents(r)
+        else:
+            t = r.xpath('span[@class="text8"]/text()')
+            c = filter(None, (t.strip() for t in r.xpath('text()')))
+            status_dict[row_titles[i]] = dict(zip(t, c))
 
     headers = ['title', 'status_detail', 'statuses', 'status_infos', 'status_dict']
     specifics = [title, status_detail, statuses, status_infos, status_dict]
 
-    return zip(headers, specifics)
+    return dict(zip(headers, specifics))
 
 def extract_summaries(id):
     #TODO: 제안이유 & 주요내용 분리하기
@@ -175,25 +194,19 @@ def include(meta, id, attr):
         return None
     return value
 
-def extract_all(id, meta):
-    specifics = extract_specifics(id, meta)
-    proposers = extract_proposers(id)
-    withdrawers = extract_withdrawers(id)
-
-    d = dict(specifics)
-    d['proposers']      = proposers
-    d['withdrawers']    = withdrawers
-    d['decision_date']  = include(meta, id, 'decision_date')
-    d['link_id']        = include(meta, id, 'link_id')
-    d['proposer_type']  = include(meta, id, 'proposer_type')
-    d['status']         = "계류" if include(meta, id, 'status')==1 else "처리"
-
-    return d
-
 def parse_page(i):
-    num = (ASSEMBLY_ID * ID_MULTIPLIER) + i
-    d = extract_all(num, meta)
-    utils.write_json(d, '%s/%d.json' % (directory, num))
+    bill_id = (ASSEMBLY_ID * ID_MULTIPLIER) + i
+
+    d = extract_specifics(bill_id, meta)
+    d['proposers']      = extract_proposers(bill_id)
+    d['withdrawers']    = extract_withdrawers(bill_id)
+    d['decision_date']  = include(meta, bill_id, 'decision_date')
+    d['link_id']        = include(meta, bill_id, 'link_id')
+    d['proposer_type']  = include(meta, bill_id, 'proposer_type')
+    d['status']         = "계류"\
+            if include(meta, bill_id, 'status')==1 else "처리"
+
+    utils.write_json(d, '%s/%d.json' % (directory, bill_id))
 
 if __name__=='__main__':
 
@@ -202,8 +215,10 @@ if __name__=='__main__':
     directory = '%s/%d' % (DIR['data'], ASSEMBLY_ID)
     utils.check_dir(directory)
 
+    '''
     jobs = [gevent.spawn(parse_page, i) for i in range(START_BILL, END_BILL+1)]
     gevent.joinall(jobs)
+    '''
 
     #TODO: ZZ로 시작하는 의안도 처리
     parse_page(55)
