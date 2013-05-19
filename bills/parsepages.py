@@ -18,8 +18,9 @@ def extract_row_contents(row):
 
     def extract_subcolumn(elem):
 
-        def make_urls_from_image(image):
+        def urls_in_image(image):
             has_url = image.xpath('@onclick')
+            url = None
             if has_url:
                 matched = re.search(r'(.*)\((.*)\)', has_url[0])
                 if matched.group(1)=='javascript:openConfInfo':
@@ -34,33 +35,49 @@ def extract_row_contents(row):
                         url = '%sdata2/%s/pdf/%s' % (parts[0], parts[1], parts[2])
                     else:
                         url = '%sdata1/%s/%s' % (parts[0], parts[1], parts[2])
-                else:
-                    url = None
-            else:
-                url = None
             return url
 
-        texts = filter(None,\
-                (t.strip() for t in elem.xpath('descendant::text()')))
-        links = [link.xpath('@href')[0]\
-                for link in elem.xpath('descendant::a')]
+        texts = filter(None, (t.strip()\
+                    for t in elem.xpath('descendant::text()')))
 
-        if not links:
-            links = [make_urls_from_image(image)\
-                for image in elem.xpath('descendant::img')]
-
-        if texts:
-            urls = zip(texts, links) if links else texts[0]
+        if elem.xpath('table'):
+            a_links   = [link.xpath('td/a/@href') for link in elem.xpath('descendant::tr')]
         else:
-            urls = None
+            i, node = 0, []
+            elem_node = elem.xpath('descendant::node()')
+            for j, n in enumerate(elem_node):
+                if type(n)==lxml.etree._Element:
+                    if n.tag=='br':
+                        node.append(elem_node[i:j])
+                        i = j
+            a_links = list()
+            for n in node:
+                tmp = []
+                for m in n:
+                    if type(m)==lxml.etree._ElementUnicodeResult:
+                        desc = m.strip()
+                        a_links.append(tmp)
+                        tmp = []
+
+                    elif type(m)==lxml.etree._Element and m.tag not in ['img', 'br']:
+                        tmp.append(m.xpath('@href')[0])
+                    else:
+                        pass
+
+        img_links = [urls_in_image(img) for img in elem.xpath('descendant::img')]
+        links     = a_links or img_links
+
+        urls      = map(None, texts, links) if links else texts[0] if texts else None
 
         return urls
 
     def extract_subrows(elem_subrows):
-        subrows = [[extract_subcolumn(elem_subcolumn)\
-                for elem_subcolumn in elem_subrow]
-                    for elem_subrow in elem_subrows]
+        subrows = []
+        for elem_subrow in elem_subrows:
+            subrows.append(extract_subcolumn(elem_subcolumn)\
+                    for elem_subcolumn in elem_subrow)
         return subrows
+
 
     titles = row.xpath('descendant::span[@class="text8" or @class="text11"]/text()')
     tables = row.xpath('descendant::table[@bgcolor="#D1D1D1"]')
@@ -215,10 +232,8 @@ if __name__=='__main__':
     directory = '%s/%d' % (DIR['data'], ASSEMBLY_ID)
     utils.check_dir(directory)
 
-    '''
     jobs = [gevent.spawn(parse_page, i) for i in range(START_BILL, END_BILL+1)]
     gevent.joinall(jobs)
-    '''
 
     #TODO: ZZ로 시작하는 의안도 처리
     parse_page(55)
