@@ -6,7 +6,7 @@ import re
 
 import lxml
 import utils
-from settings import NUM_PAGES, END_BILL, DIR, META_DATA, BASEURL, X
+from settings import DIR, BASEURL, END_BILL, LIST_NPAGES, META_DATA, X
 
 def extract(columns):
     data = []
@@ -32,7 +32,7 @@ def get_data(i, f):
     page = utils.read_webpage(fn)
     rows = utils.get_elems(page, X['table'])
 
-    for r in rows:
+    for r in reversed(rows):
         columns = r.xpath(X['columns'])
         if len(columns)==8:
             f.write('"')
@@ -44,6 +44,6 @@ if __name__=='__main__':
     utils.check_dir(DIR['meta'])
     with open(META_DATA, 'wa') as f:
         f.write('"bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"\n')
-        for i in range(END_BILL/NUM_PAGES+3):
-            get_data(i+1, f)
+        for i in range(1, LIST_NPAGES+1):
+            get_data(i, f)
         print 'Meta data written to ' + META_DATA
