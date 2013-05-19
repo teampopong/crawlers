@@ -6,7 +6,7 @@ import re
 
 import lxml
 import utils
-from settings import NUM_PAGES, END_BILL, DIR, LIST_DATA, BASEURL, X, DIR
+from settings import NUM_PAGES, END_BILL, DIR, META_DATA, BASEURL, X
 
 def extract(columns):
     data = []
@@ -41,7 +41,9 @@ def get_data(i, f):
     print fn
 
 if __name__=='__main__':
-    with open(LIST_DATA, 'wa') as f:
+    utils.check_dir(DIR['meta'])
+    with open(META_DATA, 'wa') as f:
         f.write('"bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"\n')
         for i in range(END_BILL/NUM_PAGES+3):
             get_data(i+1, f)
+        print 'Meta data written to ' + META_DATA

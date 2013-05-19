@@ -4,11 +4,11 @@
 import os
 import pandas as pd
 
-from settings import ASSEMBLY_ID, BASEURL, DIR, END_BILL, ID_MULTIPLIER, LIST_DATA
+from settings import ASSEMBLY_ID, BASEURL, DIR, END_BILL, ID_MULTIPLIER, META_DATA
 import utils
 
 def get_urlmap():
-    with open(LIST_DATA, 'r') as f:
+    with open(META_DATA, 'r') as f:
         data = pd.read_csv(f)
     return zip(data['bill_id'], data['link_id'], data['has_summaries'])
 

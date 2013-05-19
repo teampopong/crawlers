@@ -5,7 +5,6 @@ import os
 import json
 import html5lib
 import urllib2
-from settings import TERMS
 
 def get_webpage(url, outp):
     r = urllib2.urlopen(url)
@@ -30,12 +29,6 @@ def get_elem_texts(page, x):
 def check_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
-
-def read_terms():
-    with open(TERMS, 'r') as f:
-        rows = f.read().split('\n')[1:]
-        return dict(filter(None,\
-                (filter(None,row.decode('utf-8').split(',')) for row in rows)))
 
 def write_json(data, fn):
     with open(fn, 'w') as f:
