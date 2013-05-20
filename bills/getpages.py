@@ -4,12 +4,13 @@
 import os
 import pandas as pd
 
-from settings import ASSEMBLY_ID, BASEURL, DIR, END_BILL, ID_MULTIPLIER, META_DATA
+from settings import ASSEMBLY_ID, BASEURL, DIR, END_BILL, ID_MULTIPLIER
 import utils
 
-def get_metadata():
+def get_metadata(assembly_id):
     meta = {}
-    with open(META_DATA, 'r') as f:
+    meta_data = '%s/%d.csv' % (DIR['meta'], assembly_id)
+    with open(meta_data, 'r') as f:
         data = pd.read_csv(f)
     for d in zip(data['bill_id'], data['link_id'], data['has_summaries']):
         meta[d[0]] = (d[1], d[2])
@@ -51,7 +52,7 @@ if __name__=='__main__':
     utils.check_dir(DIR['proposers'])
     utils.check_dir(DIR['withdrawers'])
 
-    metadata = get_metadata()
+    metadata = get_metadata(ASSEMBLY_ID)
 
     #TODO: get metadata range input from settings
     for bill_id in metadata:

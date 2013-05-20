@@ -3,27 +3,29 @@
 
 import os
 import re
+import sys
 import math
 import urllib2
 import gevent
 from gevent import monkey; monkey.patch_all()
 
 import utils
-from settings import BASEURL, DIR, END_BILL, PAGE_SIZE
+from settings import BASEURL, DIR, PAGE_SIZE
 
-def get_files(page, directory, npages):
+def get_files(baseurl, page, directory, npages):
     try:
-        url = BASEURL['list'] + 'PAGE=%d&PAGE_SIZE=%d' % (page, PAGE_SIZE)
+        url = baseurl + '&PAGE=%d&PAGE_SIZE=%d' % (page, PAGE_SIZE)
         pn = npages - page + 1
         fn = '%s/%d.html' % (directory, pn)
         utils.get_webpage(url, fn)
-        print 'Got %s.html' % pn
+        sys.stdout.write('%s\t' % pn)
+        sys.stdout.flush()
     except (urllib2.URLError, IOError) as e:
-        print 'Failed to get %s due to %s' % (fn, e.__repr__)
+        print '\nFailed to get %s due to %s' % (fn, e.__repr__)
 
-def get_npages(directory):
+def get_npages(baseurl, directory):
     fn = '%s/tmp.html' % directory
-    utils.get_webpage(BASEURL['list'], fn)
+    utils.get_webpage(baseurl, fn)
     page = utils.read_webpage(fn)
     m = re.search(u'총(.+)건', page.xpath('//span[@class="text3"]/text()')[0])
     nbills = int(m.group(1))
@@ -32,32 +34,38 @@ def get_npages(directory):
 
 def check_files(directory, npages):
     files = os.listdir(directory)
-    nums = [int(f.strip('.html')) for f in files]
+    nums = [int(f.strip('.html')) for f in files if f!='tmp.html']
     return [m for m in range(1, npages+1) if m not in nums]
 
-def getlist():
-    directory = DIR['list']
+def getlist(assembly_id):
+    print "## Get meta data"
+    url = '%sAGE_FROM=%d&AGE_TO=%d' % (BASEURL['list'], assembly_id, assembly_id)
+    directory = '%s/%s' % (DIR['list'], assembly_id)
     utils.check_dir(directory)
 
-    nbills, npages = get_npages(directory)
+    #
+    nbills, npages = get_npages(url, directory)
     print 'Total %d bills, %d pages to %s' % (nbills, npages, directory)
 
-    jobs = [gevent.spawn(get_files, page, directory, npages)\
+    #
+    print 'Downloading:'
+    jobs = [gevent.spawn(get_files, url, page, directory, npages)\
             for page in range(1, npages+1)]
     gevent.joinall(jobs)
 
-    '''
+    #
     missing = check_files(directory, npages)
-    print
-    print missing
-    while (missing != []):
-        for m in missing:
-            get_files(m, directory)
-        missing = check_files(directory)
+    if missing:
+        print 'Missing files:'
+        print missing
+        while (missing != []):
+            for m in missing:
+                get_files(url, m, directory, npages)
+            missing = check_files(directory)
 
-    get_files(103, directory)
-    '''
+    #get_files(url, 103, directory, npages)
     return npages
 
 if __name__=='__main__':
-    getlist()
+    assembly_id = 1
+    getlist(assembly_id)

@@ -7,7 +7,7 @@ import sys
 
 import lxml
 import utils
-from settings import DIR, BASEURL, END_BILL, META_DATA, X
+from settings import DIR, BASEURL, X
 
 def extract(columns):
     data = []
@@ -28,8 +28,8 @@ def extract(columns):
             data.append(c.xpath('text()')[0].strip())
     return data
 
-def get_data(i, f):
-    fn = '%s/%s.html' % (DIR['list'], i)
+def get_data(i, f, assembly_id):
+    fn = '%s/%s/%s.html' % (DIR['list'], assembly_id, i)
     page = utils.read_webpage(fn)
     rows = utils.get_elems(page, X['table'])
 
@@ -39,12 +39,17 @@ def get_data(i, f):
             f.write('"')
             f.write('","'.join(extract(columns)).encode('utf-8'))
             f.write('"\n')
-    print 'Parsed %s.html' % i
+    sys.stdout.write('%d\t' % i)
+    sys.stdout.flush()
 
-def parselist(npages):
-    utils.check_dir(DIR['meta'])
-    with open(META_DATA, 'wa') as f:
+def parselist(assembly_id, npages):
+    directory = DIR['meta']
+    utils.check_dir(directory)
+    meta_data = '%s/%d.csv' % (directory, assembly_id)
+
+    with open(meta_data, 'wa') as f:
         f.write('"bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"\n')
+        print '\nParsing:'
         for i in range(1, npages+1):
-            get_data(i, f)
-        print 'Meta data written to ' + META_DATA
+            get_data(i, f, assembly_id)
+        print '\nMeta data written to ' + meta_data

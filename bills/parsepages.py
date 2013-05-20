@@ -9,7 +9,7 @@ from gevent import monkey; monkey.patch_all()
 import lxml
 import pandas as pd
 
-from settings import likms, ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, META_DATA, START_BILL, X
+from settings import likms, ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, START_BILL, X
 import utils
 
 LIKMS = likms
@@ -231,7 +231,8 @@ def parse_page(i):
 
 if __name__=='__main__':
 
-    meta = pd.read_csv(META_DATA)
+    meta_data = '%s/%d.csv' % (DIR['meta'], ASSEMBLY_ID)
+    meta = pd.read_csv(meta_data)
 
     directory = DIR['data']
     utils.check_dir(directory)

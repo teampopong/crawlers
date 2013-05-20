@@ -4,5 +4,10 @@
 from getlist import getlist
 from parselist import parselist
 
-npages = getlist()
-parselist(npages)
+s = 1
+e = 19
+
+for a in range(s, e+1):
+    print '\n# Assembly %d' % a
+    npages = getlist(a)
+    parselist(a, npages)
