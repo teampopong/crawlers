@@ -4,7 +4,7 @@
 import meta
 import specific
 
-s, e = 1, 1
+s, e = 18, 18
 
 def get_meta(a, n):
     print '## Get meta data'
@@ -14,11 +14,10 @@ def get_meta(a, n):
 
 def get_specific():
     print '## Get specific data'
-    #specific.get_html()
+    specific.get_html()
     specific.html2json()
 
 for a in range(s, e+1):
-
     print '\n# Assembly %d' % a
     #get_meta(a, n)
     get_specific()

@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import pandas as pd
 
 from settings import ASSEMBLY_ID, BASEURL, DIR, END_BILL, ID_MULTIPLIER
@@ -56,7 +57,8 @@ def getpages():
     #TODO: get metadata range input from settings
     for bill_id in metadata:
         get_pages(bill_id, metadata)
-        print bill_id
+        sys.stdout.write('%s\t' % bill_id)
+        sys.stdout.flush()
 
     missing = check_missing('specifics', END_BILL)
     print missing

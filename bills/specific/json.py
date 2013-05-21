@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals
 import re
+import sys
 
 import gevent
 from gevent import monkey; monkey.patch_all()
@@ -232,6 +233,8 @@ def parse_page(i, meta, directory):
             if include(meta, bill_id, 'status')==1 else "처리"
 
     utils.write_json(d, '%s/%d.json' % (directory, bill_id))
+    sys.stdout.write('%s\t' % bill_id)
+    sys.stdout.flush()
 
 def parsepages():
     meta_data = '%s/%d.csv' % (DIR['meta'], ASSEMBLY_ID)
