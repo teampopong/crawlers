@@ -22,6 +22,10 @@ def get_webpage(url, outp):
     with open(outp, 'w') as f:
         f.write(r.read())
 
+def read_json(fname):
+    with open(fname, 'r') as f:
+        return json.load(f)
+
 def read_webpage(filename):
     with open(filename) as f:
         page = html5lib.HTMLParser(\
