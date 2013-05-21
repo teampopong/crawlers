@@ -22,20 +22,20 @@ def get_pages(bill_id, metadata):
 
     def get_specifics():
         outp = '%s/%s.html' % (DIR['specifics'], bill_id)
-        if os.path.isfile(outp):
+        if not os.path.isfile(outp):
             utils.get_webpage('%s%s' % (BASEURL['specific'], link_id), outp)
     def get_summaries():
         if has_summaries==1:
             outp = '%s/%s.html' % (DIR['summaries'], bill_id)
-            if os.path.isfile(outp):
+            if not os.path.isfile(outp):
                 utils.get_webpage('%s%s' % (BASEURL['summary'], link_id), outp)
     def get_proposers():
         outp = '%s/%s.html' % (DIR['proposers'], bill_id)
-        if os.path.isfile(outp):
+        if not os.path.isfile(outp):
             utils.get_webpage('%s%s' % (BASEURL['proposer_list'], link_id), outp)
     def get_withdrawers():
         outp = '%s/%s.html' % (DIR['withdrawers'], bill_id)
-        if os.path.isfile(outp):
+        if not os.path.isfile(outp):
             utils.get_webpage('%s%s' % (BASEURL['withdrawers'], link_id), outp)
 
     get_specifics()
