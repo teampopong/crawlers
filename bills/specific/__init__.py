@@ -1,9 +1,9 @@
 import html
 import json
 
-def get_html():
-    html.getpages()
+def get_html(assembly_id):
+    html.getpages(assembly_id)
 
-def html2json():
-    json.parsepages()
+def html2json(assembly_id):
+    json.parsepages(assembly_id)
 

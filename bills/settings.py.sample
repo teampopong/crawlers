@@ -3,20 +3,20 @@
 
 # CHANGE ME
 basedir         = '.'
-LIST_NPAGES     = 102           # total number of list pages
-ASSEMBLY_ID     = 19
+ASSEMBLY_ID     = 18
 START_BILL      = 1
-END_BILL        = 5000
+END_BILL        = 14762
 
 # Caution: You probably don't want to change me
 likms           = 'http://likms.assembly.go.kr/bill/jsp'
 PAGE_SIZE       = 50            # number of bills in list page (for crawling)
 ID_MULTIPLIER   = 100000        # bill_id's multiplier for ASSEMBLY_IDs
+META_HEADERS    = ["bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"]
 
 DIR = {
     'meta'         : '%s/meta' % basedir,
     'data'         : '%s/json/%d' % (basedir, ASSEMBLY_ID),
-    'list'         : '%s/html/list/%d' % (basedir, ASSEMBLY_ID),
+    'list'         : '%s/html/list' % basedir,
     'summaries'    : '%s/html/summaries/%d' % (basedir, ASSEMBLY_ID),
     'specifics'    : '%s/html/specifics/%d' % (basedir, ASSEMBLY_ID),
     'proposers'    : '%s/html/proposers/%d' % (basedir, ASSEMBLY_ID),
@@ -24,7 +24,7 @@ DIR = {
 }
 
 BASEURL = {
-    'list'         : '%s/BillSearchResult.jsp?AGE_FROM=%d&AGE_TO=%d&' % (likms, ASSEMBLY_ID, ASSEMBLY_ID),
+    'list'         : likms + '/BillSearchResult.jsp?',
     'summary'      : likms + '/SummaryPopup.jsp?bill_id=',
     'specific'     : likms + '/BillDetail.jsp?bill_id=',
     'proposer_list': likms + '/CoactorListPopup.jsp?bill_id=',
@@ -45,5 +45,3 @@ X = {
     'table'        : '//table[@width="970"]//table[@width="100%"]//table[@width="100%"]//tr[not(@bgcolor="#DBDBDB")][position()>1]',
     'withdrawers'  : '//td[@width="10%" and @height="20"]/text()'
 }
-
-META_DATA       = '%s/na-bills-%d.csv' % (DIR['meta'], ASSEMBLY_ID)

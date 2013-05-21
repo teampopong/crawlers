@@ -12,12 +12,12 @@ def get_meta(a, n):
     meta.get_html(a, n)
     meta.html2csv(a, n)
 
-def get_specific():
+def get_specific(a):
     print '## Get specific data'
-    specific.get_html()
-    specific.html2json()
+    specific.get_html(a)
+    specific.html2json(a)
 
 for a in range(s, e+1):
     print '\n# Assembly %d' % a
     #get_meta(a, n)
-    get_specific()
+    get_specific(a)

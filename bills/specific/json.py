@@ -10,7 +10,7 @@ from gevent import monkey; monkey.patch_all()
 import lxml
 import pandas as pd
 
-from settings import likms, ASSEMBLY_ID, DIR, END_BILL, ID_MULTIPLIER, START_BILL, X
+from settings import likms, DIR, END_BILL, ID_MULTIPLIER, START_BILL, X
 import utils
 
 LIKMS = likms
@@ -218,8 +218,8 @@ def include(meta, id, attr):
         return None
     return value
 
-def parse_page(i, meta, directory):
-    bill_id = (ASSEMBLY_ID * ID_MULTIPLIER) + i
+def parse_page(assembly_id, i, meta, directory):
+    bill_id = (assembly_id * ID_MULTIPLIER) + i
 
     d = extract_specifics(bill_id, meta)
     d['proposers']      = extract_proposers(bill_id)
@@ -236,14 +236,14 @@ def parse_page(i, meta, directory):
     sys.stdout.write('%s\t' % bill_id)
     sys.stdout.flush()
 
-def parsepages():
-    meta_data = '%s/%d.csv' % (DIR['meta'], ASSEMBLY_ID)
+def parsepages(assembly_id):
+    meta_data = '%s/%d.csv' % (DIR['meta'], assembly_id)
     meta = pd.read_csv(meta_data)
 
     directory = DIR['data']
     utils.check_dir(directory)
 
-    jobs = [gevent.spawn(parse_page, i, meta, directory) for i in range(START_BILL, END_BILL+1)]
+    jobs = [gevent.spawn(parse_page, assembly_id, i, meta, directory) for i in range(START_BILL, END_BILL+1)]
     gevent.joinall(jobs)
 
     #TODO: ZZ로 시작하는 의안도 처리

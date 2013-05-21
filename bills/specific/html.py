@@ -5,7 +5,7 @@ import os
 import sys
 import pandas as pd
 
-from settings import ASSEMBLY_ID, BASEURL, DIR, END_BILL, ID_MULTIPLIER
+from settings import BASEURL, DIR, END_BILL, ID_MULTIPLIER
 import utils
 
 def get_metadata(assembly_id):
@@ -39,20 +39,20 @@ def get_pages(bill_id, metadata):
     get_proposers()
     get_withdrawers()
 
-def check_missing(typename, nbills):
+def check_missing(assembly_id, typename, nbills):
     #TODO: 파일들이 다 있는지 확인하고, if not, 재다운로드 시도 (ZZ 파일들 감안)
-    a = ASSEMBLY_ID * ID_MULTIPLIER
+    a = assembly_id * ID_MULTIPLIER
     A = [str(a + b + 1) for b in range(nbills)]
     B = [f.strip('.html') for f in os.listdir(DIR[typename])]
     return [c for c in A if c not in B]
 
-def getpages():
+def getpages(assembly_id):
     utils.check_dir(DIR['summaries'])
     utils.check_dir(DIR['specifics'])
     utils.check_dir(DIR['proposers'])
     utils.check_dir(DIR['withdrawers'])
 
-    metadata = get_metadata(ASSEMBLY_ID)
+    metadata = get_metadata(assembly_id)
 
     #TODO: get metadata range input from settings
     for bill_id in metadata:
@@ -60,5 +60,5 @@ def getpages():
         sys.stdout.write('%s\t' % bill_id)
         sys.stdout.flush()
 
-    missing = check_missing('specifics', END_BILL)
+    missing = check_missing(assembly_id, 'specifics', END_BILL)
     print missing
