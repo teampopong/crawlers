@@ -1,16 +1,24 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
-from meta import get_npages, get_html, html2csv
-
+import meta
+import specific
 
 s, e = 1, 1
+
+def get_meta(a, n):
+    print '## Get meta data'
+    n = meta.get_npages(a)
+    meta.get_html(a, n)
+    meta.html2csv(a, n)
+
+def get_specific():
+    print '## Get specific data'
+    #specific.get_html()
+    specific.html2json()
 
 for a in range(s, e+1):
 
     print '\n# Assembly %d' % a
-
-    print '## Get meta data'
-    n = get_npages(a)
-    get_html(a, n)
-    html2csv(a, n)
+    #get_meta(a, n)
+    get_specific()

@@ -192,10 +192,13 @@ def extract_specifics(id, meta):
 
 def extract_summaries(id):
     #TODO: 제안이유 & 주요내용 분리하기
-    fn = '%s/%d.html' % (DIR['summaries'], id)
-    page = utils.read_webpage(fn)
-    summaries = [e.strip() for e in utils.get_elems(page, X['summary'])]
-    return summaries
+    try:
+        fn = '%s/%d.html' % (DIR['summaries'], id)
+        page = utils.read_webpage(fn)
+        summaries = [e.strip() for e in utils.get_elems(page, X['summary'])]
+        return summaries
+    except IOError as e:
+        return None
 
 def extract_proposers(id):
     #TODO: 찬성의원 목록에 의원 이름이 있는 경우가 있는자 확인
@@ -214,11 +217,12 @@ def include(meta, id, attr):
         return None
     return value
 
-def parse_page(i):
+def parse_page(i, meta, directory):
     bill_id = (ASSEMBLY_ID * ID_MULTIPLIER) + i
 
     d = extract_specifics(bill_id, meta)
     d['proposers']      = extract_proposers(bill_id)
+    d['summaries']      = extract_summaries(bill_id)
     d['withdrawers']    = extract_withdrawers(bill_id)
     d['proposed_date']  = include(meta, bill_id, 'proposed_date')
     d['decision_date']  = include(meta, bill_id, 'decision_date')
@@ -229,15 +233,14 @@ def parse_page(i):
 
     utils.write_json(d, '%s/%d.json' % (directory, bill_id))
 
-if __name__=='__main__':
-
+def parsepages():
     meta_data = '%s/%d.csv' % (DIR['meta'], ASSEMBLY_ID)
     meta = pd.read_csv(meta_data)
 
     directory = DIR['data']
     utils.check_dir(directory)
 
-    jobs = [gevent.spawn(parse_page, i) for i in range(START_BILL, END_BILL+1)]
+    jobs = [gevent.spawn(parse_page, i, meta, directory) for i in range(START_BILL, END_BILL+1)]
     gevent.joinall(jobs)
 
     #TODO: ZZ로 시작하는 의안도 처리

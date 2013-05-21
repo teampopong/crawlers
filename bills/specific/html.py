@@ -21,17 +21,17 @@ def get_pages(bill_id, metadata):
 
     def get_specifics():
         outp = '%s/%s.html' % (DIR['specifics'], bill_id)
-        utils.get_webpage(BASEURL['specific'] + link_id, outp)
+        utils.get_webpage('%s%s' % (BASEURL['specific'], link_id), outp)
     def get_summaries():
         if has_summaries==1:
             outp = '%s/%s.html' % (DIR['summaries'], bill_id)
-            utils.get_webpage(BASEURL['summary'] + link_id, outp)
+            utils.get_webpage('%s%s' % (BASEURL['summary'], link_id), outp)
     def get_proposers():
         outp = '%s/%s.html' % (DIR['proposers'], bill_id)
-        utils.get_webpage(BASEURL['proposer_list'] + link_id, outp)
+        utils.get_webpage('%s%s' % (BASEURL['proposer_list'], link_id), outp)
     def get_withdrawers():
         outp = '%s/%s.html' % (DIR['withdrawers'], bill_id)
-        utils.get_webpage(BASEURL['withdrawers'] + link_id, outp)
+        utils.get_webpage('%s%s' % (BASEURL['withdrawers'], link_id), outp)
 
     get_specifics()
     get_summaries()
@@ -45,8 +45,7 @@ def check_missing(typename, nbills):
     B = [f.strip('.html') for f in os.listdir(DIR[typename])]
     return [c for c in A if c not in B]
 
-if __name__=='__main__':
-
+def getpages():
     utils.check_dir(DIR['summaries'])
     utils.check_dir(DIR['specifics'])
     utils.check_dir(DIR['proposers'])
@@ -61,5 +60,3 @@ if __name__=='__main__':
 
     missing = check_missing('specifics', END_BILL)
     print missing
-
-    get_pages('1901020')
