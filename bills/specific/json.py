@@ -3,14 +3,13 @@
 
 from __future__ import unicode_literals
 import re
-import sys
 
 import gevent
 from gevent import monkey; monkey.patch_all()
 import lxml
 import pandas as pd
 
-from settings import likms, DIR, END_BILL, ID_MULTIPLIER, START_BILL, X
+from settings import likms, DIR, X
 import utils
 
 LIKMS = likms
@@ -96,7 +95,7 @@ def extract_row_contents(row):
     return dict(zip(titles, table_infos))
 
 
-def extract_specifics(id, meta):
+def extract_specifics(assembly_id, id, meta):
 
     def extract_file_links(c):
         url = c.xpath('descendant::a/@href')
@@ -157,7 +156,7 @@ def extract_specifics(id, meta):
             rows.append(dict(zip(headers, columns)))
         return rows
 
-    fn          = '%s/%d.html' % (DIR['specifics'], id)
+    fn          = '%s/%d/%d.html' % (DIR['specifics'], assembly_id, id)
     page        = utils.read_webpage(fn)
     table       = utils.get_elems(page, X['spec_table'])[1]
     timeline    = page.xpath(X['spec_timeline'])[0]
@@ -191,24 +190,24 @@ def extract_specifics(id, meta):
 
     return dict(zip(headers, specifics))
 
-def extract_summaries(id):
+def extract_summaries(assembly_id, id):
     #TODO: 제안이유 & 주요내용 분리하기
     try:
-        fn = '%s/%d.html' % (DIR['summaries'], id)
+        fn = '%s/%s/%d.html' % (DIR['summaries'], assembly_id, id)
         page = utils.read_webpage(fn)
         summaries = [e.strip() for e in utils.get_elems(page, X['summary'])]
         return summaries
     except IOError as e:
         return None
 
-def extract_proposers(id):
+def extract_proposers(assembly_id, id):
     #TODO: 찬성의원 목록에 의원 이름이 있는 경우가 있는자 확인
-    fn = '%s/%d.html' % (DIR['proposers'], id)
+    fn = '%s/%s/%d.html' % (DIR['proposers'], assembly_id, id)
     page = utils.read_webpage(fn)
     return utils.get_elems(page, X['proposers'])
 
-def extract_withdrawers(id):
-    fn = '%s/%d.html' % (DIR['withdrawers'], id)
+def extract_withdrawers(assembly_id, id):
+    fn = '%s/%s/%d.html' % (DIR['withdrawers'], assembly_id, id)
     page = utils.read_webpage(fn)
     return utils.get_elems(page, X['withdrawers'])
 
@@ -219,12 +218,17 @@ def include(meta, id, attr):
     return value
 
 def parse_page(assembly_id, i, meta, directory):
-    bill_id = (assembly_id * ID_MULTIPLIER) + i
+    if assembly_id in [18, 19]:
+        id_multiplier = 100000
+    else:
+        id_multiplier = 10000
 
-    d = extract_specifics(bill_id, meta)
-    d['proposers']      = extract_proposers(bill_id)
-    d['summaries']      = extract_summaries(bill_id)
-    d['withdrawers']    = extract_withdrawers(bill_id)
+    bill_id = (assembly_id * id_multiplier) + i
+
+    d = extract_specifics(assembly_id, bill_id, meta)
+    d['proposers']      = extract_proposers(assembly_id, bill_id)
+    d['summaries']      = extract_summaries(assembly_id, bill_id)
+    d['withdrawers']    = extract_withdrawers(assembly_id, bill_id)
     d['proposed_date']  = include(meta, bill_id, 'proposed_date')
     d['decision_date']  = include(meta, bill_id, 'decision_date')
     d['link_id']        = include(meta, bill_id, 'link_id')
@@ -233,17 +237,15 @@ def parse_page(assembly_id, i, meta, directory):
             if include(meta, bill_id, 'status')==1 else "처리"
 
     utils.write_json(d, '%s/%d.json' % (directory, bill_id))
-    sys.stdout.write('%s\t' % bill_id)
-    sys.stdout.flush()
 
-def parsepages(assembly_id):
+def html2json(assembly_id, start=1, end=10):
     meta_data = '%s/%d.csv' % (DIR['meta'], assembly_id)
     meta = pd.read_csv(meta_data)
 
-    directory = DIR['data']
+    directory = '%s/%s' % (DIR['data'], assembly_id)
     utils.check_dir(directory)
 
-    jobs = [gevent.spawn(parse_page, assembly_id, i, meta, directory) for i in range(START_BILL, END_BILL+1)]
+    jobs = [gevent.spawn(parse_page, assembly_id, i, meta, directory) for i in range(start, end+1)]
     gevent.joinall(jobs)
 
     #TODO: ZZ로 시작하는 의안도 처리

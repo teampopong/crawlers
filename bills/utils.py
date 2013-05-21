@@ -6,6 +6,17 @@ import json
 import html5lib
 import urllib2
 
+def check_dir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+def get_elems(page, x):
+    return page.xpath(x)
+
+def get_elem_texts(page, x):
+    elems = page.xpath(x)
+    return [list(elem.itertext()) for elem in elems]
+
 def get_webpage(url, outp):
     r = urllib2.urlopen(url)
     with open(outp, 'w') as f:
@@ -18,17 +29,6 @@ def read_webpage(filename):
             namespaceHTMLElements=False)
         p = page.parse(f)
     return p
-
-def get_elems(page, x):
-    return page.xpath(x)
-
-def get_elem_texts(page, x):
-    elems = page.xpath(x)
-    return [list(elem.itertext()) for elem in elems]
-
-def check_dir(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
 
 def write_json(data, fn):
     with open(fn, 'w') as f:

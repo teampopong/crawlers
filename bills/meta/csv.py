@@ -9,7 +9,7 @@ import lxml
 import utils
 from settings import DIR, BASEURL, META_HEADERS, X
 
-def parselist(assembly_id, npages):
+def html2csv(assembly_id, npages):
 
     def list_to_file(l, f):
         f.write('"')

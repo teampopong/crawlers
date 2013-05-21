@@ -4,20 +4,17 @@
 import meta
 import specific
 
-s, e = 18, 18
+assembly_s, assembly_e = 17, 17
+bill_s, bill_e = 1, 8368
 
-def get_meta(a, n):
+for a in range(assembly_s, assembly_e+1):
+    print '\n# Assembly %d' % a
+
     print '## Get meta data'
-    n = meta.get_npages(a)
-    meta.get_html(a, n)
-    meta.html2csv(a, n)
+    npage = meta.get_npages(a)
+    meta.get_html(a, npages)
+    meta.html2csv(a, npages)
 
-def get_specific(a):
     print '## Get specific data'
     specific.get_html(a)
-    specific.html2json(a)
-
-for a in range(s, e+1):
-    print '\n# Assembly %d' % a
-    #get_meta(a, n)
-    get_specific(a)
+    specific.html2json(a, start=bill_s, end=bill_e)

@@ -5,7 +5,7 @@ import os
 import sys
 import pandas as pd
 
-from settings import BASEURL, DIR, END_BILL, ID_MULTIPLIER
+from settings import BASEURL, DIR, HTML_FIELDS
 import utils
 
 def get_metadata(assembly_id):
@@ -17,52 +17,29 @@ def get_metadata(assembly_id):
         meta[d[0]] = (d[1], d[2])
     return meta
 
-def get_pages(bill_id, metadata):
-    link_id, has_summaries = metadata[bill_id]
+def get_page(assembly_id, bill_id, link_id, field):
+    outp = '%s/%s/%s.html' % (DIR[field], assembly_id, bill_id)
+    if not os.path.isfile(outp):
+        utils.get_webpage('%s%s' % (BASEURL[field], link_id), outp)
 
-    def get_specifics():
-        outp = '%s/%s.html' % (DIR['specifics'], bill_id)
+def get_summaries(assembly_id, bill_id, link_id, has_summaries):
+    if has_summaries==1:
+        outp = '%s/%s/%s.html' % (DIR['summaries'], assembly_id, bill_id)
         if not os.path.isfile(outp):
-            utils.get_webpage('%s%s' % (BASEURL['specific'], link_id), outp)
-    def get_summaries():
-        if has_summaries==1:
-            outp = '%s/%s.html' % (DIR['summaries'], bill_id)
-            if not os.path.isfile(outp):
-                utils.get_webpage('%s%s' % (BASEURL['summary'], link_id), outp)
-    def get_proposers():
-        outp = '%s/%s.html' % (DIR['proposers'], bill_id)
-        if not os.path.isfile(outp):
-            utils.get_webpage('%s%s' % (BASEURL['proposer_list'], link_id), outp)
-    def get_withdrawers():
-        outp = '%s/%s.html' % (DIR['withdrawers'], bill_id)
-        if not os.path.isfile(outp):
-            utils.get_webpage('%s%s' % (BASEURL['withdrawers'], link_id), outp)
+            utils.get_webpage('%s%s' % (BASEURL['summaries'], link_id), outp)
 
-    get_specifics()
-    get_summaries()
-    get_proposers()
-    get_withdrawers()
-
-def check_missing(assembly_id, typename, nbills):
-    #TODO: 파일들이 다 있는지 확인하고, if not, 재다운로드 시도 (ZZ 파일들 감안)
-    a = assembly_id * ID_MULTIPLIER
-    A = [str(a + b + 1) for b in range(nbills)]
-    B = [f.strip('.html') for f in os.listdir(DIR[typename])]
-    return [c for c in A if c not in B]
-
-def getpages(assembly_id):
-    utils.check_dir(DIR['summaries'])
-    utils.check_dir(DIR['specifics'])
-    utils.check_dir(DIR['proposers'])
-    utils.check_dir(DIR['withdrawers'])
+def get_html(assembly_id):
+    for field in HTML_FIELDS:
+        utils.check_dir('%s/%s' % (DIR[field], assembly_id))
 
     metadata = get_metadata(assembly_id)
 
     #TODO: get metadata range input from settings
     for bill_id in metadata:
-        get_pages(bill_id, metadata)
+        link_id, has_summaries = metadata[bill_id]
+        for field in HTML_FIELDS[:-1]:
+            get_page(assembly_id, bill_id, link_id, field)
+        get_summaries(assembly_id, bill_id, link_id, has_summaries)
+
         sys.stdout.write('%s\t' % bill_id)
         sys.stdout.flush()
-
-    missing = check_missing(assembly_id, 'specifics', END_BILL)
-    print missing

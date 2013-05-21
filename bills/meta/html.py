@@ -29,7 +29,7 @@ def get_npages(assembly_id):
     print 'Total %d bills, %d pages to %s' % (nbills, npages, directory)
     return npages
 
-def getlist(assembly_id, npages):
+def get_html(assembly_id, npages):
     def get_files(base, page, directory, npages):
         try:
             url = base + '&PAGE=%d&PAGE_SIZE=%d' % (page, PAGE_SIZE)
