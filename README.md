@@ -5,11 +5,8 @@ Just some minor web crawlers.
 ## bills
 
     cd bills
-    cp settings.py.sample settings.py
-    python getlist.py
-    python parselist.py
-    python getpages.py
-    python parsepages.py
+    cp settings.py.sample settings.py   # Input data directory
+    python main.py
 
 ### Attributes
 <table>
