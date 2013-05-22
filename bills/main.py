@@ -6,13 +6,13 @@ import specific
 import pdf
 
 assembly_s, assembly_e = 17, 17
-bill_s, bill_e = 101, 120
+bill_s, bill_e = 120, 150
 
 for a in range(assembly_s, assembly_e+1):
     print '\n# Assembly %d' % a
 
     print '## Get meta data'
-    npage = meta.get_npages(a)
+    npages = meta.get_npages(a)
     meta.get_html(a, npages)
     meta.html2csv(a, npages)
 

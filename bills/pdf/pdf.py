@@ -22,9 +22,12 @@ def get_pdf(assembly_id, start=1, end=10):
     outdir = '%s/%s' % (DIR['pdf'], assembly_id)
     utils.check_dir(outdir)
 
+    failed = []
     for json in os.listdir(indir)[start:end]:
         try:
             download(json, indir, outdir)
-        except (IndexError, TypeError) as e:
-            print 'Failed downloading %s' % json
+        except (IndexError, TypeError, KeyError) as e:
+            print 'Failed downloading %s with %s' % (json, e)
+            failed.append((json, e))
+    print failed
 
