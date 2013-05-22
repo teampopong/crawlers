@@ -3,31 +3,29 @@
 
 # CHANGE ME
 basedir         = '.'
-ASSEMBLY_ID     = 18
-START_BILL      = 1
-END_BILL        = 14762
 
 # Caution: You probably don't want to change me
 likms           = 'http://likms.assembly.go.kr/bill/jsp'
 PAGE_SIZE       = 50            # number of bills in list page (for crawling)
-ID_MULTIPLIER   = 100000        # bill_id's multiplier for ASSEMBLY_IDs
 META_HEADERS    = ["bill_id","status","title","link_id","proposer_type","proposed_date","decision_date","decision_result","has_summaries","status_detail"]
+HTML_FIELDS     = ['specifics', 'proposers', 'withdrawers', 'summaries']
 
 DIR = {
-    'meta'         : '%s/meta' % basedir,
-    'data'         : '%s/json/%d' % (basedir, ASSEMBLY_ID),
-    'list'         : '%s/html/list' % basedir,
-    'summaries'    : '%s/html/summaries/%d' % (basedir, ASSEMBLY_ID),
-    'specifics'    : '%s/html/specifics/%d' % (basedir, ASSEMBLY_ID),
-    'proposers'    : '%s/html/proposers/%d' % (basedir, ASSEMBLY_ID),
-    'withdrawers'  : '%s/html/withdrawers/%d' % (basedir, ASSEMBLY_ID)
+    'meta'         : basedir + '/meta',
+    'data'         : basedir + '/json',
+    'pdf'          : basedir + '/pdf',
+    'list'         : basedir + '/html/list',
+    'summaries'    : basedir + '/html/summaries',
+    'specifics'    : basedir + '/html/specifics',
+    'proposers'    : basedir + '/html/proposers',
+    'withdrawers'  : basedir + '/html/withdrawers'
 }
 
 BASEURL = {
     'list'         : likms + '/BillSearchResult.jsp?',
-    'summary'      : likms + '/SummaryPopup.jsp?bill_id=',
-    'specific'     : likms + '/BillDetail.jsp?bill_id=',
-    'proposer_list': likms + '/CoactorListPopup.jsp?bill_id=',
+    'summaries'    : likms + '/SummaryPopup.jsp?bill_id=',
+    'specifics'    : likms + '/BillDetail.jsp?bill_id=',
+    'proposers'    : likms + '/CoactorListPopup.jsp?bill_id=',
     'withdrawers'  : likms + '/ReturnListPopup.jsp?bill_id='
 }
 
