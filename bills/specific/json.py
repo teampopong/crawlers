@@ -95,7 +95,7 @@ def extract_row_contents(row):
     return dict(zip(titles, table_infos))
 
 
-def extract_specifics(assembly_id, id, meta):
+def extract_specifics(assembly_id, bill_id, meta):
 
     def extract_file_links(c):
         url = c.xpath('descendant::a/@href')
@@ -156,12 +156,13 @@ def extract_specifics(assembly_id, id, meta):
             rows.append(dict(zip(headers, columns)))
         return rows
 
-    fn          = '%s/%d/%d.html' % (DIR['specifics'], assembly_id, id)
+    fn          = '%s/%d/%s.html' % (DIR['specifics'], assembly_id, bill_id)
     page        = utils.read_webpage(fn)
     table       = utils.get_elems(page, X['spec_table'])[1]
     timeline    = page.xpath(X['spec_timeline'])[0]
 
-    title         = page.xpath(X['spec_title'])[0].strip()
+    #FIXME: 9대 537번째 row에서 double quote가 있어서 제대로 parsing 안됨
+    title         = page.xpath(X['spec_title'])[0].strip().replace('"','')
     status_detail = ' '.join(page.xpath(X['spec_status'])).strip()
     statuses      = filter(None,\
                     (s.strip() for s in\
@@ -190,40 +191,34 @@ def extract_specifics(assembly_id, id, meta):
 
     return dict(zip(headers, specifics))
 
-def extract_summaries(assembly_id, id):
+def extract_summaries(assembly_id, bill_id):
     #TODO: 제안이유 & 주요내용 분리하기
     try:
-        fn = '%s/%s/%d.html' % (DIR['summaries'], assembly_id, id)
+        fn = '%s/%s/%s.html' % (DIR['summaries'], assembly_id, bill_id)
         page = utils.read_webpage(fn)
         summaries = [e.strip() for e in utils.get_elems(page, X['summary'])]
         return summaries
     except IOError as e:
         return None
 
-def extract_proposers(assembly_id, id):
+def extract_proposers(assembly_id, bill_id):
     #TODO: 찬성의원 목록에 의원 이름이 있는 경우가 있는자 확인
-    fn = '%s/%s/%d.html' % (DIR['proposers'], assembly_id, id)
+    fn = '%s/%s/%s.html' % (DIR['proposers'], assembly_id, bill_id)
     page = utils.read_webpage(fn)
     return utils.get_elems(page, X['proposers'])
 
-def extract_withdrawers(assembly_id, id):
-    fn = '%s/%s/%d.html' % (DIR['withdrawers'], assembly_id, id)
+def extract_withdrawers(assembly_id, bill_id):
+    fn = '%s/%s/%s.html' % (DIR['withdrawers'], assembly_id, bill_id)
     page = utils.read_webpage(fn)
     return utils.get_elems(page, X['withdrawers'])
 
-def include(meta, id, attr):
-    value = list(meta.ix[meta['bill_id']==str(id), attr])[0]
+def include(meta, bill_id, attr):
+    value = list(meta.ix[meta['bill_id']==str(bill_id), attr])[0]
     if pd.isnull(value):
         return None
     return value
 
-def parse_page(assembly_id, i, meta, directory):
-    if assembly_id in [18, 19]:
-        id_multiplier = 100000
-    else:
-        id_multiplier = 10000
-
-    bill_id = (assembly_id * id_multiplier) + i
+def parse_page(assembly_id, bill_id, meta, directory):
 
     d = extract_specifics(assembly_id, bill_id, meta)
     d['proposers']      = extract_proposers(assembly_id, bill_id)
@@ -236,17 +231,18 @@ def parse_page(assembly_id, i, meta, directory):
     d['status']         = "계류"\
             if include(meta, bill_id, 'status')==1 else "처리"
 
-    utils.write_json(d, '%s/%d.json' % (directory, bill_id))
+    utils.write_json(d, '%s/%s.json' % (directory, bill_id))
 
-def html2json(assembly_id, start=1, end=10):
-    meta_data = '%s/%d.csv' % (DIR['meta'], assembly_id)
-    meta = pd.read_csv(meta_data)
+def html2json(assembly_id, range=None):
+    metafile = '%s/%d.csv' % (DIR['meta'], assembly_id)
+    meta = pd.read_csv(metafile)
 
-    directory = '%s/%s' % (DIR['data'], assembly_id)
-    utils.check_dir(directory)
+    jsondir = '%s/%s' % (DIR['data'], assembly_id)
+    utils.check_dir(jsondir)
 
-    jobs = [gevent.spawn(parse_page, assembly_id, i, meta, directory) for i in range(start, end+1)]
+    if range:
+        jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
+    else:
+        jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id']]
+
     gevent.joinall(jobs)
-
-    #TODO: ZZ로 시작하는 의안도 처리
-    #parse_page(333)
