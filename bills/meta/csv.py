@@ -1,7 +1,6 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
-import os
 import re
 import sys
 
@@ -22,7 +21,7 @@ def html2csv(assembly_id, npages):
             if j==1:
                 status = str(int(\
                        re.findall(r'[0-9]+', c.xpath('img/@src')[0])[0]))
-                title = c.xpath('a/text()')[0]
+                title = c.xpath('a/text()')[0].replace('"','\'')
                 link = re.findall(r'\w+', c.xpath('a/@href')[0])[2]
                 data.extend([status, title, link])
             elif j==6:

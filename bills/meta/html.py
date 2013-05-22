@@ -21,7 +21,8 @@ def get_npages(assembly_id):
     url, directory = convert(assembly_id)
 
     fn = '%s/tmp.html' % directory
-    utils.get_webpage(url, fn)
+    if not os.path.isfile(fn):
+        utils.get_webpage(url, fn)
     page = utils.read_webpage(fn)
     m = re.search(u'총(.+)건', page.xpath('//span[@class="text3"]/text()')[0])
     nbills = int(m.group(1))
