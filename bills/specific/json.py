@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
+import os
 import re
 
 import gevent
@@ -220,29 +221,29 @@ def include(meta, bill_id, attr):
 
 def parse_page(assembly_id, bill_id, meta, directory):
 
-    d = extract_specifics(assembly_id, bill_id, meta)
-    d['proposers']      = extract_proposers(assembly_id, bill_id)
-    d['summaries']      = extract_summaries(assembly_id, bill_id)
-    d['withdrawers']    = extract_withdrawers(assembly_id, bill_id)
-    d['proposed_date']  = include(meta, bill_id, 'proposed_date')
-    d['decision_date']  = include(meta, bill_id, 'decision_date')
-    d['link_id']        = include(meta, bill_id, 'link_id')
-    d['proposer_type']  = include(meta, bill_id, 'proposer_type')
-    d['status']         = "계류"\
-            if include(meta, bill_id, 'status')==1 else "처리"
+    fn = '%s/%s.json' % (directory, bill_id)
 
-    utils.write_json(d, '%s/%s.json' % (directory, bill_id))
+    if not os.path.isfile(fn):
+        d = extract_specifics(assembly_id, bill_id, meta)
+        d['proposers']      = extract_proposers(assembly_id, bill_id)
+        d['summaries']      = extract_summaries(assembly_id, bill_id)
+        d['withdrawers']    = extract_withdrawers(assembly_id, bill_id)
+        d['proposed_date']  = include(meta, bill_id, 'proposed_date')
+        d['decision_date']  = include(meta, bill_id, 'decision_date')
+        d['link_id']        = include(meta, bill_id, 'link_id')
+        d['proposer_type']  = include(meta, bill_id, 'proposer_type')
+        d['status']         = "계류"\
+                if include(meta, bill_id, 'status')==1 else "처리"
 
-def html2json(assembly_id, range=None):
+        utils.write_json(d, fn)
+
+def html2json(assembly_id, range=(None, None)):
     metafile = '%s/%d.csv' % (DIR['meta'], assembly_id)
     meta = pd.read_csv(metafile)
 
     jsondir = '%s/%s' % (DIR['data'], assembly_id)
     utils.check_dir(jsondir)
 
-    if range:
-        jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
-    else:
-        jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id']]
+    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
 
     gevent.joinall(jobs)

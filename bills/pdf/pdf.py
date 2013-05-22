@@ -17,16 +17,13 @@ def download(json, indir, outdir):
         urllib.urlretrieve(url, path)
         print 'Downloaded %s' % path
 
-def get_pdf(assembly_id, range=None):
+def get_pdf(assembly_id, range=(None, None)):
     indir = '%s/%s' % (DIR['data'], assembly_id)
     outdir = '%s/%s' % (DIR['pdf'], assembly_id)
     utils.check_dir(outdir)
 
     failed = []
-    if range:
-        jsons = os.listdir(indir)[range[0]:range[1]]
-    else:
-        jsons = os.listdir(indir)
+    jsons = os.listdir(indir)[range[0]:range[1]]
 
     for json in jsons:
         try:
