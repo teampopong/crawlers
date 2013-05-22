@@ -162,7 +162,6 @@ def extract_specifics(assembly_id, bill_id, meta):
     table       = utils.get_elems(page, X['spec_table'])[1]
     timeline    = page.xpath(X['spec_timeline'])[0]
 
-    #FIXME: 9대 537번째 row에서 double quote가 있어서 제대로 parsing 안됨
     title         = page.xpath(X['spec_title'])[0].strip().replace('"','')
     status_detail = ' '.join(page.xpath(X['spec_status'])).strip()
     statuses      = filter(None,\
