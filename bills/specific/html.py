@@ -27,11 +27,11 @@ def get_page(assembly_id, bill_id, link_id, field):
     outp = '%s/%s/%s.html' % (DIR[field], assembly_id, bill_id)
 
     if not os.path.isfile(outp):
-        is_first = True
-        while is_first or 'TEXTAREA ID="MSG" STYLE="display:none"' in doc:
+        i = 0
+        while i==0 or ('TEXTAREA ID="MSG" STYLE="display:none"' in doc and i<10):
             r = urllib2.urlopen(url)
             doc = r.read()
-            is_first = False
+            i += 1
 
         with open(outp, 'w') as f:
             f.write(doc)
