@@ -19,6 +19,7 @@ def convert(assembly_id):
 
 def get_npages(assembly_id):
     url, directory = convert(assembly_id)
+    utils.check_dir(directory)
 
     fn = '%s/tmp.html' % directory
     utils.get_webpage(url, fn)

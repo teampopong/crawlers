@@ -238,7 +238,7 @@ def parse_page(assembly_id, bill_id, meta, directory):
 
 def html2json(assembly_id, range=(None, None)):
     metafile = '%s/%d.csv' % (DIR['meta'], assembly_id)
-    meta = pd.read_csv(metafile)
+    meta = pd.read_csv(metafile, dtype={'bill_id': object, 'link_id': object})
 
     jsondir = '%s/%s' % (DIR['data'], assembly_id)
     utils.check_dir(jsondir)
