@@ -13,7 +13,7 @@ def get_metadata(assembly_id, range=(None, None)):
     with open('%s/%d.csv' % (DIR['meta'], assembly_id), 'r') as f:
         data = []
         for row in f.readlines():
-            items = [item.strip('"') for item in row.decode('utf-8').split(',')]
+            items = [item.strip('"') for item in row.decode('utf-8').split('","')]
             data.append(itemgetter(0,3,8)(items))
 
     meta = {}
