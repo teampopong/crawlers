@@ -25,6 +25,7 @@ BASEURL = {
     'list'         : likms + '/BillSearchResult.jsp?',
     'summaries'    : likms + '/SummaryPopup.jsp?bill_id=',
     'specifics'    : likms + '/BillDetail.jsp?bill_id=',
+    'specifics_old': likms + '/BillDetailBudget.jsp?bill_id=',
     'proposers'    : likms + '/CoactorListPopup.jsp?bill_id=',
     'withdrawers'  : likms + '/ReturnListPopup.jsp?bill_id='
 }
