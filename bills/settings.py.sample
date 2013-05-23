@@ -14,11 +14,11 @@ DIR = {
     'meta'         : basedir + '/meta',
     'data'         : basedir + '/json',
     'pdf'          : basedir + '/pdf',
-    'list'         : basedir + '/html/list',
-    'summaries'    : basedir + '/html/summaries',
-    'specifics'    : basedir + '/html/specifics',
-    'proposers'    : basedir + '/html/proposers',
-    'withdrawers'  : basedir + '/html/withdrawers'
+    'list'         : basedir + '/sources/list',
+    'summaries'    : basedir + '/sources/summaries',
+    'specifics'    : basedir + '/sources/specifics',
+    'proposers'    : basedir + '/sources/proposers',
+    'withdrawers'  : basedir + '/sources/withdrawers'
 }
 
 BASEURL = {
