@@ -8,12 +8,22 @@ import urllib
 from settings import DIR
 import utils
 
-def download(json, indir, outdir):
-    url = utils.read_json('%s/%s' % (indir, json))\
-        ['status_dict']['접수']['의안접수정보'][0]['문서'][0][1][1]
-    path = '%s/%s' % (outdir, json.replace('.json', '.pdf'))
+def download(assembly_id, json, indir, outdir):
+    try:
+        url = utils.read_json('%s/%s' % (indir, json))\
+            ['status_dict']['접수']['의안접수정보'][0]['문서'][0][1][1]
+    except KeyError as e:
+        try:
+            url = utils.read_json('%s/%s' % (indir, json))\
+                ['status_dict']['접수']['의안접수정보'][0]['의안원문'][0][1][1]
+        except KeyError as e:
+            print json
+            print utils.read_json('%s/%s' % (indir, json))\
+                ['status_dict']['접수']['의안접수정보'][0]
+            url = None
 
-    if not os.path.isfile(path):
+    path = '%s/%s' % (outdir, json.replace('.json', '.pdf'))
+    if not os.path.isfile(path) and url:
         urllib.urlretrieve(url, path)
         print 'Downloaded %s' % path
 
@@ -27,9 +37,8 @@ def get_pdf(assembly_id, range=(None, None)):
 
     for json in jsons:
         try:
-            download(json, indir, outdir)
-        except (IndexError, TypeError, KeyError) as e:
+            download(assembly_id, json, indir, outdir)
+        except (IndexError, TypeError) as e:
             print 'Failed downloading %s with %s' % (json, e)
             failed.append((json, e))
     print 'Failed files: ', failed
-

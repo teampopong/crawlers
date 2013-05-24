@@ -242,6 +242,6 @@ def html2json(assembly_id, range=(None, None)):
     jsondir = '%s/%s' % (DIR['data'], assembly_id)
     utils.check_dir(jsondir)
 
-    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]+1]]
+    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
 
     gevent.joinall(jobs)
