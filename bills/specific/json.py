@@ -186,8 +186,8 @@ def extract_specifics(assembly_id, bill_id, meta):
             c = filter(None, (t.strip() for t in r.xpath('text()')))
             status_dict[row_titles[i]] = dict(zip(t, c))
 
-    headers = ['title', 'status_detail', 'statuses', 'status_infos', 'status_dict']
-    specifics = [title, status_detail, statuses, status_infos, status_dict]
+    headers = ['assembly_id', 'bill_id', 'title', 'status_detail', 'statuses', 'status_infos', 'status_dict']
+    specifics = [assembly_id, bill_id, title, status_detail, statuses, status_infos, status_dict]
 
     return dict(zip(headers, specifics))
 
@@ -231,8 +231,7 @@ def parse_page(assembly_id, bill_id, meta, directory):
         d['decision_date']  = include(meta, bill_id, 'decision_date')
         d['link_id']        = include(meta, bill_id, 'link_id')
         d['proposer_type']  = include(meta, bill_id, 'proposer_type')
-        d['status']         = "계류"\
-                if include(meta, bill_id, 'status')==1 else "처리"
+        d['status']         = "계류" if include(meta, bill_id, 'status')==1 else "처리"
 
         utils.write_json(d, fn)
 
@@ -243,6 +242,6 @@ def html2json(assembly_id, range=(None, None)):
     jsondir = '%s/%s' % (DIR['data'], assembly_id)
     utils.check_dir(jsondir)
 
-    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
+    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]+1]]
 
     gevent.joinall(jobs)
