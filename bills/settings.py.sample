@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 
 # CHANGE ME
-basedir         = '.'
+metadir = '.'
+pdfdir = '.'
 
 # Caution: You probably don't want to change me
 likms           = 'http://likms.assembly.go.kr/bill/jsp'
@@ -11,14 +12,14 @@ META_HEADERS    = ["bill_id","status","title","link_id","proposer_type","propose
 HTML_FIELDS     = ['specifics', 'proposers', 'withdrawers', 'summaries']
 
 DIR = {
-    'meta'         : basedir + '/meta',
-    'data'         : basedir + '/json',
-    'pdf'          : basedir + '/pdf',
-    'list'         : basedir + '/sources/list',
-    'summaries'    : basedir + '/sources/summaries',
-    'specifics'    : basedir + '/sources/specifics',
-    'proposers'    : basedir + '/sources/proposers',
-    'withdrawers'  : basedir + '/sources/withdrawers'
+    'pdf'          : pdfdir + '/pdf',
+    'meta'         : metadir + '/meta',
+    'data'         : metadir + '/json',
+    'list'         : metadir + '/sources/list',
+    'summaries'    : metadir + '/sources/summaries',
+    'specifics'    : metadir + '/sources/specifics',
+    'proposers'    : metadir + '/sources/proposers',
+    'withdrawers'  : metadir + '/sources/withdrawers'
 }
 
 BASEURL = {
