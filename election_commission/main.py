@@ -50,8 +50,8 @@ def create_parser():
     parser = ArgumentParser()
     parser.add_argument('target', choices=['assembly', 'mayor', 'president'])
     parser.add_argument('type', choices=['candidates', 'elected'])
-    parser.add_argument('start', type=int)
-    parser.add_argument('end', type=int)
+    parser.add_argument('start', type=float)
+    parser.add_argument('end', type=float, nargs='?', default=None)
     parser.add_argument('-t', dest='test', action='store_true')
     return parser
 
@@ -59,13 +59,19 @@ def main(args):
     printer = print_csv if args.test else print_json
     filetype = 'csv' if args.test else 'json'
 
-    jobs = []
-    for n in xrange(args.start, args.end+1):
-        filename = '%s-%s-%d.%s' % (args.target, args.type, n, filetype)
-        job = gevent.spawn(crawl, target=args.target, _type=args.type, nth=n,\
-                filename=filename, printer=printer)
-        jobs.append(job)
-    gevent.joinall(jobs)
+    if args.end:
+        jobs = []
+        for n in xrange(args.start, args.end+1):
+            filename = '%s-%s-%d.%s' % (args.target, args.type, n, filetype)
+            job = gevent.spawn(crawl, target=args.target, _type=args.type, nth=n,\
+                    filename=filename, printer=printer)
+            jobs.append(job)
+        gevent.joinall(jobs)
+    else:
+        n = args.start
+        filename = '%s-%s-%.01f.%s' % (args.target, args.type, n, filetype)
+        crawl(target=args.target, _type=args.type, nth=n,\
+                    filename=filename, printer=printer)
 
 if __name__ == '__main__':
     monkey.patch_all()

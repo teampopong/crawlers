@@ -15,6 +15,8 @@ def Crawler(nth):
         crawler = CandCrawler18()
     elif nth == 19:
         crawler = CandCrawler19()
+    elif nth == 19.1:
+        crawler = CandCrawler19_1()
     else:
         raise InvalidCrawlerError('assembly', 'candidates', nth)
     return crawler
@@ -128,6 +130,26 @@ class CandCrawler19(MultiCityCrawler):
 
     def parse_member_pledge(self, member):
         pass # TODO: implement
+
+class CandCrawler19_1(MultiCityCrawler):
+    nth = 19
+
+    url_city_codes_json = 'http://info.nec.go.kr/bizcommon/selectbox/'\
+            'selectbox_cityCodeBySgJson.json?electionId=0020130424&electionCode=2'
+    url_list_base = 'http://info.nec.go.kr/electioninfo/'\
+            'electionInfo_report.xhtml?electionId=0020130424'\
+            '&requestURI=%2Felectioninfo%2F0020130424%2Fcp%2Fcpri03.jsp'\
+            '&statementId=CPRI03_%232&electionCode=2&sggCityCode=0&cityCode='
+
+    attrs = ['district', 'image', 'cand_no', 'party', 'name', 'sex',
+             'birth', 'address', 'job', 'education', 'experience']
+
+    def __init__(self):
+        pass
+
+    def parse_member(self, member, city_name=None):
+        member = super(CandCrawler19_1, self).parse_member(member, city_name)
+        return member
 
 class CandCrawler17Proportional(SinglePageCrawler):
     nth = 17
