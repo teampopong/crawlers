@@ -26,15 +26,14 @@ def get_page(assembly_id, bill_id, link_id, field):
     url = '%s%s' % (BASEURL[field], link_id)
     outp = '%s/%s/%s.html' % (DIR[field], assembly_id, bill_id)
 
-    if not os.path.isfile(outp):
-        i = 0
-        while i==0 or ('TEXTAREA ID="MSG" STYLE="display:none"' in doc and i<10):
-            r = urllib2.urlopen(url)
-            doc = r.read()
-            i += 1
+    i = 0
+    while i==0 or ('TEXTAREA ID="MSG" STYLE="display:none"' in doc and i<10):
+        r = urllib2.urlopen(url)
+        doc = r.read()
+        i += 1
 
-        with open(outp, 'w') as f:
-            f.write(doc)
+    with open(outp, 'w') as f:
+        f.write(doc)
 
 def get_specifics(assembly_id, bill_id, link_id):
     if assembly_id > 16:
@@ -43,15 +42,13 @@ def get_specifics(assembly_id, bill_id, link_id):
         baseurl = BASEURL['specifics_old']
 
     outp = '%s/%s/%s.html' % (DIR['specifics'], assembly_id, bill_id)
-    if not os.path.isfile(outp):
-        url = '%s%s' % (baseurl, link_id)
-        utils.get_webpage(url, outp)
+    url = '%s%s' % (baseurl, link_id)
+    utils.get_webpage(url, outp)
 
 def get_summaries(assembly_id, bill_id, link_id, has_summaries):
     if has_summaries==1:
         outp = '%s/%s/%s.html' % (DIR['summaries'], assembly_id, bill_id)
-        if not os.path.isfile(outp):
-            utils.get_webpage('%s%s' % (BASEURL['summaries'], link_id), outp)
+        utils.get_webpage('%s%s' % (BASEURL['summaries'], link_id), outp)
 
 def get_html(assembly_id, range=(None, None)):
     for field in HTML_FIELDS:
