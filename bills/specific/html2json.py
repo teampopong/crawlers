@@ -222,21 +222,24 @@ def parse_page(assembly_id, bill_id, meta, directory):
 
     fn = '%s/%s.json' % (directory, bill_id)
 
-    if not os.path.isfile(fn):
-        d = extract_specifics(assembly_id, bill_id, meta)
-        d['proposers']      = extract_proposers(assembly_id, bill_id)
-        d['summaries']      = extract_summaries(assembly_id, bill_id)
-        d['withdrawers']    = extract_withdrawers(assembly_id, bill_id)
-        d['proposed_date']  = include(meta, bill_id, 'proposed_date')
-        d['decision_date']  = include(meta, bill_id, 'decision_date')
-        d['link_id']        = include(meta, bill_id, 'link_id')
-        d['proposer_type']  = include(meta, bill_id, 'proposer_type')
-        d['status']         = "계류" if include(meta, bill_id, 'status')==1 else "처리"
+    d = extract_specifics(assembly_id, bill_id, meta)
+    d['proposers']      = extract_proposers(assembly_id, bill_id)
+    d['summaries']      = extract_summaries(assembly_id, bill_id)
+    d['withdrawers']    = extract_withdrawers(assembly_id, bill_id)
+    d['proposed_date']  = include(meta, bill_id, 'proposed_date')
+    d['decision_date']  = include(meta, bill_id, 'decision_date')
+    d['link_id']        = include(meta, bill_id, 'link_id')
+    d['proposer_type']  = include(meta, bill_id, 'proposer_type')
+    d['status']         = "계류" if include(meta, bill_id, 'status')==1 else "처리"
 
-        utils.write_json(d, fn)
+    utils.write_json(d, fn)
+
+    if d['status'] == '계류':
+        return d['bill_id']
 
 def html2json(assembly_id, range=(None, None)):
     metafile = '%s/%d.csv' % (DIR['meta'], assembly_id)
+    print metafile
     meta = pd.read_csv(metafile, dtype={'bill_id': object, 'link_id': object})
 
     jsondir = '%s/%s' % (DIR['data'], assembly_id)
@@ -245,3 +248,4 @@ def html2json(assembly_id, range=(None, None)):
     jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
 
     gevent.joinall(jobs)
+    return [job.value for job in jobs]
