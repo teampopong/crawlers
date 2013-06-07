@@ -3,6 +3,7 @@
 
 import meta
 import specific
+from shutil import copyfile
 import pdf
 import re
 
@@ -15,6 +16,7 @@ bill_s, bill_e = None, None
 
 def get(a):
     print '## Get meta data'
+    backup(a)
     append_new_bills(a)
 
     print '## Get specific data'
@@ -25,6 +27,13 @@ def get(a):
     pdf.get_pdf(a, range=(bill_s, bill_e))
 
     rewrite_meta(a, bills_in_progress)
+
+
+def backup(assembly_id):
+    directory = DIR['meta']
+    meta_data = '%s/%d.csv' % (directory, assembly_id)
+    copyfile(meta_data, 'temp.csv')
+
 
 def append_new_bills(assembly_id):
     directory = DIR['meta']
@@ -90,7 +99,7 @@ def parse_columns(columns):
 
 
 def rewrite_meta(assembly_id, bills_in_progress):
-    print bills_in_progress
+    bills_in_progress.append('bill_id')
     bills_in_progress = set(bills_in_progress)
     to_remain = []
 
