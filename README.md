@@ -130,8 +130,14 @@ Just some minor web crawlers.
 ## election_commission
 Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).
 
+    cd election_commission
+    python main.py
+
 ## google
 Get Google search counts.
+
+    cd google
+    python ndocs.py
 
 ## peoplepower
 Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages.
