@@ -163,3 +163,8 @@ Get Korean lastnames from Wikipedia.
 
     cd wikipedia
     python wiki_lastnames.py
+
+Get Wikipedia links for assembly members.
+
+    cd wikipedia
+    python assembly_members.py
