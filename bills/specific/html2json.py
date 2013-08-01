@@ -234,8 +234,6 @@ def parse_page(assembly_id, bill_id, meta, directory):
 
     utils.write_json(d, fn)
 
-    if d['status'] == '계류':
-        return d['bill_id']
 def html2json(assembly_id, range=(None, None), bill_ids=None):
     if bill_ids is not None and not bill_ids:
         return
@@ -252,4 +250,3 @@ def html2json(assembly_id, range=(None, None), bill_ids=None):
     jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in bill_ids]
 
     gevent.joinall(jobs)
-    return [job.value for job in jobs]
