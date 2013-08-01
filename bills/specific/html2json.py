@@ -236,8 +236,10 @@ def parse_page(assembly_id, bill_id, meta, directory):
 
     if d['status'] == '계류':
         return d['bill_id']
+def html2json(assembly_id, range=(None, None), bill_ids=None):
+    if bill_ids is not None and not bill_ids:
+        return
 
-def html2json(assembly_id, range=(None, None)):
     metafile = '%s/%d.csv' % (DIR['meta'], assembly_id)
     print metafile
     meta = pd.read_csv(metafile, dtype={'bill_id': object, 'link_id': object})
@@ -245,7 +247,9 @@ def html2json(assembly_id, range=(None, None)):
     jsondir = '%s/%s' % (DIR['data'], assembly_id)
     utils.check_dir(jsondir)
 
-    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in meta['bill_id'][range[0]:range[1]]]
+    if not bill_ids:
+        bill_ids = meta['bill_id'][range[0]:range[1]]
+    jobs = [gevent.spawn(parse_page, assembly_id, bill_id, meta, jsondir) for bill_id in bill_ids]
 
     gevent.joinall(jobs)
     return [job.value for job in jobs]

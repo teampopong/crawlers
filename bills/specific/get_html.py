@@ -55,8 +55,10 @@ def get_summaries(assembly_id, bill_id, link_id, has_summaries):
     except:
         pass
 
+def get_html(assembly_id, range=(None, None), bill_ids=None):
+    if bill_ids is not None and not bill_ids:
+        return
 
-def get_html(assembly_id, range=(None, None)):
     for field in HTML_FIELDS:
         utils.check_dir('%s/%s' % (DIR[field], assembly_id))
 
@@ -64,6 +66,9 @@ def get_html(assembly_id, range=(None, None)):
 
     for bill_id in metadata:
         if bill_id == 'bill_id':
+            continue
+
+        if bill_ids and bill_id not in bill_ids:
             continue
 
         link_id, has_summaries = metadata[bill_id]
