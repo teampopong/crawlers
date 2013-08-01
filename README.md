@@ -130,8 +130,14 @@ Just some minor web crawlers.
 ## election_commission
 Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).
 
+    cd election_commission
+    python main.py
+
 ## google
 Get Google search counts.
+
+    cd google
+    python ndocs.py
 
 ## peoplepower
 Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages.
@@ -154,3 +160,11 @@ Get Korean politicians' data from [ROKPS(헌정회)](http://www.rokps.or.kr).
 
 ## wikipedia
 Get Korean lastnames from Wikipedia.
+
+    cd wikipedia
+    python wiki_lastnames.py
+
+Get Wikipedia links for assembly members.
+
+    cd wikipedia
+    python assembly_members.py

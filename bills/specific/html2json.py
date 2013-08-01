@@ -196,7 +196,8 @@ def extract_summaries(assembly_id, bill_id):
     try:
         fn = '%s/%s/%s.html' % (DIR['summaries'], assembly_id, bill_id)
         page = utils.read_webpage(fn)
-        summaries = [e.strip() for e in utils.get_elems(page, X['summary'])]
+        summaries = [e.replace('？', '/').strip()\
+                for e in utils.get_elems(page, X['summary'])]
         return summaries
     except IOError as e:
         return None
