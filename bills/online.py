@@ -10,7 +10,7 @@ import pdf
 import re
 
 import utils
-from settings import BASEURL, DIR, PAGE_SIZE, X
+from settings import BASEURL, DIR, PAGE_SIZE, SESSION, X
 
 
 bill_s, bill_e = None, None
@@ -122,11 +122,11 @@ def parse_columns(columns):
 
 def main(cmd):
     if cmd == 'new':
-        get_new(19)
+        get_new(SESSION)
     elif cmd == 'update':
-        update(19)
+        update(SESSION)
     elif cmd == 'update_new':
-        update_new(19)
+        update_new(SESSION)
     else:
         raise Exception('invalid command')
 

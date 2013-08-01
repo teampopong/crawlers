@@ -1,9 +1,16 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
-# CHANGE ME
+# CHANGE/FILL ME
 metadir = '.'
 pdfdir = '.'
+
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+
+OAUTH_TOKEN = ""
+OAUTH_TOKEN_SECRET = ""
+
 
 # Caution: You probably don't want to change me
 likms           = 'http://likms.assembly.go.kr/bill/jsp'
