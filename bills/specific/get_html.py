@@ -49,9 +49,12 @@ def get_specifics(assembly_id, bill_id, link_id):
     utils.get_webpage(url, outp)
 
 def get_summaries(assembly_id, bill_id, link_id, has_summaries):
-    if has_summaries==u'1':
-        outp = '%s/%s/%s.html' % (DIR['summaries'], assembly_id, bill_id)
+    outp = '%s/%s/%s.html' % (DIR['summaries'], assembly_id, bill_id)
+    try:
         utils.get_webpage('%s%s' % (BASEURL['summaries'], link_id), outp)
+    except:
+        pass
+
 
 def get_html(assembly_id, range=(None, None)):
     for field in HTML_FIELDS:
