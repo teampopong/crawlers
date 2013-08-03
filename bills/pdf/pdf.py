@@ -27,7 +27,10 @@ def download(assembly_id, json, indir, outdir):
         urllib.urlretrieve(url, path)
         print 'Downloaded %s' % path
 
-def get_pdf(assembly_id, range=(None, None)):
+def get_pdf(assembly_id, range=(None, None), bill_ids=None):
+    if bill_ids is not None and not bill_ids:
+        return
+
     indir = '%s/%s' % (DIR['data'], assembly_id)
     outdir = '%s/%s' % (DIR['pdf'], assembly_id)
     utils.check_dir(outdir)
@@ -36,6 +39,9 @@ def get_pdf(assembly_id, range=(None, None)):
     jsons = os.listdir(indir)[range[0]:range[1]]
 
     for json in jsons:
+        if bill_ids and json.split('.', 1)[0] not in bill_ids:
+            continue
+
         try:
             download(assembly_id, json, indir, outdir)
         except (IndexError, TypeError) as e:

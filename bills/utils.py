@@ -18,7 +18,11 @@ def get_elem_texts(page, x):
     return [list(elem.itertext()) for elem in elems]
 
 def get_webpage(url, outp):
-    r = urllib2.urlopen(url)
+    try:
+        r = urllib2.urlopen(url)
+    except urllib2.URLError:
+        print 'URLError: %s' % url
+
     with open(outp, 'w') as f:
         f.write(r.read())
 
