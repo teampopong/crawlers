@@ -9,8 +9,9 @@ from shutil import copyfile
 import pdf
 import re
 
+from redis_queue import RedisQueue
+from settings import BASEURL, DIR, PAGE_SIZE, REDIS_SETTINGS, SESSION, X
 import utils
-from settings import BASEURL, DIR, PAGE_SIZE, SESSION, X
 
 
 bill_s, bill_e = None, None
@@ -18,25 +19,18 @@ bill_s, bill_e = None, None
 
 def get_new(a):
     print '## Get meta data'
-    backup(a)
-    new_bills = append_new_bills(a)
+    new_bill_ids = fetch_new_bill_ids(a)
 
-    with open('new_bills', 'w') as f:
-        for bill_id in new_bills:
-            f.write('%s\n' % bill_id)
+    queue = RedisQueue('new_bill_ids')
+    for bill_id in new_bill_ids:
+        queue.put(bill_id)
 
     print '## Get specific data'
-    specific.get_html(a, bill_ids=new_bills)
-    specific.html2json(a, bill_ids=new_bills)
+    specific.get_html(a, bill_ids=new_bill_ids)
+    specific.html2json(a, bill_ids=new_bill_ids)
 
     print '## Get pdfs'
-    pdf.get_pdf(a, bill_ids=new_bills)
-
-
-def update_new(a):
-    new_bills = [line.strip() for line in open('new_bills', 'r')]
-    specific.get_html(a, bill_ids=new_bills)
-    specific.html2json(a, bill_ids=new_bills)
+    pdf.get_pdf(a, bill_ids=new_bill_ids)
 
 
 def update(a):
@@ -48,12 +42,7 @@ def update(a):
     pdf.get_pdf(a, range=(bill_s, bill_e))
 
 
-def backup(assembly_id):
-    metadir = DIR['meta']
-    copyfile('%s/%d.csv' % (metadir, assembly_id), '%s/backup.csv' % metadir)
-
-
-def append_new_bills(assembly_id):
+def fetch_new_bill_ids(assembly_id):
     directory = DIR['meta']
     meta_data = '%s/%d.csv' % (directory, assembly_id)
 
@@ -71,7 +60,7 @@ def append_new_bills(assembly_id):
     p = utils.read_webpage(fn)
     rows = utils.get_elems(p, X['table'])
 
-    new_bills = []
+    new_bill_ids = []
     with open(meta_data, 'a') as f:
         for r in reversed(rows):
             columns = r.xpath(X['columns'])
@@ -79,8 +68,8 @@ def append_new_bills(assembly_id):
                 p = parse_columns(columns)
                 if p[0] not in existing_ids:
                     list_to_file(p, f)
-                    new_bills.append(p[0])
-    return new_bills
+                    new_bill_ids.append(p[0])
+    return new_bill_ids
 
 
 def list_to_file(l, f):
@@ -125,8 +114,6 @@ def main(cmd):
         get_new(SESSION)
     elif cmd == 'update':
         update(SESSION)
-    elif cmd == 'update_new':
-        update_new(SESSION)
     else:
         raise Exception('invalid command')
 

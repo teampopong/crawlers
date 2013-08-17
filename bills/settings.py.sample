@@ -4,6 +4,13 @@
 # CHANGE/FILL ME
 metadir = '.'
 pdfdir = '.'
+SESSION = 19
+
+REDIS_SETTINGS = {
+    'host': 'localhost',
+    'port': 6379,
+    'db': 0
+}
 
 CONSUMER_KEY = ""
 CONSUMER_SECRET = ""
