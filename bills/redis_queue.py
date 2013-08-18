@@ -38,3 +38,13 @@ class RedisQueue(object):
     def get_nowait(self):
         """Equivalent to get(False)."""
         return self.get(False)
+
+    def __iter__(self):
+        return self
+
+    def next(self):
+        item = self.get(False)
+        if item is None:
+            raise StopIteration
+        return item
+
