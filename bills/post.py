@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import json
 import time
 
+from redis_queue import RedisQueue
 from settings import DIR, SESSION
 from twitter import post
 
@@ -71,6 +72,6 @@ def get_bill(bill_id):
 
 
 if __name__ == '__main__':
-    # FIXME: consume bill list from queue
-    new_bills = [line.strip() for line in open('new_bills', 'r')]
+    queue = RedisQueue('post_bills_twitter')
+    new_bills = [bill_id for bill_id in queue]
     post_bills(new_bills)
