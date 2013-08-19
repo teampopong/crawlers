@@ -12,12 +12,24 @@ REDIS_SETTINGS = {
     'db': 0
 }
 
-CONSUMER_KEY = ""
-CONSUMER_SECRET = ""
+QUEUE_NAMES = {
+    'post_bills_twitter': 'post_bills_twitter',
+    'post_bills_facebook': 'post_bills_facebook',
+    'insert_bills_db': 'insert_bills_db',
+}
 
-OAUTH_TOKEN = ""
-OAUTH_TOKEN_SECRET = ""
+TWITTER_CONSUMER_KEY = ""
+TWITTER_CONSUMER_SECRET = ""
 
+TWITTER_OAUTH_TOKEN = ""
+TWITTER_OAUTH_TOKEN_SECRET = ""
+
+FACEBOOK_PAGE_ID = ""
+
+FACEBOOK_CLIENT_ID = ""
+FACEBOOK_CLIENT_SECRET = ""
+
+FACEBOOK_OAUTH_TOKEN = ""
 
 # Caution: You probably don't want to change me
 likms           = 'http://likms.assembly.go.kr/bill/jsp'

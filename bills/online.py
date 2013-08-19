@@ -1,8 +1,7 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
-from __future__ import unicode_literals
-
+from __future__ import unicode_literals 
 import json
 import specific
 from shutil import copyfile
@@ -10,7 +9,7 @@ import pdf
 import re
 
 from redis_queue import RedisQueue
-from settings import BASEURL, DIR, PAGE_SIZE, REDIS_SETTINGS, SESSION, X
+from settings import BASEURL, DIR, PAGE_SIZE, QUEUE_NAMES, REDIS_SETTINGS, SESSION, X
 import utils
 
 
@@ -21,9 +20,8 @@ def get_new(a):
     print '## Get meta data'
     new_bill_ids = fetch_new_bill_ids(a)
 
-    queue = RedisQueue('new_bill_ids')
-    for bill_id in new_bill_ids:
-        queue.put(bill_id)
+    for queue_name in QUEUE_NAMES.itervalues():
+        insert_to_queue(name, new_bill_ids)
 
     print '## Get specific data'
     specific.get_html(a, bill_ids=new_bill_ids)
@@ -31,6 +29,12 @@ def get_new(a):
 
     print '## Get pdfs'
     pdf.get_pdf(a, bill_ids=new_bill_ids)
+
+
+def insert_to_queue(queue_name, items):
+    queue = RedisQueue(queue_name)
+    for item in items:
+        queue.put(item)
 
 
 def update(a):
