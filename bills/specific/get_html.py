@@ -29,10 +29,9 @@ def get_page(assembly_id, bill_id, link_id, field):
     i = 0
     while i==0 or ('TEXTAREA ID="MSG" STYLE="display:none"' in doc and i<10):
         try:
-            r = urllib2.urlopen(url)
+            doc = utils.get_webpage_text(url)
         except urllib2.URLError:
             continue
-        doc = r.read()
         i += 1
 
     with open(outp, 'w') as f:

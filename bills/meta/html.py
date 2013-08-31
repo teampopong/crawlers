@@ -40,8 +40,7 @@ def get_html(assembly_id, npages):
 
             is_first = True
             while is_first or 'TEXTAREA ID="MSG" STYLE="display:none"' in doc:
-                r = urllib2.urlopen(url)
-                doc = r.read()
+                doc = utils.get_webpage_text(url)
                 is_first = False
 
             with open(fn, 'w') as f:

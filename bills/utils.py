@@ -1,10 +1,14 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
-import os
-import json
 import html5lib
+import json
+import os
+from shutil import copyfileobj
 import urllib2
+
+opener = urllib2.build_opener()
+opener.addheaders.append(('Referer', 'http://likms.assembly.go.kr/bill/jsp/BillSearchResult.jsp'))
 
 def check_dir(directory):
     if not os.path.exists(directory):
@@ -19,12 +23,15 @@ def get_elem_texts(page, x):
 
 def get_webpage(url, outp):
     try:
-        r = urllib2.urlopen(url)
+        r = opener.open(url)
     except urllib2.URLError:
         print 'URLError: %s' % url
 
     with open(outp, 'w') as f:
-        f.write(r.read())
+        copyfileobj(r, f)
+
+def get_webpage_text(url):
+    return opener.open(url).read()
 
 def read_json(fname):
     with open(fname, 'r') as f:
