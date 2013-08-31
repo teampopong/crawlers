@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 import os
 import urllib
 
+from pdf2txt import pdf2txt
 from settings import DIR
 import utils
 
@@ -31,19 +32,24 @@ def get_pdf(assembly_id, range=(None, None), bill_ids=None):
     if bill_ids is not None and not bill_ids:
         return
 
-    indir = '%s/%s' % (DIR['data'], assembly_id)
-    outdir = '%s/%s' % (DIR['pdf'], assembly_id)
-    utils.check_dir(outdir)
+    datadir = '%s/%s' % (DIR['data'], assembly_id)
+    pdfdir = '%s/%s' % (DIR['pdf'], assembly_id)
+    txtdir = '%s/%s' % (DIR['txt'], assembly_id)
+    utils.check_dir(pdfdir)
+    utils.check_dir(txtdir)
 
     failed = []
-    jsons = os.listdir(indir)[range[0]:range[1]]
+    jsons = os.listdir(datadir)[range[0]:range[1]]
 
     for json in jsons:
         if bill_ids and json.split('.', 1)[0] not in bill_ids:
             continue
-
+        print json
         try:
-            download(assembly_id, json, indir, outdir)
+            download(assembly_id, json, datadir, pdfdir)
+            pdffile = '%s/%s' % (pdfdir, json.replace('json', 'pdf'))
+            txtfile = '%s/%s' % (txtdir, json.replace('json', 'txt'))
+            pdf2txt(['pdf2txt.py', '-o', txtfile, pdffile])
         except (IndexError, TypeError) as e:
             print 'Failed downloading %s with %s' % (json, e)
             failed.append((json, e))
