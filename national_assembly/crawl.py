@@ -118,7 +118,7 @@ def crawl_ppl_data(htmldir):
         ppl_data.append(profile + [url])
 
 def write_csv():
-    with open('data.csv', 'w') as f:
+    with open('assembly.csv', 'w') as f:
         f.write('%s\n' % ','.join(HEADERS))
         f.write('\n'.join(\
             '"%s"' % '","'.join(row) for row in ppl_data).encode('utf-8'))
