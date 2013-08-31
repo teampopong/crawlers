@@ -21,9 +21,8 @@ def get_new(a):
     print '## Get meta data'
     new_bill_ids = fetch_new_bill_ids(a)
 
-    queue = RedisQueue('new_bill_ids')
-    for bill_id in new_bill_ids:
-        queue.put(bill_id)
+    for queue_name in ['insert_bills_db', 'post_bills_twitter']:
+        push_to_queue(queue_name, new_bill_ids)
 
     print '## Get specific data'
     specific.get_html(a, bill_ids=new_bill_ids)
@@ -31,6 +30,12 @@ def get_new(a):
 
     print '## Get pdfs'
     pdf.get_pdf(a, bill_ids=new_bill_ids)
+
+
+def push_to_queue(queue_name, items):
+    queue = RedisQueue(queue_name)
+    for item in items:
+        queue.put(item)
 
 
 def update(a):
