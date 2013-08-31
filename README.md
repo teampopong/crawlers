@@ -151,6 +151,13 @@ Get Google search counts.
     cd google
     python ndocs.py
 
+## national_assembly
+Get member information from the [Korean National Assembly](http://www.assembly.go.kr/).
+(Currently broken)
+
+    cd national_assembly
+    python crawl.py
+
 ## peoplepower
 Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages.
 
