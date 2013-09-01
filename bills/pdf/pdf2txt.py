@@ -8,8 +8,9 @@ from pdfminer.cmapdb import CMapDB
 from pdfminer.layout import LAParams
 from pdfminer.image import ImageWriter
 
-def pdf2txt(argv):
+def pdf2txt(pdffile, txtfile):
     import getopt
+    argv = ['pdf2txt.py', '-o', txtfile, pdffile]
     def usage():
         print ('usage: %s [-d] [-p pagenos] [-m maxpages] [-P password] [-o output] [-C] '
                '[-n] [-A] [-V] [-M char_margin] [-L line_margin] [-W word_margin] [-F boxes_flow] '

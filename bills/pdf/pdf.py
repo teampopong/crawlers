@@ -49,7 +49,8 @@ def get_pdf(assembly_id, range=(None, None), bill_ids=None):
             download(assembly_id, json, datadir, pdfdir)
             pdffile = '%s/%s' % (pdfdir, json.replace('json', 'pdf'))
             txtfile = '%s/%s' % (txtdir, json.replace('json', 'txt'))
-            pdf2txt(['pdf2txt.py', '-o', txtfile, pdffile])
+            #TODO: apply celery
+            pdf2txt(pdffile, txtfile)
         except (IndexError, TypeError) as e:
             print 'Failed downloading %s with %s' % (json, e)
             failed.append((json, e))

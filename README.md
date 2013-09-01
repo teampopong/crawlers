@@ -3,6 +3,11 @@
 Just some minor web crawlers.
 
 ## bills
+### Install dependencies
+
+    pip install -U celery-with-redis
+
+### Run
 
     cd bills
     cp settings.py.sample settings.py   # Input data directory
