@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 from __future__ import unicode_literals
-
 import json
 import specific
 from shutil import copyfile
@@ -10,7 +9,7 @@ import pdf
 import re
 
 from redis_queue import RedisQueue
-from settings import BASEURL, DIR, PAGE_SIZE, REDIS_SETTINGS, SESSION, X
+from settings import BASEURL, DIR, PAGE_SIZE, QUEUE_NAMES, REDIS_SETTINGS, SESSION, X
 import utils
 
 
@@ -21,7 +20,7 @@ def get_new(a):
     print '## Get meta data'
     new_bill_ids = fetch_new_bill_ids(a)
 
-    for queue_name in ['insert_bills_db', 'post_bills_twitter']:
+    for queue_name in QUEUE_NAMES.itervalues():
         push_to_queue(queue_name, new_bill_ids)
 
     print '## Get specific data'

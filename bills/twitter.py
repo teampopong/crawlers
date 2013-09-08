@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 import requests
 from requests_oauthlib import OAuth1
 from urlparse import parse_qs
-from settings import CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET
+from settings import TWITTER_CONSUMER_KEY, TWITTER_CONSUMER_SECRET, TWITTER_OAUTH_TOKEN, TWITTER_OAUTH_TOKEN_SECRET
 
 
 REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
@@ -16,7 +16,7 @@ ACCESS_TOKEN_URL = "https://api.twitter.com/oauth/access_token"
 def setup_oauth():
     """Authorize your app via identifier."""
     # Request token
-    oauth = OAuth1(CONSUMER_KEY, client_secret=CONSUMER_SECRET)
+    oauth = OAuth1(TWITTER_CONSUMER_KEY, client_secret=TWITTER_CONSUMER_SECRET)
     r = requests.post(url=REQUEST_TOKEN_URL, auth=oauth)
     credentials = parse_qs(r.content)
 
@@ -28,8 +28,8 @@ def setup_oauth():
     print 'Please go here and authorize: ' + authorize_url
 
     verifier = raw_input('Please input the verifier: ')
-    oauth = OAuth1(CONSUMER_KEY,
-                   client_secret=CONSUMER_SECRET,
+    oauth = OAuth1(TWITTER_CONSUMER_KEY,
+                   client_secret=TWITTER_CONSUMER_SECRET,
                    resource_owner_key=resource_owner_key,
                    resource_owner_secret=resource_owner_secret,
                    verifier=verifier)
@@ -44,10 +44,10 @@ def setup_oauth():
 
 
 def get_oauth():
-    oauth = OAuth1(CONSUMER_KEY,
-                client_secret=CONSUMER_SECRET,
-                resource_owner_key=OAUTH_TOKEN,
-                resource_owner_secret=OAUTH_TOKEN_SECRET)
+    oauth = OAuth1(TWITTER_CONSUMER_KEY,
+                client_secret=TWITTER_CONSUMER_SECRET,
+                resource_owner_key=TWITTER_OAUTH_TOKEN,
+                resource_owner_secret=TWITTER_OAUTH_TOKEN_SECRET)
     return oauth
 
 
