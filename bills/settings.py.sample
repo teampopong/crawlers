@@ -43,6 +43,7 @@ DIR = {
     'pdf'          : pdfdir + '/pdf',
     'meta'         : metadir + '/meta',
     'data'         : metadir + '/json',
+    'txt'          : metadir + '/txt',
     'list'         : metadir + '/sources/list',
     'summaries'    : metadir + '/sources/summaries',
     'specifics'    : metadir + '/sources/specifics',
