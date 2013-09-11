@@ -46,12 +46,12 @@ def post_bills_facebook(new_bills):
     if new_bills:
         print '\t'.join(new_bills)
         post_sentences = []
-        post_sentences.append('오늘 발의된 %d개의 새 의안 목록입니다.\n' % (len(new_bills)))
+        post_sentences.append('오늘 국회에서 발의된 %d개의 새 의안 목록입니다.\n' % (len(new_bills)))
         for idx, bill_id in enumerate(new_bills):
             bill = get_bill(bill_id)
             bill = refine_bill_content(bill, None)
             bill['idx'] = idx
-            post_sentences.append('%(idx)d. %(proposer)s. %(title)s\n%(url)s\n' % bill)
+            post_sentences.append('%(idx)d. %(proposer)s, "%(title)s" %(url)s' % bill)
         post = "\n".join(post_sentences)
         facebook.post(post)
 
