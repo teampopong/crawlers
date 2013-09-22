@@ -117,6 +117,10 @@ def crawl_ppl_data(htmldir):
         ppl_data.append(profile + [url])
         print i, ppl_data[i][0]
 
+def sort_ppl_data(ppl_data):
+    ppl_data = sorted(ppl_data, key=lambda x: x[3])
+    ppl_data = sorted(ppl_data, key=lambda x: x[0])
+
 def write_csv():
     with open('assembly.csv', 'w') as f:
         f.write('%s\n' % ','.join(HEADERS))
@@ -132,6 +136,7 @@ def main(argv, datadir=DATADIR):
     load_urls()
     get_ppl_urls(htmldir)
     crawl_ppl_data(htmldir)
+    sort_ppl_data(ppl_data)
     write_csv()
 
 if __name__ == '__main__':
