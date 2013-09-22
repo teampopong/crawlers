@@ -102,12 +102,12 @@ def extract_profile(page):
     try:
         others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
     except AttributeError as e:
-        pass
+        others[5] = ''
 
     full_profile = list(name_and_birth + others)
     full_profile.append(experience)
     full_profile.append(photo)
-    return full_profile
+    return [p.replace('"',"'") for p in full_profile]
 
 def crawl_ppl_data(htmldir):
     print len(ppl_urls)
