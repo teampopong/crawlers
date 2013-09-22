@@ -115,7 +115,7 @@ def crawl_ppl_data(htmldir):
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
-        print i, ppl_data[i][0]
+        #print i, ppl_data[i][0]
 
 def sort_ppl_data(ppl_data):
     ppl_data = sorted(ppl_data, key=lambda x: x[3])
@@ -126,6 +126,7 @@ def write_csv():
         f.write('%s\n' % ','.join(HEADERS))
         f.write('\n'.join(\
             '"%s"' % '","'.join(row) for row in ppl_data).encode('utf-8'))
+    print 'Data succesfully written'
 
 def main(argv, datadir=DATADIR):
 
