@@ -20,7 +20,7 @@ DATADIR = '.'
 
 # global dicts
 urls = {}
-ppl_urls = {}
+ppl_urls = []
 ppl_data = []
 
 def find_bracketed_text_regexp(exp, src):
@@ -71,7 +71,7 @@ def get_ppl_urls(htmldir):
 
     for url, name in full_member_list:
         url = unescape_html(url)
-        ppl_urls[name] = urljoin(urls['base'], url)
+        ppl_urls.append(urljoin(urls['base'], url))
 
 def extract_profile(page):
     def parse_name_and_birth(name_and_birth):
@@ -111,11 +111,11 @@ def extract_profile(page):
 
 def crawl_ppl_data(htmldir):
     print len(ppl_urls)
-    for i, (name, url) in enumerate(ppl_urls.items()):
-        print i, name
+    for i, url in enumerate(ppl_urls):
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
+        print i, ppl_data[i][0]
 
 def write_csv():
     with open('assembly.csv', 'w') as f:
