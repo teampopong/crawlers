@@ -6,7 +6,7 @@ import os
 import urllib
 
 from pdf2txt import pdf2txt
-from pdfminer.pdfparser import PDFSyntaxError:
+from pdfminer.pdfparser import PDFSyntaxError
 from settings import DIR
 import utils
 
