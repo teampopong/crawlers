@@ -1,188 +1,73 @@
 # POPONG Crawlers
 
-Just some minor web crawlers.
+Just some minor web crawlers.<br>
+**Pull requests are always welcome.**
 
-## bills
-### Install dependencies
+## License
+[Affero GPL v3.0](http://choosealicense.com/licenses/agpl/)
 
-    pip install -U celery-with-redis
+- Required: License and copyright notice + State Changes + Disclose Source
+- Permitted: Commercial Use + Modification + Distribution
+- Forbidden: Hold Liable + Sublicensing
 
-### Run
+## Descriptions
+### bills
+Get bill data from the [National Assembly](http://likms.assembly.go.kr/bill/jsp/main.jsp) and structurize to json formats. ([See attributes](https://github.com/teampopong/crawlers/wiki/Attributes-of-National-Assembly-Bills))
 
+
+    pip install -U celery-with-redis    # Install dependencies
     cd bills
     cp settings.py.sample settings.py   # Input data directory
     python main.py
 
-### Attributes
-<table>
-<tr>
-    <th>name</th>
-    <th>description</th>
-    <th>type</th>
-    <th>values</th>
-</tr>
-<tr>
-    <td>`assembly_id`</td>
-    <td>국회 대수</td>
-    <td>int</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`assembly_meeting_id`</td>
-    <td>국회 회의 번호</td>
-    <td>int</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`bill_id`</td>
-    <td>의안 번호</td>
-    <td>str</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`decision_date`</td>
-    <td>의결 일자</td>
-    <td>str</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`decision_result`</td>
-    <td>의결 결과</td>
-    <td>str</td>
-    <td>대안반영폐기, 부결, 수정가결, 원안가결, 철회, 폐기</td>
-</tr>
-<tr>
-    <td>`has_summaries`</td>
-    <td>요약본 유무</td>
-    <td>int</td>
-    <td>
-    0: No summary<br>
-    1: Has summary
-    </td>
-</tr>
-<tr>
-    <td>`link_id`</td>
-    <td>링크 번호</td>
-    <td>str</td>
-    <td>http://likms.assembly.go.kr/bill/jsp/BillDetail.jsp?bill_id=[link_id]</td>
-</tr>
-<tr>
-    <td>`original_bill_links`</td>
-    <td>의안원문링크</td>
-    <td>list(str)</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`proposer_type`</td>
-    <td>제안자 구분</td>
-    <td>str</td>
-    <td>위원장, 의원, 의장, 정부, 기타</td>
-</tr>
-<tr>
-    <td>`proposer_representative`</td>
-    <td>대표 발의자</td>
-    <td>str</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`proposers`</td>
-    <td>발의자명단</td>
-    <td>list(str)</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`proposed_date`</td>
-    <td>제안 일자</td>
-    <td>str</td>
-    <td>[yy]-[mm]-[dd]</td>
-</tr>
-<tr>
-    <td>`status`</td>
-    <td>의안 상태</td>
-    <td>int</td>
-    <td>
-        1: 계류의안<br>
-        2: 처리의안
-    </td>
-</tr>
-<tr>
-    <td>`status_detail`</td>
-    <td>심사진행상태</td>
-    <td>str</td>
-    <td>공포, 대안반영폐기, 본회의불부의, 본회의의결, 부의가능안건, 소관위심사, 소관위심사보고, 소관위접수, 의안정리, 접수, 정부이송, 철회, 체계자구심사, 체계자구의뢰</td>
-</tr>
-<tr>
-    <td>`summaries`</td>
-    <td>요약문</td>
-    <td>list(str)</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`title`</td>
-    <td>의안명</td>
-    <td>str</td>
-    <td></td>
-</tr>
-<tr>
-    <td>`withdrawers`</td>
-    <td>철회요구의원 명단</td>
-    <td>list(str)</td>
-    <td></td>
-</tr>
-
-
-</table>
-## election_commission
-Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).
+### election_commission
+Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).<br>
+This data contains the list of all people that have run for office in the National Asssmbly.
 
     cd election_commission
     python main.py
 
-## glossary
-Get and merge data for [POPONG Glossary](http://popong.com/glossary).
+### glossary
+Get and merge data for [POPONG Glossary](http://popong.com/glossary) from:<br>
+ `committee`: [Standing committee and Special Committee (국회상임위원회 및 특별위원회)](http://committee.na.go.kr/),<br>
+ `likms`: [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/),<br>
+ `nas`: [National Assembly Secretaritat (국회사무처)](http://http://nas.na.go.kr/).
 
     python get.py       # To get source data files
     python merge.py     # To create glossary.csv
 
-### Sources
-
-- `committee`: [Standing committee and Special Committee (국회상임위원회 및 특별위원회)](http://committee.na.go.kr/)
-- `likms`: [Integrated Legislation Knowledge Management System (입법통합지식관리시스템)](http://likms.assembly.go.kr/)
-- `nas`: [National Assembly Secretaritat (국회사무처)](http://http://nas.na.go.kr/)
-
-## google
+### google
 Get Google search counts.
 
     cd google
     python ndocs.py
 
-## national_assembly
+### national_assembly
 Get member information from the [Korean National Assembly](http://www.assembly.go.kr/).
-(Currently broken)
 
     cd national_assembly
     python crawl.py
 
-## peoplepower
-Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages.
+### peoplepower
+Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages. (*Currently broken*)
 
     cd peoplepower
     scrapy crawl peoplepower21
 
-## pledges
+### pledges
 Get pledges from [NEC (선거관리위원회)](http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml?electionId=0020120411&requestURI=%2Felectioninfo%2F0020120411%2Fep%2Fepei01.jsp&topMenuId=EP&secondMenuId=EPEI01&menuId=&statementId=EPEI01_%232&electionCode=2&cityCode=0&proportionalRepresentationCode=0&x=17&y=11) for 19th National Assembly officials.
 
     cd pledges
     python crawler.py
 
-## rokps
+### rokps
 Get Korean politicians' data from [ROKPS(헌정회)](http://www.rokps.or.kr).
 
     cd rokps
     python crawler.py
     python parser.py
 
-## wikipedia
+### wikipedia
 Get Korean lastnames from Wikipedia.
 
     cd wikipedia
