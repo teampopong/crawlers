@@ -6,6 +6,7 @@ import os
 import urllib
 
 from pdf2txt import pdf2txt
+from pdfminer.pdfparser import PDFSyntaxError:
 from settings import DIR
 import utils
 
@@ -50,7 +51,12 @@ def get_pdf(assembly_id, range=(None, None), bill_ids=None):
             pdffile = '%s/%s' % (pdfdir, json.replace('json', 'pdf'))
             txtfile = '%s/%s' % (txtdir, json.replace('json', 'txt'))
             #TODO: apply celery
-            pdf2txt(pdffile, txtfile)
+            try:
+                pdf2txt(pdffile, txtfile)
+            except PDFSyntaxError:
+                print 'Failed parsing %s with %s' % (json, e)
+                failed.append((json, e))
+
         except (IndexError, TypeError) as e:
             print 'Failed downloading %s with %s' % (json, e)
             failed.append((json, e))
