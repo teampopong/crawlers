@@ -26,6 +26,7 @@ def get_webpage(url, outp):
         r = opener.open(url)
     except urllib2.URLError:
         print 'URLError: %s' % url
+        return
 
     with open(outp, 'w') as f:
         copyfileobj(r, f)
