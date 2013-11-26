@@ -10,6 +10,7 @@ from redis_queue import RedisQueue
 from settings import DIR, QUEUE_NAMES, SESSION, TEMPLATE_BILL_URL
 import facebook
 import twitter
+import push_mobile
 
 
 INTERVAL_MIN = 5
@@ -72,6 +73,21 @@ def post_bill_twitter(bill):
     twitter.post(status)
 
 
+def post_bills_push_mobile(new_bills):
+    #if new_bills:
+    if True:
+        post_sentences = []
+        post_sentences.append('오늘 국회에서 발의된 %d개의 새 의안 목록입니다.\n' % (len(new_bills)))
+        for idx, bill_id in enumerate(new_bills):
+            bill = get_bill(bill_id)
+            bill = refine_bill_content(bill, None)
+            bill['idx'] = idx
+            post_sentences.append('%(idx)d. %(proposer)s, "%(title)s" %(url)s' % bill)
+        post = post_sentences
+        post = "\t".join(post_sentences)
+        push_mobile.post(post)
+
+
 def truncate(text, max_len):
     if max_len is None:
         return text
@@ -106,7 +122,8 @@ def usage():
 
 COMMAND:
     twitter
-    facebook'''
+    facebook
+    push'''
 
 
 if __name__ == '__main__':
@@ -123,5 +140,9 @@ if __name__ == '__main__':
         queue = RedisQueue('post_bills_facebook')
         bills = list(queue)
         post_bills_facebook(bills)
+    elif command == 'push':
+        queue = RedisQueue('post_bills_push_mobile')
+        bills = list(queue)
+        post_bills_push_mobile(bills)
     else:
         raise Exception('Unknown target')
