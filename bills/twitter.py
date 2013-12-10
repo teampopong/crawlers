@@ -55,3 +55,35 @@ def post(status):
     oauth = get_oauth()
     requests.post(url="https://api.twitter.com/1.1/statuses/update.json", auth=oauth, data={"status": status})
 
+def get_most_retweet_count():
+
+    oauth = get_oauth()
+
+    # load 'since_id' from a file written in old times
+    f = open('twitter_since_id.log', 'r+')
+    since_id = f.readline()
+    latest_id = since_id
+
+    # request tweets API
+    req_params = {'user_id': '1484174988', 'count':'200', 'since_id': since_id}
+    r= requests.get(url="https://api.twitter.com/1.1/statuses/user_timeline.json", auth=oauth, params=req_params)
+    json_obj = r.json()
+
+    # insert 'id_str', 'retweet_count' to the Dict data structure
+    result_request_tweet = {}
+    for x in json_obj:
+        result_request_tweet[x['id_str']] = x['retweet_count']
+
+    # sort by retweet_count
+    sorted_json_list = sorted(result_request_tweet.items(), key=itemgetter(1), reverse=True)
+    print sorted_json_list
+
+    # save latest_tweet_id to a file as since_id
+    if len(result_request_tweet) != 0:
+        latest_id = sorted(result_request_tweet, reverse=True)[0]
+    print "latest_id : %s"%latest_id
+    f.seek(0)
+    f.write(latest_id)
+    f.close()
+
+    return sorted_json_list[0][0]
