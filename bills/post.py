@@ -3,6 +3,7 @@
 
 from __future__ import unicode_literals
 import json
+import os.path
 import sys
 import time
 
@@ -14,6 +15,11 @@ import twitter
 
 INTERVAL_MIN = 5
 INTERVAL_SEC = INTERVAL_MIN * 60
+
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(current_dir, 'twitter_accounts.json')) as f:
+    TWITTER_ACCOUNTS = json.load(f)
 
 
 def refine_bill_content(bill, max_field_len=30):
@@ -29,11 +35,16 @@ def refine_bill_content(bill, max_field_len=30):
     proposer = bill['status_dict']['접수']['의안접수정보'][0]['제안자']
     while isinstance(proposer, list):
         proposer = proposer[0]
+    try:
+        proposer_fullname = proposer[:proposer.index('의원')].strip()
+    except ValueError as e:
+        proposer_fullname = None
     proposer = truncate(proposer, max_field_len)
     proposer_josa = yiga(proposer.strip('.')[-1])
 
     return {
         'proposer': proposer,
+        'proposer_fullname': proposer_fullname,
         'proposer_josa': proposer_josa,
         'title': title,
         'title_josa': title_josa,
@@ -68,7 +79,18 @@ def post_bills_twitter(new_bills):
 
 
 def post_bill_twitter(bill):
-    status = '%(proposer)s%(proposer_josa)s "%(title)s"%(title_josa)s 새로 발의하였습니다. http://pokr.kr/bill/%(bill_id)s' % refine_bill_content(bill)
+    # TODO: 이름 바로 뒤에 handle 넣기
+    bill = refine_bill_content(bill)
+    try:
+        proposer = bill['proposer_fullname']
+        if proposer and proposer in TWITTER_ACCOUNTS:
+            twitter_handle = TWITTER_ACCOUNTS[proposer]
+            if twitter_handle:
+                bill['proposer'] = bill['proposer'].replace(proposer,
+                        '%s(@%s)' % (proposer, twitter_handle))
+    except Exception, e:
+        print e
+    status = '%(proposer)s%(proposer_josa)s "%(title)s"%(title_josa)s 새로 발의하였습니다. http://pokr.kr/bill/%(bill_id)s' % bill
     twitter.post(status)
 
 
