@@ -84,6 +84,7 @@ Get Wikipedia links for assembly members.
 ### Metrics
 
 #### twitter
+Get Twitter follower lists for specified handles.
 
     make twitter_setup
     python twitter/followers.py
