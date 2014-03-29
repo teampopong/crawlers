@@ -5,14 +5,19 @@
 Korean National Assembly member crawler
 - 2011-05-22 Written by Cheol Kang <steel@popong.com>
 - 2013-08-31 Rewritten by Lucy Park <lucypark@popong.com>
+- 2014-03-31 Rewritten by Hyunho Kim <stray.leone@popong.com>
 """
+#TODO: be consistent in using regex and remove xpath
 
 from urlparse import urljoin
 import os
 import re
 import sys
 import urllib2
+import json
+
 from scrapy.selector import Selector # pip install Scrapy
+from collections import OrderedDict
 
 # settings
 PAGE_ENC = 'utf-8'
@@ -78,7 +83,6 @@ def get_ppl_urls(htmldir):
 
     full_member_list = []
     member_lists = getlist_bracketed_regexp(r'<dd class="img">(.+?)</dd>', page)
-    print len(member_lists)
 
     #        <dd class="img">
     #            <a href="#" onclick="jsMemPop(2680)" title="강기윤의원정보 새창에서 열림">
@@ -127,7 +131,6 @@ def extract_profile(page):
     # get others
     others = find_bracketed_text_regexp(r'<dl.*?class="pro_detail">(.+?)</dl>', page)
     others = getlist_bracketed_regexp(r'<dd>[\r\t\n\s]*?(.+?)[\r\t\n\s]*?</dd>', others)
-    #TODO: I don't know the meaning behind
     try:
         others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
     except AttributeError as e:
@@ -140,7 +143,6 @@ def extract_profile(page):
     return [p.replace('"',"'") for p in full_profile]
 
 def crawl_ppl_data(htmldir):
-    print len(ppl_urls)
     for i, url in enumerate(ppl_urls):
         page = get_page(url, htmldir)
         profile = extract_profile(page)
@@ -156,7 +158,23 @@ def write_csv():
         f.write('%s\n' % ','.join(HEADERS))
         f.write('\n'.join(\
             '"%s"' % '","'.join(row) for row in ppl_data).encode('utf-8'))
-    print 'Data succesfully written'
+    print 'Data succesfully written to csv'
+
+def write_json():
+    with open('assembly.json', 'w') as f:
+        ppl_list =[]
+        for person_data in ppl_data:
+            person_dict = {}
+            for key, value in zip(HEADERS, person_data):
+                person_dict[key] = value
+            ppl_list.append(person_dict)
+
+        # order ppl_data by HEADERS
+        ordered_json_list = [OrderedDict(sorted(item.iteritems(),
+            key=lambda (k, v): HEADERS.index(k)))for item in ppl_list]
+
+        f.write(json.dumps(ordered_json_list, indent=4))
+    print 'Data succesfully written to json'
 
 def main(argv, datadir=DATADIR):
 
@@ -169,6 +187,7 @@ def main(argv, datadir=DATADIR):
     crawl_ppl_data(htmldir)
     sort_ppl_data(ppl_data)
     write_csv()
+    write_json()
 
 if __name__ == '__main__':
     main(sys.argv[1:])
