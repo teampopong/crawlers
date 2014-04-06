@@ -84,7 +84,7 @@ def get_ppl_urls(htmldir):
     page = get_page(urls[url_key], htmldir)
 
     full_member_list = []
-    member_lists = getlist_bracketed_regexp(r'<dd class="img">(.+?)</dd>', page)
+    member_lists = get_xpath_data(page, ".//*/dd[@class='img']",getall=True)
 
     #        <dd class="img">
     #            <a href="#" onclick="jsMemPop(2680)" title="강기윤의원정보 새창에서 열림">
@@ -93,9 +93,9 @@ def get_ppl_urls(htmldir):
     #        </dd>
 
     for member_list in member_lists:
-        full_member_list += getlist_bracketed_regexp(r'<a href="#" onclick="jsMemPop\((.+?)\)".*?>[\r\n\s]*?<img src=".+?" alt="(.+?)".*?/>', member_list)
+        full_member_list.append(re.split('\(|\)',member_list)[1])
 
-    for url, name in full_member_list:
+    for url in full_member_list:
         url = unescape_html(url)
         ppl_urls.append(urls['person']+ url)
 
@@ -110,31 +110,32 @@ def extract_profile(page):
         #      <li>KANG Gi Yun</li>
         #      <li>1960-06-04</li>
         #   </ul>
-        profile = get_xpath_data(page,".//*/div[@class='profile']")
         name_kr = get_xpath_data(profile, ".//*/h4/text()")
-        name_cn, name_en, birth = get_xpath_data(profile,".//*/li[not(@class='photo')]/text()",True)
+        name_cn, name_en, birth = get_xpath_data(profile,".//*/li[not(@class='photo')]/text()",getall=True)
         return [name_kr, name_cn, name_en, birth.replace('.','-')]
 
     # get name & birth
+    profile = get_xpath_data(page,".//*/div[@class='profile']")
     name_and_birth = parse_name_and_birth(page)
 
     # get experience
-    experience = find_bracketed_texts_regexp(r'<dl class="per_history">.*?<dd.*?>(.+?)</dd>.*?</dl>', page)
-    experience = ''.join(experience)
-    experience = [d.strip() for d in experience.split('<br />')]
-    experience = '||'.join(experience)
+    experience = get_xpath_data(page, ".//*/dl[@class='per_history']/dd/text()",getall=True)
+    experience = '||'.join(e.strip() for e in experience)
 
     # get photo
-    photo = find_bracketed_text_regexp(r'<li class="photo".*?>[\r\n\s]*?<img src="(.+?)".*?/>[\r\n\s]*?</li>', page)
-    photo = urljoin(urls['base'], photo)
+    photo = urls['base'] + get_xpath_data(profile, ".//*/ul/li[@class='photo']/img/@src")
+
 
     # get others
-    others = find_bracketed_text_regexp(r'<dl.*?class="pro_detail">(.+?)</dl>', page)
-    others = getlist_bracketed_regexp(r'<dd>[\r\t\n\s]*?(.+?)[\r\t\n\s]*?</dd>', others)
+    #others = get_xpath_data(r'<dl.*?class="pro_detail">(.+?)</dl>', page)
+    others = get_xpath_data(page,".//*/dl[@class='pro_detail']")
+    others = get_xpath_data(others,".//*/dd/text()",True)
+    print len(others)
     try:
         others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
     except AttributeError as e:
         others[5] = ''
+
 
     stripped = [re.sub('[\s\r]+', '', i) for i in name_and_birth+others]
     full_profile = list(stripped)
@@ -143,7 +144,7 @@ def extract_profile(page):
     return [p.replace('"',"'") for p in full_profile]
 
 def crawl_ppl_data(htmldir):
-    for i, url in enumerate(ppl_urls[:10]): # khh-debug
+    for i, url in enumerate(ppl_urls): # khh-debug
     #for i, url in enumerate(ppl_urls): # khh-debug
         page = get_page(url, htmldir)
         profile = extract_profile(page)
