@@ -57,16 +57,18 @@ def get_page(url, htmldir):
     with open(filename, 'w') as f:
         f.write(page_in_txt)
     return page_in_txt.decode(PAGE_ENC)
-def get_xpath_data(data, _xpath):
+
+def get_xpath_data(data, _xpath, getall=False):
     xpath_selector_list = []
 
     hxs = Selector(text=data)
     for i in hxs.xpath(_xpath):
         xpath_selector_list.append(i.extract().encode("utf-8"))
-    if len(xpath_selector_list) >0 :
-        return  xpath_selector_list[0].decode(PAGE_ENC)
+
+    if getall:
+        return [x.decode(PAGE_ENC) for x in xpath_selector_list]
     else:
-        return xpath_selector_list.decode(PAGE_ENC)
+        return xpath_selector_list[0].decode(PAGE_ENC)
 
 def get_ppl_urls(htmldir):
     def unescape_html(doc):
@@ -110,9 +112,7 @@ def extract_profile(page):
         #   </ul>
         profile = get_xpath_data(page,".//*/div[@class='profile']")
         name_kr = get_xpath_data(profile, ".//*/h4/text()")
-        name_cn = Selector(text=profile).xpath('.//*/li/text()')[2].extract()
-        name_en = Selector(text=profile).xpath('.//*/li/text()')[3].extract()
-        birth = Selector(text=profile).xpath('.//*/li/text()')[4].extract()
+        name_cn, name_en, birth = get_xpath_data(profile,".//*/li[not(@class='photo')]/text()",True)
         return [name_kr, name_cn, name_en, birth.replace('.','-')]
 
     # get name & birth
@@ -136,14 +136,15 @@ def extract_profile(page):
     except AttributeError as e:
         others[5] = ''
 
-    stripped = [re.sub('[\s\r]+', '', i) for i in others]
-    full_profile = list(name_and_birth + stripped)
+    stripped = [re.sub('[\s\r]+', '', i) for i in name_and_birth+others]
+    full_profile = list(stripped)
     full_profile.append(experience)
     full_profile.append(photo)
     return [p.replace('"',"'") for p in full_profile]
 
 def crawl_ppl_data(htmldir):
-    for i, url in enumerate(ppl_urls):
+    for i, url in enumerate(ppl_urls[:10]): # khh-debug
+    #for i, url in enumerate(ppl_urls): # khh-debug
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
