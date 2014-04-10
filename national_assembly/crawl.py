@@ -74,7 +74,6 @@ def get_xpath_data(data, _xpath, getall=False):
     hxs = Selector(text=data)
     for i in hxs.xpath(_xpath):
         xpath_selector_list.append(i.extract().encode("utf-8"))
-        #print i.extract().encode("utf-8") #khh-debug
     if getall:
         return [x.decode(PAGE_ENC) for x in xpath_selector_list]
     else:
@@ -89,7 +88,6 @@ def get_ppl_urls(htmldir):
 
     url_key = 'people_list'
     list_class = 'memberna_list'
-
 
     page = get_page(urls[url_key], htmldir)
 
@@ -134,7 +132,6 @@ def extract_profile(page):
 
     # get photo
     photo = urls['base'] + get_xpath_data(profile, ".//*/ul/li[@class='photo']/img/@src")
-
 
     # get others
     pro_detail = get_xpath_data(page,".//*/dl[@class='pro_detail']")
