@@ -32,12 +32,6 @@ ppl_data = []
 def find_bracketed_text_regexp(exp, src):
     return re.search(exp, src, flags=re.DOTALL).group(1)
 
-def find_bracketed_texts_regexp(exp, src):
-    return re.search(exp, src, flags=re.DOTALL).groups(1)
-
-def getlist_bracketed_regexp(exp, src):
-    return re.findall(exp, src, flags=re.DOTALL)
-
 def load_urls():
     for line in open('urls', 'r'):
         if line[0] == '#':
@@ -57,16 +51,6 @@ def get_page(url, htmldir):
     with open(filename, 'w') as f:
         f.write(page_in_txt)
     return page_in_txt.decode(PAGE_ENC)
-def get_xpath_data(data, _xpath):
-    xpath_selector_list = []
-
-    hxs = Selector(text=data)
-    for i in hxs.xpath(_xpath):
-        xpath_selector_list.append(i.extract().encode("utf-8"))
-    if len(xpath_selector_list) >0 :
-        return  xpath_selector_list[0].decode(PAGE_ENC)
-    else:
-        return xpath_selector_list.decode(PAGE_ENC)
 
 def get_xpath_data(data, _xpath, getall=False):
     xpath_selector_list = []
