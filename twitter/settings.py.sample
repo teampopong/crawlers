@@ -1,0 +1,12 @@
+#! /usr/bin/python2.7
+# -*- coding: utf-8 -*-
+
+DATADIR = './data'
+
+TWITTER_HANDLES = ['pokrbot', 'teampopong']
+TWITTER_KEYS = {
+    'consumer_key'      : '',
+    'consumer_secret'   : '',
+    'oauth_token'       : '',
+    'oauth_token_secret': ''
+}

@@ -32,7 +32,12 @@ def extract_row_contents(row):
                             has_url[0])\
                             .replace(' ', '').replace('\'','')\
                             .split(',')
-                    if parts[1] > 208:
+                    if len(parts) == 2:
+                        '''New rule (2013-11-28)
+                        See: http://likms.assembly.go.kr/bill/WebContents/js/common.js
+                        '''
+                        url = 'http://likms.assembly.go.kr/record/new/getFileDown.jsp?CONFER_NUM=%s' % parts[1]
+                    elif parts[1].isdigit() and int(parts[1]) > 208:
                         url = '%sdata2/%s/pdf/%s' % (parts[0], parts[1], parts[2])
                     else:
                         url = '%sdata1/%s/%s' % (parts[0], parts[1], parts[2])

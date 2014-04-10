@@ -53,11 +53,14 @@ def get_pdf(assembly_id, range=(None, None), bill_ids=None):
             #TODO: apply celery
             try:
                 pdf2txt(pdffile, txtfile)
+            except IOError as e:
+                print 'File not exists' % (json, e)
+                failed.append((json, e))
             except (PSEOF, PDFSyntaxError) as e:
                 print 'Failed parsing %s with %s' % (json, e)
                 failed.append((json, e))
-            except IOError as e:
-                print 'File not exists' % (json, e)
+            except Exception as e:
+                print 'Unknown error %s with %s' % (e, json)
                 failed.append((json, e))
 
         except (IndexError, TypeError) as e:
