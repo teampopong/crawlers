@@ -57,6 +57,16 @@ def get_page(url, htmldir):
     with open(filename, 'w') as f:
         f.write(page_in_txt)
     return page_in_txt.decode(PAGE_ENC)
+def get_xpath_data(data, _xpath):
+    xpath_selector_list = []
+
+    hxs = Selector(text=data)
+    for i in hxs.xpath(_xpath):
+        xpath_selector_list.append(i.extract().encode("utf-8"))
+    if len(xpath_selector_list) >0 :
+        return  xpath_selector_list[0].decode(PAGE_ENC)
+    else:
+        return xpath_selector_list.decode(PAGE_ENC)
 
 def get_xpath_data(data, _xpath, getall=False):
     xpath_selector_list = []
@@ -142,7 +152,7 @@ def crawl_ppl_data(htmldir):
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
-        #print i, ppl_data[i][0]
+        print i, ppl_data[i][0]
 
 def sort_ppl_data(ppl_data):
     ppl_data = sorted(ppl_data, key=lambda x: x[3])
