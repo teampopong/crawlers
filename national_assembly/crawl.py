@@ -137,8 +137,14 @@ def extract_profile(page):
 
 
     # get others
-    others_data = get_xpath_data(page,".//*/dl[@class='pro_detail']")
-    others = get_xpath_data(others_data,".//*/dd/text() | .//*/dd/a[@href]/text()",True)
+    pro_detail = get_xpath_data(page,".//*/dl[@class='pro_detail']")
+    pro_detail_elements = get_xpath_data(pro_detail,".//*/dd",getall=True)
+    others = [find_bracketed_text_regexp(r'<dd>(.*?)</dd>',o) for o in pro_detail_elements]
+
+    try:
+        others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
+    except AttributeError as e:
+        others[5] = ''
 
     stripped = [re.sub('[\s\r]+', '', i) for i in name_and_birth+others]
     full_profile = list(stripped)
@@ -147,8 +153,7 @@ def extract_profile(page):
     return [p.replace('"',"'") for p in full_profile]
 
 def crawl_ppl_data(htmldir):
-    for i, url in enumerate(ppl_urls[:10]): # khh-debug
-    #for i, url in enumerate(ppl_urls): # khh-debug
+    for i, url in enumerate(ppl_urls):
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
