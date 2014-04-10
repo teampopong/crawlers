@@ -64,7 +64,7 @@ def get_xpath_data(data, _xpath, getall=False):
     hxs = Selector(text=data)
     for i in hxs.xpath(_xpath):
         xpath_selector_list.append(i.extract().encode("utf-8"))
-
+        #print i.extract().encode("utf-8") #khh-debug
     if getall:
         return [x.decode(PAGE_ENC) for x in xpath_selector_list]
     else:
@@ -127,15 +127,8 @@ def extract_profile(page):
 
 
     # get others
-    #others = get_xpath_data(r'<dl.*?class="pro_detail">(.+?)</dl>', page)
-    others = get_xpath_data(page,".//*/dl[@class='pro_detail']")
-    others = get_xpath_data(others,".//*/dd/text()",True)
-    print len(others)
-    try:
-        others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
-    except AttributeError as e:
-        others[5] = ''
-
+    others_data = get_xpath_data(page,".//*/dl[@class='pro_detail']")
+    others = get_xpath_data(others_data,".//*/dd/text() | .//*/dd/a[@href]/text()",True)
 
     stripped = [re.sub('[\s\r]+', '', i) for i in name_and_birth+others]
     full_profile = list(stripped)
@@ -144,12 +137,12 @@ def extract_profile(page):
     return [p.replace('"',"'") for p in full_profile]
 
 def crawl_ppl_data(htmldir):
-    for i, url in enumerate(ppl_urls): # khh-debug
+    for i, url in enumerate(ppl_urls[:10]): # khh-debug
     #for i, url in enumerate(ppl_urls): # khh-debug
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
-        print i, ppl_data[i][0]
+        #print i, ppl_data[i][0]
 
 def sort_ppl_data(ppl_data):
     ppl_data = sorted(ppl_data, key=lambda x: x[3])
