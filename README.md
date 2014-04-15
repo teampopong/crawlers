@@ -48,6 +48,7 @@ Get Google search counts.
 #### national_assembly
 Get member information from the [Korean National Assembly](http://www.assembly.go.kr/).
 
+    pip install Scrapy
     cd national_assembly
     python crawl.py
 
@@ -84,6 +85,7 @@ Get Wikipedia links for assembly members.
 ### Metrics
 
 #### twitter
+Get Twitter follower lists for specified handles.
 
     make twitter_setup
     python twitter/followers.py
