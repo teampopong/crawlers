@@ -6,6 +6,7 @@ import json
 import os
 import re
 import sys
+from time import sleep
 import urllib2
 from urlparse import urljoin
 
@@ -32,7 +33,12 @@ def load_urls():
         urls[key] = url
 
 def get_page(url, htmldir):
-    page_in_txt = urllib2.urlopen(url).read()
+    try:
+        page_in_txt = urllib2.urlopen(url).read()
+    except urllib2.URLError:
+        print 'Connection time out. Retrying in 10 seconds... %s' % url
+        sleep(10)
+        get_page(url, htmldir)
 
     idx = url.find('memCode=')
     if idx != -1:
