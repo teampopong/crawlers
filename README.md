@@ -48,6 +48,7 @@ Get Google search counts.
 #### national_assembly
 Get member information from the [Korean National Assembly](http://www.assembly.go.kr/).
 
+    pip install Scrapy
     cd national_assembly
     python crawl.py
 

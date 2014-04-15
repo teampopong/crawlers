@@ -1,23 +1,15 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-"""
-Korean National Assembly member crawler
-- 2011-05-22 Written by Cheol Kang <steel@popong.com>
-- 2013-08-31 Rewritten by Lucy Park <lucypark@popong.com>
-- 2014-03-31 Rewritten by Hyunho Kim <stray.leone@popong.com>
-"""
-#TODO: be consistent in using regex and remove xpath
-
-from urlparse import urljoin
+from collections import OrderedDict
+import json
 import os
 import re
 import sys
 import urllib2
-import json
+from urlparse import urljoin
 
-from scrapy.selector import Selector # pip install Scrapy
-from collections import OrderedDict
+from scrapy.selector import Selector
 
 # settings
 PAGE_ENC = 'utf-8'
@@ -70,22 +62,12 @@ def get_ppl_urls(htmldir):
             doc = doc.replace(old, new)
         return doc
 
-    url_key = 'people_list'
-    list_class = 'memberna_list'
-
-    page = get_page(urls[url_key], htmldir)
+    page = get_page(urls['people_list'], htmldir)
 
     full_member_list = []
-    member_lists = get_xpath_data(page, ".//*/dd[@class='img']",getall=True)
-
-    #        <dd class="img">
-    #            <a href="#" onclick="jsMemPop(2680)" title="강기윤의원정보 새창에서 열림">
-    #                   <img src="/photo/9770703.jpg" alt="강기윤 의원사진" />
-    #            </a>
-    #        </dd>
-
+    member_lists = get_xpath_data(page, ".//*/dd[@class='img']", getall=True)
     for member_list in member_lists:
-        full_member_list.append(re.split('\(|\)',member_list)[1])
+        full_member_list.append(re.split('\(|\)', member_list)[1])
 
     for url in full_member_list:
         url = unescape_html(url)
@@ -93,34 +75,30 @@ def get_ppl_urls(htmldir):
 
 def extract_profile(page):
     def parse_name_and_birth(name_and_birth):
-        #<h4>강기윤</h4>
-        #    <ul>
-        #      <li class="photo">
-        #           <img src="/photo/9770703.jpg" alt="강기윤 의원사진" />
-        #      </li>
-        #      <li>姜起潤</li>
-        #      <li>KANG Gi Yun</li>
-        #      <li>1960-06-04</li>
-        #   </ul>
         name_kr = get_xpath_data(profile, ".//*/h4/text()")
-        name_cn, name_en, birth = get_xpath_data(profile,".//*/li[not(@class='photo')]/text()",getall=True)
+        name_cn, name_en, birth =\
+                get_xpath_data(profile, ".//*/li[not(@class='photo')]/text()",\
+                getall=True)
         return [name_kr, name_cn, name_en, birth.replace('.','-')]
 
     # get name & birth
-    profile = get_xpath_data(page,".//*/div[@class='profile']")
+    profile = get_xpath_data(page, ".//*/div[@class='profile']")
     name_and_birth = parse_name_and_birth(page)
 
     # get experience
-    experience = get_xpath_data(page, ".//*/dl[@class='per_history']/dd/text()",getall=True)
+    experience = get_xpath_data(page, ".//*/dl[@class='per_history']/dd/text()",\
+            getall=True)
     experience = '||'.join(e.strip() for e in experience)
 
     # get photo
-    photo = urls['base'] + get_xpath_data(profile, ".//*/ul/li[@class='photo']/img/@src")
+    photo = urls['base']\
+            + get_xpath_data(profile, ".//*/ul/li[@class='photo']/img/@src")
 
     # get others
-    pro_detail = get_xpath_data(page,".//*/dl[@class='pro_detail']")
-    pro_detail_elements = get_xpath_data(pro_detail,".//*/dd",getall=True)
-    others = [find_bracketed_text_regexp(r'<dd>(.*?)</dd>',o) for o in pro_detail_elements]
+    pro_detail = get_xpath_data(page, ".//*/dl[@class='pro_detail']")
+    pro_detail_elements = get_xpath_data(pro_detail, ".//*/dd", getall=True)
+    others = [find_bracketed_text_regexp(r'<dd>(.*?)</dd>', o)\
+            for o in pro_detail_elements]
 
     try:
         others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
