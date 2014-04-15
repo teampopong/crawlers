@@ -16,14 +16,12 @@ from scrapy.selector import Selector
 PAGE_ENC = 'utf-8'
 HEADERS = ['name_kr','name_cn','name_en','birth','party','district','committee','when_elected','off_phone','homepage','email','aides','pr_secrs','sc_secrs','hobby','experience','photo','url']
 DATADIR = '.'
+DEBUG = False
 
 # global dicts
 urls = {}
 ppl_urls = []
 ppl_data = []
-
-def find_bracketed_text_regexp(exp, src):
-    return re.search(exp, src, flags=re.DOTALL).group(1)
 
 def load_urls():
     for line in open('urls', 'r'):
@@ -85,7 +83,16 @@ def extract_profile(page):
         name_cn, name_en, birth =\
                 get_xpath_data(profile, ".//*/li[not(@class='photo')]/text()",\
                 getall=True)
-        return [name_kr, name_cn, name_en, birth.replace('.','-')]
+        name_cn = re.sub('[()\s]', '', name_cn)
+        birth = birth.replace('.','-')
+        return [name_kr, name_cn, name_en, birth]
+
+    def get_detail(data):
+        try:
+            d = get_xpath_data(data, ".//text()")
+        except IndexError:
+            d = ''
+        return re.sub('\s+', ' ', d).strip()
 
     # get name & birth
     profile = get_xpath_data(page, ".//*/div[@class='profile']")
@@ -101,24 +108,24 @@ def extract_profile(page):
             + get_xpath_data(profile, ".//*/ul/li[@class='photo']/img/@src")
 
     # get others
-    pro_detail = get_xpath_data(page, ".//*/dl[@class='pro_detail']")
-    pro_detail_elements = get_xpath_data(pro_detail, ".//*/dd", getall=True)
-    others = [find_bracketed_text_regexp(r'<dd>(.*?)</dd>', o)\
-            for o in pro_detail_elements]
+    others_list = get_xpath_data(page, ".//*/dl[@class='pro_detail']/dd",\
+            getall=True)
+    others = [get_detail(o) for o in others_list]
 
     try:
         others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
     except AttributeError as e:
         others[5] = ''
 
-    stripped = [re.sub('[\s\r]+', '', i) for i in name_and_birth+others]
-    full_profile = list(stripped)
+    full_profile = list(name_and_birth + others)
     full_profile.append(experience)
     full_profile.append(photo)
+
     return [p.replace('"',"'") for p in full_profile]
 
-def crawl_ppl_data(htmldir):
-    for i, url in enumerate(ppl_urls):
+def crawl_ppl_data(htmldir, debug=DEBUG):
+    npeople = 15 if debug else len(ppl_urls)
+    for i, url in enumerate(ppl_urls[:npeople]):
         page = get_page(url, htmldir)
         profile = extract_profile(page)
         ppl_data.append(profile + [url])
@@ -152,7 +159,6 @@ def write_json():
     print 'Data succesfully written to json'
 
 def main(argv, datadir=DATADIR):
-
     htmldir = '%s/html' % datadir
     if not os.path.exists(htmldir):
         os.makedirs(htmldir)
