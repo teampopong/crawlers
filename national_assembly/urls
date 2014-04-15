@@ -1,5 +1,5 @@
 # In crawl.py, you can use these urls as 'urls[<key>]'
 # first tokens are keys and second tokens are urls
 base	http://www.assembly.go.kr
-people_list	http://www.assembly.go.kr/renew10/mem/mem/mem_search01.jsp?start=1&display=350&cate_url=mem_search01.jsp
-person  http://www.assembly.go.kr/renew10/mem/mem/pop_about_list.jsp?memCode=
+people_list	http://www.assembly.go.kr/assm/memact/congressman/memCond/memCondListAjax.do?currentPage=1&rowPerPage=500
+person  http://www.assembly.go.kr/assm/memPop/memPopup.do?num=
