@@ -28,7 +28,7 @@ Get Korean politicians' data from [Korea Election Commission (중앙선거관리
 This data contains the list of all people that have run for office in the National Asssmbly.
 
     cd election_commission
-    python main.py
+    python main.py -h
 
 #### glossary
 Get and merge data for [POPONG Glossary](http://popong.com/glossary) from:<br>

@@ -141,8 +141,7 @@ def write_csv():
         f.write('%s\n' % ','.join(HEADERS))
         f.write('\n'.join(\
             '"%s"' % '","'.join(row) for row in ppl_data).encode('utf-8'))
-    if debug:
-        print 'Data succesfully written to csv'
+    print 'Data succesfully written to csv'
 
 def write_json():
     with open('assembly.json', 'w') as f:
@@ -158,8 +157,7 @@ def write_json():
             key=lambda (k, v): HEADERS.index(k)))for item in ppl_list]
 
         f.write(json.dumps(ordered_json_list, indent=4))
-    if debug:
-        print 'Data succesfully written to json'
+    print 'Data succesfully written to json'
 
 def main(argv, datadir=DATADIR):
     htmldir = '%s/html' % datadir
