@@ -5,9 +5,9 @@ from base import *
 
 def Crawler(nth):
     if 1 <= nth <= 6:
-        crawler = ElectedCrawlerUntil6(nth)
+        crawler = ElectedCrawlerUntil6(int(nth))
     elif nth <= 16:
-        crawler = ElectedCrawlerUntil16(nth)
+        crawler = ElectedCrawlerUntil16(int(nth))
     elif nth == 17:
         crawler = ElectedCrawler17()
     elif nth == 18:
