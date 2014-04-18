@@ -4,6 +4,7 @@
 import html5lib
 import itertools
 import json
+import os
 import re
 import urllib2
 
@@ -19,6 +20,10 @@ class InvalidCrawlerError(Exception):
 
     def __str__(self):
         return ' '.join(self.args)
+
+def check_dir(directory):
+    if not os.path.isdir(directory):
+        os.makedirs(directory)
 
 def flatten(rarray):
     return list(itertools.chain.from_iterable(rarray))

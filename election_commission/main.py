@@ -9,6 +9,7 @@ import json
 from types import UnicodeType
 
 from crawlers import Crawler
+from utils import check_dir
 
 def print_json(filename, data):
     with open(filename, 'w') as f:
@@ -49,30 +50,36 @@ def crawl(target, _type, nth, printer, filename):
 def create_parser():
     parser = ArgumentParser()
     parser.add_argument('target', choices=['assembly', 'local', 'president'],\
-            help="Name of target election")
+            help="name of target election")
     parser.add_argument('type', choices=['candidates', 'elected', 'precandidates'],
-            help="Type of person")
-    parser.add_argument('start', help="Starting election id", type=float)
-    parser.add_argument('end', help="Ending election id", type=float,\
+            help="type of person")
+    parser.add_argument('start', help="starting election id", type=float)
+    parser.add_argument('end', help="ending election id", type=float,\
             nargs='?', default=None)
     parser.add_argument('-t', dest='test', action='store_true')
+    parser.add_argument('-d', '--directory', help="specify data directory")
+
     return  parser
 
 def main(args):
     printer = print_csv if args.test else print_json
     filetype = 'csv' if args.test else 'json'
+    datadir = args.directory if args.directory else '.'
+    check_dir(datadir)
 
     if args.end:
         jobs = []
         for n in xrange(args.start, args.end+1):
-            filename = '%s-%s-%d.%s' % (args.target, args.type, n, filetype)
+            filename = '%s/%s-%s-%d.%s'\
+                    % (datadir, args.target, args.type, n, filetype)
             job = gevent.spawn(crawl, target=args.target, _type=args.type, nth=n,\
                     filename=filename, printer=printer)
             jobs.append(job)
         gevent.joinall(jobs)
     else:
         n = args.start
-        filename = '%s-%s-%.01f.%s' % (args.target, args.type, n, filetype)
+        filename = '%s/%s-%s-%.01f.%s' %\
+                (datadir, args.target, args.type, n, filetype)
         crawl(target=args.target, _type=args.type, nth=n,\
                     filename=filename, printer=printer)
 
