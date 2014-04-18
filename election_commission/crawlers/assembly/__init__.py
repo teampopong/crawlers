@@ -10,5 +10,7 @@ def Crawler(_type, nth):
         return candidates.Crawler(nth)
     elif _type == 'elected':
         return elected.Crawler(nth)
+    elif _type == 'precandidates':
+        raise NotImplementedError('Assembly precandidate crawler')
     else:
         raise InvalidCrawlerError('assembly', _type, nth)

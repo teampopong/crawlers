@@ -48,12 +48,15 @@ def crawl(target, _type, nth, printer, filename):
 
 def create_parser():
     parser = ArgumentParser()
-    parser.add_argument('target', choices=['assembly', 'mayor', 'president'])
-    parser.add_argument('type', choices=['candidates', 'elected'])
-    parser.add_argument('start', type=float)
-    parser.add_argument('end', type=float, nargs='?', default=None)
+    parser.add_argument('target', choices=['assembly', 'local', 'president'],\
+            help="Name of target election")
+    parser.add_argument('type', choices=['candidates', 'elected', 'precandidates'],
+            help="Type of person")
+    parser.add_argument('start', help="Starting election id", type=float)
+    parser.add_argument('end', help="Ending election id", type=float,\
+            nargs='?', default=None)
     parser.add_argument('-t', dest='test', action='store_true')
-    return parser
+    return  parser
 
 def main(args):
     printer = print_csv if args.test else print_json
