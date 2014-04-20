@@ -3,14 +3,15 @@
 
 import candidates
 import elected
+import precandidates
 from utils import InvalidCrawlerError
 
-def Crawler(_type, nth):
+def Crawler(_type, nth, level):
     if _type == 'candidates':
-        return candidates.Crawler(nth)
+        return candidates.Crawler(nth, level)
     elif _type == 'elected':
-        return elected.Crawler(nth)
+        return elected.Crawler(nth, level)
     elif _type == 'precandidates':
-        raise NotImplementedError('Local precandidate crawler')
+        raise precandidates.Crawler(nth, level)
     else:
-        raise InvalidCrawlerError('local', _type, nth)
+        raise InvalidCrawlerError('local', _type, nth, level)

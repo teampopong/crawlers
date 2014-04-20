@@ -6,11 +6,11 @@ import local
 import president
 from utils import InvalidCrawlerError
 
-def Crawler(target, _type, nth):
+def Crawler(target, _type, nth, level):
     if target == 'assembly':
         return assembly.Crawler(_type, nth)
     elif target == 'local':
-        return local.Crawler(_type, nth)
+        return local.Crawler(_type, nth, level)
     elif target == 'president':
         return president.Crawler(_type, nth)
     else:
