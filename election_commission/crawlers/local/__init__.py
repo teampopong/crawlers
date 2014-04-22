@@ -12,6 +12,6 @@ def Crawler(_type, nth, level):
     elif _type == 'elected':
         return elected.Crawler(nth, level)
     elif _type == 'precandidates':
-        raise precandidates.Crawler(nth, level)
+        return precandidates.Crawler(nth, level)
     else:
         raise InvalidCrawlerError('local', _type, nth, level)

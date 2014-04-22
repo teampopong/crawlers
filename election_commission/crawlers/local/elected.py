@@ -3,15 +3,17 @@
 
 from base import *
 from utils import sanitize
+from static import get_election_type_id, url_city_ids_json
 
 class ElectedCrawler(SinglePageCrawler):
 
     _url_list_base = 'http://info.nec.go.kr/electioninfo/electionInfo_report.xhtml'\
             '?electionId=0000000000'\
             '&requestURI=%2Felectioninfo%2F0000000000%2Fep%2Fepei01.jsp'\
-            '&electionType=4&electionCode=3&cityCode=-1&townCode=-1'
+            '&electionType=4&cityCode=-1&townCode=-1'
 
     format_suffix = '&statementId=%s&oldElectionType=%d&electionName=%s'
+    election_suffix = '&electionCode=%s'
 
     args = {
             1: ('EPEI01_%2399', 0, '19950627'),
@@ -27,9 +29,18 @@ class ElectedCrawler(SinglePageCrawler):
     @property
     def url_list(self):
         url = self._url_list_base + self.format_suffix % self.args[self.nth]
+        url += self.election_suffix % get_election_type_id(self.level)
+        print url
         return url
 
-    def __init__(self, nth):
+    @property
+    def url_city_ids_json(self):
+        json = url_city_ids_json(self.nth, self.level)
+        print json
+        return json
+
+    def __init__(self, nth, level):
         self.nth = nth
+        self.level = level
 
 Crawler = ElectedCrawler

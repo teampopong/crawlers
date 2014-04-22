@@ -43,7 +43,7 @@ def print_csv(filename, data):
             f.write(','.join(values))
             f.write('\n')
 
-def crawl(target, _type, nth, printer, filename, level):
+def crawl(target, _type, nth, printer, filename, level=None):
     crawler = Crawler(target, _type, nth, level)
     cand_list = crawler.crawl()
     printer(filename, cand_list)
@@ -74,7 +74,7 @@ def create_parser():
 def main(args):
     printer = print_csv if args.test else print_json
     filetype = 'csv' if args.test else 'json'
-    datadir = args.directory if args.directory else './data'
+    datadir = args.directory if args.directory else '.'
     check_dir(datadir)
 
     if args.target=='local':
