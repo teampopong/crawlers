@@ -211,7 +211,13 @@ def extract_proposers(assembly_id, bill_id):
     #TODO: 찬성의원 목록에 의원 이름이 있는 경우가 있는자 확인
     fn = '%s/%s/%s.html' % (DIR['proposers'], assembly_id, bill_id)
     page = utils.read_webpage(fn)
-    return utils.get_elems(page, X['proposers'])
+    elems = utils.get_elems(page, X['proposers'])
+    if assembly_id < 19:
+        return elems
+    else:
+        key = ['name_kr', 'party', 'name_cn']
+        values = [filter(None, re.split('[\(/\)]', e)) for e in elems]
+        return [{k: v for k, v in zip(key, value)} for value in values]
 
 def extract_withdrawers(assembly_id, bill_id):
     fn = '%s/%s/%s.html' % (DIR['withdrawers'], assembly_id, bill_id)
