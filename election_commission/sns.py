@@ -5,7 +5,7 @@ import html5lib
 import json
 import urllib2
 
-baseurl = 'http://www.nec.go.kr/portal/bbs/list/B0000373.do'\
+baseurl = 'http://www.nec.go.kr/portal/bbs/list/B000037%d.do'\
         '?menuNo=%d&pageIndex=%d'
 candtypes = {
     0: 'province_governor',
@@ -16,7 +16,7 @@ candtypes = {
     }
 
 def get_url(candtype, pageno):
-    url = baseurl % (candtype + 200576, pageno + 1)
+    url = baseurl % (candtype + 2, candtype + 200576, pageno + 1)
     return url
 
 def get_htmltree(url):
