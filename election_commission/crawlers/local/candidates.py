@@ -88,6 +88,9 @@ class OtherCandCrawler(MultiCityCrawler):
         if self.level=='education_member':
             attrs = ['district', 'name', 'sex', 'birth', 'job', 'education',
                     'experience']
+        elif self.level.endswith('proportional'):
+            attrs = ['district', 'party', 'rank', 'name', 'sex', 'birth',
+                    'job', 'education', 'experience']
         else:
             attrs = ['district', 'candno', 'party', 'name', 'sex', 'birth', 'job',
                 'education', 'experience']
