@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 # -*- encoding=utf-8 -*-
 
-from argparse import ArgumentParser
+from argparse import ArgumentParser, RawTextHelpFormatter
 import codecs
 import gevent
 from gevent import monkey
@@ -49,7 +49,7 @@ def crawl(target, _type, nth, printer, filename, level=None):
     printer(filename, cand_list)
 
 def create_parser():
-    parser = ArgumentParser()
+    parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
     parser.add_argument('target', choices=['assembly', 'local', 'president'],\
             help="name of target election")
     parser.add_argument('type', choices=['candidates', 'elected', 'precandidates'],
@@ -57,18 +57,16 @@ def create_parser():
     parser.add_argument('start', help="starting election id", type=float)
     parser.add_argument('end', help="ending election id", type=float,\
             nargs='?', default=None)
-    parser.add_argument('-t', dest='test', action='store_true')
-    parser.add_argument('-d', '--directory', help="specify data directory")
+    parser.add_argument('-t', '--test', dest='test', action='store_true',
+            help="assign datatype to csv instead of json")
+    parser.add_argument('-d', dest='directory', help="specify data directory")
 
     # TODO: change to subparser
-    parser.add_argument('-l', '--level', choices=[
-        'pg', 'province_governor',
-        'pm', 'province_member',
-        'mg', 'municipality_governor',
-        'mm', 'municipality_member',
-        'eg', 'education_governor',
-        'em', 'education_member'],
-        help="Specify level for local elections")
+    parser.add_argument('-l', choices=['pg', 'pm', 'pp', 'mg', 'mm', 'mp', 'eg', 'em'],
+        dest="level",
+        help="specify level for local elections.\n"
+            "- 1st char: {p:province, m:municipality, e:education},\n"
+            "- 2nd char: {g: governor, m: member}")
     return  parser
 
 def main(args):
