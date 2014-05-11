@@ -13,7 +13,7 @@ def Crawler(nth, level):
         else:
             crawler = PreCandCrawler(nth, level)
     else:
-        raise NotImplementedError('Precandidate crawler for 1-5th local')
+        raise NotImplementedError('Precandidate crawler for 1-5th local election')
     return crawler
 
 class PreCandCrawler(MultiCityCrawler):
