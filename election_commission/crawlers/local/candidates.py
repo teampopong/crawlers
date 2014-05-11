@@ -8,6 +8,7 @@ from static import reversed_election_types
 
 def Crawler(nth, level):
     print level
+
     election_id = get_election_id(nth)
     valid_election_type_ids = get_valid_election_type_ids(election_id)
     if get_election_type_id(level) not in valid_election_type_ids:
@@ -15,6 +16,7 @@ def Crawler(nth, level):
                 for t in valid_election_type_ids]
         raise Exception('Not valid election type for this election_id: %s'\
                 % ','.join(type_names))
+
     if level in ['province_governor', 'education_governor']:
         crawler = CandCrawler(nth, level)
     else:
@@ -58,7 +60,6 @@ class CandCrawler(SinglePageCrawler):
     def url_list(self):
         url = self._url_list_base + self.format_suffix % self.args[self.nth]
         url += self.election_suffix % get_election_type_id(self.level)
-        print url
         return url
 
     def __init__(self, nth, level):

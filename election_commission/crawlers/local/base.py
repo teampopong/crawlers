@@ -41,6 +41,7 @@ class BaseCrawler(object):
         self.parse_member_name(member)
         self.parse_member_birth(member)
         self.parse_member_district(member, city_name)
+        self.parse_member_party(member)
         self.parse_member_vote(member)
 
         return member
@@ -68,8 +69,15 @@ class BaseCrawler(object):
         if city_name:
             member['district'] = '%s %s' % (city_name, member['district'])
 
+    def parse_member_party(self, member):
+        if 'party' not in member: return
+
+        if isinstance(member['party'], list):
+            member['party'] = member['party'][0]
+
     def parse_member_vote(self, member):
         if 'vote' not in member: return
+
         member['votenum'], member['voterate'] = map(sanitize, member['vote'][:2])
         member['votenum'] = member['votenum'].replace(',', '')
         del member['vote']
