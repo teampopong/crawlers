@@ -45,6 +45,12 @@ Get Google search counts.
     cd google
     python ndocs.py
 
+#### minutes
+Get [National Assembly minutes](http://likms.assembly.go.kr/record/).
+
+    cd minutes
+    python crawl.py
+
 #### national_assembly
 Get member information from the [Korean National Assembly](http://www.assembly.go.kr/).
 
