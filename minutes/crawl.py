@@ -50,7 +50,10 @@ def parse_row(row, attrs):
     def parse_ids(row):
         for k, v in row.items():
             if k.endswith('_id'):
-                row[k] = re.search('[0-9]+', get.text(v, '.')[0]).group(0)
+                try:
+                    row[k] = re.search('[0-9]+', get.text(v, '.')[0]).group(0)
+                except AttributeError:
+                    pass
 
     def parse_others(row):
         del row['n']
@@ -79,7 +82,6 @@ def parse_page(page, attrs):
             json.dump(data, f)
 
 def page2json(page, attrs):
-    print page
     with open('html/%d.html' % page, 'r') as f:
         html = f.read()
     root = get.webpage(html)
@@ -90,4 +92,5 @@ if __name__=='__main__':
     attrs = ['n', 'assembly_id', 'session_id', 'meeting_id', 'committee',\
             'issues', 'date']
     for page in range(1, 64):
+        print page
         page2json(page, attrs)
