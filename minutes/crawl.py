@@ -2,11 +2,20 @@
 # -*- coding: utf-8 -*-
 
 import json
+import os
 import re
+import urllib
 
 import get
 
+jsondir = './data-assembly-meetings'    # change me
+pdfdir = './data-assembly-meetings-docs' # change me
+
 baseurl = 'http://likms.assembly.go.kr/record'
+
+def checkdir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
 def download(page):
     url = '%s/new/new_list.jsp?CLASS_CODE=0&currentPage=%d' % (baseurl, page)
@@ -28,6 +37,18 @@ def get_issues(url):
     else:
         raise Exception('New DOM type.')
     return elems
+
+def get_filename(data, filetype):
+    if filetype=='json':
+        directory = jsondir
+    elif filetype=='pdf':
+        directory = pdfdir
+    a, s, m = data['assembly_id'], data['session_id'], data['meeting_id']
+    c, d = data['committee'], data['date']
+    checkdir('%s/%s/%s' % (directory, a, d))
+    filename = '%s/%s/%s/%s-%s-%s-%s.%s'\
+            % (directory, a, d, a, s, m, c, filetype)
+    return filename
 
 def parse_row(row, attrs):
     def parse_committee(row):
@@ -51,7 +72,9 @@ def parse_row(row, attrs):
         for k, v in row.items():
             if k.endswith('_id'):
                 try:
-                    row[k] = re.search('[0-9]+', get.text(v, '.')[0]).group(0)
+                    v = get.text(v, '.')[0]
+                    if v.startswith(u'제'):
+                        row[k] = re.search('[0-9]+', v).group(0)
                 except AttributeError:
                     pass
 
@@ -63,7 +86,17 @@ def parse_row(row, attrs):
             if not flag:
                 row[k] = get.text(v, '.')[0]
 
-    row = dict(zip(attrs, row))
+    def check_elems(attrs, elems):
+        if len(elems)!=len(attrs):
+            check = [e.xpath('./@colspan') for e in elems]
+            for c in check:
+                if c:
+                    idx = int(c[0]) + 1
+                    elems = elems[:idx] + ['']*(idx-2) + elems[idx:]
+        return elems
+
+    elems = check_elems(attrs, row.xpath('.//td'))
+    row = dict(zip(attrs, elems))
     parse_committee(row)
     parse_date(row)
     parse_issues(row)
@@ -71,26 +104,29 @@ def parse_row(row, attrs):
     parse_others(row)
     return row
 
-def parse_page(page, attrs):
-    nattrs = len(attrs)
-    rows = [page[i*nattrs:(i+1)*nattrs] for i in range(len(page)/nattrs)][1:]
-    for row in rows:
-        data = parse_row(row, attrs)
-        a, s, m = data['assembly_id'], data['session_id'], data['meeting_id']
-        c, d = data['committee'], data['date']
-        with open('json/%s-%s-%s-%s-%s.json' % (d, a, s, m, c), 'w') as f:
-            json.dump(data, f)
+def parse_page(page_num, attrs):
 
-def page2json(page, attrs):
-    with open('html/%d.html' % page, 'r') as f:
+    def save_pdf(data):
+        filename = get_filename(data, 'pdf')
+        urllib.urlretrieve(data['pdf'], filename)
+
+    def save_json(data):
+        filename = get_filename(data, 'json')
+        with open(filename, 'w') as f:
+            json.dump(data, f, indent=2)
+
+    with open('html/%d.html' % page_num, 'r') as f:
         html = f.read()
     root = get.webpage(html)
-    page = root.xpath('//table[@background="../img/main_boxback2.gif"]//td')[1:-1]
-    parse_page(page, attrs)
+    rows = root.xpath(\
+            '//table[@background="../img/main_boxback2.gif"]//tr')[2:-1]
+    for row in rows:
+        data = parse_row(row, attrs)
+        save_json(data)
+        save_pdf(data)
 
 if __name__=='__main__':
     attrs = ['n', 'assembly_id', 'session_id', 'meeting_id', 'committee',\
             'issues', 'date']
-    for page in range(1, 64):
-        print page
-        page2json(page, attrs)
+    for page_num in range(1, 64):
+        print page_num; parse_page(page_num, attrs)
