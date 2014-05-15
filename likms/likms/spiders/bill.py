@@ -29,6 +29,7 @@ class NewBillSpider(Spider):
         super(NewBillSpider, self).__init__(*args, **kwargs)
         self.date_since = kwargs.get('date_since')
 
+    ## Step 1: retrieve new bill id list
     def start_requests(self):
         date_since = self.date_since or date.today().isoformat()
         return [Request(url=likms_url('new-bill-list',
@@ -55,6 +56,8 @@ class NewBillSpider(Spider):
         link_id = word_re.findall(columns[1].xpath('a/@href').extract()[0])[2]
         return bill_id, link_id
 
+    ## Step 2: crawl bills
+    ### Step 2-1: crawl bill specification pages
     def bill_request(self, bill_id, link_id):
         '''This is composed of 4 sequential page request'''
         meta = {
@@ -72,6 +75,13 @@ class NewBillSpider(Spider):
         # yield self.summary_request(bill_id=bill_id,
         #                            link_id=link_id)
 
+    ### TODO: Step 2-2: crawl bill summary pages
     def summary_request(self, bill_id, link_id):
         pass
+
+    ### TODO: Step 2-3: crawl bill proposer pages
+
+    ### TODO: Step 2-4: crawl bill withdrawer pages
+
+    ### TODO: Step 2-5: crawl bill pdfs
 
