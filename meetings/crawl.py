@@ -8,8 +8,9 @@ import urllib
 
 import get
 
-jsondir = './data-assembly-meetings'    # change me
-pdfdir = './data-assembly-meetings-docs' # change me
+basedir = '.'   # change me
+jsondir = '%s/meetings' % basedir
+pdfdir = '%s/meeting-docs' % basedir
 
 baseurl = 'http://likms.assembly.go.kr/record'
 
@@ -17,11 +18,10 @@ def checkdir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def download(page):
-    url = '%s/new/new_list.jsp?CLASS_CODE=0&currentPage=%d' % (baseurl, page)
-    with open ('html/%d.html' % page, 'w') as f:
-        r = get.htmltree(url)
-        f.write(r.read().decode('euc-kr').encode('utf-8'))
+def get_html(page_num):
+    url = '%s/new/new_list.jsp?CLASS_CODE=0&currentPage=%d' % (baseurl, page_num)
+    r = get.htmltree(url)
+    return r.read().decode('euc-kr').encode('utf-8')
 
 def get_hidden_url(url):
     f = get.htmltree(url.encode('utf-8'))
@@ -115,8 +115,7 @@ def parse_page(page_num, attrs):
         with open(filename, 'w') as f:
             json.dump(data, f, indent=2)
 
-    with open('html/%d.html' % page_num, 'r') as f:
-        html = f.read()
+    html = get_html(page_num)
     root = get.webpage(html)
     rows = root.xpath(\
             '//table[@background="../img/main_boxback2.gif"]//tr')[2:-1]
@@ -128,5 +127,5 @@ def parse_page(page_num, attrs):
 if __name__=='__main__':
     attrs = ['n', 'assembly_id', 'session_id', 'meeting_id', 'committee',\
             'issues', 'date']
-    for page_num in range(1, 64):
+    for page_num in range(1, 4):
         print page_num; parse_page(page_num, attrs)
