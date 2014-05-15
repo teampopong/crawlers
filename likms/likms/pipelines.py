@@ -3,6 +3,11 @@ import os
 from likms.items import HtmlItem
 
 
+class FilterExistingBillPipeline(object):
+    def process_item(self, item, spider):
+        return item  # TODO
+
+
 class HtmlPipeline(object):
     def process_item(self, item, spider):
         self.makedir(item['path'])
@@ -18,7 +23,12 @@ class HtmlPipeline(object):
             os.makedirs(dirpath)
 
 
-class FilterExistingBillPipeline(object):
+class ParseBillHtmlPipeline(object):
+    def process_item(self, item, spider):
+        return item  # TODO
+
+
+class PdfToTxtPipeline(object):
     def process_item(self, item, spider):
         return item  # TODO
 

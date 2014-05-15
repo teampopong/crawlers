@@ -16,6 +16,8 @@ NEWSPIDER_MODULE = 'likms.spiders'
 ITEM_PIPELINES = {
     'likms.pipelines.FilterExistingBillPipeline': 100,
     'likms.pipelines.HtmlPipeline': 200,
+    'likms.pipelines.ParseBillHtmlPipeline': 300,
+    'likms.pipelines.PdfToTxtPipeline': 300,
 }
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
