@@ -1,4 +1,5 @@
 *.pyc
+*.swp
 */settings.py
 .DS_Store
 .RData
