@@ -6,6 +6,7 @@ from scrapy.http import Request
 from scrapy.selector import Selector
 from scrapy.spider import Spider
 
+from likms.items import BillHtmlItem
 from likms.rules import likms_url, XPATHS
 from likms.utils import sel_to_str
 
@@ -43,8 +44,7 @@ class NewBillSpider(Spider):
                          for bill_sel in bills_sel)
         bill_id_pairs = filter(None, bill_id_pairs)
         for bill_id, link_id in bill_id_pairs:
-            print bill_id, link_id
-            #yield self.bill_page_request(bill_id, link_id)
+            yield self.bill_request(bill_id, link_id)
 
     def parse_new_bill_id_pair(self, sel):
         columns = sel.xpath(XPATHS['columns'])
@@ -55,6 +55,23 @@ class NewBillSpider(Spider):
         link_id = word_re.findall(columns[1].xpath('a/@href').extract()[0])[2]
         return bill_id, link_id
 
-    def bill_page_request(self, bill):
-        pass  # TODO
+    def bill_request(self, bill_id, link_id):
+        '''This is composed of 4 sequential page request'''
+        meta = {
+            'bill_id': bill_id,
+            'link_id': link_id,
+        }
+        return Request(url=likms_url('bill', link_id=link_id),
+                       headers=self.headers,
+                       meta=meta,
+                       callback=self.parse_bill)
+
+    def parse_bill(self, response):
+        bill_id, link_id = [response.meta[k] for k in ('bill_id', 'link_id')]
+        yield BillHtmlItem(bill_id, body=response.body)
+        # yield self.summary_request(bill_id=bill_id,
+        #                            link_id=link_id)
+
+    def summary_request(self, bill_id, link_id):
+        pass
 
