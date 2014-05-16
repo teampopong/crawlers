@@ -50,8 +50,8 @@ class NewBillSpider(Spider):
     ## Step 2: crawl bills
     def requests_for_bills(self, bill_id_pairs):
         # Flatten [[Request, ...], [Request, ...], ...] -> [Request, ...]
-        return chain(*(self.requests_for_single_bill(bill_id, link_id)
-                       for bill_id, link_id in bill_id_pairs))
+        return chain.from_iterable(self.requests_for_single_bill(bill_id, link_id)
+                                   for bill_id, link_id in bill_id_pairs)
 
     bill_pagetypes = ('bill-spec', 'bill-summary', 'bill-proposers', 'bill-withdrawers')
     def requests_for_single_bill(self, bill_id, link_id):
