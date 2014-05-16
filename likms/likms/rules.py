@@ -7,8 +7,11 @@ BASE_URL = 'http://likms.assembly.go.kr/bill/jsp'
 
 URL_FMTS = {
     'new-bill-list': '{BASE_URL}/BillSearchResult.jsp'
-                     '?PROPOSE_FROM={date_since}&PAGE_SIZE={size}',
-    'bill'         : '{BASE_URL}/BillDetail.jsp?bill_id={link_id}',
+                      '?PROPOSE_FROM={date_since}&PAGE_SIZE={size}',
+    'bill-spec': '{BASE_URL}/BillDetail.jsp?bill_id={link_id}',
+    'bill-summary': '{BASE_URL}/SummaryPopup.jsp?bill_id={link_id}',
+    'bill-proposers': '{BASE_URL}/CoactorListPopup.jsp?bill_id={link_id}',
+    'bill-withdrawers': '{BASE_URL}/ReturnListPopup.jsp?bill_id={link_id}',
 }
 
 XPATHS = {
@@ -20,7 +23,10 @@ XPATHS = {
 }
 
 FILEPATH_FMTS = {
-    'bill-html': '{DATA_DIR}/sources/specifics/{assembly_id}/{bill_id}.html',
+    'bill-spec-html': '{DATA_DIR}/sources/specifics/{assembly_id}/{bill_id}.html',
+    'bill-summary-html': '{DATA_DIR}/sources/summaries/{assembly_id}/{bill_id}.html',
+    'bill-proposers-html': '{DATA_DIR}/sources/proposers/{assembly_id}/{bill_id}.html',
+    'bill-withdrawers-html': '{DATA_DIR}/sources/withdrawers/{assembly_id}/{bill_id}.html'
 }
 
 

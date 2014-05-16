@@ -1,5 +1,6 @@
 from __future__ import unicode_literals
 from datetime import date
+from itertools import chain
 import re
 
 from scrapy.http import Request
@@ -41,13 +42,34 @@ class NewBillSpider(Spider):
     def parse_new_bills(self, response):
         sel = Selector(response)
         bills_sel = sel.xpath(XPATHS['new-bill-list'])
-        bill_id_pairs = (self.parse_new_bill_id_pair(bill_sel)
+        bill_id_pairs = (self._parse_new_bill_id_pair(bill_sel)
                          for bill_sel in bills_sel)
         bill_id_pairs = filter(None, bill_id_pairs)
-        for bill_id, link_id in bill_id_pairs:
-            yield self.bill_request(bill_id, link_id)
+        return self.requests_for_bills(bill_id_pairs)
 
-    def parse_new_bill_id_pair(self, sel):
+    ## Step 2: crawl bills
+    def requests_for_bills(self, bill_id_pairs):
+        # Flatten [[Request, ...], [Request, ...], ...] -> [Request, ...]
+        return chain(*(self.requests_for_single_bill(bill_id, link_id)
+                       for bill_id, link_id in bill_id_pairs))
+
+    bill_pagetypes = ('bill-spec', 'bill-summary', 'bill-proposers', 'bill-withdrawers')
+    def requests_for_single_bill(self, bill_id, link_id):
+        return (self.bill_page_request(bill_id, link_id, pagetype)
+                for pagetype in self.bill_pagetypes)
+
+    def bill_page_request(self, bill_id, link_id, pagetype):
+        meta = dict(bill_id=bill_id, pagetype=pagetype)
+        return Request(url=likms_url(pagetype, link_id=link_id),
+                       headers=self.headers,
+                       meta=meta,
+                       callback=self.parse_bill_page)
+
+    def parse_bill_page(self, response):
+        bill_id, pagetype = [response.meta[k] for k in ('bill_id', 'pagetype')]
+        yield BillHtmlItem(bill_id, pagetype, body=response.body)
+
+    def _parse_new_bill_id_pair(self, sel):
         columns = sel.xpath(XPATHS['columns'])
         if len(columns) != 8:
             return
@@ -55,33 +77,4 @@ class NewBillSpider(Spider):
         bill_id = sel_to_str(columns[0].xpath('text()'))
         link_id = word_re.findall(columns[1].xpath('a/@href').extract()[0])[2]
         return bill_id, link_id
-
-    ## Step 2: crawl bills
-    ### Step 2-1: crawl bill specification pages
-    def bill_request(self, bill_id, link_id):
-        '''This is composed of 4 sequential page request'''
-        meta = {
-            'bill_id': bill_id,
-            'link_id': link_id,
-        }
-        return Request(url=likms_url('bill', link_id=link_id),
-                       headers=self.headers,
-                       meta=meta,
-                       callback=self.parse_bill)
-
-    def parse_bill(self, response):
-        bill_id, link_id = [response.meta[k] for k in ('bill_id', 'link_id')]
-        yield BillHtmlItem(bill_id, body=response.body)
-        # yield self.summary_request(bill_id=bill_id,
-        #                            link_id=link_id)
-
-    ### TODO: Step 2-2: crawl bill summary pages
-    def summary_request(self, bill_id, link_id):
-        pass
-
-    ### TODO: Step 2-3: crawl bill proposer pages
-
-    ### TODO: Step 2-4: crawl bill withdrawer pages
-
-    ### TODO: Step 2-5: crawl bill pdfs
 
