@@ -112,11 +112,6 @@ def extract_profile(page):
             getall=True)
     others = [get_detail(o) for o in others_list]
 
-    try:
-        others[5] = re.search(r'<a.*?>(.+?)</a>', others[5]).group(1)
-    except AttributeError as e:
-        others[5] = ''
-
     full_profile = list(name_and_birth + others)
     full_profile.append(experience)
     full_profile.append(photo)

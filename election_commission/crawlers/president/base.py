@@ -6,7 +6,7 @@ from gevent import monkey
 import itertools
 from urlparse import urljoin
 
-from utils import flatten, get_json, get_xpath, parse_cell, sanitize, split
+from utils import get_xpath, parse_cell, sanitize, split
 
 monkey.patch_all()
 

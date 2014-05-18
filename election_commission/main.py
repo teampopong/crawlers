@@ -1,7 +1,7 @@
 #!/usr/bin/python2.7
 # -*- encoding=utf-8 -*-
 
-from argparse import ArgumentParser
+from argparse import ArgumentParser, RawTextHelpFormatter
 import codecs
 import gevent
 from gevent import monkey
@@ -9,6 +9,8 @@ import json
 from types import UnicodeType
 
 from crawlers import Crawler
+from crawlers.local.static import get_election_type_name
+from utils import check_dir
 
 def print_json(filename, data):
     with open(filename, 'w') as f:
@@ -41,37 +43,73 @@ def print_csv(filename, data):
             f.write(','.join(values))
             f.write('\n')
 
-def crawl(target, _type, nth, printer, filename):
-    crawler = Crawler(target, _type, nth)
+def crawl(target, _type, nth, printer, filename, level=None):
+    crawler = Crawler(target, _type, nth, level)
     cand_list = crawler.crawl()
     printer(filename, cand_list)
 
 def create_parser():
-    parser = ArgumentParser()
-    parser.add_argument('target', choices=['assembly', 'mayor', 'president'])
-    parser.add_argument('type', choices=['candidates', 'elected'])
-    parser.add_argument('start', type=float)
-    parser.add_argument('end', type=float, nargs='?', default=None)
-    parser.add_argument('-t', dest='test', action='store_true')
-    return parser
+    parser = ArgumentParser(formatter_class=RawTextHelpFormatter)
+    parser.add_argument('target', choices=['assembly', 'local', 'president'],\
+            help="name of target election")
+    parser.add_argument('type', choices=['candidates', 'elected', 'precandidates'],
+            help="type of person")
+    parser.add_argument('start', help="starting election id", type=float)
+    parser.add_argument('end', help="ending election id", type=float,\
+            nargs='?', default=None)
+    parser.add_argument('-t', '--test', dest='test', action='store_true',
+            help="assign datatype to csv instead of json")
+    parser.add_argument('-d', dest='directory', help="specify data directory")
+
+    # TODO: change to subparser
+    parser.add_argument('-l', choices=['pg', 'pm', 'pp', 'mg', 'mm', 'mp', 'eg', 'em'],
+        dest="level",
+        help="specify level for local elections.\n"
+            "- 1st char: {p:province, m:municipality, e:education},\n"
+            "- 2nd char: {g: governor, m: member}")
+    return  parser
 
 def main(args):
     printer = print_csv if args.test else print_json
     filetype = 'csv' if args.test else 'json'
+    datadir = args.directory if args.directory else '.'
+    check_dir(datadir)
 
-    if args.end:
-        jobs = []
-        for n in xrange(args.start, args.end+1):
-            filename = '%s-%s-%d.%s' % (args.target, args.type, n, filetype)
-            job = gevent.spawn(crawl, target=args.target, _type=args.type, nth=n,\
-                    filename=filename, printer=printer)
-            jobs.append(job)
-        gevent.joinall(jobs)
+    if args.target=='local':
+        if args.end:
+            jobs = []
+            args.level = get_election_type_name(args.level)
+            for n in xrange(args.start, args.end+1):
+                filename = '%s/%s-%s-%s-%d.%s'\
+                    % (datadir, args.target, args.level, args.type, n, filetype)
+                job = gevent.spawn(crawl, target=args.target, level=args.level,\
+                    _type=args.type, nth=n, filename=filename, printer=printer)
+                jobs.append(job)
+            gevent.joinall(jobs)
+        else:
+            n = args.start
+            args.level = get_election_type_name(args.level)
+            filename = '%s/%s-%s-%s-%.01f.%s' %\
+                    (datadir, args.target, args.level, args.type, n, filetype)
+            crawl(target=args.target, level=args.level, _type=args.type, nth=n,\
+                        filename=filename, printer=printer)
     else:
-        n = args.start
-        filename = '%s-%s-%.01f.%s' % (args.target, args.type, n, filetype)
-        crawl(target=args.target, _type=args.type, nth=n,\
-                    filename=filename, printer=printer)
+        if args.end:
+            jobs = []
+            for n in xrange(args.start, args.end+1):
+                filename = '%s/%s-%s-%d.%s'\
+                        % (datadir, args.target, args.type, n, filetype)
+                job = gevent.spawn(crawl, target=args.target, _type=args.type, nth=n,\
+                        filename=filename, printer=printer)
+                jobs.append(job)
+            gevent.joinall(jobs)
+        else:
+            n = args.start
+            filename = '%s/%s-%s-%.01f.%s' %\
+                    (datadir, args.target, args.type, n, filetype)
+            crawl(target=args.target, _type=args.type, nth=n,\
+                        filename=filename, printer=printer)
+    print 'Data written to %s' % filename
 
 if __name__ == '__main__':
     monkey.patch_all()

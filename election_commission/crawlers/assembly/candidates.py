@@ -6,9 +6,9 @@ from utils import sanitize
 
 def Crawler(nth):
     if 1 <= nth <= 6:
-        crawler = CandCrawlerUntil6(nth)
+        crawler = CandCrawlerUntil6(int(nth))
     elif nth <= 16:
-        crawler = CandCrawlerUntil16(nth)
+        crawler = CandCrawlerUntil16(int(nth))
     elif nth == 17:
         crawler = CandCrawler17()
     elif nth == 18:
@@ -198,4 +198,3 @@ class CandCrawler19Proportional(SinglePageCrawler):
 
     def parse_member_party(self, member):
         member['party'] = sanitize(member['party'][0])
-
