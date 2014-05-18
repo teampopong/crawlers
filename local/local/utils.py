@@ -6,8 +6,9 @@ def tostr(sel):
 
 
 def save_file(path, content):
-    if not os.path.exists(path):
-        os.makedirs(os.path.dirname(path))
+    dirname = os.path.dirname(path)
+    if not os.path.exists(dirname):
+        os.makedirs(dirname)
 
     with open(path, 'w') as f:
         f.write(content)
