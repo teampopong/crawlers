@@ -8,9 +8,9 @@ import urllib
 
 import get
 
-basedir = '.'   # change me
-jsondir = '%s/meetings' % basedir
-pdfdir = '%s/meeting-docs' % basedir
+basedir = '/var/popong/data'   # change me
+jsondir = '%s/meetings/national/meta' % basedir
+pdfdir = '%s/meeting-docs/national' % basedir
 
 baseurl = 'http://likms.assembly.go.kr/record'
 
