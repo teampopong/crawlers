@@ -2,19 +2,31 @@
 # -*- coding: utf-8 -*-
 
 import json
+import os
 import re
 import requests
 import urllib
 
 import get
 
-
 baseurl = 'http://likms.assembly.go.kr/record'
+datadir = '/home/e9t/data/popong/meeting-docs/national'
 
+def chkdir(directory):
+    if not os.path.exists(directory):
+        os.makedirs(directory)
 
-def get_docs():
+def get_docs(attrs):
     docurl_base = '%s/new/getFileDown.jsp?CONFER_NUM=' % baseurl
-
+    filedir = u'%s/%s/%s'\
+            % (datadir, attrs.get('assembly_id'), attrs.get('date'))
+    chkdir(filedir)
+    filename = u'%s-%s-%s-본회의.pdf'\
+            % (attrs.get('assembly_id'), attrs.get('session_id'),\
+                attrs.get('sitting_id'))
+    print filename
+    urllib.urlretrieve('%s%s' % (docurl_base, attrs.get('docid')),\
+            '%s/%s' % (filedir, filename))
 
 def get_listurl(assembly_id):
     if assembly_id==5.5:
@@ -77,6 +89,8 @@ def get_docids(listurl, sessionurl_base):
 
 
 #FIXME: broken for 1-19th assembly
+#FIXME: duplicate entries for 10.5th assembly
+'''
 for assembly_id in [5.5, 10.5]:
     print assembly_id
     listurl = get_listurl(assembly_id)
@@ -85,3 +99,23 @@ for assembly_id in [5.5, 10.5]:
     docids = get_docids(listurl, sessionurl_base)
     with open('meetingdoc_ids_%.1f.json' % assembly_id, 'w') as f:
         json.dump(docids, f)
+'''
+
+assembly_id = 5
+idfile = '%s/meetingdoc_ids_%s.json' % (datadir, assembly_id)
+
+with open(idfile, 'r') as f:
+    sessions = json.load(f)
+
+for session in sessions:
+    session_id = session.get('session_name').split(u'회')[0]
+    for sitting in session.get('sittings'):
+        docid = sitting.get('docid')
+        tmp = re.match(r'(.*?)\((.*?)\)', sitting.get('sitting_name'))
+        sitting_id = tmp.group(1).replace(u'제', '').replace(u'차', '').strip()
+        date = re.sub(ur'(년|월|일)', '-', tmp.group(2)).strip('\s-')
+
+        attrs = { 'assembly_id': assembly_id, 'session_id': session_id,\
+                  'date': date, 'sitting_id': sitting_id, 'docid': docid }
+        get_docs(attrs)
+        print attrs
