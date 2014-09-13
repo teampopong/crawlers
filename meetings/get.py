@@ -15,12 +15,6 @@ def localtree(url):
 def headtree(root):
     print etree.tostring(root)[0:200]
 
-def htmltree(url):
-    r = urllib2.Request(url)
-    r.add_header("User-Agent", "Mozilla/5.0")
-    f = urllib2.urlopen(r)
-    return f
-
 def webpage(f):
     parser = html5lib.HTMLParser(\
         tree=html5lib.treebuilders.getTreeBuilder("lxml"),\
