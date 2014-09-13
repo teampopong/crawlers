@@ -2,4 +2,4 @@
 # first tokens are keys and second tokens are urls
 base	http://www.assembly.go.kr
 people_list	http://www.assembly.go.kr/assm/memact/congressman/memCond/memCondListAjax.do?currentPage=1&rowPerPage=500
-person  http://www.assembly.go.kr/assm/memPop/memPopup.do?num=
+person  http://www.assembly.go.kr/assm/memPop/memPopup.do?dept_cd=
