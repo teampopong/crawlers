@@ -17,11 +17,16 @@ Just some minor web crawlers.<br>
 #### bills
 Get bill data from the [National Assembly](http://likms.assembly.go.kr/bill/jsp/main.jsp) and structurize to json formats. ([See attributes](https://github.com/teampopong/crawlers/wiki/Attributes-of-National-Assembly-Bills))
 
-
     pip install -U celery-with-redis    # Install dependencies
     cd bills
     cp settings.py.sample settings.py   # Input data directory
     python main.py
+
+#### committee_list
+Get committee list data from the [위원회 현황](http://www.assembly.go.kr/assm/assemact/committee/committee01/assmCommittee/committeeUserList.do)
+
+    cd committee_list
+    python get.py       # To get data files
 
 #### election_commission
 Get Korean politicians' data from [Korea Election Commission (중앙선거관리위원회)](http://www.nec.go.kr/).<br>
