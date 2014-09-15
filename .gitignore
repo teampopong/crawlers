@@ -8,4 +8,7 @@ bills/html/
 bills/data/
 bills/na-bills-*.csv
 bills/new_bills
+national_assembly/assembly.csv
+national_assembly/assembly.json
+national_assembly/html/*
 log

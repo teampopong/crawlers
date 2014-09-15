@@ -6,9 +6,11 @@ import os
 import re
 import urllib
 
+import requests
+
 import get
 
-basedir = '/var/popong/data'   # change me
+basedir = '.'   # change me
 jsondir = '%s/meetings/national/meta' % basedir
 pdfdir = '%s/meeting-docs/national' % basedir
 
@@ -20,20 +22,22 @@ def checkdir(directory):
 
 def get_html(page_num):
     url = '%s/new/new_list.jsp?CLASS_CODE=0&currentPage=%d' % (baseurl, page_num)
-    r = get.htmltree(url)
-    return r.read().decode('euc-kr').encode('utf-8')
+    r = requests.get(url)
+    return r.text.encode('utf-8')
 
 def get_hidden_url(url):
-    f = get.htmltree(url.encode('utf-8'))
-    root = get.webpage(f)
+    r = requests.get(url)
+    html = r.text
+    root = get.webpage(html)
     return '%s/%s' % (baseurl, root.xpath('//frame/@src')[1])
 
 def get_issues(url):
-    f = get.htmltree(url)
+    r = requests.get(url)
+    html = r.text
     if 'new_list2.jsp' in url:
-        elems = get.webpage(f).xpath('//a/text()')
+        elems = get.webpage(html).xpath('//a/text()')
     elif 'new_list3.jsp' in url:
-        elems = get.webpage(f).xpath('//td/@title')
+        elems = get.webpage(html).xpath('//td/@title')
     else:
         raise Exception('New DOM type.')
     return elems
