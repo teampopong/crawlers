@@ -13,7 +13,6 @@ from utils import chkdir, convid, curterm, download_doc, match_name_codes,\
 
 # change me
 DATADIR = './data'
-DATADIR = '/home/e9t/data/popong/meeting-docs/national'
 
 # don't change me
 BASEURL = 'http://likms.assembly.go.kr/record'
@@ -136,14 +135,12 @@ def get_docs(assembly_id, div_id, sessions, committee_name):
 
 def main(assembly_id, div_id):
 
-    '''
     listurl = get_list_url(assembly_id, div_id)
     sessions = get_session_urls(assembly_id, div_id, listurl)
     sessions = add_session_info(assembly_id, div_id, sessions)
-    '''
 
-    with open('meetingdoc_ids_상임위원회_%s.json' % assembly_id, 'r') as f:
-        sessions = json.load(f)
+    #with open('meetingdoc_ids_상임위원회_%s.json' % assembly_id, 'r') as f:
+    #    sessions = json.load(f)
 
     for session in sessions:
         print session['committee']

@@ -34,7 +34,7 @@ def curterm(date=None):
     return term
 
 def download_doc(doc_id, filepath='./tmp.pdf'):
-    if os.path.exists:
+    if os.path.exists(filepath):
         print 'Exists %s' % filepath
         return
 
