@@ -10,10 +10,9 @@ from gevent import monkey; monkey.patch_all()
 import lxml
 import pandas as pd
 
-from settings import likms, DIR, X
+from settings import LIKMS, DIR, X
 import utils
 
-LIKMS = likms
 
 def extract_row_contents(row):
 
