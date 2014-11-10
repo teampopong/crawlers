@@ -12,6 +12,12 @@ def localtree(url):
         root = parser.parse(f)
     return root
 
+def htmltree(url):
+    r = urllib2.Request(url)
+    r.add_header("User-Agent", "Mozilla/5.0")
+    f = urllib2.urlopen(r)
+    return f
+
 def headtree(root):
     print etree.tostring(root)[0:200]
 

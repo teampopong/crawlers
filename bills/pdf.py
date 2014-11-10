@@ -5,10 +5,11 @@ from __future__ import unicode_literals
 import os
 import urllib
 
-from pdf2txt import pdf2txt
-from pdfminer.pdfparser import PDFSyntaxError, PSEOF
 from settings import DIR
 import utils
+import tempfile
+import subprocess
+
 
 def download(assembly_id, json, indir, outdir):
     try:
@@ -28,6 +29,27 @@ def download(assembly_id, json, indir, outdir):
     if not os.path.isfile(path) and url:
         urllib.urlretrieve(url, path)
         print 'Downloaded %s' % path
+
+
+def pdf2txt(pdffile, txtfile):
+    # Usage: python pdf2txt.py file.pdf file.txt
+    if txtfile==None:
+        txtfile = pdffile.replace('.pdf', '.txt')
+
+    with open(pdffile, 'r') as f:
+        pdfdata = f.read()
+
+    inf = tempfile.NamedTemporaryFile()
+    inf.write(pdfdata)
+    inf.seek(0)
+
+    if (len(pdfdata) > 0) :
+        out, err = subprocess.Popen(\
+            ["pdftotext", "-layout", inf.name, txtfile]).communicate()
+        return True
+    else :
+        return False
+
 
 def get_pdf(assembly_id, range=(None, None), bill_ids=None):
     if bill_ids is not None and not bill_ids:
@@ -55,9 +77,6 @@ def get_pdf(assembly_id, range=(None, None), bill_ids=None):
                 pdf2txt(pdffile, txtfile)
             except IOError as e:
                 print 'File not exists' % (json, e)
-                failed.append((json, e))
-            except (PSEOF, PDFSyntaxError) as e:
-                print 'Failed parsing %s with %s' % (json, e)
                 failed.append((json, e))
             except Exception as e:
                 print 'Unknown error %s with %s' % (e, json)

@@ -9,7 +9,7 @@ import pdf
 import re
 
 from redis_queue import RedisQueue
-from settings import BASEURL, DIR, PAGE_SIZE, QUEUE_NAMES, REDIS_SETTINGS, SESSION, X
+from settings import BASEURL, DIR, PAGE_SIZE, SESSION, X
 import utils
 
 
@@ -20,8 +20,7 @@ def get_new(a):
     print '## Get meta data'
     new_bill_ids = fetch_new_bill_ids(a)
 
-    for queue_name in QUEUE_NAMES.itervalues():
-        push_to_queue(queue_name, new_bill_ids)
+    push_to_queue('insert_bills_db', new_bill_ids)
 
     print '## Get specific data'
     specific.get_html(a, bill_ids=new_bill_ids)
