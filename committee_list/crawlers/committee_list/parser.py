@@ -26,6 +26,13 @@ def get_committee_code(inf, x):
 
     return codes
 
+def get_committee_name(inf, x):
+    with open(inf, 'r') as f:
+        p = get_webpage(f)
+        e = p.xpath(x)[0:]
+
+    return e
+
 def get_committee_list(inf, x):
     with open(inf, 'r') as f:
         p = get_webpage(f)
@@ -42,16 +49,19 @@ def crawl(url, directory, filename):
 def parse(directory, filename, rng=None):
     url = 'http://www.assembly.go.kr/assm/assmCommittee/committeePopupAddrView.do?dept_cd=%s'
     x = '//a[contains(@onclick, "jsDeptAddrPopup")]/@onclick'
+    x_name = '//h4[@class="title02"]/node()'
     x2 = '//table/*/tr'
 
     inf = '%s/1.html' % directory
-    committe_codes = get_committee_code(inf, x)
+    committee_codes = get_committee_code(inf, x)
+    committee_names = get_committee_name(inf, x_name)
 
-    for p in committe_codes:
+    for p in committee_codes:
         crawl(url % p, directory, p)
 
-    for p in committe_codes:
-        n = ('%s' % filename).replace(".csv",'_%s.csv' % p)
+    index = 0
+    for p in committee_codes:
+        n = ('%s' % filename).replace(".csv",'_%s.csv' % committee_names[index])
         with open(n, 'wa') as f:
             inf = '%s/%s.html' % (directory, p)
             f.write('"title","political party","name","phone","email"\n')
@@ -59,3 +69,5 @@ def parse(directory, filename, rng=None):
             f.write('\n')
             print 'parsed %s' % inf
             print 'Results written to ' + n
+
+        index = index + 1
