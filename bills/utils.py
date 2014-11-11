@@ -4,11 +4,13 @@
 import html5lib
 import json
 import os
-from shutil import copyfileobj
-import urllib2
+import traceback
 
-opener = urllib2.build_opener()
-opener.addheaders.append(('Referer', 'http://likms.assembly.go.kr/bill/jsp/BillSearchResult.jsp'))
+import requests
+
+HEADERS = {
+    'Referer': 'http://likms.assembly.go.kr/bill/jsp/BillSearchResult.jsp',
+}
 
 def check_dir(directory):
     if not os.path.exists(directory):
@@ -23,16 +25,22 @@ def get_elem_texts(page, x):
 
 def get_webpage(url, outp):
     try:
-        r = opener.open(url)
-    except urllib2.URLError:
-        print 'URLError: %s' % url
+        r = requests.get(url, headers=HEADERS, stream=True)
+        assert r.ok
+    except Exception as e:
+        import sys
+        traceback.print_exc(file=sys.stdout)
         return
 
-    with open(outp, 'w') as f:
-        copyfileobj(r, f)
+    with open(outp, 'wb') as f:
+        for block in r.iter_content(1024):
+            if not block:
+                break
+            f.write(block)
 
 def get_webpage_text(url):
-    return opener.open(url).read()
+    r = requests.get(url, headers=HEADERS)
+    return r.text
 
 def read_json(fname):
     with open(fname, 'r') as f:
@@ -50,3 +58,4 @@ def write_json(data, fn):
     with open(fn, 'w') as f:
         json.dump(data, f, indent=2)
     print 'Data written to ' + fn
+
