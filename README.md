@@ -56,6 +56,13 @@ Get [National Assembly meetings](http://likms.assembly.go.kr/record/).
     cd meetings
     python crawl.py
 
+#### meetings_calendar
+Get [National Assembly meetings calendar](http://www.assembly.go.kr/renew10/anc/schedule/assm/assemact/council/council0101/assmSchCal/assemSchCal.do).
+
+    cd meetings_calendar
+    python get.py 2014-11-01 2014-11-11     # To get meetings schedule from 2014-11-01 to 2014-11-11 or 
+    python get.py 2014-11-01                # To get meetings schedule at 2014-11-01
+
 #### national_assembly
 Get member information from the [Korean National Assembly](http://www.assembly.go.kr/).
 
