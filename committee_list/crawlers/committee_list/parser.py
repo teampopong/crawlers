@@ -60,14 +60,26 @@ def parse(directory, filename, rng=None):
         crawl(url % p, directory, p)
 
     index = 0
-    for p in committee_codes:
-        n = ('%s' % filename).replace(".csv",'_%s.csv' % committee_names[index])
-        with open(n, 'wa') as f:
-            inf = '%s/%s.html' % (directory, p)
-            f.write('"title","political party","name","phone","email"\n')
-            f.write('\n'.join(get_committee_list(inf, x2)).encode('utf-8'))
-            f.write('\n')
-            print 'parsed %s' % inf
-            print 'Results written to ' + n
+    with open(filename, 'wa') as merged:
+        merged.write('"committe","title","political party","name","phone","email"\n')
 
-        index = index + 1
+        for p in committee_codes:
+            n = ('%s' % filename).replace(".csv",'_%s.csv' % committee_names[index])
+            with open(n, 'wa') as f:
+                inf = '%s/%s.html' % (directory, p)
+                committee_list = get_committee_list(inf, x2)
+
+                merged.write((('"%s",') % committee_names[index]).encode('utf-8'))
+                merged.write((('\n"%s",') % committee_names[index]).join(committee_list).encode('utf-8'))
+                merged.write('\n')
+
+                f.write('"title","political party","name","phone","email"\n')
+                f.write('\n'.join(committee_list).encode('utf-8'))
+                f.write('\n')
+                print 'parsed %s' % inf
+                print 'Results written to ' + n
+
+            index = index + 1
+
+        merged.write('\n')
+        print 'Result written to ' + filename
