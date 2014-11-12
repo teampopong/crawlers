@@ -60,6 +60,7 @@ def parse(directory, filename, rng=None):
         crawl(url % p, directory, p)
 
     index = 0
+
     with open(filename, 'wa') as merged:
         merged.write('"committe","title","political party","name","phone","email"\n')
 
@@ -77,7 +78,6 @@ def parse(directory, filename, rng=None):
                 f.write('\n'.join(committee_list).encode('utf-8'))
                 f.write('\n')
                 print 'parsed %s' % inf
-                print 'Results written to ' + n
 
             index = index + 1
 
