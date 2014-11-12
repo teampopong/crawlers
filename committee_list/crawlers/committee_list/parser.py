@@ -67,6 +67,6 @@ def parse(directory, filename, rng=None):
             f.write('"title","political party","name","phone","email"\n')
             f.write('\n'.join(get_committee_list(inf, x2)).encode('utf-8'))
             f.write('\n')
-            print 'Results written to ' + n
+    print 'Results written to file'
 
         index = index + 1
