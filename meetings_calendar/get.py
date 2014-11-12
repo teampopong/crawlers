@@ -7,6 +7,7 @@ import urllib2
 import html5lib
 import datetime
 import re
+import sys
 
 base_url = 'http://www.assembly.go.kr/renew10/anc/schedule/assm/assemact/council/council0101/assmSchCal/assemSchCalInfoAjax.do?currentPage=&movePageNum=&rowPerPage=1000&gubun=&agendaid=&committee_id=&board_id=&record_id=&returnPage=&weekday=&today=&calendarMove=&showDt=&meetingday=%s'
 
@@ -14,7 +15,7 @@ link_url = 'http://www.assembly.go.kr/renew10/anc/schedule/assm/assemact/council
 
 sources_dir = './sources'
 
-header = '"date","time","type","session","sitting","committee","url"'
+header = '"date","time","type","title","session","sitting","committee","url"\n'
 
 xpath_title = '//a[contains(@onclick, "jsDetail")]/text()'
 xpath_link_params = '//a[contains(@onclick, "jsDetail")]/@onclick'
@@ -60,34 +61,17 @@ def parse_meeting_schedule(filename):
 		committes = p.xpath(xpath_committee)[0:]
 
 		datetimes = [datetime for datetime in datetimes if datetime.strip() != '']
+		link_params = [link_param.replace('jsDetail(', '').replace(');return false;', '') for link_param in link_params]
 
 		dates = [datetime[:date_length] for datetime in datetimes]
 		times = [datetime[date_length:] for datetime in datetimes]
-
 		types = [title[title.find('[')+1:title.find(']')] for title in raw_titles]
 		titles = [title[title.find(']')+2:] for title in raw_titles]
+		sessions = [session_re.findall(title)[0] for title in titles]
+		sittings = [sitting_re.findall(title)[0] for title in titles]
+		links = [eval('get_link_url(%s)' % link_param) for link_param in link_params]
 
-		sessions = [title[title.find(u'제')+1:title.find(u'회')] for title in titles]
-
-		# sessions = [session_re.match(title.encode('utf-8')).group('session') for title in raw_titles]
-
-		# sessions = [session_re.match(title).group('session') for title in raw_titles]
-
-		# print get_link_url('CMMTT', '0','2005110000004', '2006011000140', '2014110049524')
-
-		for date, time, type, title, session, m in zip(dates, times, types, titles, sessions, committes):
-			print ('"%s","%s","%s","%s","%s","%s"' % (\
-				date.strip().encode('utf-8'),\
-				time.strip().encode('utf-8'),\
-				type.strip().encode('utf-8'),\
-				title.strip().encode('utf-8'),\
-				session.strip().encode('utf-8'),\
-				m.strip().encode('utf-8')))
-
-		return zip(dates, times, titles, committes)
-
-def get_meeting_details(code):
-	return
+		return zip(dates, times, types, titles, sessions, sittings, committes, links)
 
 def get_meeting_list(start, end):
 	if is_dashed(start):
@@ -101,13 +85,27 @@ def get_meeting_list(start, end):
 
 	td = datetime.timedelta(days=1)
 
-	print header
+	csv_filename = 'meetings_%s_%s.csv' % (start, end)
 
-	while startDt <= endDt:
-		filename = str(startDt).replace('-', '')
-		crawl(('%s' % base_url) % filename, sources_dir, filename)
-		parse_meeting_schedule(('%s/%s.html' % (sources_dir, filename)))
-		startDt = startDt + td
+	with open('%s/%s' % (sources_dir, csv_filename), 'wa') as f:
+		f.write(header.encode('utf-8'))
+		while startDt <= endDt:
+			filename = str(startDt).replace('-', '')
+			crawl(('%s' % base_url) % filename, sources_dir, filename)
+			result = parse_meeting_schedule(('%s/%s.html' % (sources_dir, filename)))
+			f.write('\n'.join(\
+				['"%s","%s","%s","%s","%s","%s","%s","%s"' % (date, time, type, title, session, sitting, committee, link) for date, time, type, title, session, sitting, committee, link in result]
+				).encode('utf-8'))
+			f.write('\n')
+			startDt = startDt + td
+
+	print 'parsed to %s' % csv_filename
 
 if __name__=='__main__':
-    get_meeting_list('2014-10-13', '2014-11-13')
+	if len(sys.argv) is 1:
+		print 'usage: python get.py YYYY-MM-DD YYYY-MM-DD'
+		print '       python get.py YYYY-MM-DD'
+	elif len(sys.argv) is 2:
+		get_meeting_list(sys.argv[1], sys.argv[1])
+	elif len(sys.argv) is 3:
+		get_meeting_list(sys.argv[1], sys.argv[2])
