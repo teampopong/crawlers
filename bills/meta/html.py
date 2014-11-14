@@ -5,9 +5,10 @@ import os
 import re
 import sys
 import math
-import urllib2
+
 import gevent
 from gevent import monkey; monkey.patch_all()
+import requests
 
 import utils
 from settings import BASEURL, DIR, PAGE_SIZE
@@ -49,7 +50,7 @@ def get_html(assembly_id, npages):
             sys.stdout.write('%s\t' % pn)
             sys.stdout.flush()
 
-        except (urllib2.URLError, IOError) as e:
+        except (requests.exceptions.RequestException, IOError) as e:
             print '\nFailed to get %s due to %s' % (fn, e.__repr__)
 
     baseurl, directory = convert(assembly_id)

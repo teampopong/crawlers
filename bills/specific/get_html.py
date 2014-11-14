@@ -3,8 +3,9 @@
 
 import os
 import sys
-import urllib2
 from operator import itemgetter
+
+import requests
 
 from settings import BASEURL, DIR, HTML_FIELDS
 import utils
@@ -30,7 +31,7 @@ def get_page(assembly_id, bill_id, link_id, field):
     while i==0 or ('TEXTAREA ID="MSG" STYLE="display:none"' in doc and i<10):
         try:
             doc = utils.get_webpage_text(url)
-        except urllib2.URLError:
+        except requests.exceptions.RequestException:
             continue
         i += 1
 
