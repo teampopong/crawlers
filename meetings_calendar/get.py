@@ -63,8 +63,8 @@ def parse_meeting_schedule(filename):
 		datetimes = [datetime for datetime in datetimes if datetime.strip() != '']
 		link_params = [link_param.replace('jsDetail(', '').replace(');return false;', '') for link_param in link_params]
 
-		dates = [datetime[:date_length] for datetime in datetimes]
-		times = [datetime[date_length:] for datetime in datetimes]
+		dates = [datetime[:date_length].strip() for datetime in datetimes]
+		times = [datetime[date_length:].strip() for datetime in datetimes]
 		types = [title[title.find('[')+1:title.find(']')] for title in raw_titles]
 		titles = [title[title.find(']')+2:] for title in raw_titles]
 		sessions = [session_re.findall(title)[0] for title in titles]
