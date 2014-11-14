@@ -27,7 +27,7 @@ def get_webpage(url, outp):
     try:
         r = requests.get(url, headers=HEADERS, stream=True)
         assert r.ok
-    except Exception as e:
+    except (requests.exceptions.RequestException, AssertionError) as e:
         import sys
         traceback.print_exc(file=sys.stdout)
         return
@@ -40,7 +40,7 @@ def get_webpage(url, outp):
 
 def get_webpage_text(url):
     r = requests.get(url, headers=HEADERS)
-    return r.text
+    return r.content
 
 def read_json(fname):
     with open(fname, 'r') as f:
@@ -58,4 +58,3 @@ def write_json(data, fn):
     with open(fn, 'w') as f:
         json.dump(data, f, indent=2)
     print 'Data written to ' + fn
-
