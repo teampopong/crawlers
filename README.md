@@ -22,6 +22,12 @@ Get bill data from the [National Assembly](http://likms.assembly.go.kr/bill/jsp/
     cp settings.py.sample settings.py   # Input data directory
     python main.py
 
+#### commentable_bills
+Get commentable bills from [국회입법예고](http://pal.assembly.go.kr/law/mainView.do)
+
+    cd commentable_bills
+    python crawl.py     # open and set datadir first
+
 #### committee_list
 Get committee list data from the [위원회 현황](http://www.assembly.go.kr/assm/assemact/committee/committee01/assmCommittee/committeeUserList.do)
 
