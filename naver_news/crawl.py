@@ -11,11 +11,18 @@ import psycopg2
 
 APIKEY = ''     # fill me
 DATADIR = '.'   # fill me
+DB_INFO = {     # fill me
+    'dbname': '',
+    'host': '',
+    'user': '',
+    'password': ''
+}
 DATAKEYS = 'title originallink description pubdate'.split()
 SEARCHAPI = 'http://openapi.naver.com/search?key=%s&target=news&start=%s&display=100&sort=date&query=%s'
 
-def init_db():
-    conn = psycopg2.connect("dbname='popongdb'")
+def init_db(password):
+    addr = ' '.join(["%s='%s'" % (a, b) for a, b in DB_INFO.items() if b])
+    conn = psycopg2.connect(addr)
     return conn.cursor()
 
 def get_n_days_before(n_days):
