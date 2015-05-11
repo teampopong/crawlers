@@ -81,7 +81,8 @@ Get news articles for recent bills from Naver News.
 
     pip install psycopg2 lxml
     cd naver_news
-    vi crawl.py     # fill in APIKEY, DATADIR
+    cp settings.py.sample settings.py
+    vi settings.py                      # fill in values
     python crawl.py
 
 #### peoplepower
