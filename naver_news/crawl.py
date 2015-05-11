@@ -13,6 +13,7 @@ from settings import APIKEY, DATADIR, DB_INFO
 
 DATAKEYS = 'title originallink description pubdate'.split()
 SEARCHAPI = 'http://openapi.naver.com/search?key=%s&target=news&start=%s&display=100&sort=date&query=%s'
+TODAY = date.today()
 
 def init_db():
     addr = ' '.join(["%s='%s'" % (a, b) for a, b in DB_INFO.items() if b])
@@ -20,7 +21,7 @@ def init_db():
     return conn.cursor()
 
 def get_n_days_before(n_days):
-    return (date.today() - timedelta(n_days)).isoformat()
+    return (TODAY - timedelta(n_days)).isoformat()
 
 def get_bills_since(date, cursor=None):
     if not cursor:
@@ -53,6 +54,7 @@ def read_write_json(new_articles, filename):
         print('%s added to %s articles in %s' % (len(new_articles), len(articles), filename))
 
 
+print(TODAY)
 date = get_n_days_before(90)
 billnums = get_bills_since(date)
 for billnum in billnums:
