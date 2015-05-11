@@ -14,7 +14,7 @@ from settings import APIKEY, DATADIR, DB_INFO
 DATAKEYS = 'title originallink description pubdate'.split()
 SEARCHAPI = 'http://openapi.naver.com/search?key=%s&target=news&start=%s&display=100&sort=date&query=%s'
 
-def init_db(password):
+def init_db():
     addr = ' '.join(["%s='%s'" % (a, b) for a, b in DB_INFO.items() if b])
     conn = psycopg2.connect(addr)
     return conn.cursor()
