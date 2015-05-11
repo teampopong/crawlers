@@ -8,15 +8,9 @@ import os
 from lxml import html
 import psycopg2
 
+from settings import APIKEY, DATADIR, DB_INFO
 
-APIKEY = ''     # fill me
-DATADIR = '.'   # fill me
-DB_INFO = {     # fill me
-    'dbname': '',
-    'host': '',
-    'user': '',
-    'password': ''
-}
+
 DATAKEYS = 'title originallink description pubdate'.split()
 SEARCHAPI = 'http://openapi.naver.com/search?key=%s&target=news&start=%s&display=100&sort=date&query=%s'
 

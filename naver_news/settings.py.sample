@@ -1,0 +1,12 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+
+# fill me
+APIKEY = ''
+DATADIR = '.'
+DB_INFO = {
+    'dbname': '',
+    'host': '',
+    'user': '',
+    'password': ''
+}
