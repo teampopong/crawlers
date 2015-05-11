@@ -49,11 +49,11 @@ def read_write_json(new_articles, filename):
         new_articles = [a for a in new_articles if a['originallink'] not in links]
     if len(new_articles)!=0:
         with open(filename, 'w') as f:
-            json.dump(new_articles, f, indent=2, ensure_ascii=False)
+            json.dump(new_articles, f, indent=2)
         print('%s added to %s articles in %s' % (len(new_articles), len(articles), filename))
 
 
-date = get_n_days_before(365)
+date = get_n_days_before(90)
 billnums = get_bills_since(date)
 for billnum in billnums:
     new_articles = get_new_articles(billnum)
