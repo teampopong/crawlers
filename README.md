@@ -76,6 +76,14 @@ Get member information from the [Korean National Assembly](http://www.assembly.g
     cd national_assembly
     python crawl.py
 
+#### naver_news
+Get news articles for recent bills from Naver News.
+
+    pip install psycopg2 lxml
+    cd naver_news
+    vi crawl.py     # fill in APIKEY, DATADIR
+    python crawl.py
+
 #### peoplepower
 Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages. (*Currently broken*)
 
