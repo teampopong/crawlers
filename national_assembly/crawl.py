@@ -71,7 +71,7 @@ def get_ppl_urls(htmldir):
     full_member_list = []
     member_lists = get_xpath_data(page, ".//*/dd[@class='img']", getall=True)
     for member_list in member_lists:
-        full_member_list.append(re.split('\(|\)', member_list)[1])
+        full_member_list.append(re.split('\(|\)', member_list)[1].strip("'"))
 
     for url in full_member_list:
         url = unescape_html(url)
