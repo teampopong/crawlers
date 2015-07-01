@@ -91,7 +91,7 @@ def parse_row(row):
 
     def parse_items(items):
         links = parse_links(items[6])
-        issues, participants = links.get(u'요약정보보기')
+        issue_links, participants = links.get(u'요약정보보기')
         return {
             'assembly_id': getnum(items[1].xpath('.//a/text()')[0]),            # 대
             'session_id': getnum(items[2].xpath('.//a/text()')[0]),             # 회기
@@ -101,8 +101,9 @@ def parse_row(row):
             'pdf': links.get(u'pdf회의록다운'),                                 # 회의록
             'vod': links.get(u'영상회의록보기'),
             'participants': participants,
-            'issue_links': issues,
-            'issues': [i for i in issues] # TODO: deprecate me
+            'issue_links': issue_links,
+            'issues': [i['title'] for i in issues],  # TODO: deprecate me
+            'issues_url': '',                        # TODO: deprecate me
         }
 
     items = row.xpath('.//td')
