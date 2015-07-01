@@ -102,7 +102,7 @@ def parse_row(row):
             'vod': links.get(u'영상회의록보기'),
             'participants': participants,
             'issue_links': issue_links,
-            'issues': [i['title'] for i in issues_links],  # TODO: deprecate me
+            'issues': [i['title'] for i in issue_links],  # TODO: deprecate me
             'issues_url': '',                        # TODO: deprecate me
         }
 
