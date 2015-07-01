@@ -6,41 +6,23 @@ import os
 import re
 import urllib
 
+from lxml import html
 import requests
 
-import get
 
-basedir = '.'   # change me
+basedir = './data'   # change me
 jsondir = '%s/meetings/national/meta' % basedir
 pdfdir = '%s/meeting-docs/national' % basedir
-
 baseurl = 'http://likms.assembly.go.kr/record'
+
+getnum = lambda s: re.search(r'\d+', s).group(0)
+joinall = lambda l: ' '.join(i.strip() for i in l).strip()
+
 
 def checkdir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-def get_html(page_num):
-    url = '%s/new/new_list.jsp?CLASS_CODE=0&currentPage=%d' % (baseurl, page_num)
-    r = requests.get(url)
-    return r.text.encode('utf-8')
-
-def get_hidden_url(url):
-    r = requests.get(url)
-    html = r.text
-    root = get.webpage(html)
-    return '%s/%s' % (baseurl, root.xpath('//frame/@src')[1])
-
-def get_issues(url):
-    r = requests.get(url)
-    html = r.text
-    if 'new_list2.jsp' in url:
-        elems = get.webpage(html).xpath('//a/text()')
-    elif 'new_list3.jsp' in url:
-        elems = get.webpage(html).xpath('//td/@title')
-    else:
-        raise Exception('New DOM type.')
-    return elems
 
 def get_filename(data, filetype):
     if filetype=='json':
@@ -54,82 +36,98 @@ def get_filename(data, filetype):
             % (directory, a, d, a, s, m, c, filetype)
     return filename
 
-def parse_row(row, attrs):
-    def parse_committee(row):
-        if 'committee' not in row: return
-        c = row['committee']
-        row['pdf'] = c.xpath('.//@onclick')[0].split("'")[1]
-        row['committee'] = ' '.join(get.text(c, '.'))
 
-    def parse_date(row):
-        if 'date' not in row: return
-        row['date'] = get.text(row['date'], '.')[0].replace('.', '-')
+def try_except(success, failure=lambda: ''):
+    try:
+        return success()
+    except IndexError:
+        return failure()
 
-    def parse_issues(row):
-        if 'issues' not in row: return
-        part_url = row['issues'].xpath('.//@onclick')[0].split("'")[1][3:]
-        issues_url = '%s/%s' % (baseurl, part_url)
-        row['issues_url'] = get_hidden_url(issues_url)
-        row['issues'] = get_issues(row['issues_url'])
 
-    def parse_ids(row):
-        for k, v in row.items():
-            if k.endswith('_id'):
-                try:
-                    v = get.text(v, '.')[0]
-                    if v.startswith(u'제'):
-                        row[k] = re.search('[0-9]+', v).group(0)
-                except AttributeError:
-                    pass
+def parse_summary(response):
+    root = html.document_fromstring(response.text)
+    issues = [{
+            'link_id': try_except(lambda: i.xpath('.//a/@onclick')[0].split("'")[1]),
+            'title': joinall(i.xpath('.//text()')),
+        } for i in root.xpath('//div[@class="popup_box"]/ul/li')]
 
-    def parse_others(row):
-        del row['n']
-        for k, v in row.items():
-            flag = isinstance(v, str) or isinstance(v, unicode)\
-                    or isinstance(v, list)
-            if not flag:
-                row[k] = get.text(v, '.')[0]
+    participants = [{
+            'link_id': try_except(lambda: i.xpath('./a/@onclick')[0].split("'")[1]),
+            'party': i.xpath('.//span/strong/text()')[0],
+            'name': i.xpath('.//span/text()')[0],
+        } for i in root.xpath('//div[@class="popup_box02"]/ul/li')]
+    return issues, participants
 
-    def check_elems(attrs, elems):
-        if len(elems)!=len(attrs):
-            check = [e.xpath('./@colspan') for e in elems]
-            for c in check:
-                if c:
-                    idx = int(c[0]) + 1
-                    elems = elems[:idx] + ['']*(idx-2) + elems[idx:]
-        return elems
 
-    elems = check_elems(attrs, row.xpath('.//td'))
-    row = dict(zip(attrs, elems))
-    parse_committee(row)
-    parse_date(row)
-    parse_issues(row)
-    parse_ids(row)
-    parse_others(row)
-    return row
+def parse_row(row):
 
-def parse_page(page_num, attrs):
+    def to_url(string):
+        fname, params = re.search('javascript:(\w+)\((.+)\)', string).groups()
+        params = [p.strip("'") for p in params.split(',')]
 
-    def save_pdf(data):
-        filename = get_filename(data, 'pdf')
-        urllib.urlretrieve(data['pdf'], filename)
+        if fname=='fn_fileDown':
+            # params: [conferNum, fileId, imsiYn]
+            # r = requests.post('%s/mhs-10-040-0040.do' % baseurl, data={'conferNum': params[0], 'fileId': params[1]})
+            return '%s/new/getFileDown.jsp?CONFER_NUM=%s' % (baseurl, params[0])
 
-    def save_json(data):
-        filename = get_filename(data, 'json')
-        with open(filename, 'w') as f:
-            json.dump(data, f, indent=2)
+        elif fname=='fn_popup_vod':
+            # params: [vodCommCode, daeNum, sesNum, degreeNum]
+            params[-1] = int(params[-1])
+            return 'http://w3.assembly.go.kr/jsp/vod/vod.do?'\
+                   'cmd=vod&mc=%s&ct1=%s&ct2=%s&ct3=%02d' % tuple(params)
 
-    html = get_html(page_num)
-    root = get.webpage(html)
-    rows = root.xpath(\
-            '//table[@background="../img/main_boxback2.gif"]//tr')[2:-1]
-    for row in rows:
-        data = parse_row(row, attrs)
-        save_json(data)
-        save_pdf(data)
+        elif fname=='fn_summPopup':
+            # params: [conferNum]
+            r = requests.post('%s/mhs-10-030.do' % baseurl, data={'conferNum': params[0]})
+            return parse_summary(r)
+
+        else:
+            print 'Unknown function %s' % fname
+
+
+    def parse_links(item):
+        anchors = item.xpath('.//a')
+        return { a.xpath('./img/@alt')[0]: to_url(a.xpath('./@onclick')[0]) for a in anchors }
+
+    def parse_items(items):
+        links = parse_links(items[6])
+        issues, participants = links.get(u'요약정보보기')
+        return {
+            'assembly_id': getnum(items[1].xpath('.//a/text()')[0]),            # 대
+            'session_id': getnum(items[2].xpath('.//a/text()')[0]),             # 회기
+            'meeting_id': getnum(items[3].xpath('.//a/text()')[0]),             # 차
+            'committee': joinall(items[4].xpath('.//a/text()')),                # 회의구분
+            'date': items[5].xpath('.//a/text()')[0].strip().replace('.', '-'), # 회의일
+            'pdf': links.get(u'pdf회의록다운'),                                 # 회의록
+            'vod': links.get(u'영상회의록보기'),
+            'participants': participants,
+            'issue_links': issues,
+            'issues': [i for i in issues] # TODO: deprecate me
+        }
+
+    items = row.xpath('.//td')
+    return parse_items(items)
+
+
+def save_json(data):
+    filename = get_filename(data, 'json')
+    with open(filename, 'w') as f:
+        json.dump(data, f, indent=2)
+
+
+def save_pdf(data):
+    filename = get_filename(data, 'pdf')
+    urllib.urlretrieve(data['pdf'], filename)
+
 
 if __name__=='__main__':
-    attrs = ['n', 'assembly_id', 'session_id', 'meeting_id', 'committee',\
-            'issues', 'date']
-    for page_num in range(1, 4):
-        print page_num; parse_page(page_num, attrs)
+    NITEMS = 100 # number of items to retrieve
+
+    r = requests.post('%s/mhs-30-011.do' % baseurl, data={'countPage': NITEMS, 'pageNo': 1})
+    root = html.document_fromstring(r.text)
+    rows = root.xpath('//tbody[@id="ajaxResult"]//tr')
+
+    for row in rows:
+        data = parse_row(row)
+        save_json(data)
+        save_pdf(data)
