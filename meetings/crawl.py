@@ -102,7 +102,7 @@ def parse_row(row):
             'vod': links.get(u'영상회의록보기'),
             'participants': participants,
             'issue_links': issue_links,
-            'issues': [i['title'] for i in issues],  # TODO: deprecate me
+            'issues': [i['title'] for i in issues_links],  # TODO: deprecate me
             'issues_url': '',                        # TODO: deprecate me
         }
 
@@ -122,7 +122,7 @@ def save_pdf(data):
 
 
 if __name__=='__main__':
-    NITEMS = 100 # number of items to retrieve
+    NITEMS = 30  # number of items to retrieve
 
     r = requests.post('%s/mhs-30-011.do' % baseurl, data={'countPage': NITEMS, 'pageNo': 1})
     root = html.document_fromstring(r.text)
