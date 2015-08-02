@@ -86,7 +86,7 @@ Get news articles for recent bills from Naver News.
     python crawl.py
 
 #### peoplepower
-Get [People Power 21 (열려라국회)](http://www.nec.go.kr/) webpages. (*Currently broken*)
+Get [People Power 21 (열려라국회)](http://watch.peoplepower21.org) webpages. (*Currently broken*)
 
     cd peoplepower
     scrapy crawl peoplepower21
