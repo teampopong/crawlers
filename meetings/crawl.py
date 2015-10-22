@@ -4,7 +4,11 @@
 import json
 import os
 import re
-import urllib
+import sys
+if int(sys.version[0]) < 3:
+	from urllib import urlretrieve
+else:
+	from urllib.request import urlretrieve
 
 from lxml import html
 import requests
@@ -82,7 +86,7 @@ def parse_row(row):
             return parse_summary(r)
 
         else:
-            print 'Unknown function %s' % fname
+            print('Unknown function %s' % fname)
 
 
     def parse_links(item):
@@ -118,7 +122,7 @@ def save_json(data):
 
 def save_pdf(data):
     filename = get_filename(data, 'pdf')
-    urllib.urlretrieve(data['pdf'], filename)
+    urlretrieve(data['pdf'], filename)
 
 
 if __name__=='__main__':
@@ -128,7 +132,12 @@ if __name__=='__main__':
     root = html.document_fromstring(r.text)
     rows = root.xpath('//tbody[@id="ajaxResult"]//tr')
 
-    for row in rows:
-        data = parse_row(row)
-        save_json(data)
-        save_pdf(data)
+    for i, row in enumerate(rows):
+        try:
+            data = parse_row(row)
+            save_json(data)
+            save_pdf(data)
+            print('%d success' % i)
+        except IndexError:
+            print('%d fail'% i)
+    print('Done.')
