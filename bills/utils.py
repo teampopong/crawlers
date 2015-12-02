@@ -12,6 +12,8 @@ HEADERS = {
     'Referer': 'http://likms.assembly.go.kr/bill/jsp/BillSearchResult.jsp',
 }
 
+s = requests.Session()
+
 def check_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
@@ -25,7 +27,7 @@ def get_elem_texts(page, x):
 
 def get_webpage(url, outp):
     try:
-        r = requests.get(url, headers=HEADERS, stream=True)
+        r = s.get(url, headers=HEADERS, stream=True)
         assert r.ok
     except (requests.exceptions.RequestException, AssertionError) as e:
         import sys
@@ -39,7 +41,7 @@ def get_webpage(url, outp):
             f.write(block)
 
 def get_webpage_text(url):
-    r = requests.get(url, headers=HEADERS)
+    r = s.get(url, headers=HEADERS)
     return r.content
 
 def read_json(fname):
@@ -57,4 +59,4 @@ def read_webpage(filename):
 def write_json(data, fn):
     with open(fn, 'w') as f:
         json.dump(data, f, indent=2)
-    print 'Data written to ' + fn
+    #print 'Data written to ' + fn
