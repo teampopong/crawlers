@@ -54,7 +54,7 @@ def page(pagenum, db):
 
 def pages(collection='bill_list', maxpage=100):
     print(utils.now(), end='\t')
-    db = utils.init_db(s.MONGODB_URI, s.MONGODB_NAME, [collection])
+    db = utils.init_db(s.MONGODB_URI, s.MONGODB_NAME)
     count = db[collection].count()
 
     pagenum = 1

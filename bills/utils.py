@@ -42,15 +42,9 @@ def get_root(url, data, method='GET'):
 
 
 # db
-def init_db(uri, dbname, collections=None):
+def init_db(uri, dbname):
     client = MongoClient(uri)
     db = client[dbname]
-    if collections:
-        for c in collections:
-            if not db[c].find_one():
-                db.create_collection(c)
-                db[c].create_index({'id': 1})
-                print('Created collection %s' % c)
     return db
 
 
