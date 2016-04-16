@@ -3,8 +3,12 @@
 
 from __future__ import print_function
 
-from . import settings as s
-from . import utils
+try:
+    from . import settings as s
+    from . import utils
+except ValueError:
+    import settings as s
+    import utils
 
 
 BASEURL = 'http://likms.assembly.go.kr/bill/jsp/LatestReceiptBill.jsp'
@@ -52,14 +56,14 @@ def page(pagenum, db):
     return (page, False)
 
 
-def pages(collection='bill_list', maxpage=100):
+def pages(collection='bill_list', maxpage=10):
     print(utils.now(), end='\t')
     db = utils.init_db(s.MONGODB_URI, s.MONGODB_NAME)
     count = db[collection].count()
 
     pagenum = 1
     terminate = False
-    while terminate==False or pagenum > maxpage:
+    while pagenum < maxpage and terminate==False:
         rows, terminate = page(pagenum, db)
         pagenum += 1
 
