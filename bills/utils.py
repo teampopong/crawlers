@@ -1,62 +1,70 @@
-#! /usr/bin/python2.7
+#! /usr/bin/python
 # -*- coding: utf-8 -*-
 
-import html5lib
+import codecs
+from datetime import date, datetime
+from functools import wraps
 import json
-import os
-import traceback
 
+from lxml import html
+from pymongo import MongoClient
 import requests
 
-HEADERS = {
-    'Referer': 'http://likms.assembly.go.kr/bill/jsp/BillSearchResult.jsp',
-}
 
-s = requests.Session()
+ENCODING = 'utf8'
 
-def check_dir(directory):
-    if not os.path.exists(directory):
-        os.makedirs(directory)
 
-def get_elems(page, x):
-    return page.xpath(x)
+# decorators
+def catch(f):
+    @wraps(f)
+    def wrapper(*args, **kwargs):
+        try:
+            r = f(*args, **kwargs)
+        except Exception as e:
+            print(e.__repr__())
+            r = None
+        return r
+    return wrapper
 
-def get_elem_texts(page, x):
-    elems = page.xpath(x)
-    return [list(elem.itertext()) for elem in elems]
 
-def get_webpage(url, outp):
-    try:
-        r = s.get(url, headers=HEADERS, stream=True)
-        assert r.ok
-    except (requests.exceptions.RequestException, AssertionError) as e:
-        import sys
-        traceback.print_exc(file=sys.stdout)
-        return
+# crawl
+def get_root(url, data, method='GET'):
+    headers = {
+        'User-Agent': 'Mozilla/5.0',
+        'Referer': 'http://likms.assembly.go.kr/bill/jsp/LatestReceiptBill.jsp'
+    }
+    if method=='GET':
+        rqst = requests.get(url, params=data)
+    else:
+        rqst = requests.post(url, headers=headers, data=data)
+    root = html.fromstring(rqst.text)
+    return root
 
-    with open(outp, 'wb') as f:
-        for block in r.iter_content(1024):
-            if not block:
-                break
-            f.write(block)
 
-def get_webpage_text(url):
-    r = s.get(url, headers=HEADERS)
-    return r.content
+# db
+def init_db(uri, dbname, collections=None):
+    client = MongoClient(uri)
+    db = client[dbname]
+    if collections:
+        for c in collections:
+            if not db[c].find_one():
+                db.create_collection(c)
+                db[c].create_index({'id': 1})
+                print('Created collection %s' % c)
+    return db
 
-def read_json(fname):
-    with open(fname, 'r') as f:
-        return json.load(f)
 
-def read_webpage(filename):
-    with open(filename) as f:
-        page = html5lib.HTMLParser(\
-            tree=html5lib.treebuilders.getTreeBuilder("lxml"),\
-            namespaceHTMLElements=False)
-        p = page.parse(f)
-    return p
+# io
+def write_json(data, filename):
+    d = json.dumps(data, ensure_ascii=False, indent=2)
+    with codecs.open(filename, 'w', encoding=ENCODING) as f:
+        f.write(d)
 
-def write_json(data, fn):
-    with open(fn, 'w') as f:
-        json.dump(data, f, indent=2)
-    #print 'Data written to ' + fn
+
+# time
+def now():
+    return datetime.today().isoformat().split('.')[0]
+
+
+def today():
+    return date.today().isoformat()
