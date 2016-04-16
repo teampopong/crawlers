@@ -3,8 +3,8 @@
 
 from __future__ import print_function
 
-import settings as s
-import utils
+from . import settings as s
+from . import utils
 
 
 BASEURL = 'http://likms.assembly.go.kr/bill/jsp/LatestReceiptBill.jsp'
